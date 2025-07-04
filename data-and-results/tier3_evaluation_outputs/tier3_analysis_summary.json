@@ -1,0 +1,46 @@
+{
+  "overall_stats": {
+    "total_evaluations": 192,
+    "models_tested": 8,
+    "prompts_tested": 24,
+    "avg_latency_ms": 2.8320905485088588,
+    "latency_compliance_rate": 1.0,
+    "avg_hbar_s": 0.22755664447868132,
+    "avg_delta_mu": 0.9939794629583361,
+    "avg_delta_sigma": 0.05210184605829884
+  },
+  "model_rankings": {
+    "claude3": 0.2275,
+    "gemini": 0.2275,
+    "gemini_2.5_pro": 0.2275,
+    "gemini_flash": 0.2275,
+    "gpt4": 0.2279,
+    "grok3": 0.2275,
+    "openai_o3": 0.2275,
+    "paraphrase-mpnet-base-v2": 0.2275
+  },
+  "tier_performance": {
+    "1": 0.2264,
+    "2": 0.2282,
+    "3": 0.2282
+  },
+  "category_vulnerability": {
+    "basic_facts": 0.2265,
+    "basic_math": 0.2262,
+    "category_dissolution": 0.2281,
+    "existential_paradox": 0.2282,
+    "impossible_description": 0.2282,
+    "logical_paradox": 0.2282
+  },
+  "collapse_rates": {
+    "claude3": 1.0,
+    "gemini": 1.0,
+    "gemini_2.5_pro": 1.0,
+    "gemini_flash": 1.0,
+    "gpt4": 1.0,
+    "grok3": 1.0,
+    "openai_o3": 1.0,
+    "paraphrase-mpnet-base-v2": 1.0
+  },
+  "evaluation_timestamp": 1751392682.9470139
+}

@@ -1,0 +1,58 @@
+{
+  "gpt4_tier_slope": -0.007427352000000026,
+  "gpt4_perturbation_sensitivity": 0.8715544689640836,
+  "gpt4_collapse_by_tier": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+  },
+  "claude3_tier_slope": -0.007407011999999991,
+  "claude3_perturbation_sensitivity": 0.7132672019894231,
+  "claude3_collapse_by_tier": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+  },
+  "gemini_tier_slope": -0.006255239999999995,
+  "gemini_perturbation_sensitivity": 0.39193299863404807,
+  "gemini_collapse_by_tier": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+  },
+  "gemini_2.5_pro_tier_slope": -0.006539930999999999,
+  "gemini_2.5_pro_perturbation_sensitivity": 0.5204889001333404,
+  "gemini_2.5_pro_collapse_by_tier": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+  },
+  "gemini_flash_tier_slope": -0.006539930999999999,
+  "gemini_flash_perturbation_sensitivity": 0.581050441284626,
+  "gemini_flash_collapse_by_tier": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+  },
+  "grok3_tier_slope": -0.006539930999999999,
+  "grok3_perturbation_sensitivity": 0.5712923762895773,
+  "grok3_collapse_by_tier": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+  },
+  "openai_o3_tier_slope": -0.006539930999999999,
+  "openai_o3_perturbation_sensitivity": 0.8049432856157536,
+  "openai_o3_collapse_by_tier": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+  },
+  "paraphrase-mpnet-base-v2_tier_slope": -0.006539930999999999,
+  "paraphrase-mpnet-base-v2_perturbation_sensitivity": 0.10877602298121901,
+  "paraphrase-mpnet-base-v2_collapse_by_tier": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+  }
+}

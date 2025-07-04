@@ -1,0 +1,6 @@
+Embedding Model,Spearman ρ,Pearson r,Semantic Agreement,Avg Time (ms),False Friends,Missed Synonyms,Agreement Score (numeric)
+all-MiniLM-L6-v2,-0.121,-0.052,0.087,5.6,0,1,0.08663356407669107
+bge-small-en-v1.5,0.179,0.312,0.246,5.7,0,6,0.2456158487424351
+gte-small,0.110,0.142,0.126,5.6,0,14,0.12588112544519933
+all-mpnet-base-v2,-0.050,-0.047,0.049,5.3,0,14,0.04869344133042373
+sup-simcse-bert-base-uncased,0.124,0.038,0.081,5.1,0,0,0.08118004725945346

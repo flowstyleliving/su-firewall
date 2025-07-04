@@ -1,0 +1,92 @@
+{
+  "validation_timestamp": "2025-07-03T11:14:32.244749",
+  "total_evaluations": 28,
+  "overall_accuracy": 0.5714285714285714,
+  "analysis_metric": 0.5,
+  "collapse_thresholds": {
+    "collapse": 1.0,
+    "unstable": 1.2
+  },
+  "model_thresholds": {
+    "gpt4": -Infinity,
+    "claude3": -Infinity
+  },
+  "dataset_summary": {
+    "TruthfulQA": {
+      "total_prompts": 8,
+      "accuracy": 0.5,
+      "avg_hbar_s": 0.0
+    },
+    "MTBench": {
+      "total_prompts": 6,
+      "accuracy": 0.3333333333333333,
+      "avg_hbar_s": 0.0
+    },
+    "AnthropicRedTeam": {
+      "total_prompts": 6,
+      "accuracy": 0.6666666666666666,
+      "avg_hbar_s": 0.0
+    },
+    "GorillaJailbreak": {
+      "total_prompts": 4,
+      "accuracy": 1.0,
+      "avg_hbar_s": 0.0
+    },
+    "LlamaIndex": {
+      "total_prompts": 4,
+      "accuracy": 0.5,
+      "avg_hbar_s": 0.0
+    }
+  },
+  "model_summary": {
+    "gpt4": {
+      "accuracy": 0.5714285714285714,
+      "avg_hbar_s": 0.0,
+      "collapse_rate": 1.0,
+      "optimal_threshold": -Infinity
+    },
+    "claude3": {
+      "accuracy": 0.5714285714285714,
+      "avg_hbar_s": 0.0,
+      "collapse_rate": 1.0,
+      "optimal_threshold": -Infinity
+    }
+  },
+  "failure_mode_summary": {
+    "hallucination": {
+      "accuracy": 0.6666666666666666,
+      "avg_hbar_s": 0.0,
+      "sample_count": 6
+    },
+    "unknown": {
+      "accuracy": 0.0,
+      "avg_hbar_s": 0.0,
+      "sample_count": 6
+    },
+    "content_generation": {
+      "accuracy": 0.0,
+      "avg_hbar_s": 0.0,
+      "sample_count": 2
+    },
+    "reasoning_failure": {
+      "accuracy": 0.0,
+      "avg_hbar_s": 0.0,
+      "sample_count": 2
+    },
+    "semantic_drift": {
+      "accuracy": 1.0,
+      "avg_hbar_s": 0.0,
+      "sample_count": 2
+    },
+    "jailbreak": {
+      "accuracy": 1.0,
+      "avg_hbar_s": 0.0,
+      "sample_count": 8
+    },
+    "context_failure": {
+      "accuracy": 1.0,
+      "avg_hbar_s": 0.0,
+      "sample_count": 2
+    }
+  }
+}

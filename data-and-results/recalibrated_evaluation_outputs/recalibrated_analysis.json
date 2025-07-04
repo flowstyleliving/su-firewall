@@ -1,0 +1,37 @@
+{
+  "overall_stats": {
+    "total_evaluations": 192,
+    "models_tested": 8,
+    "avg_hbar_s": 0.239520929734373,
+    "avg_delta_mu": 0.48542597366547735,
+    "avg_delta_sigma": 0.1069008374280036,
+    "avg_latency_ms": 3.112184632603506,
+    "latency_compliance_rate": 1.0,
+    "overall_collapse_rate": 0.6666666666666666
+  },
+  "model_rankings": {
+    "claude3": 0.2395,
+    "gemini": 0.2355,
+    "gemini_2.5_pro": 0.2399,
+    "gemini_flash": 0.244,
+    "gpt4": 0.2346,
+    "grok3": 0.2404,
+    "openai_o3": 0.2368,
+    "paraphrase-mpnet-base-v2": 0.2455
+  },
+  "tier_performance": {
+    "1": {
+      "hbar_s": 0.2778,
+      "collapse_rate": 0.0
+    },
+    "2": {
+      "hbar_s": 0.2311,
+      "collapse_rate": 1.0
+    },
+    "3": {
+      "hbar_s": 0.2096,
+      "collapse_rate": 1.0
+    }
+  },
+  "evaluation_timestamp": 1751392828.087008
+}

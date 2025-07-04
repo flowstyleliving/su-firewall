@@ -1,0 +1,25 @@
+{
+  "model": "gpt4",
+  "tier_collapse_rates": {
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0
+  },
+  "category_vulnerability": {
+    "basic_facts": 1.0,
+    "basic_math": 1.0,
+    "category_dissolution": 1.0,
+    "existential_paradox": 1.0,
+    "impossible_description": 1.0,
+    "logical_paradox": 1.0
+  },
+  "perturbation_sensitivity": 0.2921715781718189,
+  "hbar_s_drop_sharpness": 0.0234861923854745,
+  "failure_patterns": [
+    "High collapse in: basic_facts, basic_math, category_dissolution, existential_paradox, impossible_description, logical_paradox"
+  ],
+  "semantic_terrain_coords": [
+    0.38535492400000004,
+    0.14504945833333335
+  ]
+}

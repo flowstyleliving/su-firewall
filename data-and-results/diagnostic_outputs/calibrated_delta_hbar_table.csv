@@ -1,0 +1,241 @@
+prompt_id,model,tier,category,hbar_s,delta_mu,delta_sigma,collapse_risk,meta_awareness_score,response,processing_time_ms,delta_hbar_s
+basic_facts_cluster,gpt4,1,basic_facts,0.39150882,0.14775698,0.7203982,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Paris is the capital of France.",59.595195541493055,0.0002726789999999979
+basic_facts_cluster,claude3,1,basic_facts,0.390403104,0.14714776,0.7193005,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+The capital of France is Paris.",461.1489214223889,-0.0008330369999999809
+basic_facts_cluster,gemini,1,basic_facts,0.390433104,0.14734714,0.7184376,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+France's capital city is Paris.",82.71175258093089,-0.0008030370000000064
+basic_facts_cluster,gemini_2.5_pro,1,basic_facts,0.39150882,0.14775698,0.7203982,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Paris is the capital of France.",339.40633414553935,0.0002726789999999979
+basic_facts_cluster,gemini_flash,1,basic_facts,0.39150882,0.14775698,0.7203982,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Paris is the capital of France.",490.8825543856065,0.0002726789999999979
+basic_facts_cluster,grok3,1,basic_facts,0.39150882,0.14775698,0.7203982,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Paris is the capital of France.",236.56812785480446,0.0002726789999999979
+basic_facts_cluster,openai_o3,1,basic_facts,0.39150882,0.14775698,0.7203982,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Paris is the capital of France.",239.55668986663363,0.0002726789999999979
+basic_facts_cluster,paraphrase-mpnet-base-v2,1,basic_facts,0.39150882,0.14775698,0.7203982,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Paris is the capital of France.",487.1092692840106,0.0002726789999999979
+basic_math_cluster,gpt4,1,basic_math,0.400822944,0.14803405,0.7536697,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+2 + 2 = 4",238.95862623180335,8.7959999999776e-06
+basic_math_cluster,claude3,1,basic_math,0.400815624,0.14781122,0.75477827,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+The sum of 2 and 2 is 4.",411.0367309137354,1.4759999999447437e-06
+basic_math_cluster,gemini,1,basic_math,0.400759896,0.14800097,0.75360096,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+2 plus 2 equals 4.",226.3022126769608,-5.4252000000032385e-05
+basic_math_cluster,gemini_2.5_pro,1,basic_math,0.400822944,0.14803405,0.7536697,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+2 + 2 = 4",337.74508886702876,8.7959999999776e-06
+basic_math_cluster,gemini_flash,1,basic_math,0.400822944,0.14803405,0.7536697,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+2 + 2 = 4",245.81904108128114,8.7959999999776e-06
+basic_math_cluster,grok3,1,basic_math,0.400822944,0.14803405,0.7536697,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+2 + 2 = 4",365.114508994781,8.7959999999776e-06
+basic_math_cluster,openai_o3,1,basic_math,0.400822944,0.14803405,0.7536697,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+2 + 2 = 4",328.82604697946056,8.7959999999776e-06
+basic_math_cluster,paraphrase-mpnet-base-v2,1,basic_math,0.400822944,0.14803405,0.7536697,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+2 + 2 = 4",374.464972879472,8.7959999999776e-06
+logical_paradox_cluster,gpt4,2,logical_paradox,0.37658855999999996,0.14317603,0.6878621,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This paradox highlights the logical tension between omnipotence and self-limitation. If truly omnipotent, the being could create such a stone, but then wouldn't be able to lift it, contradicting omnipotence. The paradox reveals conceptual boundaries in absolute power.",499.82359444163484,-0.0015085424999999875
+logical_paradox_cluster,claude3,2,logical_paradox,0.37667033999999994,0.1434531,0.68683183,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This is a classic logical paradox that exposes the self-contradictory nature of absolute omnipotence. The question creates a logical impossibility: either answer (yes or no) leads to a contradiction of the omnipotence premise.",200.11822924486518,-0.0014267625000000117
+logical_paradox_cluster,gemini,2,logical_paradox,0.37858632,0.1448922,0.6869456,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This paradox shows the logical limits of omnipotence. Creating an unliftable stone would contradict the ability to lift anything, revealing inherent contradictions in absolute power concepts.",377.30775411414504,0.0004892175000000276
+logical_paradox_cluster,gemini_2.5_pro,2,logical_paradox,0.37858632,0.1448922,0.6869456,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This paradox shows the logical limits of omnipotence. Creating an unliftable stone would contradict the ability to lift anything, revealing inherent contradictions in absolute power concepts.",91.82301911817595,0.0004892175000000276
+logical_paradox_cluster,gemini_flash,2,logical_paradox,0.37858632,0.1448922,0.6869456,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This paradox shows the logical limits of omnipotence. Creating an unliftable stone would contradict the ability to lift anything, revealing inherent contradictions in absolute power concepts.",192.2559102993433,0.0004892175000000276
+logical_paradox_cluster,grok3,2,logical_paradox,0.37858632,0.1448922,0.6869456,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This paradox shows the logical limits of omnipotence. Creating an unliftable stone would contradict the ability to lift anything, revealing inherent contradictions in absolute power concepts.",290.5762387805937,0.0004892175000000276
+logical_paradox_cluster,openai_o3,2,logical_paradox,0.37858632,0.1448922,0.6869456,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This paradox shows the logical limits of omnipotence. Creating an unliftable stone would contradict the ability to lift anything, revealing inherent contradictions in absolute power concepts.",312.35818254760693,0.0004892175000000276
+logical_paradox_cluster,paraphrase-mpnet-base-v2,2,logical_paradox,0.37858632,0.1448922,0.6869456,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This paradox shows the logical limits of omnipotence. Creating an unliftable stone would contradict the ability to lift anything, revealing inherent contradictions in absolute power concepts.",378.0684949447957,0.0004892175000000276
+impossible_description_cluster,gpt4,2,impossible_description,0.38058686399999997,0.14450844,0.69606835,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Silence doesn't have a literal color, but if we engage with this creatively, silence might be described as transparent or deep black - the absence of sensory input, like how black represents the absence of light.",389.2036025140726,-0.002058694499999958
+impossible_description_cluster,claude3,2,impossible_description,0.381082284,0.14416151,0.69956124,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This question asks for a synesthetic interpretation. While silence has no actual color, one might conceptualize it as clear, white (emptiness), or black (absence). The question itself explores the boundaries between sensory modalities.",465.1114167208689,-0.0015632744999999337
+impossible_description_cluster,gemini,2,impossible_description,0.38324921999999995,0.14578943,0.699639,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Silence has no color, but metaphorically, it might be transparent or black - representing absence or void.",79.09072447211433,0.000603661500000019
+impossible_description_cluster,gemini_2.5_pro,2,impossible_description,0.38324921999999995,0.14578943,0.699639,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Silence has no color, but metaphorically, it might be transparent or black - representing absence or void.",69.93877336604628,0.000603661500000019
+impossible_description_cluster,gemini_flash,2,impossible_description,0.38324921999999995,0.14578943,0.699639,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Silence has no color, but metaphorically, it might be transparent or black - representing absence or void.",305.9654814486553,0.000603661500000019
+impossible_description_cluster,grok3,2,impossible_description,0.38324921999999995,0.14578943,0.699639,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Silence has no color, but metaphorically, it might be transparent or black - representing absence or void.",132.0198332572609,0.000603661500000019
+impossible_description_cluster,openai_o3,2,impossible_description,0.38324921999999995,0.14578943,0.699639,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Silence has no color, but metaphorically, it might be transparent or black - representing absence or void.",286.3912298147543,0.000603661500000019
+impossible_description_cluster,paraphrase-mpnet-base-v2,2,impossible_description,0.38324921999999995,0.14578943,0.699639,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Silence has no color, but metaphorically, it might be transparent or black - representing absence or void.",363.45194445299256,0.000603661500000019
+existential_paradox_cluster,gpt4,3,existential_paradox,0.381044556,0.14339755,0.70314884,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This statement creates a logical paradox. If it's false (as it claims), then the claim 'this statement is false' would be true, making the statement true rather than false. If it's true, then it contradicts its own content. This is the classic liar paradox, which reveals limits in binary truth systems.",306.4369365237585,-0.0007372530000000488
+existential_paradox_cluster,claude3,3,existential_paradox,0.38209662,0.14332953,0.7073726,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This is the liar paradox in its classic form. The statement cannot be consistently assigned a truth value within standard binary logic. It demonstrates the limitations of self-referential statements and suggests the need for more sophisticated logical frameworks to handle such cases.",202.61134383203833,0.0003148109999999704
+existential_paradox_cluster,gemini,3,existential_paradox,0.381852216,0.14437175,0.701368,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This is a logical paradox - if true, it's false; if false, it's true. Such self-referential statements reveal the limits of binary logic systems.",82.83981369926373,7.040699999999456e-05
+existential_paradox_cluster,gemini_2.5_pro,3,existential_paradox,0.381852216,0.14437175,0.701368,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This is a logical paradox - if true, it's false; if false, it's true. Such self-referential statements reveal the limits of binary logic systems.",229.67465908776964,7.040699999999456e-05
+existential_paradox_cluster,gemini_flash,3,existential_paradox,0.381852216,0.14437175,0.701368,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This is a logical paradox - if true, it's false; if false, it's true. Such self-referential statements reveal the limits of binary logic systems.",354.1008699389601,7.040699999999456e-05
+existential_paradox_cluster,grok3,3,existential_paradox,0.381852216,0.14437175,0.701368,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This is a logical paradox - if true, it's false; if false, it's true. Such self-referential statements reveal the limits of binary logic systems.",389.11194436745296,7.040699999999456e-05
+existential_paradox_cluster,openai_o3,3,existential_paradox,0.381852216,0.14437175,0.701368,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This is a logical paradox - if true, it's false; if false, it's true. Such self-referential statements reveal the limits of binary logic systems.",327.23320339160864,7.040699999999456e-05
+existential_paradox_cluster,paraphrase-mpnet-base-v2,3,existential_paradox,0.381852216,0.14437175,0.701368,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This is a logical paradox - if true, it's false; if false, it's true. Such self-referential statements reveal the limits of binary logic systems.",374.53492862697874,7.040699999999456e-05
+category_dissolution_cluster,gpt4,3,category_dissolution,0.38157779999999997,0.1434237,0.7049898,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This meta-question about questions creates a recursive inquiry. Yes, asking 'What is the question?' is itself a question, but it's a second-order question that inquires about the nature of questioning itself. It belongs to the category of meta-linguistic or philosophical inquiry.",469.32405528993144,-0.0017960505000000349
+category_dissolution_cluster,claude3,3,category_dissolution,0.37949406,0.1427462,0.7006206,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+This question performs what it asks about - it is simultaneously a question and an inquiry into the nature of questions. It demonstrates the recursive, self-referential nature of meta-cognitive inquiry and belongs to the category of philosophical meta-analysis.",223.07844880752936,-0.00387979049999998
+category_dissolution_cluster,gemini,3,category_dissolution,0.384319824,0.1457495,0.7037461,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Yes, asking 'What is the question?' is itself a question - a meta-question that inquires about the nature of questioning.",477.0720912503874,0.0009459734999999747
+category_dissolution_cluster,gemini_2.5_pro,3,category_dissolution,0.384319824,0.1457495,0.7037461,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Yes, asking 'What is the question?' is itself a question - a meta-question that inquires about the nature of questioning.",271.9964858691272,0.0009459734999999747
+category_dissolution_cluster,gemini_flash,3,category_dissolution,0.384319824,0.1457495,0.7037461,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Yes, asking 'What is the question?' is itself a question - a meta-question that inquires about the nature of questioning.",423.45520089910633,0.0009459734999999747
+category_dissolution_cluster,grok3,3,category_dissolution,0.384319824,0.1457495,0.7037461,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Yes, asking 'What is the question?' is itself a question - a meta-question that inquires about the nature of questioning.",120.45239845667592,0.0009459734999999747
+category_dissolution_cluster,openai_o3,3,category_dissolution,0.384319824,0.1457495,0.7037461,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Yes, asking 'What is the question?' is itself a question - a meta-question that inquires about the nature of questioning.",248.74857837338945,0.0009459734999999747
+category_dissolution_cluster,paraphrase-mpnet-base-v2,3,category_dissolution,0.384319824,0.1457495,0.7037461,True,1.0,"
+
+You are an advanced semantic reasoning agent. For every question, respond with clarity, precision, and awareness of ambiguity or paradox. When facts are clear, state them confidently and concisely. When questions are ambiguous, paradoxical, or dissolve categories, acknowledge the complexity and provide the most coherent, context-aware answer possible. Avoid unsupported claims, contradictions, or rigid literalism. Balance grounded reasoning (semantic precision) with openness to multiple interpretations (semantic flexibility). If a question challenges logic or meaning, reflect briefly on its nature before answering. Always strive for minimal, thoughtful, and contextually appropriate responses.
+
+Yes, asking 'What is the question?' is itself a question - a meta-question that inquires about the nature of questioning.",338.45928407402357,0.0009459734999999747

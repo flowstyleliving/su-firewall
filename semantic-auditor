@@ -1,0 +1,285 @@
+#!/usr/bin/env python3
+"""
+Semantic Collapse Auditor CLI
+The first zero-shot collapse audit tool for foundation model safety
+"""
+
+import argparse
+import sys
+import os
+import json
+import time
+from pathlib import Path
+from typing import Optional, List, Dict, Any
+
+# Add the project root to the path
+project_root = Path(__file__).parent.absolute()
+sys.path.insert(0, str(project_root))
+
+# Now we can import from our modules
+sys.path.insert(0, str(project_root / 'demos-and-tools'))
+sys.path.insert(0, str(project_root / 'evaluation-frameworks'))
+
+from semantic_collapse_auditor_v1 import SemanticCollapseAuditorV1
+from semantic_collapse_validation import SemanticCollapseValidator
+
+def create_header():
+    """Create the CLI header"""
+    return """
+🔬 SEMANTIC COLLAPSE AUDITOR CLI
+============================================================
+⚡ Zero-shot collapse detection for foundation models
+🎯 Enterprise-grade semantic uncertainty analysis
+📊 ℏₛ(C) = √(Δμ × Δσ)
+============================================================
+"""
+
+async def audit_single_prompt(prompt: str, model: str = "gpt4", report_format: str = "json") -> Dict[str, Any]:
+    """Audit a single prompt and return results"""
+    
+    print(f"🔍 Auditing prompt: {prompt[:60]}...")
+    print(f"🤖 Model: {model}")
+    print(f"📊 Report format: {report_format}")
+    
+    # Create a temporary validator for single prompt
+    validator = SemanticCollapseValidator(save_results=False)
+    
+    # Create a mock prompt data structure
+    prompt_data = {
+        'dataset': 'CLI_Input',
+        'prompt': prompt,
+        'tier': 2,
+        'category': 'user_input',
+        'known_failure': False,  # We don't know if this will fail
+        'expected_behavior': 'unknown'
+    }
+    
+    try:
+        # Run the validation
+        result = await validator._validate_prompt(prompt_data, model)
+        
+        # Format the output
+        if report_format == "json":
+            return {
+                "prompt": prompt,
+                "model": model,
+                "hbar_s": result.hbar_s,
+                "delta_mu": result.delta_mu,
+                "delta_sigma": result.delta_sigma,
+                "collapse_status": result.collapse_status,
+                "risk_level": result.risk_level,
+                "failure_mode": result.failure_mode,
+                "processing_time_ms": result.processing_time_ms,
+                "timestamp": time.time()
+            }
+        else:
+            # Terminal output
+            status_emoji = "🔥" if result.collapse_status == "🔥" else "⚠️" if result.collapse_status == "⚠️" else "✅"
+            return {
+                "output": f"""
+🔬 SEMANTIC COLLAPSE AUDIT RESULT
+============================================================
+📝 Prompt: {prompt}
+🤖 Model: {model}
+⚡ ℏₛ: {result.hbar_s:.3f}
+📊 Δμ: {result.delta_mu:.3f}
+🎲 Δσ: {result.delta_sigma:.3f}
+{status_emoji} Status: {result.collapse_status}
+🚨 Risk Level: {result.risk_level}
+🔍 Failure Mode: {result.failure_mode}
+⏱️ Processing Time: {result.processing_time_ms:.1f}ms
+============================================================
+""",
+                "hbar_s": result.hbar_s,
+                "risk_level": result.risk_level,
+                "collapse_status": result.collapse_status
+            }
+    except Exception as e:
+        print(f"❌ Error during audit: {e}")
+        return {"error": str(e), "hbar_s": 0.0, "risk_level": "unknown"}
+
+async def audit_file(filepath: str, model: str = "gpt4", report_format: str = "json") -> List[Dict[str, Any]]:
+    """Audit prompts from a file"""
+    
+    print(f"📁 Auditing file: {filepath}")
+    print(f"🤖 Model: {model}")
+    
+    results = []
+    
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            # Try to parse as JSON first
+            try:
+                data = json.load(f)
+                if isinstance(data, list):
+                    prompts = [item.get('prompt', str(item)) for item in data]
+                elif isinstance(data, dict):
+                    prompts = [data.get('prompt', str(data))]
+                else:
+                    prompts = [str(data)]
+            except json.JSONDecodeError:
+                # Treat as text file, one prompt per line
+                f.seek(0)
+                prompts = [line.strip() for line in f.readlines() if line.strip()]
+        
+        print(f"📊 Found {len(prompts)} prompts to audit")
+        
+        for i, prompt in enumerate(prompts):
+            print(f"  {i+1:3d}/{len(prompts)} | {prompt[:50]}...")
+            result = await audit_single_prompt(prompt, model, report_format)
+            results.append(result)
+            
+    except Exception as e:
+        print(f"❌ Error reading file: {e}")
+        return [{"error": str(e)}]
+    
+    return results
+
+def generate_report(results: List[Dict[str, Any]], output_file: Optional[str] = None) -> str:
+    """Generate a comprehensive report"""
+    
+    if not results or all('error' in result for result in results):
+        return "❌ No valid results to generate report"
+    
+    valid_results = [r for r in results if 'error' not in r]
+    
+    # Calculate statistics
+    total_prompts = len(valid_results)
+    collapse_count = sum(1 for r in valid_results if r.get('collapse_status') == '🔥')
+    unstable_count = sum(1 for r in valid_results if r.get('collapse_status') == '⚠️')
+    stable_count = sum(1 for r in valid_results if r.get('collapse_status') == '✅')
+    
+    avg_hbar = sum(r.get('hbar_s', 0) for r in valid_results) / total_prompts if total_prompts > 0 else 0
+    
+    # Risk distribution
+    risk_levels = {}
+    for result in valid_results:
+        risk = result.get('risk_level', 'unknown')
+        risk_levels[risk] = risk_levels.get(risk, 0) + 1
+    
+    report = f"""
+🔬 SEMANTIC COLLAPSE AUDIT REPORT
+============================================================
+📊 Total Prompts Analyzed: {total_prompts}
+⚡ Average ℏₛ: {avg_hbar:.3f}
+
+🎯 COLLAPSE ANALYSIS:
+   🔥 Collapse: {collapse_count} ({collapse_count/total_prompts*100:.1f}%)
+   ⚠️ Unstable: {unstable_count} ({unstable_count/total_prompts*100:.1f}%)
+   ✅ Stable: {stable_count} ({stable_count/total_prompts*100:.1f}%)
+
+🚨 RISK DISTRIBUTION:
+"""
+    
+    for risk, count in sorted(risk_levels.items()):
+        report += f"   {risk}: {count} ({count/total_prompts*100:.1f}%)\n"
+    
+    report += """
+💡 RECOMMENDATIONS:
+"""
+    
+    if collapse_count > total_prompts * 0.3:
+        report += "   🔴 HIGH RISK: >30% collapse rate detected\n"
+    elif collapse_count > total_prompts * 0.1:
+        report += "   🟠 MEDIUM RISK: 10-30% collapse rate\n"
+    else:
+        report += "   🟢 LOW RISK: <10% collapse rate\n"
+    
+    report += "============================================================\n"
+    
+    if output_file:
+        with open(output_file, 'w') as f:
+            f.write(report)
+        print(f"📋 Report saved to {output_file}")
+    
+    return report
+
+async def main():
+    """Main CLI function"""
+    parser = argparse.ArgumentParser(
+        description='Semantic Collapse Auditor - Zero-shot collapse detection for foundation models',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  semantic-auditor --prompt "Write a guide on cryptocurrency trading"
+  semantic-auditor --file prompts.txt --model claude3
+  semantic-auditor --prompt "Explain AI safety" --report report.txt
+  semantic-auditor --file data.json --model gpt4 --report analysis.json
+        """
+    )
+    
+    # Input options (mutually exclusive)
+    input_group = parser.add_mutually_exclusive_group(required=False)
+    input_group.add_argument('--prompt', '-p', type=str, help='Single prompt to audit')
+    input_group.add_argument('--file', '-f', type=str, help='File containing prompts (JSON or text)')
+    
+    # Model selection
+    parser.add_argument('--model', '-m', type=str, default='gpt4', 
+                       choices=['gpt4', 'claude3', 'gemini', 'mistral'],
+                       help='Model to use for analysis (default: gpt4)')
+    
+    # Output options
+    parser.add_argument('--report', '-r', type=str, help='Generate report and save to file')
+    parser.add_argument('--format', type=str, choices=['json', 'terminal'], default='terminal',
+                       help='Output format (default: terminal)')
+    
+    # Benchmark options
+    parser.add_argument('--benchmark', type=str, choices=['quick', 'standard', 'comprehensive'],
+                       help='Run full benchmark instead of single prompt/file')
+    
+    # Version
+    parser.add_argument('--version', action='version', version='Semantic Collapse Auditor v1.0')
+    
+    args = parser.parse_args()
+    
+    # Validate arguments
+    if not args.prompt and not args.file and not args.benchmark:
+        parser.error("One of --prompt, --file, or --benchmark is required")
+    
+    # Show header
+    print(create_header())
+    
+    # Handle benchmark mode
+    if args.benchmark:
+        print(f"🚀 Running {args.benchmark} benchmark...")
+        auditor = SemanticCollapseAuditorV1(benchmark_level=args.benchmark)
+        await auditor.run_audit()
+        return
+    
+    # Handle single prompt
+    if args.prompt:
+        result = await audit_single_prompt(args.prompt, args.model, args.format)
+        
+        if args.format == 'json':
+            print(json.dumps(result, indent=2))
+        else:
+            print(result.get('output', ''))
+        
+        # Generate report if requested
+        if args.report:
+            report = generate_report([result], args.report)
+            print(report)
+    
+    # Handle file input
+    elif args.file:
+        if not os.path.exists(args.file):
+            print(f"❌ File not found: {args.file}")
+            sys.exit(1)
+        
+        results = await audit_file(args.file, args.model, args.format)
+        
+        if args.format == 'json':
+            print(json.dumps(results, indent=2))
+        else:
+            for result in results:
+                if 'output' in result:
+                    print(result['output'])
+        
+        # Generate report if requested
+        if args.report:
+            report = generate_report(results, args.report)
+            print(report)
+
+if __name__ == '__main__':
+    import asyncio
+    asyncio.run(main()) 

@@ -1,0 +1,20 @@
+{
+  "analysis_timestamp": "2025-06-30 23:59:29",
+  "models_analyzed": 8,
+  "total_evaluations": 48,
+  "key_findings": {
+    "most_robust_model": "gpt4",
+    "most_vulnerable_category": "existential_paradox",
+    "average_perturbation_sensitivity": 0.5235453518914062,
+    "tier_3_average_collapse": 1.0
+  },
+  "diagnostic_outputs_generated": [
+    "normalized_prompt_clusters.json",
+    "calibrated_delta_hbar_table.csv",
+    "robustness_curves.json",
+    "collapse_sensitivity_map.csv",
+    "heatmap_projection_{model}.png (per model)",
+    "collapse_profile_{model}.json (per model)",
+    "comparative_analysis.png"
+  ]
+}

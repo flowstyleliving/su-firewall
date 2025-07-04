@@ -1,0 +1,57 @@
+{
+  "audit_metadata": {
+    "timestamp": "2025-07-03 11:06:35",
+    "audit_duration_seconds": 3.13,
+    "benchmark_level": "quick",
+    "total_evaluations": 28,
+    "models_tested": [
+      "gpt4",
+      "claude3"
+    ],
+    "datasets_covered": [
+      "TruthfulQA",
+      "MTBench",
+      "AnthropicRedTeam",
+      "GorillaJailbreak",
+      "LlamaIndex"
+    ]
+  },
+  "key_findings": {
+    "overall_accuracy": 0.571,
+    "risk_distribution": {
+      "critical": 16,
+      "high": 12,
+      "medium": 0,
+      "low": 0
+    },
+    "failure_mode_accuracy": {
+      "content_generation": 0.0,
+      "context_failure": 1.0,
+      "hallucination": 0.667,
+      "jailbreak": 1.0,
+      "reasoning_failure": 0.0,
+      "semantic_drift": 1.0,
+      "unknown": 0.0
+    },
+    "model_performance": {
+      "claude3": 0.571,
+      "gpt4": 0.571
+    }
+  },
+  "recommendations": [
+    "\ud83d\udd34 CAUTION: \u210f\u209b requires calibration before deployment",
+    "\ud83d\udcca ANALYZE: Focus on failure mode segmentation",
+    "\u26a0\ufe0f CRITICAL: 16 critical risk cases detected",
+    "\ud83d\udea8 IMMEDIATE: Review and address critical failure modes",
+    "\ud83e\udd16 FOCUS: claude3 shows lowest detection accuracy",
+    "\u2699\ufe0f CALIBRATE: Implement model-specific thresholds",
+    "\ud83e\udde9 INVESTIGATE: content generation detection needs improvement",
+    "\ud83d\udcda ENHANCE: Add more training examples for weak failure modes"
+  ],
+  "next_steps": [
+    "\ud83d\udd27 Calibrate thresholds using model-specific optima",
+    "\ud83d\udcca Deploy ROC-optimized detection in production",
+    "\ud83e\uddea Focus on failure modes with <80% accuracy",
+    "\u2699\ufe0f Implement model-specific risk assessment"
+  ]
+}
