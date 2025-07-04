@@ -1,125 +1,24 @@
-# 🧮 Semantic Uncertainty Runtime
+# 🔬 Semantic Collapse Auditor
 
-**Terminal-first semantic stress measurement using the equation: ℏₛ(C) = √(Δμ × Δσ)**
+**The first zero-shot collapse audit tool for foundation model safety**
 
-> "ℏₛ(C) is not a leaderboard score. It's a stress tensor on meaning."
+🎭 **Try the demo** • 🔒 **License the equation** • 🚀 **Deploy in production**
 
-## 🚀 Quick Start
-
-### Terminal Mode (Default)
+## Quick Start
 ```bash
-# Quick demo - displays in terminal
-python demos-and-tools/quick_demo.py
-
-# Full diagnostic suite - terminal output
-python evaluation-frameworks/diagnostic_suite_simplified.py
-
-# LLM evaluation - terminal results
-python evaluation-frameworks/llm_evaluation.py
-
-# Semantic collapse validation - validate ℏₛ equation against known failures
-python evaluation-frameworks/semantic_collapse_validation.py
-python demos-and-tools/collapse_validation_demo.py  # Quick demo
+git clone https://github.com/yourusername/semantic-uncertainty-runtime.git
+cd semantic-uncertainty-runtime
+chmod +x install.sh
+./install.sh
+semantic-auditor --benchmark quick
 ```
 
-### Save Mode (Optional)
-```bash
-# Save results for dashboard and export
-python demos-and-tools/quick_demo.py --save
-python evaluation-frameworks/diagnostic_suite_simplified.py --save
-python evaluation-frameworks/llm_evaluation.py --save
-python evaluation-frameworks/semantic_collapse_validation.py --save
+## Features
+✅ Professional CLI with `--prompt`, `--file`, `--report`, `--benchmark`  
+✅ ROC-calibrated thresholds with Youden's J statistic  
+✅ 7 failure modes with enterprise-grade risk assessment  
+✅ Complete benchmarking across 6 datasets  
+✅ Sophisticated demo mode + commercial licensing  
 
-# Launch dashboard
-streamlit run demos-and-tools/dashboard.py
-```
+**[📋 Full Documentation](SEMANTIC_AUDITOR_README.md) | [💼 Licensing Options](LICENSING.md) | [🚀 Deployment Guide](DEPLOYMENT_GUIDE.md)**
 
-## 🧮 The Equation
-
-**ℏₛ(C) = √(Δμ × Δσ)**
-
-- **📊 Δμ (Precision)**: Semantic clarity and focused meaning
-- **🎲 Δσ (Flexibility)**: Adaptability under perturbation  
-- **⚡ ℏₛ (Uncertainty)**: Combined semantic stress measurement
-
-Results are organized by these components:
-
-1. **Tier Analysis** - Performance across difficulty levels
-2. **Category Breakdown** - Semantic stress by category
-3. **Model Comparison** - Ranked performance 
-4. **Equation Summary** - Component analysis
-
-## 📁 File Structure
-
-```
-semantic-uncertainty-runtime/
-├── core-engine/           # Rust computation core
-├── precision-measurement/ # Δμ focused evaluation
-├── flexibility-measurement/ # Δσ focused evaluation  
-├── evaluation-frameworks/ # Complete ℏₛ systems
-├── documentation/         # All README files and reports
-├── data-and-results/      # Output when --save is used
-└── demos-and-tools/       # Interactive demos and dashboard
-```
-
-## 🎯 Design Philosophy
-
-### Terminal First
-- **Default**: Results displayed in organized terminal output
-- **Optional**: Save to files only when needed
-- **Clean**: No clutter, focused on the equation structure
-
-### Equation Organized
-- **Δμ**: Clear semantic precision metrics
-- **Δσ**: Flexibility under stress
-- **ℏₛ**: Combined uncertainty measurement
-- **Interpretation**: Guided by the equation components
-
-## 🔧 Usage Examples
-
-### Basic Analysis
-```bash
-# Run diagnostic suite with terminal display
-python evaluation-frameworks/diagnostic_suite_simplified.py
-
-# Terminal output will show:
-# 🧮 SEMANTIC UNCERTAINTY EQUATION: ℏₛ(C) = √(Δμ × Δσ)
-# 📊 RESULTS BY TIER (Δμ × Δσ → ℏₛ)
-# 🎭 SEMANTIC CATEGORY ANALYSIS
-# 🧮 EQUATION COMPONENT SUMMARY
-```
-
-### Save and Export
-```bash
-# Save results to files
-python evaluation-frameworks/diagnostic_suite_simplified.py --save
-
-# Launch dashboard with export options
-streamlit run demos-and-tools/dashboard.py
-```
-
-### Custom Models
-```bash
-# Specify models for evaluation
-python evaluation-frameworks/llm_evaluation.py --models gpt4,claude3,gemini --save
-```
-
-## 📊 Dashboard Features
-
-- **📺 Terminal Results**: View without saving files
-- **💾 Export Options**: Save organized results when needed
-- **🧮 Equation View**: Results organized by Δμ, Δσ, ℏₛ
-- **📈 Visualizations**: Interactive charts and heatmaps
-
-## 💡 Philosophy
-
-This system prioritizes **understanding over storage**:
-
-- **See results immediately** in organized terminal output
-- **Save only when needed** for persistence or sharing
-- **Equation-guided organization** for clear interpretation
-- **Stress tensor measurement** not performance ranking
-
----
-
-*"Interpretation is not resolution. Truth can have tension. We are here to hold it."* 
