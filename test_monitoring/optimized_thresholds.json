@@ -1,0 +1,7 @@
+{
+  "critical_hbar": 0.8,
+  "warning_hbar": 1.0,
+  "critical_error_rate": 0.6,
+  "warning_error_rate": 0.4,
+  "max_response_time_ms": 100.0
+}
