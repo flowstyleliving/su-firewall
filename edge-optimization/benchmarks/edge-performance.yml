@@ -1,0 +1,161 @@
+# 🚀 Artillery Benchmark for Edge Performance
+# Comprehensive load testing for global semantic uncertainty API
+
+config:
+  target: 'https://semantic-uncertainty-api-production.semantic-uncertainty.workers.dev'
+  phases:
+    # 🌟 Warm-up phase
+    - duration: 30
+      arrivalRate: 5
+      name: "Warm-up"
+    
+    # 📈 Ramp-up phase  
+    - duration: 60
+      arrivalRate: 10
+      rampTo: 50
+      name: "Ramp-up"
+    
+    # 🔥 Peak load phase
+    - duration: 120
+      arrivalRate: 50
+      name: "Peak Load"
+    
+    # 🚀 Stress test phase
+    - duration: 60
+      arrivalRate: 100
+      name: "Stress Test"
+
+  defaults:
+    headers:
+      X-API-Key: "your-production-api-key"
+      Content-Type: "application/json"
+
+  plugins:
+    metrics-by-endpoint:
+      useOnlyRequestNames: true
+
+scenarios:
+  # 🎯 Core API Performance Tests
+  - name: "Semantic Analysis Load Test"
+    weight: 70
+    flow:
+      - post:
+          url: "/api/v1/analyze"
+          name: "Analyze Prompt"
+          json:
+            prompt: "{{ prompt }}"
+            model: "{{ model }}"
+          expect:
+            - statusCode: 200
+            - hasProperty: "success"
+            - hasProperty: "data.semantic_uncertainty"
+          capture:
+            - json: "$.data.semantic_uncertainty"
+              as: "h_bar_value"
+            - json: "$.data.risk_level" 
+              as: "risk_classification"
+          think: 1
+
+  # 🔄 Cache Performance Tests
+  - name: "Cache Hit Testing"
+    weight: 20
+    flow:
+      # First request (cache miss)
+      - post:
+          url: "/api/v1/analyze"
+          name: "Cache Miss Request"
+          json:
+            prompt: "What is artificial intelligence?"
+            model: "gpt4"
+      
+      # Immediate repeat (cache hit)
+      - post:
+          url: "/api/v1/analyze" 
+          name: "Cache Hit Request"
+          json:
+            prompt: "What is artificial intelligence?"
+            model: "gpt4"
+          expect:
+            - statusCode: 200
+          think: 0.5
+
+  # 📊 Dashboard Performance Tests  
+  - name: "Dashboard Monitoring"
+    weight: 5
+    flow:
+      - get:
+          url: "/dashboard/performance"
+          name: "Performance Dashboard"
+          expect:
+            - statusCode: 200
+            - hasProperty: "global_stats"
+
+  # 🌍 Regional Health Tests
+  - name: "Regional Health Checks"
+    weight: 5
+    flow:
+      - get:
+          url: "/health"
+          name: "Health Check"
+          expect:
+            - statusCode: 200
+            - hasProperty: "status"
+            - contentType: json
+
+# 🧪 Test Data Variables
+config:
+  payload:
+    # 📝 Various prompt types for testing
+    - prompt: "What is 2+2?"
+      model: "gpt4"
+    - prompt: "Explain quantum computing"
+      model: "claude3"
+    - prompt: "Write a creative story about space exploration"
+      model: "gemini"
+    - prompt: "How do neural networks work?"
+      model: "gpt4"
+    - prompt: "Tell me about machine learning ethics"
+      model: "claude3"
+    - prompt: "Create a paradox about artificial intelligence"
+      model: "gpt4"
+    - prompt: "Describe the history of computers"
+      model: "gemini"
+    - prompt: "What are the risks of AI?"
+      model: "claude3"
+
+# 📊 Performance Metrics and Assertions
+config:
+  processor: "./scripts/artillery-processor.js"
+  
+  # ⚡ Performance thresholds
+  ensure:
+    # 95% of requests should complete under 100ms
+    p95: 100
+    # 99% of requests should complete under 200ms  
+    p99: 200
+    # Maximum allowed latency
+    max: 500
+    # Error rate should be under 1%
+    maxErrorRate: 1
+
+# 🎯 Custom metrics collection
+config:
+  metrics:
+    - name: "semantic_uncertainty_avg"
+      type: "histogram"
+    - name: "cache_hit_rate"
+      type: "rate"
+    - name: "risk_classification_distribution"
+      type: "counter"
+
+# 📈 Load Test Scenarios by Geography
+before:
+  flow:
+    - log: "🚀 Starting Global Edge Performance Benchmark"
+    - log: "Target: {{ $target }}"
+    - log: "Testing semantic uncertainty API under load..."
+
+after:
+  flow:
+    - log: "📊 Benchmark completed!"
+    - log: "Check performance-report.json for detailed results"

@@ -1,0 +1,38 @@
+{
+  "name": "semantic-uncertainty-cloudflare",
+  "version": "1.0.0",
+  "description": "Semantic Uncertainty Engine deployed on Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:staging": "wrangler deploy --env staging",
+    "deploy:production": "wrangler deploy --env production",
+    "test": "wrangler dev --test",
+    "build": "wrangler build",
+    "preview": "wrangler preview",
+    "tail": "wrangler tail",
+    "kv:create": "wrangler kv:namespace create USAGE_TRACKER",
+    "setup": "npm install && npm run kv:create"
+  },
+  "keywords": [
+    "semantic-uncertainty",
+    "cloudflare-workers",
+    "edge-computing",
+    "webassembly",
+    "rust",
+    "api"
+  ],
+  "author": "Semantic Uncertainty Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "wrangler": "^3.26.0"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
