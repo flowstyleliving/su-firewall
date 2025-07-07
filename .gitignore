@@ -55,4 +55,26 @@ test_*.json
 *_test.py
 
 # Results (optional - keep for demo)
-# semantic_collapse_audit_results/ 
+# semantic_collapse_audit_results/
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+package-lock.json
+
+# Large binary files
+*.wasm
+*.bin
+workerd
+**/workerd
+
+# Cloudflare Workers artifacts
+.wrangler/
+wrangler.toml.bak
+
+# Build artifacts
+dist/
+build/
+target/
+*.tgz
+*.tar.gz 
