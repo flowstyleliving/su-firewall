@@ -43,11 +43,10 @@ Thumbs.db
 *.env
 !core-engine/.env.example
 
-# Rust - KEEP EQUATION SECRET
-core-engine/src/
-core-engine/Cargo.toml
+# Rust build artifacts
+target/
+Cargo.lock
 core-engine/target/
-core-engine/Cargo.lock
 
 # Test files
 test_*.txt

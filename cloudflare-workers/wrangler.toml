@@ -1,0 +1,26 @@
+name = "semantic-uncertainty-runtime-physics"
+main = "index.js"
+compatibility_date = "2024-01-01"
+account_id = "d1f76fed7998d07d9acc44b30f009b02"
+
+# Domain configuration
+[env.production]
+name = "semantic-uncertainty-runtime-physics-production"
+vars = { RUNTIME_PHYSICS_ENABLED = "true", LAW_CURVATURE_ENABLED = "true", LAW_METACOGNITIVE_ENABLED = "true", LAW_THERMODYNAMIC_ENABLED = "true", LAW_RESONANCE_ENABLED = "true" }
+
+[[env.production.routes]]
+pattern = "semanticuncertainty.com/api/*"
+zone_name = "semanticuncertainty.com"
+
+[env.staging.vars]
+RUNTIME_PHYSICS_ENABLED = "true"
+LAW_CURVATURE_ENABLED = "true"
+LAW_METACOGNITIVE_ENABLED = "false"
+LAW_THERMODYNAMIC_ENABLED = "true"
+LAW_RESONANCE_ENABLED = "false"
+
+# KV namespace for usage tracking
+[[kv_namespaces]]
+binding = "USAGE_TRACKER"
+id = "your-kv-namespace-id"
+preview_id = "your-preview-kv-namespace-id"

@@ -1,0 +1,83 @@
+[package]
+name = "semantic-uncertainty-runtime"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Team <team@yourcompany.com>"]
+description = "High-performance semantic uncertainty runtime for AI collapse prevention"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/yourorg/semantic-uncertainty-runtime"
+readme = "README.md"
+keywords = ["ai", "uncertainty", "semantic", "nlp", "performance"]
+categories = ["science", "algorithms", "web-programming::http-server"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = []
+wasm = []
+api = ["dep:axum", "dep:tower", "dep:tower-http", "dep:utoipa", "dep:utoipa-swagger-ui"]
+streaming = ["api"]
+python = []
+worker = []
+fast-math = []
+
+# 📦 UNIVERSAL DEPENDENCIES (work everywhere)
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+log = "0.4"
+ndarray = { version = "0.15", default-features = false }
+nalgebra = { version = "0.32", default-features = false, features = ["std"] }
+approx = "0.5"
+chrono = { version = "0.4", features = ["serde"] }
+anyhow = "1.0"
+futures = "0.3"
+fastrand = "2.0"
+getrandom = { version = "0.2", features = ["js"] }
+tracing = "0.1"
+base64 = "0.21"
+ring = "0.17"
+async-trait = "0.1"
+clap = "3.0"
+
+# 🌐 WASM-ONLY DEPENDENCIES (ALL IN ONE PLACE!)
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+tokio = { version = "1.0", features = ["macros", "time", "sync", "rt"], default-features = false }
+wasm-bindgen = "0.2"
+js-sys = "0.3"
+web-sys = "0.3"
+console_error_panic_hook = "0.1"
+wee_alloc = { version = "0.4", optional = true }
+wasm-bindgen-futures = "0.4"
+getrandom = { version = "0.2", features = ["js"] }
+uuid = { version = "1.0", features = ["v4", "serde", "js"] }
+
+# 🖥️ NATIVE-ONLY DEPENDENCIES (ALL IN ONE PLACE!)
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+tokio = { version = "1.0", features = ["macros", "time", "sync", "rt", "rt-multi-thread"], default-features = false }
+rayon = "1.8"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+env_logger = "0.10"
+axum = { version = "0.7", optional = true }
+tower = { version = "0.4", optional = true }
+tower-http = { version = "0.5", features = ["cors", "trace", "timeout", "limit"], optional = true }
+utoipa = { version = "4.2", optional = true }
+utoipa-swagger-ui = { version = "6.0", features = ["axum"], optional = true }
+
+[dev-dependencies]
+tokio-test = "0.4"
+criterion = { version = "0.5", features = ["html_reports"] }
+proptest = "1.4"
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+
+[profile.release.package."*"]
+opt-level = "s"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu", "wasm32-unknown-unknown"]

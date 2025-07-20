@@ -1,0 +1,101 @@
+{
+  "point": {
+    "x": 11,
+    "y": 6,
+    "modulus": 17
+  },
+  "task": "scalar_prediction",
+  "description": "Recover k such that Q = k · P on elliptic curve over ℤ₁₇.",
+  "diagnostic_mode": true,
+  
+  "meta_instruction": "Only proceed with scalar prediction if the semantic bandwidth ℏₛ(C) ≥ 1.0. If ℏₛ is below threshold, halt inference and trigger fallback_action.",
+  
+  "scalar_recoverability_classifier": {
+    "input_classification": {
+      "recoverable": "ℏₛ ≥ 1.0 AND entropy > 0.1 AND confidence < 0.95",
+      "ambiguous": "ℏₛ < 1.0 OR entropy < 0.1 OR multiple_valid_solutions",
+      "alias_rich": "ℏₛ < 0.8 OR symmetry_detected OR alias_risk > 0.4",
+      "torsion_trapped": "ℏₛ < 0.6 OR confidence > 0.97 OR collapse_detected"
+    },
+    "classification_prompt": "Given input Q, evaluate whether any scalar prediction model can extract k reliably. Classify as: recoverable/ambiguous/alias-rich/torsion-trapped"
+  },
+  
+  "hbar_prompt_loop": {
+    "pre_inference_check": {
+      "calculate_hbar_s": true,
+      "threshold_check": "ℏₛ(C) ≥ 1.0",
+      "if_below_threshold": "halt_and_classify"
+    },
+    "mid_inference_monitoring": {
+      "continuous_hbar_tracking": true,
+      "dynamic_threshold_adjustment": true,
+      "collapse_detection": "ℏₛ drops below 0.8 during inference"
+    },
+    "post_inference_validation": {
+      "confidence_hbar_correlation": true,
+      "entropy_hbar_consistency": true,
+      "fallback_if_inconsistent": true
+    }
+  },
+  
+  "behavioral_firewall": {
+    "collapse_risk_threshold": 1.0,
+    "firewall_prompt": "STOP INFERENCE if collapse_risk > X. Current ℏₛ = {hbar_s}, threshold = {threshold}",
+    "dynamic_thresholds": {
+      "critical": 0.8,
+      "warning": 1.0,
+      "safe": 1.2
+    },
+    "firewall_actions": {
+      "halt_inference": "collapse_risk > critical_threshold",
+      "reduce_confidence": "collapse_risk > warning_threshold",
+      "continue_monitored": "collapse_risk <= safe_threshold"
+    }
+  },
+  
+  "thresholds": {
+    "hbar_s": {
+      "abort_below": 1.0,
+      "warn_below": 1.2
+    },
+    "entropy": {
+      "min": 0.1,
+      "soft_warn": 0.3,
+      "max": 1.5
+    },
+    "confidence": {
+      "min": 0.0,
+      "soft_warn": 0.9,
+      "max": 0.97
+    }
+  },
+  
+  "fallback_action": "return_alias_class",
+  
+  "collapse_policy": {
+    "thresholds": {
+      "entropy": {
+        "min": 0.1,
+        "soft_warn": 0.3,
+        "max": 1.5
+      },
+      "confidence": {
+        "min": 0.0,
+        "soft_warn": 0.9,
+        "max": 0.97
+      },
+      "hbar_s": {
+        "soft_warn": 1.1,
+        "abort_below": 0.9
+      }
+    },
+    "abort_if": "confidence > 0.97 AND entropy < 0.1 AND hbar_s < 0.9",
+    "log_on": [
+      "confidence > 0.9 AND entropy < 0.3",
+      "hbar_s < 1.1",
+      "symmetry_detected",
+      "alias_risk > 0.4"
+    ],
+    "fallback_action": "continue_streaming_with_flag"
+  }
+}
