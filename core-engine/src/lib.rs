@@ -1488,50 +1488,10 @@ impl PerformanceMetrics {
     }
 }
 
-/// WASM bindings for browser integration
-#[cfg(feature = "wasm")]
-pub mod wasm {
-    use super::*;
-    use wasm_bindgen::prelude::*;
-    use js_sys::Promise;
-    use wasm_bindgen_futures::future_to_promise;
-    
-    #[wasm_bindgen]
-    pub struct WasmSemanticAnalyzer {
-        analyzer: Arc<SemanticAnalyzer>,
-    }
-    
-    #[wasm_bindgen]
-    impl WasmSemanticAnalyzer {
-        #[wasm_bindgen(constructor)]
-        pub fn new() -> Result<WasmSemanticAnalyzer, JsValue> {
-            let config = SemanticConfig::ultra_fast(); // Use ultra-fast for WASM
-            let analyzer = SemanticAnalyzer::new(config)
-                .map_err(|e| JsValue::from_str(&e.to_string()))?;
-            
-            Ok(WasmSemanticAnalyzer { analyzer: Arc::new(analyzer) })
-        }
-        
-        #[wasm_bindgen]
-        pub fn analyze(&self, prompt: &str, output: &str) -> Promise {
-            let analyzer = Arc::clone(&self.analyzer);
-            let prompt = prompt.to_string();
-            let output = output.to_string();
-            
-            future_to_promise(async move {
-                let request_id = RequestId::new();
-                match analyzer.analyze(&prompt, &output, request_id).await {
-                    Ok(response) => {
-                        let json = serde_json::to_string(&response)
-                            .map_err(|e| JsValue::from_str(&e.to_string()))?;
-                        Ok(JsValue::from_str(&json))
-                    }
-                    Err(e) => Err(JsValue::from_str(&e.to_string())),
-                }
-            })
-        }
-    }
-}
+
+
+// Simplified WASM module for core equation
+pub mod wasm_simple;
 
 #[cfg(test)]
 mod tests {

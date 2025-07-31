@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WASM Integration Test</title>
+</head>
+<body>
+    <h1>Rust WASM Semantic Uncertainty Test</h1>
+    <div id="status">Loading...</div>
+    <div id="result"></div>
+
+    <script type="module">
+        import { WasmSemanticAnalyzer } from './cloudflare-workers/semantic_uncertainty_runtime.js';
+
+        async function testWasm() {
+            const statusDiv = document.getElementById('status');
+            const resultDiv = document.getElementById('result');
+
+            try {
+                statusDiv.textContent = 'Initializing WASM...';
+                
+                // Initialize WASM
+                const analyzer = new WasmSemanticAnalyzer();
+                
+                statusDiv.textContent = 'WASM initialized successfully!';
+                
+                // Test analysis
+                const prompt = "What is artificial intelligence?";
+                const output = "Artificial intelligence is a field of computer science that focuses on creating systems capable of performing tasks that typically require human intelligence.";
+                
+                statusDiv.textContent = 'Running analysis...';
+                
+                const result = await analyzer.analyze(prompt, output);
+                const analysis = JSON.parse(result);
+                
+                statusDiv.textContent = 'Analysis completed!';
+                
+                resultDiv.innerHTML = `
+                    <h3>Results:</h3>
+                    <p><strong>ℏₛ (Semantic Uncertainty):</strong> ${analysis.hbar_s.toFixed(4)}</p>
+                    <p><strong>Δμ (Precision):</strong> ${analysis.delta_mu.toFixed(4)}</p>
+                    <p><strong>Δσ (Flexibility):</strong> ${analysis.delta_sigma.toFixed(4)}</p>
+                    <p><strong>Processing Time:</strong> ${analysis.processing_time_ms}ms</p>
+                    <p><strong>Request ID:</strong> ${analysis.request_id}</p>
+                `;
+                
+            } catch (error) {
+                statusDiv.textContent = 'Error: ' + error.message;
+                console.error('WASM test failed:', error);
+            }
+        }
+
+        testWasm();
+    </script>
+</body>
+</html> 

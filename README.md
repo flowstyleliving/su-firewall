@@ -254,3 +254,4 @@ This project is licensed under the MIT License - see [LICENSING.md](LICENSING.md
 
 **Built with ❤️ using Cloudflare Workers, Streamlit, and Rust**
 **Built with ❤️ for semantic uncertainty analysis**
+**Built with ❤️ for semantic uncertainty analysis**

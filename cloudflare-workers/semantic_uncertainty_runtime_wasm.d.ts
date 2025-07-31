@@ -13,10 +13,7 @@ export interface InitOutput {
   readonly __wbg_simplewasmanalyzer_free: (a: number, b: number) => void;
   readonly simplewasmanalyzer_new: () => number;
   readonly simplewasmanalyzer_analyze: (a: number, b: number, c: number, d: number, e: number) => [number, number, number];
-  readonly ring_core_0_17_14__bn_mul_mont: (a: number, b: number, c: number, d: number, e: number, f: number) => void;
-  readonly __wbindgen_exn_store: (a: number) => void;
-  readonly __externref_table_alloc: () => number;
-  readonly __wbindgen_export_2: WebAssembly.Table;
+  readonly __wbindgen_export_0: WebAssembly.Table;
   readonly __wbindgen_malloc: (a: number, b: number) => number;
   readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
   readonly __externref_table_dealloc: (a: number) => void;

@@ -1,26 +1,38 @@
-name = "semantic-uncertainty-runtime-physics"
-main = "index.js"
+# 🚀 Semantic Uncertainty Runtime - Cloudflare Worker
+# Core Equation: ℏₛ = √(Δμ × Δσ) - Monte Carlo WASM Integration
+
+name = "semantic-uncertainty-runtime"
+main = "./index.js"
 compatibility_date = "2024-01-01"
 account_id = "d1f76fed7998d07d9acc44b30f009b02"
 
-# Domain configuration
+# 📦 Static Assets for WASM/JS files
+[site]
+bucket = "."
+
+# 🎯 Production Environment
 [env.production]
-name = "semantic-uncertainty-runtime-physics-production"
-vars = { RUNTIME_PHYSICS_ENABLED = "true", LAW_CURVATURE_ENABLED = "true", LAW_METACOGNITIVE_ENABLED = "true", LAW_THERMODYNAMIC_ENABLED = "true", LAW_RESONANCE_ENABLED = "true" }
+name = "semantic-uncertainty-runtime-production"
+vars = { WASM_ENABLED = "true", SIMPLE_MODE = "true" }
+
+# 🌐 Domain Configuration
+[[env.production.routes]]
+pattern = "api.semanticuncertainty.com/*"
+zone_name = "semanticuncertainty.com"
 
 [[env.production.routes]]
 pattern = "semanticuncertainty.com/api/*"
 zone_name = "semanticuncertainty.com"
 
-[env.staging.vars]
-RUNTIME_PHYSICS_ENABLED = "true"
-LAW_CURVATURE_ENABLED = "true"
-LAW_METACOGNITIVE_ENABLED = "false"
-LAW_THERMODYNAMIC_ENABLED = "true"
-LAW_RESONANCE_ENABLED = "false"
+[[env.production.routes]]
+pattern = "semanticuncertainty.com/health"
+zone_name = "semanticuncertainty.com"
 
-# KV namespace for usage tracking
-[[kv_namespaces]]
-binding = "USAGE_TRACKER"
-id = "your-kv-namespace-id"
-preview_id = "your-preview-kv-namespace-id"
+[[env.production.routes]]
+pattern = "api.semanticuncertainty.com/semantic_uncertainty_runtime_wasm*"
+zone_name = "semanticuncertainty.com"
+
+# 🧪 Staging Environment
+[env.staging]
+name = "semantic-uncertainty-runtime-staging"
+vars = { WASM_ENABLED = "true", SIMPLE_MODE = "true" }
