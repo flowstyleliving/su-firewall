@@ -77,3 +77,25 @@ build/
 target/
 *.tgz
 *.tar.gz 
+
+# Next.js build cache
+.next/
+**/.next/
+
+# Logs and PIDs
+logs/
+*.pid
+.pytorch_pid
+.frontend_pid
+real-time-engine/.pids/
+
+# Local virtual environments
+venv/
+venv_python311/
+real-time-engine/venv/
+
+# Cache directories
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/ 
