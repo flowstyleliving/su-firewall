@@ -1,0 +1,37 @@
+# 🤖 Mistral 7B Live Auditing Server Requirements
+# Core ML/AI dependencies  
+torch>=1.13.0
+transformers>=4.30.0
+accelerate>=0.24.0
+tokenizers>=0.15.0
+safetensors>=0.4.0
+sentencepiece>=0.1.99
+
+# HuggingFace ecosystem
+huggingface-hub>=0.19.0
+datasets>=2.14.0
+
+# Quantization support (optional)
+bitsandbytes>=0.41.0; platform_machine != "arm64"
+
+# Web server and networking
+flask>=2.3.0
+flask-socketio>=5.3.0
+websockets>=11.0.0
+requests>=2.31.0
+
+# Real-time communication
+python-socketio>=5.8.0
+eventlet>=0.33.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Utilities
+tqdm>=4.66.0
+psutil>=5.9.0
+pyyaml>=6.0
+
+# Hardware monitoring (for Mac)
+py-cpuinfo>=9.0.0 

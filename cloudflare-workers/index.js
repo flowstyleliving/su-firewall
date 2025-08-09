@@ -199,7 +199,7 @@ export default {
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }
       });
     }
-    
+
     // Analysis endpoint
     if (url.pathname === '/api/v1/analyze' && request.method === 'POST') {
       try {
@@ -242,7 +242,7 @@ export default {
     return new Response(JSON.stringify({
       error: 'Endpoint not found',
       available_endpoints: ['/health', '/api/v1/health', '/api/v1/analyze']
-    }), {
+    }), { 
       status: 404,
       headers: { ...corsHeaders, 'Content-Type': 'application/json' }
     });

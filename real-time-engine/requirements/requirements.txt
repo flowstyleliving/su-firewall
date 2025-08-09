@@ -1,0 +1,26 @@
+# 🐍 Python Dependencies for Mistral 7B Live Auditing Server
+# Core ML and NLP libraries
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.21.0
+sentencepiece>=0.1.99
+
+# Web server and networking
+flask>=2.3.0
+flask-socketio>=5.3.0
+websockets>=11.0.0
+requests>=2.31.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Logging and utilities
+python-socketio>=5.8.0
+eventlet>=0.33.0
+
+# Optional: For better performance with quantization
+# bitsandbytes>=0.41.0  # Uncomment if you want 8-bit/4-bit quantization
+
+# Optional: For GPU acceleration monitoring
+# nvidia-ml-py>=11.495.46  # Uncomment if you want GPU monitoring 

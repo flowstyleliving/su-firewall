@@ -1,6 +1,7 @@
 // 🚀 Simplified WASM Implementation for Core Equation
 // ℏₛ = √(Δμ × Δσ) - Pure mathematical implementation
 
+#[cfg(feature = "wasm")]
 use wasm_bindgen::prelude::*;
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
@@ -16,16 +17,18 @@ pub struct SimpleAnalysisResult {
     pub timestamp: String,
 }
 
+#[cfg(feature = "wasm")]
 #[wasm_bindgen]
 pub struct SimpleWasmAnalyzer;
 
+#[cfg(feature = "wasm")]
 #[wasm_bindgen]
 impl SimpleWasmAnalyzer {
     #[wasm_bindgen(constructor)]
     pub fn new() -> SimpleWasmAnalyzer {
         SimpleWasmAnalyzer
     }
-    
+
     #[wasm_bindgen]
     pub fn analyze(&self, prompt: &str, output: &str) -> Result<JsValue, JsValue> {
         let start_time = std::time::Instant::now();

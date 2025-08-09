@@ -1488,7 +1488,11 @@ impl PerformanceMetrics {
     }
 }
 
-
+// Temporarily comment out modules with compilation issues
+// Temporarily commented out modules to fix compilation
+// pub mod oss_logit_adapter;
+// pub mod live_response_auditor;
+// pub mod audit_interface;
 
 // Simplified WASM module for core equation
 pub mod wasm_simple;
