@@ -25,13 +25,26 @@ pub struct ModelsRegistry {
 
 impl ModelsRegistry {
     pub fn load_from_file(path: &str) -> anyhow::Result<Self> {
-        let data = fs::read_to_string(path)?;
-        let cfg: ModelsConfig = serde_json::from_str(&data)?;
-        let mut by = HashMap::new();
-        for m in cfg.models.iter() {
-            by.insert(m.id.clone(), m.clone());
+        // Try provided path first, then fall back to ../config when running from crate dir
+        let candidates = [path, "../config/models.json"];
+        let mut last_err: Option<anyhow::Error> = None;
+        for p in candidates.iter() {
+            match fs::read_to_string(p) {
+                Ok(data) => {
+                    let cfg: ModelsConfig = serde_json::from_str(&data)?;
+                    let mut by = HashMap::new();
+                    for m in cfg.models.iter() {
+                        by.insert(m.id.clone(), m.clone());
+                    }
+                    return Ok(Self { default_id: cfg.default_model_id, by_id: by });
+                }
+                Err(e) => {
+                    last_err = Some(anyhow::Error::new(e));
+                    continue;
+                }
+            }
         }
-        Ok(Self { default_id: cfg.default_model_id, by_id: by })
+        Err(last_err.unwrap_or_else(|| anyhow::anyhow!("models config not found")))
     }
 
     pub fn get(&self, id: &str) -> Option<&ModelSpec> {

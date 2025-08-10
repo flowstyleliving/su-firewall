@@ -15,11 +15,37 @@ use semantic_uncertainty_runtime::information_theory::InformationTheoryCalculato
 mod models;
 use models::{ModelsRegistry, ModelSpec};
 
+#[derive(Debug, Clone, Serialize, Deserialize)]
+struct FailureLawConfig {
+    lambda: f64,
+    tau: f64,
+    risk_pfail_thresholds: RiskPfailThresholds,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+struct RiskPfailThresholds {
+    critical: f64,
+    high_risk: f64,
+    warning: f64,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+struct HbarThresholds {
+    // supercritical: hbar < supercritical
+    supercritical: f64,
+    // critical: supercritical <= hbar < critical
+    critical: f64,
+    // subcritical: hbar >= critical
+}
+
 #[derive(Clone)]
 struct AppState {
     broadcaster: broadcast::Sender<ServerEvent>,
     sessions: Arc<RwLock<HashMap<String, SessionState>>>,
     registry: Arc<ModelsRegistry>,
+    failure_law: Arc<FailureLawConfig>,
+    // derived hbar thresholds for regimes (using Pfail bands)
+    hbar_thresholds: Arc<HbarThresholds>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -69,17 +95,24 @@ async fn main() -> anyhow::Result<()> {
 
     let registry = Arc::new(ModelsRegistry::load_from_file("config/models.json")?);
 
+    // Load failure law config
+    let failure_law: FailureLawConfig = load_failure_law_config()?;
+    let hbar_thresholds = Arc::new(derive_hbar_thresholds(&failure_law));
+
     let (tx, _rx) = broadcast::channel(1024);
     let app_state = AppState {
         broadcaster: tx.clone(),
         sessions: Arc::new(RwLock::new(HashMap::new())),
         registry,
+        failure_law: Arc::new(failure_law),
+        hbar_thresholds,
     };
 
     let app = Router::new()
         .route("/health", get(|| async { "ok" }))
         .route("/ws", get(ws_handler))
         .route("/models", get(list_models))
+        .route("/failure_law", get(get_failure_law))
         .route("/session/new", post(new_session))
         .route("/session/:id/token", post(token_update))
         .with_state(app_state.clone());
@@ -96,6 +129,23 @@ async fn list_models(State(state): State<AppState>) -> impl IntoResponse {
     Json(serde_json::json!({
         "default_model_id": state.registry.default_id,
         "models": list
+    }))
+}
+
+async fn get_failure_law(State(state): State<AppState>) -> impl IntoResponse {
+    let thr = state.hbar_thresholds.clone();
+    Json(serde_json::json!({
+        "lambda": state.failure_law.lambda,
+        "tau": state.failure_law.tau,
+        "risk_pfail_thresholds": {
+            "critical": state.failure_law.risk_pfail_thresholds.critical,
+            "high_risk": state.failure_law.risk_pfail_thresholds.high_risk,
+            "warning": state.failure_law.risk_pfail_thresholds.warning
+        },
+        "hbar_thresholds": {
+            "supercritical": thr.supercritical,
+            "critical": thr.critical
+        }
     }))
 }
 
@@ -209,10 +259,10 @@ async fn token_update(
     sess.ema_hbar = Some(ema);
     sess.prev_probs = Some(probs.clone());
 
-    let failure_probability = failure_prob_from_hbar(hbar);
+    let failure_probability = failure_prob_from_hbar(hbar, state.failure_law.lambda, state.failure_law.tau);
 
-    let risk_level = risk_from_hbar(hbar);
-    let regime = regime_from_hbar(hbar);
+    let risk_level = risk_from_pfail(failure_probability, &state.failure_law.risk_pfail_thresholds);
+    let regime = regime_from_hbar(hbar, &state.hbar_thresholds);
 
     let anomaly = hbar < 1e-9 || entropy > 1e3 || jsd > 1e3;
 
@@ -240,22 +290,58 @@ async fn token_update(
     Json(payload)
 }
 
-fn failure_prob_from_hbar(hbar: f64) -> f64 {
-    let alpha = 5.0; // steepness
-    let beta = 1.0;  // threshold
-    1.0 / (1.0 + (alpha * (hbar - beta)).exp())
+fn failure_prob_from_hbar(hbar: f64, lambda: f64, tau: f64) -> f64 {
+    1.0 / (1.0 + (lambda * (hbar - tau)).exp())
 }
 
-fn risk_from_hbar(hbar: f64) -> &'static str {
-    if hbar < 0.1 { "critical" }
-    else if hbar < 0.3 { "warning" }
-    else if hbar < 0.4 { "high_risk" }
+fn invert_failure_law_for_hbar(pfail: f64, lambda: f64, tau: f64) -> f64 {
+    // Pfail = 1/(1 + exp(lambda*(hbar - tau)))
+    // Solve for hbar: hbar = tau - ln((1/p) - 1)/lambda
+    let odds_inv = (1.0 / pfail) - 1.0;
+    tau - odds_inv.ln() / lambda
+}
+
+fn derive_hbar_thresholds(cfg: &FailureLawConfig) -> HbarThresholds {
+    // Map Pfail bands to hbar thresholds. Example mapping:
+    // supercritical boundary: Pfail = critical (e.g., 0.8)
+    // critical boundary: Pfail = warning (e.g., 0.2)
+    let supercritical_hbar = invert_failure_law_for_hbar(cfg.risk_pfail_thresholds.critical, cfg.lambda, cfg.tau);
+    let critical_hbar = invert_failure_law_for_hbar(cfg.risk_pfail_thresholds.warning, cfg.lambda, cfg.tau);
+    HbarThresholds { supercritical: supercritical_hbar, critical: critical_hbar }
+}
+
+fn load_failure_law_config() -> anyhow::Result<FailureLawConfig> {
+    // Try local ./config then parent ../config; fallback to defaults
+    let candidates = [
+        "config/failure_law.json",
+        "../config/failure_law.json",
+    ];
+    for path in candidates.iter() {
+        if let Ok(text) = std::fs::read_to_string(path) {
+            if let Ok(cfg) = serde_json::from_str::<FailureLawConfig>(&text) {
+                return Ok(cfg);
+            }
+        }
+    }
+    let default_text = r#"{
+      "lambda": 5.0,
+      "tau": 1.0,
+      "risk_pfail_thresholds": { "critical": 0.8, "high_risk": 0.5, "warning": 0.2 }
+    }"#;
+    let cfg: FailureLawConfig = serde_json::from_str(default_text)?;
+    Ok(cfg)
+}
+
+fn risk_from_pfail(p: f64, thr: &RiskPfailThresholds) -> &'static str {
+    if p >= thr.critical { "critical" }
+    else if p >= thr.high_risk { "high_risk" }
+    else if p >= thr.warning { "warning" }
     else { "safe" }
 }
 
-fn regime_from_hbar(hbar: f64) -> &'static str {
-    if hbar < 0.1 { "supercritical" }
-    else if hbar < 0.4 { "critical" }
+fn regime_from_hbar(hbar: f64, thr: &HbarThresholds) -> &'static str {
+    if hbar < thr.supercritical { "supercritical" }
+    else if hbar < thr.critical { "critical" }
     else { "subcritical" }
 }
 
