@@ -350,20 +350,48 @@ impl SemanticMetricsCalculator {
             return Err("Matrix must be square to compute inverse".to_string());
         }
 
-        let det = matrix[[0, 0]] * matrix[[1, 1]] - matrix[[0, 1]] * matrix[[1, 0]];
-        if det.abs() < self.epsilon {
-            return Err("Matrix is singular or near-singular, cannot compute inverse".to_string());
+        // Fast path: diagonal matrix inversion (works for arbitrary size)
+        let mut is_diagonal = true;
+        for i in 0..rows {
+            for j in 0..cols {
+                if i != j && (matrix[[i, j]]).abs() > self.epsilon {
+                    is_diagonal = false;
+                    break;
+                }
+            }
+            if !is_diagonal { break; }
+        }
+        if is_diagonal {
+            let mut inverse = Array2::zeros((rows, cols));
+            for i in 0..rows {
+                let diag = matrix[[i, i]];
+                if diag.abs() < self.epsilon {
+                    return Err("Matrix is singular or near-singular, cannot compute inverse".to_string());
+                }
+                inverse[[i, i]] = 1.0 / diag;
+            }
+            return Ok(inverse);
         }
 
-        let inv_det = 1.0 / det;
-        let mut inverse = Array2::zeros((rows, cols));
+        // Existing 2x2 inversion path
+        if rows == 2 && cols == 2 {
+            let det = matrix[[0, 0]] * matrix[[1, 1]] - matrix[[0, 1]] * matrix[[1, 0]];
+            if det.abs() < self.epsilon {
+                return Err("Matrix is singular or near-singular, cannot compute inverse".to_string());
+            }
 
-        inverse[[0, 0]] = matrix[[1, 1]] * inv_det;
-        inverse[[1, 1]] = matrix[[0, 0]] * inv_det;
-        inverse[[0, 1]] = -matrix[[0, 1]] * inv_det;
-        inverse[[1, 0]] = -matrix[[1, 0]] * inv_det;
+            let inv_det = 1.0 / det;
+            let mut inverse = Array2::zeros((rows, cols));
 
-        Ok(inverse)
+            inverse[[0, 0]] = matrix[[1, 1]] * inv_det;
+            inverse[[1, 1]] = matrix[[0, 0]] * inv_det;
+            inverse[[0, 1]] = -matrix[[0, 1]] * inv_det;
+            inverse[[1, 0]] = -matrix[[1, 0]] * inv_det;
+
+            return Ok(inverse);
+        }
+
+        Err("Matrix inversion for non-diagonal matrices >2x2 is not implemented".to_string())
     }
 
     /// 🔧 Helper: Compute directional variance (u_C^T I(θ_C)⁻¹ u_C)
@@ -379,28 +407,27 @@ impl SemanticMetricsCalculator {
 
     /// 🔧 Helper: Simulate Fisher Information matrix from text characteristics
     pub fn simulate_fisher_information(&self, prompt: &str, output: &str) -> Result<Array2<f64>, String> {
-        // In practice, this would be computed from the actual model's Fisher Information matrix
-        // For now, we'll simulate it based on text characteristics
-        
-        let prompt_complexity = self.calculate_complexity(prompt);
-        let output_complexity = self.calculate_complexity(output);
-        let semantic_distance = self.calculate_semantic_distance(prompt, output);
-        
-        // Simulate 2x2 Fisher Information matrix
-        let fisher_matrix = Array2::from_shape_vec(
-            (2, 2),
-            vec![
-                prompt_complexity, semantic_distance,
-                semantic_distance, output_complexity,
-            ],
-        ).map_err(|e| format!("Failed to create Fisher matrix: {}", e))?;
-        
-        // Ensure positive definiteness by adding small diagonal elements
-        let mut fisher_matrix = fisher_matrix;
-        fisher_matrix[[0, 0]] += 0.1;
-        fisher_matrix[[1, 1]] += 0.1;
-        
-        Ok(fisher_matrix)
+        // Construct a diagonal Fisher Information matrix matching the embedding dimension
+        // based on per-dimension semantic activity.
+        let prompt_embedding = self.text_to_embedding(prompt);
+        let output_embedding = self.text_to_embedding(output);
+        let direction = &output_embedding - &prompt_embedding;
+
+        let dim = direction.len();
+        if dim == 0 { return Err("Empty embedding dimension".to_string()); }
+
+        // Diagonal entries reflect per-dimension "information"; ensure positivity.
+        let mut fim = Array2::<f64>::zeros((dim, dim));
+        for i in 0..dim {
+            let pe = prompt_embedding[i].abs();
+            let oe = output_embedding[i].abs();
+            let de = direction[i].abs();
+            // Base regularization + semantic activity
+            let diag_val = (0.1 + pe + oe + de).max(self.epsilon);
+            fim[[i, i]] = diag_val;
+        }
+
+        Ok(fim)
     }
 
     /// 🔧 Helper: Create semantic direction vector from text

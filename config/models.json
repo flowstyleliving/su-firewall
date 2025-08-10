@@ -1,0 +1,37 @@
+{
+  "default_model_id": "mistral-7b",
+  "models": [
+    {
+      "id": "mixtral-8x7b",
+      "display_name": "Mixtral-8x7B (Apache-2.0)",
+      "hf_repo": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "context_len": 32000,
+      "quant": "4bit-ok",
+      "notes": "MoE SOTA; use router logits optionally"
+    },
+    {
+      "id": "mistral-7b",
+      "display_name": "Mistral-7B (Apache-2.0)",
+      "hf_repo": "mistralai/Mistral-7B-Instruct-v0.2",
+      "context_len": 32000,
+      "quant": "4bit-ok",
+      "notes": "Strong 7B baseline"
+    },
+    {
+      "id": "qwen2.5-7b",
+      "display_name": "Qwen2.5-7B (Apache-2.0)",
+      "hf_repo": "Qwen/Qwen2.5-7B-Instruct",
+      "context_len": 131072,
+      "quant": "4bit-ok",
+      "notes": "Multilingual + coding"
+    },
+    {
+      "id": "pythia-6.9b",
+      "display_name": "Pythia-6.9B (Apache-2.0)",
+      "hf_repo": "EleutherAI/pythia-6.9b",
+      "context_len": 2048,
+      "quant": "4bit-ok",
+      "notes": "Calibration/baseline"
+    }
+  ]
+} 

@@ -61,11 +61,10 @@ pub enum CalibrationMode {
 
 impl Default for CalibrationMode {
     fn default() -> Self {
-        CalibrationMode::Pragmatic {
-            scaling: GoldenScaling::EmpiricalGolden, // Default to √(φ × 2.67²) ≈ 3.40
-            abort_threshold: 0.8,
-            warn_threshold: 1.0,
-            proceed_threshold: 1.2,
+        CalibrationMode::Scientific {
+            abort_threshold: 0.1,
+            warn_threshold: 0.3,
+            proceed_threshold: 0.4,
         }
     }
 }
@@ -127,57 +126,28 @@ pub struct SemanticUncertaintyResult {
 }
 
 impl CalibrationMode {
-    /// Apply calibration to raw ℏₛ value and determine risk level
+    /// Calibration disabled: identity mapping with fixed thresholds
     pub fn calibrate(&self, raw_hbar: f64) -> (f64, RiskLevel, String) {
-        match self {
-            CalibrationMode::Scientific { abort_threshold, warn_threshold, proceed_threshold } => {
-                let calibrated = raw_hbar; // No scaling in scientific mode
-                let risk_level = if raw_hbar < *abort_threshold {
-                    RiskLevel::Critical  // 🚨 ABORT (< 0.1)
-                } else if raw_hbar < *warn_threshold {
-                    RiskLevel::Warning   // ⚠️ WARN (0.1-0.3)
-                } else if raw_hbar < *proceed_threshold {
-                    RiskLevel::HighRisk  // 🚨 HIGH RISK (0.3-0.4)
-                } else {
-                    RiskLevel::Safe      // ✅ SAFE (> 0.4)
-                };
-                
-                let explanation = format!(
-                    "Scientific mode: Using raw ℏₛ = {:.3} with empirical thresholds (abort: {:.1}, warn: {:.1}, proceed: {:.1})",
-                    raw_hbar, abort_threshold, warn_threshold, proceed_threshold
-                );
-                
-                (calibrated, risk_level, explanation)
-            },
-            
-            CalibrationMode::Pragmatic { scaling, abort_threshold, warn_threshold, proceed_threshold } => {
-                let scale_factor = scaling.factor();
-                let calibrated = raw_hbar * scale_factor;
-                
-                // CORRECTED LOGIC: Higher uncertainty = safer (natural), lower uncertainty = suspicious (hallucination)
-                let risk_level = if calibrated < *abort_threshold {
-                    RiskLevel::Critical  // 🚨 CRITICAL (< 0.8) - Very low uncertainty, likely hallucination
-                } else if calibrated < *warn_threshold {
-                    RiskLevel::Warning   // ⚠️ WARNING (0.8-1.0) - Low uncertainty, proceed with caution
-                } else if calibrated < *proceed_threshold {
-                    RiskLevel::HighRisk  // 🚨 HIGH RISK (1.0-1.2) - Medium uncertainty, review recommended
-                } else {
-                    RiskLevel::Safe      // ✅ SAFE (> 1.2) - High uncertainty, natural content
-                };
-                
-                let explanation = format!(
-                    "Pragmatic mode: Scaled raw ℏₛ = {:.3} × {:.3} ({}) = {:.3} with standard thresholds (abort: {:.1}, warn: {:.1}, proceed: {:.1})",
-                    raw_hbar, scale_factor, scaling.name(), calibrated, abort_threshold, warn_threshold, proceed_threshold
-                );
-                
-                (calibrated, risk_level, explanation)
-            }
-        }
+        let calibrated = raw_hbar;
+        let abort_threshold = 0.1;
+        let warn_threshold = 0.3;
+        let proceed_threshold = 0.4;
+        let risk_level = if raw_hbar < abort_threshold {
+            RiskLevel::Critical
+        } else if raw_hbar < warn_threshold {
+            RiskLevel::Warning
+        } else if raw_hbar < proceed_threshold {
+            RiskLevel::HighRisk
+        } else {
+            RiskLevel::Safe
+        };
+        let explanation = format!(
+            "Calibration disabled: identity mapping (abort: {:.1}, warn: {:.1}, proceed: {:.1})",
+            abort_threshold, warn_threshold, proceed_threshold
+        );
+        (calibrated, risk_level, explanation)
     }
 }
-
-// 🚀 Core streamlined engine (zero dependencies, deterministic)
-pub mod streamlined_engine;
 
 // 🧮 Semantic Precision Module (Fisher Information + JSD)
 pub mod semantic_metrics;
@@ -185,8 +155,6 @@ pub mod semantic_metrics;
 // 🎯 Multi-Axis Drift Tensor (MAD Tensor) for geometric diagnostics
 // pub mod mad_tensor; // REMOVED - migrated to JSD+KL divergence
 
-// 🧪 Simplified tests
-pub mod simplified_test;
 
 // 🧪 Hash Embedding Discrepancy Tests
 // #[cfg(test)]
@@ -227,14 +195,10 @@ pub mod alias_ambiguity_defense;
 pub mod architecture_detector;
 pub mod predictive_uncertainty;
 
-// 📤 Re-exports for streamlined usage
-pub use streamlined_engine::{
-    StreamlinedEngine, 
-    StreamlinedResult, 
-    TokenAnalysis, 
-    PromptClass,
-    EngineStats
-};
+// 🧠 Free Energy Principle metrics
+pub mod free_energy;
+
+// 📤 StreamlinedEngine removed; using SemanticAnalyzer only
 
 // 📤 Re-exports for semantic metrics
 pub use semantic_metrics::{
@@ -600,41 +564,26 @@ impl SemanticAnalyzer {
                 timeout_ms: self.config.timeout_ms 
             }),
         };
+
+        // Numerical stability warnings (lightweight)
+        let eps = 1e-9_f64;
+        if (raw_hbar as f64) < eps {
+            warn!("NumericalWarning: raw_hbar below epsilon: {:.3e}", raw_hbar);
+        }
+        if (delta_mu as f64) > 1e3 {
+            warn!("NumericalWarning: delta_mu unusually large: {:.3e}", delta_mu);
+        }
+        if (delta_sigma as f64) > 1e3 {
+            warn!("NumericalWarning: delta_sigma unusually large: {:.3e}", delta_sigma);
+        }
         
-        // 🏗️ Apply architecture-aware calibration and risk assessment
-        let (calibrated_hbar, risk_level, explanation) = if self.config.enable_architecture_detection {
-            let (abort_threshold, warn_threshold, proceed_threshold) = self.get_architecture_risk_thresholds(None);
-            
-            // Apply architecture-aware calibration
-            let calibration_factor = self.get_architecture_calibration(None);
-            let calibrated_hbar = raw_hbar as f64 * calibration_factor;
-            
-            // Determine risk level using architecture-specific thresholds
-            let risk_level = if calibrated_hbar < abort_threshold {
-                RiskLevel::Critical
-            } else if calibrated_hbar < warn_threshold {
-                RiskLevel::Warning
-            } else if calibrated_hbar < proceed_threshold {
-                RiskLevel::HighRisk
-            } else {
-                RiskLevel::Safe
-            };
-            
-            let explanation = format!(
-                "Architecture-aware calibration: raw ℏₛ = {:.3} × κ = {:.3} = {:.3} with architecture-specific thresholds (abort: {:.2}, warn: {:.2}, proceed: {:.2})",
-                raw_hbar, calibration_factor, calibrated_hbar, abort_threshold, warn_threshold, proceed_threshold
-            );
-            
-            (calibrated_hbar, risk_level, explanation)
-        } else {
-            // Use legacy calibration
-            self.calibration_mode.calibrate(raw_hbar as f64)
-        };
+        // Identity calibration (plug-and-play)
+        let (calibrated_hbar, risk_level, explanation) = self.calibration_mode.calibrate(raw_hbar as f64);
         
         let processing_time_ms = start_time.elapsed().as_secs_f64() * 1000.0;
         
-        debug!("Calibrated analysis completed: raw_ℏₛ={:.4}, calibrated_ℏₛ={:.4}, risk={:?}, time={:.2}ms", 
-               raw_hbar, calibrated_hbar, risk_level, processing_time_ms);
+        debug!("Analysis completed: raw_ℏₛ={:.4}, risk={:?}, time={:.2}ms", 
+               raw_hbar, risk_level, processing_time_ms);
 
         Ok(SemanticUncertaintyResult {
             request_id,
