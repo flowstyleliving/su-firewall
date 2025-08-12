@@ -427,11 +427,6 @@ Apply risk classification and choose appropriate action.
 - 🧮 Uncertainty computation
 - 🎯 Decision making
 
-### 🚨 Risk Levels
-- 🔴 Critical risk (ℏₛ < 1.0)
-- 🟡 Moderate risk (1.0 ≤ ℏₛ < 1.2)
-- 🟢 Stable/Safe (ℏₛ ≥ 1.2)
-
 ### ⚡ Action Types
 - ✅ Execute/Approve
 - 👀 Monitor/Watch
@@ -460,3 +455,83 @@ Apply risk classification and choose appropriate action.
 
 3. **🌊 Calculate Flexibility (Δσ)**
    - Base flexibility for situation
+```
+
+## TODO: Demo-Ready Real Inference Integration
+
+- Current Issue:
+  - Dashboard shows repeated tokens like "responds responds..." and "across across..."
+  - This is from the local simulator with tiny vocab + EMA smoothing, NOT real model inference
+  - Need to ensure CTO demo uses actual model inference, not simulation
+
+- Required Changes:
+  - Real Inference Integration
+    - Ensure dashboard connects to Ollama bridge for true inference
+    - Use `scripts/start_ollama.sh` and `scripts/demo_multi_models.sh` paths
+    - Configure decoding settings for clean output:
+      - temperature: 0.7–0.9
+      - top_p: 0.9–0.95
+      - repetition_penalty: ~1.15
+      - repeat_last_n: 256
+
+- Goal:
+  - Clean dashboard that streams real model inference with proper uncertainty analysis, avoiding simulation artifacts that would confuse executives during demos.
+```
+
+## TODO (High Priority)
+- Multi-model concurrent demo in Streamlit
+  - Add a control to spin up 4 sessions concurrently (Mistral-7B, Mixtral-8x7B, Qwen2.5-7B, Pythia-6.9B)
+  - Launch 4 Ollama bridges in parallel and render a 2x2 grid of live streams
+  - Display per-model deltas: avg ℏₛ, failure_probability, avg latency
+  - One-click "Run all" and predefined prompts for pass/fail/edge
+
+## TODO: Mission Critical Real-Time Collapse Monitor 🚨
+
+- Primary Alert Status (Top Priority)
+  - Prominent Pfail percentage display (0–100%) with color coding
+  - Regime badge: stable/transitional/unstable with emoji
+  - Trend arrow with velocity (increasing/decreasing/stable)
+- Threshold Proximity (Early Warning)
+  - Distance to next threshold (e.g., "0.12 from transitional")
+  - Threshold breach countdown/progress bar
+  - Sparkline: last 30 tokens of ℏₛ movement
+- Model Identification (Context)
+  - Model name and session ID
+  - Token count and session duration
+  - Last few tokens when spike occurred
+- Actionable Metrics (Decision Support)
+  - Rolling uncertainty trend (e.g., 30-token EMA)
+  - Anomaly flag (statistical outlier detection)
+  - Recommended action: Monitor / Review / Halt with confidence score
+- Comparison Context (Baseline)
+  - Other active models: relative health
+  - Historical baseline vs domain/model
+  - Cross-model correlation and regime agreement
+
+Layout priority: Pfail % → Regime → Trend → Action. All else is supporting context.
+
+## TODO: Frontend Controls for Precision/Flexibility ⚙️
+
+- Hash Embeddings Toggles
+  - Separate toggles for Precision and Flexibility paths
+  - Auto-disable hash for "Fisher Full Matrix" precision
+- Precision Method Dropdown
+  - Fisher Diagonal (Fast): 1/√(u^T I_diag u)
+  - Fisher Full Matrix (Slow): 1/√(u^T I u)
+  - Gradient Magnitude (Fast): 1/||∇_θ log p(token)||
+  - Hessian Diagonal (Medium): 1/√(diag(H))
+  - Information Gain (Medium): 1/√(KL(prior||posterior))
+- Flexibility Method Dropdown
+  - Fisher Diagonal + Hash (Fast)
+  - Fisher Diagonal (Full) (Medium)
+  - Max Entropy (Fast)
+  - KL Divergence + Jensen-Shannon (Medium)
+  - Wasserstein (Slow)
+  - Spectral Entropy (Medium)
+  - Ensemble Average (Slow)
+- Performance Indicators
+  - Show speed tags next to methods: (Fast/Medium/Slow) with ⚡ indicators
+- Domain-Specific Tuning
+  - Dropdown: code/image/text with calibration hints
+- Real-time Visuals
+  - Live charts of ℏₛ, Pfail, regime bands, and threshold proximity
