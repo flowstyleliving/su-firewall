@@ -1,0 +1,13 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+realtime = { path = "../realtime", features = ["api"] }
+preprompt = { path = "../preprompt" }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt", "ansi"] }
+axum = { version = "0.7" }
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+tower-http = { version = "0.5", features = ["fs"] } 

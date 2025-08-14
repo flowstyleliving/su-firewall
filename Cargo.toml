@@ -1,5 +1,9 @@
 [workspace]
 members = [
-    "core-engine",
-    "real-time-engine",
-] 
+	"common",
+	"preprompt",
+	"realtime",
+	"server",
+	"realtime/web-ui"
+]
+workspace.resolver = "2" 

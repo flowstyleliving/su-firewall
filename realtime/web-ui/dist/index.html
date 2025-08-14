@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Realtime ℏ_s Dashboard</title>
+<link rel="modulepreload" href="/realtime-web-ui-7ddb724604533102.js" crossorigin="anonymous" integrity="sha384-SD2mlwbFjLHHXIBSdDa2xAoiFbls0FbHQle7kOe569Z2tjxQp0Pd4HXuCQGivwgB"><link rel="preload" href="/realtime-web-ui-7ddb724604533102_bg.wasm" crossorigin="anonymous" integrity="sha384-j+Ysb/eS4/3JrHJt009hIeZ07LiMvwS6E6rpQ5uO2wdYkJscR/Mr8/7Hf9e7Iqxy" as="fetch" type="application/wasm"></head>
+<body>
+	<div id="root"></div>
+	<script type="module">
+		import init from "./realtime-web-ui.js";
+		init();
+	</script>
+
+<script type="module">
+import init, * as bindings from '/realtime-web-ui-7ddb724604533102.js';
+const wasm = await init({ module_or_path: '/realtime-web-ui-7ddb724604533102_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html> 

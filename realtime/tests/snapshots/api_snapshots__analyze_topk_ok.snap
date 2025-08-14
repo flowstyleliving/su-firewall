@@ -1,0 +1,16 @@
+---
+source: realtime/tests/api_snapshots.rs
+expression: json
+---
+{
+  "delta_mu": 0.003900000000000009,
+  "delta_sigma": 0.26457513110645897,
+  "free_energy": 0.9630082441355572,
+  "hbar_s": 0.032122313293335404,
+  "method": "full_fim_dir",
+  "model_id": "test-model",
+  "p_fail": 0.007849784577996727,
+  "processing_time_ms": 0.0,
+  "request_id": "<redacted>",
+  "timestamp": "<redacted>"
+}

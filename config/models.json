@@ -2,36 +2,76 @@
   "default_model_id": "mistral-7b",
   "models": [
     {
-      "id": "mixtral-8x7b",
+      "context_len": 32000,
       "display_name": "Mixtral-8x7B (Apache-2.0)",
+      "failure_law": {
+        "lambda": 4.5,
+        "tau": 1.2
+      },
       "hf_repo": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "context_len": 32000,
-      "quant": "4bit-ok",
-      "notes": "MoE SOTA; use router logits optionally"
+      "id": "mixtral-8x7b",
+      "notes": "MoE SOTA; use router logits optionally",
+      "quant": "4bit-ok"
     },
     {
-      "id": "mistral-7b",
+      "context_len": 32000,
       "display_name": "Mistral-7B (Apache-2.0)",
+      "failure_law": {
+        "lambda": 0.5,
+        "tau": 1.700000000000001
+      },
       "hf_repo": "mistralai/Mistral-7B-Instruct-v0.2",
+      "id": "mistral-7b",
+      "notes": "Strong 7B baseline",
+      "quant": "4bit-ok"
+    },
+    {
       "context_len": 32000,
-      "quant": "4bit-ok",
-      "notes": "Strong 7B baseline"
-    },
-    {
-      "id": "qwen2.5-7b",
       "display_name": "Qwen2.5-7B (Apache-2.0)",
+      "failure_law": {
+        "lambda": 2.5,
+        "tau": 0.9
+      },
       "hf_repo": "Qwen/Qwen2.5-7B-Instruct",
-      "context_len": 131072,
-      "quant": "4bit-ok",
-      "notes": "Multilingual + coding"
+      "id": "qwen2.5-7b",
+      "notes": "Solid multi-lingual reasoning",
+      "quant": "4bit-ok"
     },
     {
-      "id": "pythia-6.9b",
-      "display_name": "Pythia-6.9B (Apache-2.0)",
-      "hf_repo": "EleutherAI/pythia-6.9b",
       "context_len": 2048,
-      "quant": "4bit-ok",
-      "notes": "Calibration/baseline"
+      "display_name": "Pythia-6.9B (Apache-2.0)",
+      "failure_law": {
+        "lambda": 3.8,
+        "tau": 1.1
+      },
+      "hf_repo": "EleutherAI/pythia-6.9b",
+      "id": "pythia-6.9b",
+      "notes": "Calibration/baseline lane",
+      "quant": "4bit-ok"
+    },
+    {
+      "context_len": 1024,
+      "display_name": "DialoGPT-medium (HF)",
+      "failure_law": {
+        "lambda": 0.5,
+        "tau": 1.8
+      },
+      "hf_repo": "microsoft/DialoGPT-medium",
+      "id": "dialogpt-medium",
+      "notes": "Lightweight full-grad/logit node for consensus",
+      "quant": "fp32"
+    },
+    {
+      "context_len": 8192,
+      "display_name": "Ollama Mistral:7B (logits-only)",
+      "failure_law": {
+        "lambda": 1.0,
+        "tau": 0.0
+      },
+      "hf_repo": "ollama/mistral:7b",
+      "id": "ollama-mistral-7b",
+      "notes": "Edge-friendly; top-k logprobs via Ollama for diagonal Fisher",
+      "quant": "ollama"
     }
   ]
-} 
+}

@@ -120,6 +120,20 @@ def validate_rolling(results: List[Dict[str, Any]]) -> None:
         print("- rolling_hbar_s accumulation check inconclusive")
 
 
+# New: model differentiation test
+
+def test_model_differentiation() -> None:
+    """Test if different models show different uncertainty signatures"""
+    models = ["mistral-7b", "mixtral-8x7b", "qwen2.5-7b", "pythia-6.9b"]
+    test_probs = [0.6, 0.25, 0.15]  # Same input for all models (sums to 1)
+
+    print("\n=== Model Differentiation Test ===")
+    for model in models:
+        sid = create_session(model)
+        resp = post_token(sid, 0, "test", test_probs)
+        print(f"{model}: hbar={resp['hbar_s']:.6f}, pfail={resp['failure_probability']:.6f}")
+
+
 def make_sequence_stable_to_uniform(k: int = 5, steps: int = 8) -> List[List[float]]:
     seq = []
     uniform = [1.0 / k] * k
@@ -178,6 +192,9 @@ def main():
     validate_failure_law(res3)
     validate_regimes(res3)
     validate_rolling(res3)
+
+    # Run model differentiation test at the end
+    test_model_differentiation()
 
     print("\nAll tests executed.")
 
