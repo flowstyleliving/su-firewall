@@ -5,8 +5,8 @@
       "context_len": 32000,
       "display_name": "Mixtral-8x7B (Apache-2.0)",
       "failure_law": {
-        "lambda": 4.5,
-        "tau": 1.2
+        "lambda": 0.1,
+        "tau": 0.3
       },
       "hf_repo": "mistralai/Mixtral-8x7B-Instruct-v0.1",
       "id": "mixtral-8x7b",
@@ -17,8 +17,9 @@
       "context_len": 32000,
       "display_name": "Mistral-7B (Apache-2.0)",
       "failure_law": {
-        "lambda": 0.5,
-        "tau": 1.700000000000001
+        "lambda": 0.1,
+        "last_optimized": "2025-08-17T11:03:28.024602+00:00",
+        "tau": 1.115
       },
       "hf_repo": "mistralai/Mistral-7B-Instruct-v0.2",
       "id": "mistral-7b",
@@ -29,8 +30,8 @@
       "context_len": 32000,
       "display_name": "Qwen2.5-7B (Apache-2.0)",
       "failure_law": {
-        "lambda": 2.5,
-        "tau": 0.9
+        "lambda": 0.1,
+        "tau": 0.3
       },
       "hf_repo": "Qwen/Qwen2.5-7B-Instruct",
       "id": "qwen2.5-7b",
@@ -41,8 +42,8 @@
       "context_len": 2048,
       "display_name": "Pythia-6.9B (Apache-2.0)",
       "failure_law": {
-        "lambda": 3.8,
-        "tau": 1.1
+        "lambda": 0.1,
+        "tau": 0.3
       },
       "hf_repo": "EleutherAI/pythia-6.9b",
       "id": "pythia-6.9b",
@@ -53,8 +54,8 @@
       "context_len": 1024,
       "display_name": "DialoGPT-medium (HF)",
       "failure_law": {
-        "lambda": 0.5,
-        "tau": 1.8
+        "lambda": 1.0,
+        "tau": 2.083
       },
       "hf_repo": "microsoft/DialoGPT-medium",
       "id": "dialogpt-medium",
@@ -65,8 +66,8 @@
       "context_len": 8192,
       "display_name": "Ollama Mistral:7B (logits-only)",
       "failure_law": {
-        "lambda": 1.0,
-        "tau": 0.0
+        "lambda": 0.1,
+        "tau": 0.3
       },
       "hf_repo": "ollama/mistral:7b",
       "id": "ollama-mistral-7b",

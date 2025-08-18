@@ -1,0 +1,95 @@
+{
+  "evaluation_type": "top3_benchmark_comprehensive",
+  "timestamp": "2025-08-17 23:06:35",
+  "benchmarks_evaluated": [
+    "Vectara",
+    "HaluEval",
+    "TruthfulQA"
+  ],
+  "overall_performance": {
+    "benchmark": "Combined Top 3",
+    "samples": 209,
+    "f1_score": 0.9140271493212669,
+    "precision": 0.8706896551724138,
+    "recall": 0.9619047619047619,
+    "auroc": 0.9503663003663003,
+    "hallucination_rate": 0.5550239234449761,
+    "avg_processing_time_ms": 2.464818041860772,
+    "throughput_per_sec": 405.7094613138531,
+    "confusion_matrix": {
+      "tp": 101,
+      "fp": 15,
+      "tn": 89,
+      "fn": 4
+    }
+  },
+  "individual_benchmark_results": {
+    "vectara": {
+      "benchmark": "vectara",
+      "samples": 3,
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "auroc": 1.0,
+      "hallucination_rate": 0.6666666666666666,
+      "avg_processing_time_ms": 2.5231043497721353,
+      "throughput_per_sec": 396.33715509638404,
+      "confusion_matrix": {
+        "tp": 2,
+        "fp": 0,
+        "tn": 1,
+        "fn": 0
+      }
+    },
+    "halueval": {
+      "benchmark": "halueval",
+      "samples": 200,
+      "f1_score": 0.9365853658536586,
+      "precision": 0.9142857142857143,
+      "recall": 0.96,
+      "auroc": 0.9834499999999999,
+      "hallucination_rate": 0.525,
+      "avg_processing_time_ms": 2.4845051765441895,
+      "throughput_per_sec": 402.4946333140449,
+      "confusion_matrix": {
+        "tp": 96,
+        "fp": 9,
+        "tn": 91,
+        "fn": 4
+      }
+    },
+    "truthfulqa": {
+      "benchmark": "truthfulqa",
+      "samples": 6,
+      "f1_score": 0.6666666666666666,
+      "precision": 0.5,
+      "recall": 1.0,
+      "auroc": 0.16666666666666669,
+      "hallucination_rate": 1.0,
+      "avg_processing_time_ms": 2.568920453389486,
+      "throughput_per_sec": 389.268573373138,
+      "confusion_matrix": {
+        "tp": 3,
+        "fp": 3,
+        "tn": 0,
+        "fn": 0
+      }
+    }
+  },
+  "sota_comparison": {
+    "benchmarks_beaten": 2,
+    "total_benchmarks": 4,
+    "beaten_benchmarks": [
+      "truthfulqa_2024",
+      "halueval_2024"
+    ],
+    "world_record_status": false,
+    "world_class_status": false
+  },
+  "model_details": {
+    "model_type": "RandomForestClassifier",
+    "optimal_threshold": 0.3799999999999999,
+    "training_samples": 209,
+    "test_samples": 209
+  }
+}

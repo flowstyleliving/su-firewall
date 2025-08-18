@@ -1,0 +1,2882 @@
+[
+  {
+    "model_id": "mixtral-8x7b",
+    "display_name": "Mixtral-8x7B (Apache-2.0)",
+    "lambda": 1.9549242658899824,
+    "tau": 0.3089301264078816,
+    "test_results": [
+      {
+        "test_case": "The capital of France is",
+        "correct_hbar": 0.02426773660114072,
+        "wrong_hbar": 0.025054264925378843,
+        "hbar_discrimination": -0.0007865283242381241,
+        "correct_pfail": 0.3643592037646245,
+        "wrong_pfail": 0.36471538932779585,
+        "pfail_discrimination": 0.00035618556317135175,
+        "correct_fim_eigenvalue": 54685863936.0,
+        "wrong_fim_eigenvalue": 48799932416.0,
+        "fim_discrimination": 5885931520.0,
+        "correct_entropy": 4.554202556610107,
+        "wrong_entropy": 4.509885311126709,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02426773660114072,
+            "fisher_fisher": 0.0001381129986839369,
+            "fisher_hash": 7.01283715898171e-05,
+            "hash_fisher": 0.047380189953277134,
+            "hash_hash": 0.024057804518943852,
+            "entropy_fisher": 0.05083342694501282,
+            "fisher_variance": 6.593476427951828e-05,
+            "hash_variance": 0.02261917086845055,
+            "entropy_hash": 0.025811222995878784,
+            "components": {
+              "precision_entropy": 0.5792847598893831,
+              "precision_fisher": 4.276243544154568e-06,
+              "precision_hash": 0.5032536351539015,
+              "flexibility_variance": 0.0010166382417082787,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0011500720866024494,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.025054264925378843,
+            "fisher_fisher": 0.00014210146036930382,
+            "fisher_hash": 7.42302363505587e-05,
+            "hash_fisher": 0.047547321355756546,
+            "hash_hash": 0.024837528336657456,
+            "entropy_fisher": 0.0510127394793554,
+            "fisher_variance": 6.979134195717052e-05,
+            "hash_variance": 0.023352268431326765,
+            "entropy_hash": 0.02664777586246959,
+            "components": {
+              "precision_entropy": 0.5833787676421843,
+              "precision_fisher": 4.526790689851623e-06,
+              "precision_hash": 0.5068103043891475,
+              "flexibility_variance": 0.0010760010918602347,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0012172262649983168,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0007865283242381241,
+            "fisher_fisher": -3.988461685366929e-06,
+            "fisher_hash": -4.1018647607415915e-06,
+            "hash_fisher": -0.00016713140247941183,
+            "hash_hash": -0.0007797238177136047,
+            "entropy_fisher": -0.00017931253434257804,
+            "fisher_variance": -3.85657767765224e-06,
+            "hash_variance": -0.0007330975628762164,
+            "entropy_hash": -0.0008365528665908069
+          }
+        }
+      },
+      {
+        "test_case": "2 + 2 equals",
+        "correct_hbar": 0.0199160196090562,
+        "wrong_hbar": 0.0200547451883846,
+        "hbar_discrimination": -0.00013872557932839702,
+        "correct_pfail": 0.36239118781335117,
+        "wrong_pfail": 0.36245385419638404,
+        "pfail_discrimination": 6.26663830328722e-05,
+        "correct_fim_eigenvalue": 1686075264.0,
+        "wrong_fim_eigenvalue": 1159058816.0,
+        "fim_discrimination": 527016448.0,
+        "correct_entropy": 5.423454284667969,
+        "wrong_entropy": 5.467616081237793,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.0199160196090562,
+            "fisher_fisher": 0.00032959895906969905,
+            "fisher_hash": 0.00014214722614269704,
+            "hash_fisher": 0.04613536369213698,
+            "hash_hash": 0.01989695037922214,
+            "entropy_fisher": 0.047178944932812286,
+            "fisher_variance": 0.00013913620205130428,
+            "hash_variance": 0.019475484440613346,
+            "entropy_hash": 0.020347019100929054,
+            "components": {
+              "precision_entropy": 0.49898366547371353,
+              "precision_fisher": 2.4353506887564436e-05,
+              "precision_hash": 0.4771531301092386,
+              "flexibility_variance": 0.0007949114660732448,
+              "flexibility_fisher": 0.004460772965103388,
+              "flexibility_hash": 0.0008296888554468751,
+              "hash_factor": 0.95625
+            }
+          },
+          "wrong": {
+            "basic": 0.0200547451883846,
+            "fisher_fisher": 0.0003619747585617006,
+            "fisher_hash": 0.0001674747036304325,
+            "hash_fisher": 0.04267682638667536,
+            "hash_hash": 0.019745268675744377,
+            "entropy_fisher": 0.04698563946231812,
+            "fisher_variance": 0.00015450063801836222,
+            "hash_variance": 0.01821562691128428,
+            "entropy_hash": 0.021738825344679115,
+            "components": {
+              "precision_entropy": 0.49490401802355277,
+              "precision_fisher": 2.9372929930104874e-05,
+              "precision_hash": 0.408295814869431,
+              "flexibility_variance": 0.0008126682951115072,
+              "flexibility_fisher": 0.004460764583200216,
+              "flexibility_hash": 0.0009548852103762329,
+              "hash_factor": 0.825
+            }
+          },
+          "discriminations": {
+            "basic": -0.00013872557932839702,
+            "fisher_fisher": -3.2375799492001534e-05,
+            "fisher_hash": -2.532747748773545e-05,
+            "hash_fisher": 0.003458537305461619,
+            "hash_hash": 0.00015168170347776289,
+            "entropy_fisher": 0.00019330547049416918,
+            "fisher_variance": -1.5364435967057943e-05,
+            "hash_variance": 0.0012598575293290663,
+            "entropy_hash": -0.0013918062437500607
+          }
+        }
+      },
+      {
+        "test_case": "Shakespeare wrote",
+        "correct_hbar": 0.022975924173396164,
+        "wrong_hbar": 0.026132920277138375,
+        "hbar_discrimination": -0.0031569961037422115,
+        "correct_pfail": 0.36377451879227757,
+        "wrong_pfail": 0.3652041078661055,
+        "pfail_discrimination": 0.0014295890738279526,
+        "correct_fim_eigenvalue": 65328078848.0,
+        "wrong_fim_eigenvalue": 42635956224.0,
+        "fim_discrimination": 22692122624.0,
+        "correct_entropy": 4.814688205718994,
+        "wrong_entropy": 4.307552814483643,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.022975924173396164,
+            "fisher_fisher": 0.00013210769975557923,
+            "fisher_hash": 6.611255230382085e-05,
+            "hash_fisher": 0.045202565701353094,
+            "hash_hash": 0.02262136872584876,
+            "entropy_fisher": 0.0497663869279334,
+            "fisher_variance": 6.099089659983292e-05,
+            "hash_variance": 0.020868919487790002,
+            "entropy_hash": 0.024905307284722154,
+            "components": {
+              "precision_entropy": 0.5552212095646061,
+              "precision_fisher": 3.912461579602677e-06,
+              "precision_hash": 0.45805749789079997,
+              "flexibility_variance": 0.0009507797658443451,
+              "flexibility_fisher": 0.004460732452571392,
+              "flexibility_hash": 0.001117166131734848,
+              "hash_factor": 0.825
+            }
+          },
+          "wrong": {
+            "basic": 0.026132920277138375,
+            "fisher_fisher": 0.00014698048471473157,
+            "fisher_hash": 7.57214002078399e-05,
+            "hash_fisher": 0.05067724229128579,
+            "hash_hash": 0.026107898645658732,
+            "entropy_fisher": 0.05182356075833533,
+            "fisher_variance": 7.411743717966601e-05,
+            "hash_variance": 0.025554869508853433,
+            "entropy_hash": 0.026698458924794572,
+            "components": {
+              "precision_entropy": 0.6020701551791343,
+              "precision_fisher": 4.8429724301968236e-06,
+              "precision_hash": 0.5757295858900472,
+              "flexibility_variance": 0.0011343022342771292,
+              "flexibility_fisher": 0.004460745025426149,
+              "flexibility_hash": 0.0011839279904961586,
+              "hash_factor": 0.95625
+            }
+          },
+          "discriminations": {
+            "basic": -0.0031569961037422115,
+            "fisher_fisher": -1.4872784959152341e-05,
+            "fisher_hash": -9.608847904019058e-06,
+            "hash_fisher": -0.005474676589932698,
+            "hash_hash": -0.0034865299198099733,
+            "entropy_fisher": -0.00205717383040193,
+            "fisher_variance": -1.312654057983309e-05,
+            "hash_variance": -0.00468595002106343,
+            "entropy_hash": -0.0017931516400724185
+          }
+        }
+      },
+      {
+        "test_case": "Water freezes at",
+        "correct_hbar": 0.02378650507309289,
+        "wrong_hbar": 0.02416987835480819,
+        "hbar_discrimination": -0.00038337328171529975,
+        "correct_pfail": 0.3641413474915247,
+        "wrong_pfail": 0.364314898268622,
+        "pfail_discrimination": 0.00017355077709729771,
+        "correct_fim_eigenvalue": 13961971712.0,
+        "wrong_fim_eigenvalue": 19608991744.0,
+        "fim_discrimination": -5647020032.0,
+        "correct_entropy": 5.02203893661499,
+        "wrong_entropy": 4.951024532318115,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02378650507309289,
+            "fisher_fisher": 0.00019429765234235674,
+            "fisher_hash": 9.855969256022945e-05,
+            "hash_fisher": 0.04671215318491154,
+            "hash_hash": 0.023695272427829133,
+            "entropy_fisher": 0.04890051690536269,
+            "fisher_variance": 9.451151709072292e-05,
+            "hash_variance": 0.022722027066878293,
+            "entropy_hash": 0.024805344882036125,
+            "components": {
+              "precision_entropy": 0.5360662397424131,
+              "precision_fisher": 8.46304465085268e-06,
+              "precision_hash": 0.4891604437649519,
+              "flexibility_variance": 0.0010554625187069178,
+              "flexibility_fisher": 0.0044607557356357574,
+              "flexibility_hash": 0.0011478154920041561,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02416987835480819,
+            "fisher_fisher": 0.00017848022980615497,
+            "fisher_hash": 9.143759234575555e-05,
+            "hash_fisher": 0.046997079480604546,
+            "hash_hash": 0.024077174929588822,
+            "entropy_fisher": 0.049198791384044156,
+            "fisher_variance": 8.768193947616965e-05,
+            "hash_variance": 0.023088243880028652,
+            "entropy_hash": 0.025205138693072268,
+            "components": {
+              "precision_entropy": 0.5426265193487094,
+              "precision_fisher": 7.141219157347223e-06,
+              "precision_hash": 0.4951466989056973,
+              "flexibility_variance": 0.0010765839833766222,
+              "flexibility_fisher": 0.0044607496820390224,
+              "flexibility_hash": 0.0011707850499078631,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.00038337328171529975,
+            "fisher_fisher": 1.5817422536201775e-05,
+            "fisher_hash": 7.122100214473903e-06,
+            "hash_fisher": -0.0002849262956930096,
+            "hash_hash": -0.0003819025017596893,
+            "entropy_fisher": -0.00029827447868146367,
+            "fisher_variance": 6.829577614553273e-06,
+            "hash_variance": -0.0003662168131503586,
+            "entropy_hash": -0.0003997938110361435
+          }
+        }
+      },
+      {
+        "test_case": "The largest planet in our solar system is",
+        "correct_hbar": 0.025406891402540335,
+        "wrong_hbar": 0.024523243785327276,
+        "hbar_discrimination": 0.0008836476172130597,
+        "correct_pfail": 0.36487512715272785,
+        "wrong_pfail": 0.3644748959372651,
+        "pfail_discrimination": -0.0004002312154627319,
+        "correct_fim_eigenvalue": 132058685440.0,
+        "wrong_fim_eigenvalue": 129857642496.0,
+        "fim_discrimination": 2201042944.0,
+        "correct_entropy": 4.179756164550781,
+        "wrong_entropy": 4.304864883422852,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025406891402540335,
+            "fisher_fisher": 0.00011079260002588853,
+            "fisher_hash": 5.7213535910705104e-05,
+            "hash_fisher": 0.04877420712931163,
+            "hash_hash": 0.025187104737377376,
+            "entropy_fisher": 0.05232904505772875,
+            "fisher_variance": 5.3792220569448546e-05,
+            "hash_variance": 0.023680940143516058,
+            "entropy_hash": 0.027022830636315373,
+            "components": {
+              "precision_entropy": 0.6138759537999705,
+              "precision_fisher": 2.7517978651303565e-06,
+              "precision_hash": 0.5333047348637243,
+              "flexibility_variance": 0.0010515318717807531,
+              "flexibility_fisher": 0.004460720345377922,
+              "flexibility_hash": 0.0011895454954355955,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.024523243785327276,
+            "fisher_fisher": 0.0001112591489800252,
+            "fisher_hash": 5.489244722411968e-05,
+            "hash_fisher": 0.049514467684037736,
+            "hash_hash": 0.02442918533035214,
+            "entropy_fisher": 0.05183411380029082,
+            "fisher_variance": 5.2637828048318624e-05,
+            "hash_variance": 0.02342579573357255,
+            "entropy_hash": 0.025573640022592447,
+            "components": {
+              "precision_entropy": 0.6023184650747933,
+              "precision_fisher": 2.7750209028454265e-06,
+              "precision_hash": 0.5496155993807488,
+              "flexibility_variance": 0.0009984576608985662,
+              "flexibility_fisher": 0.004460722208023071,
+              "flexibility_hash": 0.0010858227033168077,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 0.0008836476172130597,
+            "fisher_fisher": -4.6654895413666964e-07,
+            "fisher_hash": 2.3210886865854263e-06,
+            "hash_fisher": -0.0007402605547261049,
+            "hash_hash": 0.0007579194070252357,
+            "entropy_fisher": 0.0004949312574379292,
+            "fisher_variance": 1.154392521129921e-06,
+            "hash_variance": 0.0002551444099435085,
+            "entropy_hash": 0.0014491906137229262
+          }
+        }
+      },
+      {
+        "test_case": "DNA stands for",
+        "correct_hbar": 0.02569064794475114,
+        "wrong_hbar": 0.025628365490568242,
+        "hbar_discrimination": 6.228245418289646e-05,
+        "correct_pfail": 0.36500368889353796,
+        "wrong_pfail": 0.3649754688959869,
+        "pfail_discrimination": -2.8219997551037768e-05,
+        "correct_fim_eigenvalue": 8445153280.0,
+        "wrong_fim_eigenvalue": 7212511744.0,
+        "fim_discrimination": 1232641536.0,
+        "correct_entropy": 4.596589088439941,
+        "wrong_entropy": 4.518648147583008,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02569064794475114,
+            "fisher_fisher": 0.00022031938715372235,
+            "fisher_hash": 0.00011172488302690908,
+            "hash_fisher": 0.050661480584997594,
+            "hash_hash": 0.02569064794475114,
+            "entropy_fisher": 0.050661480584997594,
+            "fisher_variance": 0.00011172488302690908,
+            "hash_variance": 0.02569064794475114,
+            "entropy_hash": 0.02569064794475114,
+            "components": {
+              "precision_entropy": 0.5753691106193781,
+              "precision_fisher": 1.0881686648644973e-05,
+              "precision_hash": 0.5753691106193781,
+              "flexibility_variance": 0.0011471060570329428,
+              "flexibility_fisher": 0.004460763651877642,
+              "flexibility_hash": 0.0011471060570329428,
+              "hash_factor": 1.0
+            }
+          },
+          "wrong": {
+            "basic": 0.025628365490568242,
+            "fisher_fisher": 0.0002291833225172013,
+            "fisher_hash": 0.00012015452375635505,
+            "hash_fisher": 0.048696174892349654,
+            "hash_hash": 0.025530068122927685,
+            "entropy_fisher": 0.050977485754585466,
+            "fisher_variance": 0.00011521937267389148,
+            "hash_variance": 0.024481461760234236,
+            "entropy_hash": 0.02672609680179637,
+            "components": {
+              "precision_entropy": 0.5825692606433331,
+              "precision_fisher": 1.1774886843340937e-05,
+              "precision_hash": 0.5315944503370414,
+              "flexibility_variance": 0.0011274421121925116,
+              "flexibility_fisher": 0.004460764117538929,
+              "flexibility_hash": 0.001226093270815909,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 6.228245418289646e-05,
+            "fisher_fisher": -8.863935363478959e-06,
+            "fisher_hash": -8.429640729445964e-06,
+            "hash_fisher": 0.0019653056926479395,
+            "hash_hash": 0.000160579821823454,
+            "entropy_fisher": -0.00031600516958787267,
+            "fisher_variance": -3.4944896469824016e-06,
+            "hash_variance": 0.0012091861845169027,
+            "entropy_hash": -0.0010354488570452312
+          }
+        }
+      },
+      {
+        "test_case": "The speed of light is approximately",
+        "correct_hbar": 0.025417234769193935,
+        "wrong_hbar": 0.02555361841038134,
+        "hbar_discrimination": -0.0001363836411874056,
+        "correct_pfail": 0.3648798130894991,
+        "wrong_pfail": 0.36494160243791685,
+        "pfail_discrimination": 6.178934841771788e-05,
+        "correct_fim_eigenvalue": 7037872640.0,
+        "wrong_fim_eigenvalue": 7087531008.0,
+        "fim_discrimination": -49658368.0,
+        "correct_entropy": 4.655237674713135,
+        "wrong_entropy": 4.656527042388916,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025417234769193935,
+            "fisher_fisher": 0.00023059196246322244,
+            "fisher_hash": 0.0001236312964465469,
+            "hash_fisher": 0.04699706923928381,
+            "hash_hash": 0.025197357840482826,
+            "entropy_fisher": 0.050422383028871795,
+            "fisher_variance": 0.00011623826867435127,
+            "hash_variance": 0.02369058086038793,
+            "entropy_hash": 0.027033831022092305,
+            "components": {
+              "precision_entropy": 0.5699511798731355,
+              "precision_fisher": 1.1920083125005476e-05,
+              "precision_hash": 0.4951450875147864,
+              "flexibility_variance": 0.0011334932642057538,
+              "flexibility_fisher": 0.00446076225489378,
+              "flexibility_hash": 0.001282264245674014,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02555361841038134,
+            "fisher_fisher": 0.00023018701176624745,
+            "fisher_hash": 0.0001216661767102778,
+            "hash_fisher": 0.04816088303327484,
+            "hash_hash": 0.02545560830365597,
+            "entropy_fisher": 0.05041711662537038,
+            "fisher_variance": 0.00011666892532957718,
+            "hash_variance": 0.024410059712141927,
+            "entropy_hash": 0.026648148700439248,
+            "components": {
+              "precision_entropy": 0.5698320686512335,
+              "precision_fisher": 1.187825091619743e-05,
+              "precision_hash": 0.5199717626442505,
+              "flexibility_variance": 0.0011459295637905598,
+              "flexibility_fisher": 0.004460762720555067,
+              "flexibility_hash": 0.0012461984297260642,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0001363836411874056,
+            "fisher_fisher": 4.0495069697499275e-07,
+            "fisher_hash": 1.9651197362691164e-06,
+            "hash_fisher": -0.0011638137939910323,
+            "hash_hash": -0.00025825046317314374,
+            "entropy_fisher": 5.2664035014166055e-06,
+            "fisher_variance": -4.306566552259028e-07,
+            "hash_variance": -0.0007194788517539963,
+            "entropy_hash": 0.00038568232165305666
+          }
+        }
+      }
+    ],
+    "hbar_success_rate": 0.2857142857142857,
+    "pfail_success_rate": 0.7142857142857143,
+    "fim_success_rate": 0.7142857142857143
+  },
+  {
+    "model_id": "mistral-7b",
+    "display_name": "Mistral-7B (Apache-2.0)",
+    "lambda": 1.8874285850155796,
+    "tau": 0.19076411416388614,
+    "test_results": [
+      {
+        "test_case": "The capital of France is",
+        "correct_hbar": 0.02426773660114072,
+        "wrong_hbar": 0.025054264925378843,
+        "hbar_discrimination": -0.0007865283242381241,
+        "correct_pfail": 0.4220776970598379,
+        "wrong_pfail": 0.4224398540859294,
+        "pfail_discrimination": 0.0003621570260914919,
+        "correct_fim_eigenvalue": 54685863936.0,
+        "wrong_fim_eigenvalue": 48799932416.0,
+        "fim_discrimination": 5885931520.0,
+        "correct_entropy": 4.554202556610107,
+        "wrong_entropy": 4.509885311126709,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02426773660114072,
+            "fisher_fisher": 0.0001381129986839369,
+            "fisher_hash": 7.01283715898171e-05,
+            "hash_fisher": 0.047380189953277134,
+            "hash_hash": 0.024057804518943852,
+            "entropy_fisher": 0.05083342694501282,
+            "fisher_variance": 6.593476427951828e-05,
+            "hash_variance": 0.02261917086845055,
+            "entropy_hash": 0.025811222995878784,
+            "components": {
+              "precision_entropy": 0.5792847598893831,
+              "precision_fisher": 4.276243544154568e-06,
+              "precision_hash": 0.5032536351539015,
+              "flexibility_variance": 0.0010166382417082787,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0011500720866024494,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.025054264925378843,
+            "fisher_fisher": 0.00014210146036930382,
+            "fisher_hash": 7.42302363505587e-05,
+            "hash_fisher": 0.047547321355756546,
+            "hash_hash": 0.024837528336657456,
+            "entropy_fisher": 0.0510127394793554,
+            "fisher_variance": 6.979134195717052e-05,
+            "hash_variance": 0.023352268431326765,
+            "entropy_hash": 0.02664777586246959,
+            "components": {
+              "precision_entropy": 0.5833787676421843,
+              "precision_fisher": 4.526790689851623e-06,
+              "precision_hash": 0.5068103043891475,
+              "flexibility_variance": 0.0010760010918602347,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0012172262649983168,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0007865283242381241,
+            "fisher_fisher": -3.988461685366929e-06,
+            "fisher_hash": -4.1018647607415915e-06,
+            "hash_fisher": -0.00016713140247941183,
+            "hash_hash": -0.0007797238177136047,
+            "entropy_fisher": -0.00017931253434257804,
+            "fisher_variance": -3.85657767765224e-06,
+            "hash_variance": -0.0007330975628762164,
+            "entropy_hash": -0.0008365528665908069
+          }
+        }
+      },
+      {
+        "test_case": "2 + 2 equals",
+        "correct_hbar": 0.0199160196090562,
+        "wrong_hbar": 0.0200547451883846,
+        "hbar_discrimination": -0.00013872557932839702,
+        "correct_pfail": 0.4200754727808179,
+        "wrong_pfail": 0.42013926019004505,
+        "pfail_discrimination": 6.3787409227134e-05,
+        "correct_fim_eigenvalue": 1686075264.0,
+        "wrong_fim_eigenvalue": 1159058816.0,
+        "fim_discrimination": 527016448.0,
+        "correct_entropy": 5.423454284667969,
+        "wrong_entropy": 5.467616081237793,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.0199160196090562,
+            "fisher_fisher": 0.00032959895906969905,
+            "fisher_hash": 0.00014214722614269704,
+            "hash_fisher": 0.04613536369213698,
+            "hash_hash": 0.01989695037922214,
+            "entropy_fisher": 0.047178944932812286,
+            "fisher_variance": 0.00013913620205130428,
+            "hash_variance": 0.019475484440613346,
+            "entropy_hash": 0.020347019100929054,
+            "components": {
+              "precision_entropy": 0.49898366547371353,
+              "precision_fisher": 2.4353506887564436e-05,
+              "precision_hash": 0.4771531301092386,
+              "flexibility_variance": 0.0007949114660732448,
+              "flexibility_fisher": 0.004460772965103388,
+              "flexibility_hash": 0.0008296888554468751,
+              "hash_factor": 0.95625
+            }
+          },
+          "wrong": {
+            "basic": 0.0200547451883846,
+            "fisher_fisher": 0.0003619747585617006,
+            "fisher_hash": 0.0001674747036304325,
+            "hash_fisher": 0.04267682638667536,
+            "hash_hash": 0.019745268675744377,
+            "entropy_fisher": 0.04698563946231812,
+            "fisher_variance": 0.00015450063801836222,
+            "hash_variance": 0.01821562691128428,
+            "entropy_hash": 0.021738825344679115,
+            "components": {
+              "precision_entropy": 0.49490401802355277,
+              "precision_fisher": 2.9372929930104874e-05,
+              "precision_hash": 0.408295814869431,
+              "flexibility_variance": 0.0008126682951115072,
+              "flexibility_fisher": 0.004460764583200216,
+              "flexibility_hash": 0.0009548852103762329,
+              "hash_factor": 0.825
+            }
+          },
+          "discriminations": {
+            "basic": -0.00013872557932839702,
+            "fisher_fisher": -3.2375799492001534e-05,
+            "fisher_hash": -2.532747748773545e-05,
+            "hash_fisher": 0.003458537305461619,
+            "hash_hash": 0.00015168170347776289,
+            "entropy_fisher": 0.00019330547049416918,
+            "fisher_variance": -1.5364435967057943e-05,
+            "hash_variance": 0.0012598575293290663,
+            "entropy_hash": -0.0013918062437500607
+          }
+        }
+      },
+      {
+        "test_case": "Shakespeare wrote",
+        "correct_hbar": 0.022975924173396164,
+        "wrong_hbar": 0.026132920277138375,
+        "hbar_discrimination": -0.0031569961037422115,
+        "correct_pfail": 0.42148306389660023,
+        "wrong_pfail": 0.42293665657618745,
+        "pfail_discrimination": 0.0014535926795872234,
+        "correct_fim_eigenvalue": 65328078848.0,
+        "wrong_fim_eigenvalue": 42635956224.0,
+        "fim_discrimination": 22692122624.0,
+        "correct_entropy": 4.814688205718994,
+        "wrong_entropy": 4.307552814483643,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.022975924173396164,
+            "fisher_fisher": 0.00013210769975557923,
+            "fisher_hash": 6.611255230382085e-05,
+            "hash_fisher": 0.045202565701353094,
+            "hash_hash": 0.02262136872584876,
+            "entropy_fisher": 0.0497663869279334,
+            "fisher_variance": 6.099089659983292e-05,
+            "hash_variance": 0.020868919487790002,
+            "entropy_hash": 0.024905307284722154,
+            "components": {
+              "precision_entropy": 0.5552212095646061,
+              "precision_fisher": 3.912461579602677e-06,
+              "precision_hash": 0.45805749789079997,
+              "flexibility_variance": 0.0009507797658443451,
+              "flexibility_fisher": 0.004460732452571392,
+              "flexibility_hash": 0.001117166131734848,
+              "hash_factor": 0.825
+            }
+          },
+          "wrong": {
+            "basic": 0.026132920277138375,
+            "fisher_fisher": 0.00014698048471473157,
+            "fisher_hash": 7.57214002078399e-05,
+            "hash_fisher": 0.05067724229128579,
+            "hash_hash": 0.026107898645658732,
+            "entropy_fisher": 0.05182356075833533,
+            "fisher_variance": 7.411743717966601e-05,
+            "hash_variance": 0.025554869508853433,
+            "entropy_hash": 0.026698458924794572,
+            "components": {
+              "precision_entropy": 0.6020701551791343,
+              "precision_fisher": 4.8429724301968236e-06,
+              "precision_hash": 0.5757295858900472,
+              "flexibility_variance": 0.0011343022342771292,
+              "flexibility_fisher": 0.004460745025426149,
+              "flexibility_hash": 0.0011839279904961586,
+              "hash_factor": 0.95625
+            }
+          },
+          "discriminations": {
+            "basic": -0.0031569961037422115,
+            "fisher_fisher": -1.4872784959152341e-05,
+            "fisher_hash": -9.608847904019058e-06,
+            "hash_fisher": -0.005474676589932698,
+            "hash_hash": -0.0034865299198099733,
+            "entropy_fisher": -0.00205717383040193,
+            "fisher_variance": -1.312654057983309e-05,
+            "hash_variance": -0.00468595002106343,
+            "entropy_hash": -0.0017931516400724185
+          }
+        }
+      },
+      {
+        "test_case": "Water freezes at",
+        "correct_hbar": 0.02378650507309289,
+        "wrong_hbar": 0.02416987835480819,
+        "hbar_discrimination": -0.00038337328171529975,
+        "correct_pfail": 0.4218561552529703,
+        "wrong_pfail": 0.42203264407548446,
+        "pfail_discrimination": 0.00017648882251414255,
+        "correct_fim_eigenvalue": 13961971712.0,
+        "wrong_fim_eigenvalue": 19608991744.0,
+        "fim_discrimination": -5647020032.0,
+        "correct_entropy": 5.02203893661499,
+        "wrong_entropy": 4.951024532318115,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02378650507309289,
+            "fisher_fisher": 0.00019429765234235674,
+            "fisher_hash": 9.855969256022945e-05,
+            "hash_fisher": 0.04671215318491154,
+            "hash_hash": 0.023695272427829133,
+            "entropy_fisher": 0.04890051690536269,
+            "fisher_variance": 9.451151709072292e-05,
+            "hash_variance": 0.022722027066878293,
+            "entropy_hash": 0.024805344882036125,
+            "components": {
+              "precision_entropy": 0.5360662397424131,
+              "precision_fisher": 8.46304465085268e-06,
+              "precision_hash": 0.4891604437649519,
+              "flexibility_variance": 0.0010554625187069178,
+              "flexibility_fisher": 0.0044607557356357574,
+              "flexibility_hash": 0.0011478154920041561,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02416987835480819,
+            "fisher_fisher": 0.00017848022980615497,
+            "fisher_hash": 9.143759234575555e-05,
+            "hash_fisher": 0.046997079480604546,
+            "hash_hash": 0.024077174929588822,
+            "entropy_fisher": 0.049198791384044156,
+            "fisher_variance": 8.768193947616965e-05,
+            "hash_variance": 0.023088243880028652,
+            "entropy_hash": 0.025205138693072268,
+            "components": {
+              "precision_entropy": 0.5426265193487094,
+              "precision_fisher": 7.141219157347223e-06,
+              "precision_hash": 0.4951466989056973,
+              "flexibility_variance": 0.0010765839833766222,
+              "flexibility_fisher": 0.0044607496820390224,
+              "flexibility_hash": 0.0011707850499078631,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.00038337328171529975,
+            "fisher_fisher": 1.5817422536201775e-05,
+            "fisher_hash": 7.122100214473903e-06,
+            "hash_fisher": -0.0002849262956930096,
+            "hash_hash": -0.0003819025017596893,
+            "entropy_fisher": -0.00029827447868146367,
+            "fisher_variance": 6.829577614553273e-06,
+            "hash_variance": -0.0003662168131503586,
+            "entropy_hash": -0.0003997938110361435
+          }
+        }
+      },
+      {
+        "test_case": "The largest planet in our solar system is",
+        "correct_hbar": 0.025406891402540335,
+        "wrong_hbar": 0.024523243785327276,
+        "hbar_discrimination": 0.0008836476172130597,
+        "correct_pfail": 0.4226022480754033,
+        "wrong_pfail": 0.42219533619282207,
+        "pfail_discrimination": -0.0004069118825812401,
+        "correct_fim_eigenvalue": 132058685440.0,
+        "wrong_fim_eigenvalue": 129857642496.0,
+        "fim_discrimination": 2201042944.0,
+        "correct_entropy": 4.179756164550781,
+        "wrong_entropy": 4.304864883422852,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025406891402540335,
+            "fisher_fisher": 0.00011079260002588853,
+            "fisher_hash": 5.7213535910705104e-05,
+            "hash_fisher": 0.04877420712931163,
+            "hash_hash": 0.025187104737377376,
+            "entropy_fisher": 0.05232904505772875,
+            "fisher_variance": 5.3792220569448546e-05,
+            "hash_variance": 0.023680940143516058,
+            "entropy_hash": 0.027022830636315373,
+            "components": {
+              "precision_entropy": 0.6138759537999705,
+              "precision_fisher": 2.7517978651303565e-06,
+              "precision_hash": 0.5333047348637243,
+              "flexibility_variance": 0.0010515318717807531,
+              "flexibility_fisher": 0.004460720345377922,
+              "flexibility_hash": 0.0011895454954355955,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.024523243785327276,
+            "fisher_fisher": 0.0001112591489800252,
+            "fisher_hash": 5.489244722411968e-05,
+            "hash_fisher": 0.049514467684037736,
+            "hash_hash": 0.02442918533035214,
+            "entropy_fisher": 0.05183411380029082,
+            "fisher_variance": 5.2637828048318624e-05,
+            "hash_variance": 0.02342579573357255,
+            "entropy_hash": 0.025573640022592447,
+            "components": {
+              "precision_entropy": 0.6023184650747933,
+              "precision_fisher": 2.7750209028454265e-06,
+              "precision_hash": 0.5496155993807488,
+              "flexibility_variance": 0.0009984576608985662,
+              "flexibility_fisher": 0.004460722208023071,
+              "flexibility_hash": 0.0010858227033168077,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 0.0008836476172130597,
+            "fisher_fisher": -4.6654895413666964e-07,
+            "fisher_hash": 2.3210886865854263e-06,
+            "hash_fisher": -0.0007402605547261049,
+            "hash_hash": 0.0007579194070252357,
+            "entropy_fisher": 0.0004949312574379292,
+            "fisher_variance": 1.154392521129921e-06,
+            "hash_variance": 0.0002551444099435085,
+            "entropy_hash": 0.0014491906137229262
+          }
+        }
+      },
+      {
+        "test_case": "DNA stands for",
+        "correct_hbar": 0.02569064794475114,
+        "wrong_hbar": 0.025628365490568242,
+        "hbar_discrimination": 6.228245418289646e-05,
+        "correct_pfail": 0.4227329377556492,
+        "wrong_pfail": 0.4227042514140267,
+        "pfail_discrimination": -2.868634162250805e-05,
+        "correct_fim_eigenvalue": 8445153280.0,
+        "wrong_fim_eigenvalue": 7212511744.0,
+        "fim_discrimination": 1232641536.0,
+        "correct_entropy": 4.596589088439941,
+        "wrong_entropy": 4.518648147583008,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02569064794475114,
+            "fisher_fisher": 0.00022031938715372235,
+            "fisher_hash": 0.00011172488302690908,
+            "hash_fisher": 0.050661480584997594,
+            "hash_hash": 0.02569064794475114,
+            "entropy_fisher": 0.050661480584997594,
+            "fisher_variance": 0.00011172488302690908,
+            "hash_variance": 0.02569064794475114,
+            "entropy_hash": 0.02569064794475114,
+            "components": {
+              "precision_entropy": 0.5753691106193781,
+              "precision_fisher": 1.0881686648644973e-05,
+              "precision_hash": 0.5753691106193781,
+              "flexibility_variance": 0.0011471060570329428,
+              "flexibility_fisher": 0.004460763651877642,
+              "flexibility_hash": 0.0011471060570329428,
+              "hash_factor": 1.0
+            }
+          },
+          "wrong": {
+            "basic": 0.025628365490568242,
+            "fisher_fisher": 0.0002291833225172013,
+            "fisher_hash": 0.00012015452375635505,
+            "hash_fisher": 0.048696174892349654,
+            "hash_hash": 0.025530068122927685,
+            "entropy_fisher": 0.050977485754585466,
+            "fisher_variance": 0.00011521937267389148,
+            "hash_variance": 0.024481461760234236,
+            "entropy_hash": 0.02672609680179637,
+            "components": {
+              "precision_entropy": 0.5825692606433331,
+              "precision_fisher": 1.1774886843340937e-05,
+              "precision_hash": 0.5315944503370414,
+              "flexibility_variance": 0.0011274421121925116,
+              "flexibility_fisher": 0.004460764117538929,
+              "flexibility_hash": 0.001226093270815909,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 6.228245418289646e-05,
+            "fisher_fisher": -8.863935363478959e-06,
+            "fisher_hash": -8.429640729445964e-06,
+            "hash_fisher": 0.0019653056926479395,
+            "hash_hash": 0.000160579821823454,
+            "entropy_fisher": -0.00031600516958787267,
+            "fisher_variance": -3.4944896469824016e-06,
+            "hash_variance": 0.0012091861845169027,
+            "entropy_hash": -0.0010354488570452312
+          }
+        }
+      },
+      {
+        "test_case": "The speed of light is approximately",
+        "correct_hbar": 0.025417234769193935,
+        "wrong_hbar": 0.02555361841038134,
+        "hbar_discrimination": -0.0001363836411874056,
+        "correct_pfail": 0.4226070117270578,
+        "wrong_pfail": 0.42266982474540293,
+        "pfail_discrimination": 6.281301834515363e-05,
+        "correct_fim_eigenvalue": 7037872640.0,
+        "wrong_fim_eigenvalue": 7087531008.0,
+        "fim_discrimination": -49658368.0,
+        "correct_entropy": 4.655237674713135,
+        "wrong_entropy": 4.656527042388916,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025417234769193935,
+            "fisher_fisher": 0.00023059196246322244,
+            "fisher_hash": 0.0001236312964465469,
+            "hash_fisher": 0.04699706923928381,
+            "hash_hash": 0.025197357840482826,
+            "entropy_fisher": 0.050422383028871795,
+            "fisher_variance": 0.00011623826867435127,
+            "hash_variance": 0.02369058086038793,
+            "entropy_hash": 0.027033831022092305,
+            "components": {
+              "precision_entropy": 0.5699511798731355,
+              "precision_fisher": 1.1920083125005476e-05,
+              "precision_hash": 0.4951450875147864,
+              "flexibility_variance": 0.0011334932642057538,
+              "flexibility_fisher": 0.00446076225489378,
+              "flexibility_hash": 0.001282264245674014,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02555361841038134,
+            "fisher_fisher": 0.00023018701176624745,
+            "fisher_hash": 0.0001216661767102778,
+            "hash_fisher": 0.04816088303327484,
+            "hash_hash": 0.02545560830365597,
+            "entropy_fisher": 0.05041711662537038,
+            "fisher_variance": 0.00011666892532957718,
+            "hash_variance": 0.024410059712141927,
+            "entropy_hash": 0.026648148700439248,
+            "components": {
+              "precision_entropy": 0.5698320686512335,
+              "precision_fisher": 1.187825091619743e-05,
+              "precision_hash": 0.5199717626442505,
+              "flexibility_variance": 0.0011459295637905598,
+              "flexibility_fisher": 0.004460762720555067,
+              "flexibility_hash": 0.0012461984297260642,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0001363836411874056,
+            "fisher_fisher": 4.0495069697499275e-07,
+            "fisher_hash": 1.9651197362691164e-06,
+            "hash_fisher": -0.0011638137939910323,
+            "hash_hash": -0.00025825046317314374,
+            "entropy_fisher": 5.2664035014166055e-06,
+            "fisher_variance": -4.306566552259028e-07,
+            "hash_variance": -0.0007194788517539963,
+            "entropy_hash": 0.00038568232165305666
+          }
+        }
+      }
+    ],
+    "hbar_success_rate": 0.2857142857142857,
+    "pfail_success_rate": 0.7142857142857143,
+    "fim_success_rate": 0.7142857142857143
+  },
+  {
+    "model_id": "qwen2.5-7b",
+    "display_name": "Qwen2.5-7B (Apache-2.0)",
+    "lambda": 2.00799184447875,
+    "tau": 0.23738301214615823,
+    "test_results": [
+      {
+        "test_case": "The capital of France is",
+        "correct_hbar": 0.02426773660114072,
+        "wrong_hbar": 0.025054264925378843,
+        "hbar_discrimination": -0.0007865283242381241,
+        "correct_pfail": 0.3946198443032915,
+        "wrong_pfail": 0.39499720408244476,
+        "pfail_discrimination": 0.00037735977915326346,
+        "correct_fim_eigenvalue": 54685863936.0,
+        "wrong_fim_eigenvalue": 48799932416.0,
+        "fim_discrimination": 5885931520.0,
+        "correct_entropy": 4.554202556610107,
+        "wrong_entropy": 4.509885311126709,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02426773660114072,
+            "fisher_fisher": 0.0001381129986839369,
+            "fisher_hash": 7.01283715898171e-05,
+            "hash_fisher": 0.047380189953277134,
+            "hash_hash": 0.024057804518943852,
+            "entropy_fisher": 0.05083342694501282,
+            "fisher_variance": 6.593476427951828e-05,
+            "hash_variance": 0.02261917086845055,
+            "entropy_hash": 0.025811222995878784,
+            "components": {
+              "precision_entropy": 0.5792847598893831,
+              "precision_fisher": 4.276243544154568e-06,
+              "precision_hash": 0.5032536351539015,
+              "flexibility_variance": 0.0010166382417082787,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0011500720866024494,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.025054264925378843,
+            "fisher_fisher": 0.00014210146036930382,
+            "fisher_hash": 7.42302363505587e-05,
+            "hash_fisher": 0.047547321355756546,
+            "hash_hash": 0.024837528336657456,
+            "entropy_fisher": 0.0510127394793554,
+            "fisher_variance": 6.979134195717052e-05,
+            "hash_variance": 0.023352268431326765,
+            "entropy_hash": 0.02664777586246959,
+            "components": {
+              "precision_entropy": 0.5833787676421843,
+              "precision_fisher": 4.526790689851623e-06,
+              "precision_hash": 0.5068103043891475,
+              "flexibility_variance": 0.0010760010918602347,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0012172262649983168,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0007865283242381241,
+            "fisher_fisher": -3.988461685366929e-06,
+            "fisher_hash": -4.1018647607415915e-06,
+            "hash_fisher": -0.00016713140247941183,
+            "hash_hash": -0.0007797238177136047,
+            "entropy_fisher": -0.00017931253434257804,
+            "fisher_variance": -3.85657767765224e-06,
+            "hash_variance": -0.0007330975628762164,
+            "entropy_hash": -0.0008365528665908069
+          }
+        }
+      },
+      {
+        "test_case": "2 + 2 equals",
+        "correct_hbar": 0.0199160196090562,
+        "wrong_hbar": 0.0200547451883846,
+        "hbar_discrimination": -0.00013872557932839702,
+        "correct_pfail": 0.39253426263905306,
+        "wrong_pfail": 0.3926006875296904,
+        "pfail_discrimination": 6.642489063735102e-05,
+        "correct_fim_eigenvalue": 1686075264.0,
+        "wrong_fim_eigenvalue": 1159058816.0,
+        "fim_discrimination": 527016448.0,
+        "correct_entropy": 5.423454284667969,
+        "wrong_entropy": 5.467616081237793,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.0199160196090562,
+            "fisher_fisher": 0.00032959895906969905,
+            "fisher_hash": 0.00014214722614269704,
+            "hash_fisher": 0.04613536369213698,
+            "hash_hash": 0.01989695037922214,
+            "entropy_fisher": 0.047178944932812286,
+            "fisher_variance": 0.00013913620205130428,
+            "hash_variance": 0.019475484440613346,
+            "entropy_hash": 0.020347019100929054,
+            "components": {
+              "precision_entropy": 0.49898366547371353,
+              "precision_fisher": 2.4353506887564436e-05,
+              "precision_hash": 0.4771531301092386,
+              "flexibility_variance": 0.0007949114660732448,
+              "flexibility_fisher": 0.004460772965103388,
+              "flexibility_hash": 0.0008296888554468751,
+              "hash_factor": 0.95625
+            }
+          },
+          "wrong": {
+            "basic": 0.0200547451883846,
+            "fisher_fisher": 0.0003619747585617006,
+            "fisher_hash": 0.0001674747036304325,
+            "hash_fisher": 0.04267682638667536,
+            "hash_hash": 0.019745268675744377,
+            "entropy_fisher": 0.04698563946231812,
+            "fisher_variance": 0.00015450063801836222,
+            "hash_variance": 0.01821562691128428,
+            "entropy_hash": 0.021738825344679115,
+            "components": {
+              "precision_entropy": 0.49490401802355277,
+              "precision_fisher": 2.9372929930104874e-05,
+              "precision_hash": 0.408295814869431,
+              "flexibility_variance": 0.0008126682951115072,
+              "flexibility_fisher": 0.004460764583200216,
+              "flexibility_hash": 0.0009548852103762329,
+              "hash_factor": 0.825
+            }
+          },
+          "discriminations": {
+            "basic": -0.00013872557932839702,
+            "fisher_fisher": -3.2375799492001534e-05,
+            "fisher_hash": -2.532747748773545e-05,
+            "hash_fisher": 0.003458537305461619,
+            "hash_hash": 0.00015168170347776289,
+            "entropy_fisher": 0.00019330547049416918,
+            "fisher_variance": -1.5364435967057943e-05,
+            "hash_variance": 0.0012598575293290663,
+            "entropy_hash": -0.0013918062437500607
+          }
+        }
+      },
+      {
+        "test_case": "Shakespeare wrote",
+        "correct_hbar": 0.022975924173396164,
+        "wrong_hbar": 0.026132920277138375,
+        "hbar_discrimination": -0.0031569961037422115,
+        "correct_pfail": 0.3940003325323154,
+        "wrong_pfail": 0.39551492374910974,
+        "pfail_discrimination": 0.0015145912167943143,
+        "correct_fim_eigenvalue": 65328078848.0,
+        "wrong_fim_eigenvalue": 42635956224.0,
+        "fim_discrimination": 22692122624.0,
+        "correct_entropy": 4.814688205718994,
+        "wrong_entropy": 4.307552814483643,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.022975924173396164,
+            "fisher_fisher": 0.00013210769975557923,
+            "fisher_hash": 6.611255230382085e-05,
+            "hash_fisher": 0.045202565701353094,
+            "hash_hash": 0.02262136872584876,
+            "entropy_fisher": 0.0497663869279334,
+            "fisher_variance": 6.099089659983292e-05,
+            "hash_variance": 0.020868919487790002,
+            "entropy_hash": 0.024905307284722154,
+            "components": {
+              "precision_entropy": 0.5552212095646061,
+              "precision_fisher": 3.912461579602677e-06,
+              "precision_hash": 0.45805749789079997,
+              "flexibility_variance": 0.0009507797658443451,
+              "flexibility_fisher": 0.004460732452571392,
+              "flexibility_hash": 0.001117166131734848,
+              "hash_factor": 0.825
+            }
+          },
+          "wrong": {
+            "basic": 0.026132920277138375,
+            "fisher_fisher": 0.00014698048471473157,
+            "fisher_hash": 7.57214002078399e-05,
+            "hash_fisher": 0.05067724229128579,
+            "hash_hash": 0.026107898645658732,
+            "entropy_fisher": 0.05182356075833533,
+            "fisher_variance": 7.411743717966601e-05,
+            "hash_variance": 0.025554869508853433,
+            "entropy_hash": 0.026698458924794572,
+            "components": {
+              "precision_entropy": 0.6020701551791343,
+              "precision_fisher": 4.8429724301968236e-06,
+              "precision_hash": 0.5757295858900472,
+              "flexibility_variance": 0.0011343022342771292,
+              "flexibility_fisher": 0.004460745025426149,
+              "flexibility_hash": 0.0011839279904961586,
+              "hash_factor": 0.95625
+            }
+          },
+          "discriminations": {
+            "basic": -0.0031569961037422115,
+            "fisher_fisher": -1.4872784959152341e-05,
+            "fisher_hash": -9.608847904019058e-06,
+            "hash_fisher": -0.005474676589932698,
+            "hash_hash": -0.0034865299198099733,
+            "entropy_fisher": -0.00205717383040193,
+            "fisher_variance": -1.312654057983309e-05,
+            "hash_variance": -0.00468595002106343,
+            "entropy_hash": -0.0017931516400724185
+          }
+        }
+      },
+      {
+        "test_case": "Water freezes at",
+        "correct_hbar": 0.02378650507309289,
+        "wrong_hbar": 0.02416987835480819,
+        "hbar_discrimination": -0.00038337328171529975,
+        "correct_pfail": 0.3943890214192375,
+        "wrong_pfail": 0.39457290274736356,
+        "pfail_discrimination": 0.00018388132812607871,
+        "correct_fim_eigenvalue": 13961971712.0,
+        "wrong_fim_eigenvalue": 19608991744.0,
+        "fim_discrimination": -5647020032.0,
+        "correct_entropy": 5.02203893661499,
+        "wrong_entropy": 4.951024532318115,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02378650507309289,
+            "fisher_fisher": 0.00019429765234235674,
+            "fisher_hash": 9.855969256022945e-05,
+            "hash_fisher": 0.04671215318491154,
+            "hash_hash": 0.023695272427829133,
+            "entropy_fisher": 0.04890051690536269,
+            "fisher_variance": 9.451151709072292e-05,
+            "hash_variance": 0.022722027066878293,
+            "entropy_hash": 0.024805344882036125,
+            "components": {
+              "precision_entropy": 0.5360662397424131,
+              "precision_fisher": 8.46304465085268e-06,
+              "precision_hash": 0.4891604437649519,
+              "flexibility_variance": 0.0010554625187069178,
+              "flexibility_fisher": 0.0044607557356357574,
+              "flexibility_hash": 0.0011478154920041561,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02416987835480819,
+            "fisher_fisher": 0.00017848022980615497,
+            "fisher_hash": 9.143759234575555e-05,
+            "hash_fisher": 0.046997079480604546,
+            "hash_hash": 0.024077174929588822,
+            "entropy_fisher": 0.049198791384044156,
+            "fisher_variance": 8.768193947616965e-05,
+            "hash_variance": 0.023088243880028652,
+            "entropy_hash": 0.025205138693072268,
+            "components": {
+              "precision_entropy": 0.5426265193487094,
+              "precision_fisher": 7.141219157347223e-06,
+              "precision_hash": 0.4951466989056973,
+              "flexibility_variance": 0.0010765839833766222,
+              "flexibility_fisher": 0.0044607496820390224,
+              "flexibility_hash": 0.0011707850499078631,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.00038337328171529975,
+            "fisher_fisher": 1.5817422536201775e-05,
+            "fisher_hash": 7.122100214473903e-06,
+            "hash_fisher": -0.0002849262956930096,
+            "hash_hash": -0.0003819025017596893,
+            "entropy_fisher": -0.00029827447868146367,
+            "fisher_variance": 6.829577614553273e-06,
+            "hash_variance": -0.0003662168131503586,
+            "entropy_hash": -0.0003997938110361435
+          }
+        }
+      },
+      {
+        "test_case": "The largest planet in our solar system is",
+        "correct_hbar": 0.025406891402540335,
+        "wrong_hbar": 0.024523243785327276,
+        "hbar_discrimination": 0.0008836476172130597,
+        "correct_pfail": 0.395166427530101,
+        "wrong_pfail": 0.39474241753416656,
+        "pfail_discrimination": -0.000424009995934449,
+        "correct_fim_eigenvalue": 132058685440.0,
+        "wrong_fim_eigenvalue": 129857642496.0,
+        "fim_discrimination": 2201042944.0,
+        "correct_entropy": 4.179756164550781,
+        "wrong_entropy": 4.304864883422852,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025406891402540335,
+            "fisher_fisher": 0.00011079260002588853,
+            "fisher_hash": 5.7213535910705104e-05,
+            "hash_fisher": 0.04877420712931163,
+            "hash_hash": 0.025187104737377376,
+            "entropy_fisher": 0.05232904505772875,
+            "fisher_variance": 5.3792220569448546e-05,
+            "hash_variance": 0.023680940143516058,
+            "entropy_hash": 0.027022830636315373,
+            "components": {
+              "precision_entropy": 0.6138759537999705,
+              "precision_fisher": 2.7517978651303565e-06,
+              "precision_hash": 0.5333047348637243,
+              "flexibility_variance": 0.0010515318717807531,
+              "flexibility_fisher": 0.004460720345377922,
+              "flexibility_hash": 0.0011895454954355955,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.024523243785327276,
+            "fisher_fisher": 0.0001112591489800252,
+            "fisher_hash": 5.489244722411968e-05,
+            "hash_fisher": 0.049514467684037736,
+            "hash_hash": 0.02442918533035214,
+            "entropy_fisher": 0.05183411380029082,
+            "fisher_variance": 5.2637828048318624e-05,
+            "hash_variance": 0.02342579573357255,
+            "entropy_hash": 0.025573640022592447,
+            "components": {
+              "precision_entropy": 0.6023184650747933,
+              "precision_fisher": 2.7750209028454265e-06,
+              "precision_hash": 0.5496155993807488,
+              "flexibility_variance": 0.0009984576608985662,
+              "flexibility_fisher": 0.004460722208023071,
+              "flexibility_hash": 0.0010858227033168077,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 0.0008836476172130597,
+            "fisher_fisher": -4.6654895413666964e-07,
+            "fisher_hash": 2.3210886865854263e-06,
+            "hash_fisher": -0.0007402605547261049,
+            "hash_hash": 0.0007579194070252357,
+            "entropy_fisher": 0.0004949312574379292,
+            "fisher_variance": 1.154392521129921e-06,
+            "hash_variance": 0.0002551444099435085,
+            "entropy_hash": 0.0014491906137229262
+          }
+        }
+      },
+      {
+        "test_case": "DNA stands for",
+        "correct_hbar": 0.02569064794475114,
+        "wrong_hbar": 0.025628365490568242,
+        "hbar_discrimination": 6.228245418289646e-05,
+        "correct_pfail": 0.3953026189314315,
+        "wrong_pfail": 0.3952727245374374,
+        "pfail_discrimination": -2.9894393994089885e-05,
+        "correct_fim_eigenvalue": 8445153280.0,
+        "wrong_fim_eigenvalue": 7212511744.0,
+        "fim_discrimination": 1232641536.0,
+        "correct_entropy": 4.596589088439941,
+        "wrong_entropy": 4.518648147583008,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02569064794475114,
+            "fisher_fisher": 0.00022031938715372235,
+            "fisher_hash": 0.00011172488302690908,
+            "hash_fisher": 0.050661480584997594,
+            "hash_hash": 0.02569064794475114,
+            "entropy_fisher": 0.050661480584997594,
+            "fisher_variance": 0.00011172488302690908,
+            "hash_variance": 0.02569064794475114,
+            "entropy_hash": 0.02569064794475114,
+            "components": {
+              "precision_entropy": 0.5753691106193781,
+              "precision_fisher": 1.0881686648644973e-05,
+              "precision_hash": 0.5753691106193781,
+              "flexibility_variance": 0.0011471060570329428,
+              "flexibility_fisher": 0.004460763651877642,
+              "flexibility_hash": 0.0011471060570329428,
+              "hash_factor": 1.0
+            }
+          },
+          "wrong": {
+            "basic": 0.025628365490568242,
+            "fisher_fisher": 0.0002291833225172013,
+            "fisher_hash": 0.00012015452375635505,
+            "hash_fisher": 0.048696174892349654,
+            "hash_hash": 0.025530068122927685,
+            "entropy_fisher": 0.050977485754585466,
+            "fisher_variance": 0.00011521937267389148,
+            "hash_variance": 0.024481461760234236,
+            "entropy_hash": 0.02672609680179637,
+            "components": {
+              "precision_entropy": 0.5825692606433331,
+              "precision_fisher": 1.1774886843340937e-05,
+              "precision_hash": 0.5315944503370414,
+              "flexibility_variance": 0.0011274421121925116,
+              "flexibility_fisher": 0.004460764117538929,
+              "flexibility_hash": 0.001226093270815909,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 6.228245418289646e-05,
+            "fisher_fisher": -8.863935363478959e-06,
+            "fisher_hash": -8.429640729445964e-06,
+            "hash_fisher": 0.0019653056926479395,
+            "hash_hash": 0.000160579821823454,
+            "entropy_fisher": -0.00031600516958787267,
+            "fisher_variance": -3.4944896469824016e-06,
+            "hash_variance": 0.0012091861845169027,
+            "entropy_hash": -0.0010354488570452312
+          }
+        }
+      },
+      {
+        "test_case": "The speed of light is approximately",
+        "correct_hbar": 0.025417234769193935,
+        "wrong_hbar": 0.02555361841038134,
+        "hbar_discrimination": -0.0001363836411874056,
+        "correct_pfail": 0.39517139163260145,
+        "wrong_pfail": 0.3952368483937652,
+        "pfail_discrimination": 6.545676116376242e-05,
+        "correct_fim_eigenvalue": 7037872640.0,
+        "wrong_fim_eigenvalue": 7087531008.0,
+        "fim_discrimination": -49658368.0,
+        "correct_entropy": 4.655237674713135,
+        "wrong_entropy": 4.656527042388916,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025417234769193935,
+            "fisher_fisher": 0.00023059196246322244,
+            "fisher_hash": 0.0001236312964465469,
+            "hash_fisher": 0.04699706923928381,
+            "hash_hash": 0.025197357840482826,
+            "entropy_fisher": 0.050422383028871795,
+            "fisher_variance": 0.00011623826867435127,
+            "hash_variance": 0.02369058086038793,
+            "entropy_hash": 0.027033831022092305,
+            "components": {
+              "precision_entropy": 0.5699511798731355,
+              "precision_fisher": 1.1920083125005476e-05,
+              "precision_hash": 0.4951450875147864,
+              "flexibility_variance": 0.0011334932642057538,
+              "flexibility_fisher": 0.00446076225489378,
+              "flexibility_hash": 0.001282264245674014,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02555361841038134,
+            "fisher_fisher": 0.00023018701176624745,
+            "fisher_hash": 0.0001216661767102778,
+            "hash_fisher": 0.04816088303327484,
+            "hash_hash": 0.02545560830365597,
+            "entropy_fisher": 0.05041711662537038,
+            "fisher_variance": 0.00011666892532957718,
+            "hash_variance": 0.024410059712141927,
+            "entropy_hash": 0.026648148700439248,
+            "components": {
+              "precision_entropy": 0.5698320686512335,
+              "precision_fisher": 1.187825091619743e-05,
+              "precision_hash": 0.5199717626442505,
+              "flexibility_variance": 0.0011459295637905598,
+              "flexibility_fisher": 0.004460762720555067,
+              "flexibility_hash": 0.0012461984297260642,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0001363836411874056,
+            "fisher_fisher": 4.0495069697499275e-07,
+            "fisher_hash": 1.9651197362691164e-06,
+            "hash_fisher": -0.0011638137939910323,
+            "hash_hash": -0.00025825046317314374,
+            "entropy_fisher": 5.2664035014166055e-06,
+            "fisher_variance": -4.306566552259028e-07,
+            "hash_variance": -0.0007194788517539963,
+            "entropy_hash": 0.00038568232165305666
+          }
+        }
+      }
+    ],
+    "hbar_success_rate": 0.2857142857142857,
+    "pfail_success_rate": 0.7142857142857143,
+    "fim_success_rate": 0.7142857142857143
+  },
+  {
+    "model_id": "pythia-6.9b",
+    "display_name": "Pythia-6.9B (Apache-2.0)",
+    "lambda": 2.054602122569698,
+    "tau": 0.22056628754780286,
+    "test_results": [
+      {
+        "test_case": "The capital of France is",
+        "correct_hbar": 0.02426773660114072,
+        "wrong_hbar": 0.025054264925378843,
+        "hbar_discrimination": -0.0007865283242381241,
+        "correct_pfail": 0.4005160360151452,
+        "wrong_pfail": 0.40090410533544574,
+        "pfail_discrimination": 0.00038806932030055474,
+        "correct_fim_eigenvalue": 54685863936.0,
+        "wrong_fim_eigenvalue": 48799932416.0,
+        "fim_discrimination": 5885931520.0,
+        "correct_entropy": 4.554202556610107,
+        "wrong_entropy": 4.509885311126709,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02426773660114072,
+            "fisher_fisher": 0.0001381129986839369,
+            "fisher_hash": 7.01283715898171e-05,
+            "hash_fisher": 0.047380189953277134,
+            "hash_hash": 0.024057804518943852,
+            "entropy_fisher": 0.05083342694501282,
+            "fisher_variance": 6.593476427951828e-05,
+            "hash_variance": 0.02261917086845055,
+            "entropy_hash": 0.025811222995878784,
+            "components": {
+              "precision_entropy": 0.5792847598893831,
+              "precision_fisher": 4.276243544154568e-06,
+              "precision_hash": 0.5032536351539015,
+              "flexibility_variance": 0.0010166382417082787,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0011500720866024494,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.025054264925378843,
+            "fisher_fisher": 0.00014210146036930382,
+            "fisher_hash": 7.42302363505587e-05,
+            "hash_fisher": 0.047547321355756546,
+            "hash_hash": 0.024837528336657456,
+            "entropy_fisher": 0.0510127394793554,
+            "fisher_variance": 6.979134195717052e-05,
+            "hash_variance": 0.023352268431326765,
+            "entropy_hash": 0.02664777586246959,
+            "components": {
+              "precision_entropy": 0.5833787676421843,
+              "precision_fisher": 4.526790689851623e-06,
+              "precision_hash": 0.5068103043891475,
+              "flexibility_variance": 0.0010760010918602347,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0012172262649983168,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0007865283242381241,
+            "fisher_fisher": -3.988461685366929e-06,
+            "fisher_hash": -4.1018647607415915e-06,
+            "hash_fisher": -0.00016713140247941183,
+            "hash_hash": -0.0007797238177136047,
+            "entropy_fisher": -0.00017931253434257804,
+            "fisher_variance": -3.85657767765224e-06,
+            "hash_variance": -0.0007330975628762164,
+            "entropy_hash": -0.0008365528665908069
+          }
+        }
+      },
+      {
+        "test_case": "2 + 2 equals",
+        "correct_hbar": 0.0199160196090562,
+        "wrong_hbar": 0.0200547451883846,
+        "hbar_discrimination": -0.00013872557932839702,
+        "correct_pfail": 0.3983711864557404,
+        "wrong_pfail": 0.39843950103589115,
+        "pfail_discrimination": 6.831458015077452e-05,
+        "correct_fim_eigenvalue": 1686075264.0,
+        "wrong_fim_eigenvalue": 1159058816.0,
+        "fim_discrimination": 527016448.0,
+        "correct_entropy": 5.423454284667969,
+        "wrong_entropy": 5.467616081237793,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.0199160196090562,
+            "fisher_fisher": 0.00032959895906969905,
+            "fisher_hash": 0.00014214722614269704,
+            "hash_fisher": 0.04613536369213698,
+            "hash_hash": 0.01989695037922214,
+            "entropy_fisher": 0.047178944932812286,
+            "fisher_variance": 0.00013913620205130428,
+            "hash_variance": 0.019475484440613346,
+            "entropy_hash": 0.020347019100929054,
+            "components": {
+              "precision_entropy": 0.49898366547371353,
+              "precision_fisher": 2.4353506887564436e-05,
+              "precision_hash": 0.4771531301092386,
+              "flexibility_variance": 0.0007949114660732448,
+              "flexibility_fisher": 0.004460772965103388,
+              "flexibility_hash": 0.0008296888554468751,
+              "hash_factor": 0.95625
+            }
+          },
+          "wrong": {
+            "basic": 0.0200547451883846,
+            "fisher_fisher": 0.0003619747585617006,
+            "fisher_hash": 0.0001674747036304325,
+            "hash_fisher": 0.04267682638667536,
+            "hash_hash": 0.019745268675744377,
+            "entropy_fisher": 0.04698563946231812,
+            "fisher_variance": 0.00015450063801836222,
+            "hash_variance": 0.01821562691128428,
+            "entropy_hash": 0.021738825344679115,
+            "components": {
+              "precision_entropy": 0.49490401802355277,
+              "precision_fisher": 2.9372929930104874e-05,
+              "precision_hash": 0.408295814869431,
+              "flexibility_variance": 0.0008126682951115072,
+              "flexibility_fisher": 0.004460764583200216,
+              "flexibility_hash": 0.0009548852103762329,
+              "hash_factor": 0.825
+            }
+          },
+          "discriminations": {
+            "basic": -0.00013872557932839702,
+            "fisher_fisher": -3.2375799492001534e-05,
+            "fisher_hash": -2.532747748773545e-05,
+            "hash_fisher": 0.003458537305461619,
+            "hash_hash": 0.00015168170347776289,
+            "entropy_fisher": 0.00019330547049416918,
+            "fisher_variance": -1.5364435967057943e-05,
+            "hash_variance": 0.0012598575293290663,
+            "entropy_hash": -0.0013918062437500607
+          }
+        }
+      },
+      {
+        "test_case": "Shakespeare wrote",
+        "correct_hbar": 0.022975924173396164,
+        "wrong_hbar": 0.026132920277138375,
+        "hbar_discrimination": -0.0031569961037422115,
+        "correct_pfail": 0.3998789328588141,
+        "wrong_pfail": 0.4014365107863952,
+        "pfail_discrimination": 0.0015575779275810997,
+        "correct_fim_eigenvalue": 65328078848.0,
+        "wrong_fim_eigenvalue": 42635956224.0,
+        "fim_discrimination": 22692122624.0,
+        "correct_entropy": 4.814688205718994,
+        "wrong_entropy": 4.307552814483643,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.022975924173396164,
+            "fisher_fisher": 0.00013210769975557923,
+            "fisher_hash": 6.611255230382085e-05,
+            "hash_fisher": 0.045202565701353094,
+            "hash_hash": 0.02262136872584876,
+            "entropy_fisher": 0.0497663869279334,
+            "fisher_variance": 6.099089659983292e-05,
+            "hash_variance": 0.020868919487790002,
+            "entropy_hash": 0.024905307284722154,
+            "components": {
+              "precision_entropy": 0.5552212095646061,
+              "precision_fisher": 3.912461579602677e-06,
+              "precision_hash": 0.45805749789079997,
+              "flexibility_variance": 0.0009507797658443451,
+              "flexibility_fisher": 0.004460732452571392,
+              "flexibility_hash": 0.001117166131734848,
+              "hash_factor": 0.825
+            }
+          },
+          "wrong": {
+            "basic": 0.026132920277138375,
+            "fisher_fisher": 0.00014698048471473157,
+            "fisher_hash": 7.57214002078399e-05,
+            "hash_fisher": 0.05067724229128579,
+            "hash_hash": 0.026107898645658732,
+            "entropy_fisher": 0.05182356075833533,
+            "fisher_variance": 7.411743717966601e-05,
+            "hash_variance": 0.025554869508853433,
+            "entropy_hash": 0.026698458924794572,
+            "components": {
+              "precision_entropy": 0.6020701551791343,
+              "precision_fisher": 4.8429724301968236e-06,
+              "precision_hash": 0.5757295858900472,
+              "flexibility_variance": 0.0011343022342771292,
+              "flexibility_fisher": 0.004460745025426149,
+              "flexibility_hash": 0.0011839279904961586,
+              "hash_factor": 0.95625
+            }
+          },
+          "discriminations": {
+            "basic": -0.0031569961037422115,
+            "fisher_fisher": -1.4872784959152341e-05,
+            "fisher_hash": -9.608847904019058e-06,
+            "hash_fisher": -0.005474676589932698,
+            "hash_hash": -0.0034865299198099733,
+            "entropy_fisher": -0.00205717383040193,
+            "fisher_variance": -1.312654057983309e-05,
+            "hash_variance": -0.00468595002106343,
+            "entropy_hash": -0.0017931516400724185
+          }
+        }
+      },
+      {
+        "test_case": "Water freezes at",
+        "correct_hbar": 0.02378650507309289,
+        "wrong_hbar": 0.02416987835480819,
+        "hbar_discrimination": -0.00038337328171529975,
+        "correct_pfail": 0.40027866016537295,
+        "wrong_pfail": 0.4004677619410716,
+        "pfail_discrimination": 0.00018910177569864128,
+        "correct_fim_eigenvalue": 13961971712.0,
+        "wrong_fim_eigenvalue": 19608991744.0,
+        "fim_discrimination": -5647020032.0,
+        "correct_entropy": 5.02203893661499,
+        "wrong_entropy": 4.951024532318115,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02378650507309289,
+            "fisher_fisher": 0.00019429765234235674,
+            "fisher_hash": 9.855969256022945e-05,
+            "hash_fisher": 0.04671215318491154,
+            "hash_hash": 0.023695272427829133,
+            "entropy_fisher": 0.04890051690536269,
+            "fisher_variance": 9.451151709072292e-05,
+            "hash_variance": 0.022722027066878293,
+            "entropy_hash": 0.024805344882036125,
+            "components": {
+              "precision_entropy": 0.5360662397424131,
+              "precision_fisher": 8.46304465085268e-06,
+              "precision_hash": 0.4891604437649519,
+              "flexibility_variance": 0.0010554625187069178,
+              "flexibility_fisher": 0.0044607557356357574,
+              "flexibility_hash": 0.0011478154920041561,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02416987835480819,
+            "fisher_fisher": 0.00017848022980615497,
+            "fisher_hash": 9.143759234575555e-05,
+            "hash_fisher": 0.046997079480604546,
+            "hash_hash": 0.024077174929588822,
+            "entropy_fisher": 0.049198791384044156,
+            "fisher_variance": 8.768193947616965e-05,
+            "hash_variance": 0.023088243880028652,
+            "entropy_hash": 0.025205138693072268,
+            "components": {
+              "precision_entropy": 0.5426265193487094,
+              "precision_fisher": 7.141219157347223e-06,
+              "precision_hash": 0.4951466989056973,
+              "flexibility_variance": 0.0010765839833766222,
+              "flexibility_fisher": 0.0044607496820390224,
+              "flexibility_hash": 0.0011707850499078631,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.00038337328171529975,
+            "fisher_fisher": 1.5817422536201775e-05,
+            "fisher_hash": 7.122100214473903e-06,
+            "hash_fisher": -0.0002849262956930096,
+            "hash_hash": -0.0003819025017596893,
+            "entropy_fisher": -0.00029827447868146367,
+            "fisher_variance": 6.829577614553273e-06,
+            "hash_variance": -0.0003662168131503586,
+            "entropy_hash": -0.0003997938110361435
+          }
+        }
+      },
+      {
+        "test_case": "The largest planet in our solar system is",
+        "correct_hbar": 0.025406891402540335,
+        "wrong_hbar": 0.024523243785327276,
+        "hbar_discrimination": 0.0008836476172130597,
+        "correct_pfail": 0.40107812994200825,
+        "wrong_pfail": 0.40064208838056575,
+        "pfail_discrimination": -0.0004360415614425017,
+        "correct_fim_eigenvalue": 132058685440.0,
+        "wrong_fim_eigenvalue": 129857642496.0,
+        "fim_discrimination": 2201042944.0,
+        "correct_entropy": 4.179756164550781,
+        "wrong_entropy": 4.304864883422852,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025406891402540335,
+            "fisher_fisher": 0.00011079260002588853,
+            "fisher_hash": 5.7213535910705104e-05,
+            "hash_fisher": 0.04877420712931163,
+            "hash_hash": 0.025187104737377376,
+            "entropy_fisher": 0.05232904505772875,
+            "fisher_variance": 5.3792220569448546e-05,
+            "hash_variance": 0.023680940143516058,
+            "entropy_hash": 0.027022830636315373,
+            "components": {
+              "precision_entropy": 0.6138759537999705,
+              "precision_fisher": 2.7517978651303565e-06,
+              "precision_hash": 0.5333047348637243,
+              "flexibility_variance": 0.0010515318717807531,
+              "flexibility_fisher": 0.004460720345377922,
+              "flexibility_hash": 0.0011895454954355955,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.024523243785327276,
+            "fisher_fisher": 0.0001112591489800252,
+            "fisher_hash": 5.489244722411968e-05,
+            "hash_fisher": 0.049514467684037736,
+            "hash_hash": 0.02442918533035214,
+            "entropy_fisher": 0.05183411380029082,
+            "fisher_variance": 5.2637828048318624e-05,
+            "hash_variance": 0.02342579573357255,
+            "entropy_hash": 0.025573640022592447,
+            "components": {
+              "precision_entropy": 0.6023184650747933,
+              "precision_fisher": 2.7750209028454265e-06,
+              "precision_hash": 0.5496155993807488,
+              "flexibility_variance": 0.0009984576608985662,
+              "flexibility_fisher": 0.004460722208023071,
+              "flexibility_hash": 0.0010858227033168077,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 0.0008836476172130597,
+            "fisher_fisher": -4.6654895413666964e-07,
+            "fisher_hash": 2.3210886865854263e-06,
+            "hash_fisher": -0.0007402605547261049,
+            "hash_hash": 0.0007579194070252357,
+            "entropy_fisher": 0.0004949312574379292,
+            "fisher_variance": 1.154392521129921e-06,
+            "hash_variance": 0.0002551444099435085,
+            "entropy_hash": 0.0014491906137229262
+          }
+        }
+      },
+      {
+        "test_case": "DNA stands for",
+        "correct_hbar": 0.02569064794475114,
+        "wrong_hbar": 0.025628365490568242,
+        "hbar_discrimination": 6.228245418289646e-05,
+        "correct_pfail": 0.4012181846795858,
+        "wrong_pfail": 0.40118744232195275,
+        "pfail_discrimination": -3.074235763306232e-05,
+        "correct_fim_eigenvalue": 8445153280.0,
+        "wrong_fim_eigenvalue": 7212511744.0,
+        "fim_discrimination": 1232641536.0,
+        "correct_entropy": 4.596589088439941,
+        "wrong_entropy": 4.518648147583008,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02569064794475114,
+            "fisher_fisher": 0.00022031938715372235,
+            "fisher_hash": 0.00011172488302690908,
+            "hash_fisher": 0.050661480584997594,
+            "hash_hash": 0.02569064794475114,
+            "entropy_fisher": 0.050661480584997594,
+            "fisher_variance": 0.00011172488302690908,
+            "hash_variance": 0.02569064794475114,
+            "entropy_hash": 0.02569064794475114,
+            "components": {
+              "precision_entropy": 0.5753691106193781,
+              "precision_fisher": 1.0881686648644973e-05,
+              "precision_hash": 0.5753691106193781,
+              "flexibility_variance": 0.0011471060570329428,
+              "flexibility_fisher": 0.004460763651877642,
+              "flexibility_hash": 0.0011471060570329428,
+              "hash_factor": 1.0
+            }
+          },
+          "wrong": {
+            "basic": 0.025628365490568242,
+            "fisher_fisher": 0.0002291833225172013,
+            "fisher_hash": 0.00012015452375635505,
+            "hash_fisher": 0.048696174892349654,
+            "hash_hash": 0.025530068122927685,
+            "entropy_fisher": 0.050977485754585466,
+            "fisher_variance": 0.00011521937267389148,
+            "hash_variance": 0.024481461760234236,
+            "entropy_hash": 0.02672609680179637,
+            "components": {
+              "precision_entropy": 0.5825692606433331,
+              "precision_fisher": 1.1774886843340937e-05,
+              "precision_hash": 0.5315944503370414,
+              "flexibility_variance": 0.0011274421121925116,
+              "flexibility_fisher": 0.004460764117538929,
+              "flexibility_hash": 0.001226093270815909,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 6.228245418289646e-05,
+            "fisher_fisher": -8.863935363478959e-06,
+            "fisher_hash": -8.429640729445964e-06,
+            "hash_fisher": 0.0019653056926479395,
+            "hash_hash": 0.000160579821823454,
+            "entropy_fisher": -0.00031600516958787267,
+            "fisher_variance": -3.4944896469824016e-06,
+            "hash_variance": 0.0012091861845169027,
+            "entropy_hash": -0.0010354488570452312
+          }
+        }
+      },
+      {
+        "test_case": "The speed of light is approximately",
+        "correct_hbar": 0.025417234769193935,
+        "wrong_hbar": 0.02555361841038134,
+        "hbar_discrimination": -0.0001363836411874056,
+        "correct_pfail": 0.4010832348711536,
+        "wrong_pfail": 0.40115054850372245,
+        "pfail_discrimination": 6.731363256884393e-05,
+        "correct_fim_eigenvalue": 7037872640.0,
+        "wrong_fim_eigenvalue": 7087531008.0,
+        "fim_discrimination": -49658368.0,
+        "correct_entropy": 4.655237674713135,
+        "wrong_entropy": 4.656527042388916,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025417234769193935,
+            "fisher_fisher": 0.00023059196246322244,
+            "fisher_hash": 0.0001236312964465469,
+            "hash_fisher": 0.04699706923928381,
+            "hash_hash": 0.025197357840482826,
+            "entropy_fisher": 0.050422383028871795,
+            "fisher_variance": 0.00011623826867435127,
+            "hash_variance": 0.02369058086038793,
+            "entropy_hash": 0.027033831022092305,
+            "components": {
+              "precision_entropy": 0.5699511798731355,
+              "precision_fisher": 1.1920083125005476e-05,
+              "precision_hash": 0.4951450875147864,
+              "flexibility_variance": 0.0011334932642057538,
+              "flexibility_fisher": 0.00446076225489378,
+              "flexibility_hash": 0.001282264245674014,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02555361841038134,
+            "fisher_fisher": 0.00023018701176624745,
+            "fisher_hash": 0.0001216661767102778,
+            "hash_fisher": 0.04816088303327484,
+            "hash_hash": 0.02545560830365597,
+            "entropy_fisher": 0.05041711662537038,
+            "fisher_variance": 0.00011666892532957718,
+            "hash_variance": 0.024410059712141927,
+            "entropy_hash": 0.026648148700439248,
+            "components": {
+              "precision_entropy": 0.5698320686512335,
+              "precision_fisher": 1.187825091619743e-05,
+              "precision_hash": 0.5199717626442505,
+              "flexibility_variance": 0.0011459295637905598,
+              "flexibility_fisher": 0.004460762720555067,
+              "flexibility_hash": 0.0012461984297260642,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0001363836411874056,
+            "fisher_fisher": 4.0495069697499275e-07,
+            "fisher_hash": 1.9651197362691164e-06,
+            "hash_fisher": -0.0011638137939910323,
+            "hash_hash": -0.00025825046317314374,
+            "entropy_fisher": 5.2664035014166055e-06,
+            "fisher_variance": -4.306566552259028e-07,
+            "hash_variance": -0.0007194788517539963,
+            "entropy_hash": 0.00038568232165305666
+          }
+        }
+      }
+    ],
+    "hbar_success_rate": 0.2857142857142857,
+    "pfail_success_rate": 0.7142857142857143,
+    "fim_success_rate": 0.7142857142857143
+  },
+  {
+    "model_id": "dialogpt-medium",
+    "display_name": "DialoGPT-medium (HF)",
+    "lambda": 2.8022526615677155,
+    "tau": 0.4572845860345101,
+    "test_results": [
+      {
+        "test_case": "The capital of France is",
+        "correct_hbar": 0.02426773660114072,
+        "wrong_hbar": 0.025054264925378843,
+        "hbar_discrimination": -0.0007865283242381241,
+        "correct_pfail": 0.22909601831128765,
+        "wrong_pfail": 0.2294855104531416,
+        "pfail_discrimination": 0.0003894921418539643,
+        "correct_fim_eigenvalue": 54685863936.0,
+        "wrong_fim_eigenvalue": 48799932416.0,
+        "fim_discrimination": 5885931520.0,
+        "correct_entropy": 4.554202556610107,
+        "wrong_entropy": 4.509885311126709,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02426773660114072,
+            "fisher_fisher": 0.0001381129986839369,
+            "fisher_hash": 7.01283715898171e-05,
+            "hash_fisher": 0.047380189953277134,
+            "hash_hash": 0.024057804518943852,
+            "entropy_fisher": 0.05083342694501282,
+            "fisher_variance": 6.593476427951828e-05,
+            "hash_variance": 0.02261917086845055,
+            "entropy_hash": 0.025811222995878784,
+            "components": {
+              "precision_entropy": 0.5792847598893831,
+              "precision_fisher": 4.276243544154568e-06,
+              "precision_hash": 0.5032536351539015,
+              "flexibility_variance": 0.0010166382417082787,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0011500720866024494,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.025054264925378843,
+            "fisher_fisher": 0.00014210146036930382,
+            "fisher_hash": 7.42302363505587e-05,
+            "hash_fisher": 0.047547321355756546,
+            "hash_hash": 0.024837528336657456,
+            "entropy_fisher": 0.0510127394793554,
+            "fisher_variance": 6.979134195717052e-05,
+            "hash_variance": 0.023352268431326765,
+            "entropy_hash": 0.02664777586246959,
+            "components": {
+              "precision_entropy": 0.5833787676421843,
+              "precision_fisher": 4.526790689851623e-06,
+              "precision_hash": 0.5068103043891475,
+              "flexibility_variance": 0.0010760010918602347,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0012172262649983168,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0007865283242381241,
+            "fisher_fisher": -3.988461685366929e-06,
+            "fisher_hash": -4.1018647607415915e-06,
+            "hash_fisher": -0.00016713140247941183,
+            "hash_hash": -0.0007797238177136047,
+            "entropy_fisher": -0.00017931253434257804,
+            "fisher_variance": -3.85657767765224e-06,
+            "hash_variance": -0.0007330975628762164,
+            "entropy_hash": -0.0008365528665908069
+          }
+        }
+      },
+      {
+        "test_case": "2 + 2 equals",
+        "correct_hbar": 0.0199160196090562,
+        "wrong_hbar": 0.0200547451883846,
+        "hbar_discrimination": -0.00013872557932839702,
+        "correct_pfail": 0.22694943354444105,
+        "wrong_pfail": 0.22701764337006072,
+        "pfail_discrimination": 6.820982561966948e-05,
+        "correct_fim_eigenvalue": 1686075264.0,
+        "wrong_fim_eigenvalue": 1159058816.0,
+        "fim_discrimination": 527016448.0,
+        "correct_entropy": 5.423454284667969,
+        "wrong_entropy": 5.467616081237793,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.0199160196090562,
+            "fisher_fisher": 0.00032959895906969905,
+            "fisher_hash": 0.00014214722614269704,
+            "hash_fisher": 0.04613536369213698,
+            "hash_hash": 0.01989695037922214,
+            "entropy_fisher": 0.047178944932812286,
+            "fisher_variance": 0.00013913620205130428,
+            "hash_variance": 0.019475484440613346,
+            "entropy_hash": 0.020347019100929054,
+            "components": {
+              "precision_entropy": 0.49898366547371353,
+              "precision_fisher": 2.4353506887564436e-05,
+              "precision_hash": 0.4771531301092386,
+              "flexibility_variance": 0.0007949114660732448,
+              "flexibility_fisher": 0.004460772965103388,
+              "flexibility_hash": 0.0008296888554468751,
+              "hash_factor": 0.95625
+            }
+          },
+          "wrong": {
+            "basic": 0.0200547451883846,
+            "fisher_fisher": 0.0003619747585617006,
+            "fisher_hash": 0.0001674747036304325,
+            "hash_fisher": 0.04267682638667536,
+            "hash_hash": 0.019745268675744377,
+            "entropy_fisher": 0.04698563946231812,
+            "fisher_variance": 0.00015450063801836222,
+            "hash_variance": 0.01821562691128428,
+            "entropy_hash": 0.021738825344679115,
+            "components": {
+              "precision_entropy": 0.49490401802355277,
+              "precision_fisher": 2.9372929930104874e-05,
+              "precision_hash": 0.408295814869431,
+              "flexibility_variance": 0.0008126682951115072,
+              "flexibility_fisher": 0.004460764583200216,
+              "flexibility_hash": 0.0009548852103762329,
+              "hash_factor": 0.825
+            }
+          },
+          "discriminations": {
+            "basic": -0.00013872557932839702,
+            "fisher_fisher": -3.2375799492001534e-05,
+            "fisher_hash": -2.532747748773545e-05,
+            "hash_fisher": 0.003458537305461619,
+            "hash_hash": 0.00015168170347776289,
+            "entropy_fisher": 0.00019330547049416918,
+            "fisher_variance": -1.5364435967057943e-05,
+            "hash_variance": 0.0012598575293290663,
+            "entropy_hash": -0.0013918062437500607
+          }
+        }
+      },
+      {
+        "test_case": "Shakespeare wrote",
+        "correct_hbar": 0.022975924173396164,
+        "wrong_hbar": 0.026132920277138375,
+        "hbar_discrimination": -0.0031569961037422115,
+        "correct_pfail": 0.22845731610741127,
+        "wrong_pfail": 0.2300204207999512,
+        "pfail_discrimination": 0.001563104692539924,
+        "correct_fim_eigenvalue": 65328078848.0,
+        "wrong_fim_eigenvalue": 42635956224.0,
+        "fim_discrimination": 22692122624.0,
+        "correct_entropy": 4.814688205718994,
+        "wrong_entropy": 4.307552814483643,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.022975924173396164,
+            "fisher_fisher": 0.00013210769975557923,
+            "fisher_hash": 6.611255230382085e-05,
+            "hash_fisher": 0.045202565701353094,
+            "hash_hash": 0.02262136872584876,
+            "entropy_fisher": 0.0497663869279334,
+            "fisher_variance": 6.099089659983292e-05,
+            "hash_variance": 0.020868919487790002,
+            "entropy_hash": 0.024905307284722154,
+            "components": {
+              "precision_entropy": 0.5552212095646061,
+              "precision_fisher": 3.912461579602677e-06,
+              "precision_hash": 0.45805749789079997,
+              "flexibility_variance": 0.0009507797658443451,
+              "flexibility_fisher": 0.004460732452571392,
+              "flexibility_hash": 0.001117166131734848,
+              "hash_factor": 0.825
+            }
+          },
+          "wrong": {
+            "basic": 0.026132920277138375,
+            "fisher_fisher": 0.00014698048471473157,
+            "fisher_hash": 7.57214002078399e-05,
+            "hash_fisher": 0.05067724229128579,
+            "hash_hash": 0.026107898645658732,
+            "entropy_fisher": 0.05182356075833533,
+            "fisher_variance": 7.411743717966601e-05,
+            "hash_variance": 0.025554869508853433,
+            "entropy_hash": 0.026698458924794572,
+            "components": {
+              "precision_entropy": 0.6020701551791343,
+              "precision_fisher": 4.8429724301968236e-06,
+              "precision_hash": 0.5757295858900472,
+              "flexibility_variance": 0.0011343022342771292,
+              "flexibility_fisher": 0.004460745025426149,
+              "flexibility_hash": 0.0011839279904961586,
+              "hash_factor": 0.95625
+            }
+          },
+          "discriminations": {
+            "basic": -0.0031569961037422115,
+            "fisher_fisher": -1.4872784959152341e-05,
+            "fisher_hash": -9.608847904019058e-06,
+            "hash_fisher": -0.005474676589932698,
+            "hash_hash": -0.0034865299198099733,
+            "entropy_fisher": -0.00205717383040193,
+            "fisher_variance": -1.312654057983309e-05,
+            "hash_variance": -0.00468595002106343,
+            "entropy_hash": -0.0017931516400724185
+          }
+        }
+      },
+      {
+        "test_case": "Water freezes at",
+        "correct_hbar": 0.02378650507309289,
+        "wrong_hbar": 0.02416987835480819,
+        "hbar_discrimination": -0.00038337328171529975,
+        "correct_pfail": 0.2288579396354394,
+        "wrong_pfail": 0.22904759100812597,
+        "pfail_discrimination": 0.00018965137268656118,
+        "correct_fim_eigenvalue": 13961971712.0,
+        "wrong_fim_eigenvalue": 19608991744.0,
+        "fim_discrimination": -5647020032.0,
+        "correct_entropy": 5.02203893661499,
+        "wrong_entropy": 4.951024532318115,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02378650507309289,
+            "fisher_fisher": 0.00019429765234235674,
+            "fisher_hash": 9.855969256022945e-05,
+            "hash_fisher": 0.04671215318491154,
+            "hash_hash": 0.023695272427829133,
+            "entropy_fisher": 0.04890051690536269,
+            "fisher_variance": 9.451151709072292e-05,
+            "hash_variance": 0.022722027066878293,
+            "entropy_hash": 0.024805344882036125,
+            "components": {
+              "precision_entropy": 0.5360662397424131,
+              "precision_fisher": 8.46304465085268e-06,
+              "precision_hash": 0.4891604437649519,
+              "flexibility_variance": 0.0010554625187069178,
+              "flexibility_fisher": 0.0044607557356357574,
+              "flexibility_hash": 0.0011478154920041561,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02416987835480819,
+            "fisher_fisher": 0.00017848022980615497,
+            "fisher_hash": 9.143759234575555e-05,
+            "hash_fisher": 0.046997079480604546,
+            "hash_hash": 0.024077174929588822,
+            "entropy_fisher": 0.049198791384044156,
+            "fisher_variance": 8.768193947616965e-05,
+            "hash_variance": 0.023088243880028652,
+            "entropy_hash": 0.025205138693072268,
+            "components": {
+              "precision_entropy": 0.5426265193487094,
+              "precision_fisher": 7.141219157347223e-06,
+              "precision_hash": 0.4951466989056973,
+              "flexibility_variance": 0.0010765839833766222,
+              "flexibility_fisher": 0.0044607496820390224,
+              "flexibility_hash": 0.0011707850499078631,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.00038337328171529975,
+            "fisher_fisher": 1.5817422536201775e-05,
+            "fisher_hash": 7.122100214473903e-06,
+            "hash_fisher": -0.0002849262956930096,
+            "hash_hash": -0.0003819025017596893,
+            "entropy_fisher": -0.00029827447868146367,
+            "fisher_variance": 6.829577614553273e-06,
+            "hash_variance": -0.0003662168131503586,
+            "entropy_hash": -0.0003997938110361435
+          }
+        }
+      },
+      {
+        "test_case": "The largest planet in our solar system is",
+        "correct_hbar": 0.025406891402540335,
+        "wrong_hbar": 0.024523243785327276,
+        "hbar_discrimination": 0.0008836476172130597,
+        "correct_pfail": 0.22966028346049547,
+        "wrong_pfail": 0.22922249557586635,
+        "pfail_discrimination": -0.000437787884629115,
+        "correct_fim_eigenvalue": 132058685440.0,
+        "wrong_fim_eigenvalue": 129857642496.0,
+        "fim_discrimination": 2201042944.0,
+        "correct_entropy": 4.179756164550781,
+        "wrong_entropy": 4.304864883422852,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025406891402540335,
+            "fisher_fisher": 0.00011079260002588853,
+            "fisher_hash": 5.7213535910705104e-05,
+            "hash_fisher": 0.04877420712931163,
+            "hash_hash": 0.025187104737377376,
+            "entropy_fisher": 0.05232904505772875,
+            "fisher_variance": 5.3792220569448546e-05,
+            "hash_variance": 0.023680940143516058,
+            "entropy_hash": 0.027022830636315373,
+            "components": {
+              "precision_entropy": 0.6138759537999705,
+              "precision_fisher": 2.7517978651303565e-06,
+              "precision_hash": 0.5333047348637243,
+              "flexibility_variance": 0.0010515318717807531,
+              "flexibility_fisher": 0.004460720345377922,
+              "flexibility_hash": 0.0011895454954355955,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.024523243785327276,
+            "fisher_fisher": 0.0001112591489800252,
+            "fisher_hash": 5.489244722411968e-05,
+            "hash_fisher": 0.049514467684037736,
+            "hash_hash": 0.02442918533035214,
+            "entropy_fisher": 0.05183411380029082,
+            "fisher_variance": 5.2637828048318624e-05,
+            "hash_variance": 0.02342579573357255,
+            "entropy_hash": 0.025573640022592447,
+            "components": {
+              "precision_entropy": 0.6023184650747933,
+              "precision_fisher": 2.7750209028454265e-06,
+              "precision_hash": 0.5496155993807488,
+              "flexibility_variance": 0.0009984576608985662,
+              "flexibility_fisher": 0.004460722208023071,
+              "flexibility_hash": 0.0010858227033168077,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 0.0008836476172130597,
+            "fisher_fisher": -4.6654895413666964e-07,
+            "fisher_hash": 2.3210886865854263e-06,
+            "hash_fisher": -0.0007402605547261049,
+            "hash_hash": 0.0007579194070252357,
+            "entropy_fisher": 0.0004949312574379292,
+            "fisher_variance": 1.154392521129921e-06,
+            "hash_variance": 0.0002551444099435085,
+            "entropy_hash": 0.0014491906137229262
+          }
+        }
+      },
+      {
+        "test_case": "DNA stands for",
+        "correct_hbar": 0.02569064794475114,
+        "wrong_hbar": 0.025628365490568242,
+        "hbar_discrimination": 6.228245418289646e-05,
+        "correct_pfail": 0.22980099013658023,
+        "wrong_pfail": 0.22977010088556152,
+        "pfail_discrimination": -3.088925101871198e-05,
+        "correct_fim_eigenvalue": 8445153280.0,
+        "wrong_fim_eigenvalue": 7212511744.0,
+        "fim_discrimination": 1232641536.0,
+        "correct_entropy": 4.596589088439941,
+        "wrong_entropy": 4.518648147583008,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02569064794475114,
+            "fisher_fisher": 0.00022031938715372235,
+            "fisher_hash": 0.00011172488302690908,
+            "hash_fisher": 0.050661480584997594,
+            "hash_hash": 0.02569064794475114,
+            "entropy_fisher": 0.050661480584997594,
+            "fisher_variance": 0.00011172488302690908,
+            "hash_variance": 0.02569064794475114,
+            "entropy_hash": 0.02569064794475114,
+            "components": {
+              "precision_entropy": 0.5753691106193781,
+              "precision_fisher": 1.0881686648644973e-05,
+              "precision_hash": 0.5753691106193781,
+              "flexibility_variance": 0.0011471060570329428,
+              "flexibility_fisher": 0.004460763651877642,
+              "flexibility_hash": 0.0011471060570329428,
+              "hash_factor": 1.0
+            }
+          },
+          "wrong": {
+            "basic": 0.025628365490568242,
+            "fisher_fisher": 0.0002291833225172013,
+            "fisher_hash": 0.00012015452375635505,
+            "hash_fisher": 0.048696174892349654,
+            "hash_hash": 0.025530068122927685,
+            "entropy_fisher": 0.050977485754585466,
+            "fisher_variance": 0.00011521937267389148,
+            "hash_variance": 0.024481461760234236,
+            "entropy_hash": 0.02672609680179637,
+            "components": {
+              "precision_entropy": 0.5825692606433331,
+              "precision_fisher": 1.1774886843340937e-05,
+              "precision_hash": 0.5315944503370414,
+              "flexibility_variance": 0.0011274421121925116,
+              "flexibility_fisher": 0.004460764117538929,
+              "flexibility_hash": 0.001226093270815909,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 6.228245418289646e-05,
+            "fisher_fisher": -8.863935363478959e-06,
+            "fisher_hash": -8.429640729445964e-06,
+            "hash_fisher": 0.0019653056926479395,
+            "hash_hash": 0.000160579821823454,
+            "entropy_fisher": -0.00031600516958787267,
+            "fisher_variance": -3.4944896469824016e-06,
+            "hash_variance": 0.0012091861845169027,
+            "entropy_hash": -0.0010354488570452312
+          }
+        }
+      },
+      {
+        "test_case": "The speed of light is approximately",
+        "correct_hbar": 0.025417234769193935,
+        "wrong_hbar": 0.02555361841038134,
+        "hbar_discrimination": -0.0001363836411874056,
+        "correct_pfail": 0.22966541137527652,
+        "wrong_pfail": 0.22973303359621314,
+        "pfail_discrimination": 6.762222093661951e-05,
+        "correct_fim_eigenvalue": 7037872640.0,
+        "wrong_fim_eigenvalue": 7087531008.0,
+        "fim_discrimination": -49658368.0,
+        "correct_entropy": 4.655237674713135,
+        "wrong_entropy": 4.656527042388916,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025417234769193935,
+            "fisher_fisher": 0.00023059196246322244,
+            "fisher_hash": 0.0001236312964465469,
+            "hash_fisher": 0.04699706923928381,
+            "hash_hash": 0.025197357840482826,
+            "entropy_fisher": 0.050422383028871795,
+            "fisher_variance": 0.00011623826867435127,
+            "hash_variance": 0.02369058086038793,
+            "entropy_hash": 0.027033831022092305,
+            "components": {
+              "precision_entropy": 0.5699511798731355,
+              "precision_fisher": 1.1920083125005476e-05,
+              "precision_hash": 0.4951450875147864,
+              "flexibility_variance": 0.0011334932642057538,
+              "flexibility_fisher": 0.00446076225489378,
+              "flexibility_hash": 0.001282264245674014,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02555361841038134,
+            "fisher_fisher": 0.00023018701176624745,
+            "fisher_hash": 0.0001216661767102778,
+            "hash_fisher": 0.04816088303327484,
+            "hash_hash": 0.02545560830365597,
+            "entropy_fisher": 0.05041711662537038,
+            "fisher_variance": 0.00011666892532957718,
+            "hash_variance": 0.024410059712141927,
+            "entropy_hash": 0.026648148700439248,
+            "components": {
+              "precision_entropy": 0.5698320686512335,
+              "precision_fisher": 1.187825091619743e-05,
+              "precision_hash": 0.5199717626442505,
+              "flexibility_variance": 0.0011459295637905598,
+              "flexibility_fisher": 0.004460762720555067,
+              "flexibility_hash": 0.0012461984297260642,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0001363836411874056,
+            "fisher_fisher": 4.0495069697499275e-07,
+            "fisher_hash": 1.9651197362691164e-06,
+            "hash_fisher": -0.0011638137939910323,
+            "hash_hash": -0.00025825046317314374,
+            "entropy_fisher": 5.2664035014166055e-06,
+            "fisher_variance": -4.306566552259028e-07,
+            "hash_variance": -0.0007194788517539963,
+            "entropy_hash": 0.00038568232165305666
+          }
+        }
+      }
+    ],
+    "hbar_success_rate": 0.2857142857142857,
+    "pfail_success_rate": 0.7142857142857143,
+    "fim_success_rate": 0.7142857142857143
+  },
+  {
+    "model_id": "ollama-mistral-7b",
+    "display_name": "Ollama Mistral:7B (logits-only)",
+    "lambda": 2.0011247621949826,
+    "tau": 0.2463656950103006,
+    "test_results": [
+      {
+        "test_case": "The capital of France is",
+        "correct_hbar": 0.02426773660114072,
+        "wrong_hbar": 0.025054264925378843,
+        "hbar_discrimination": -0.0007865283242381241,
+        "correct_pfail": 0.39068215350977353,
+        "wrong_pfail": 0.3910568940217684,
+        "pfail_discrimination": 0.00037474051199487546,
+        "correct_fim_eigenvalue": 54685863936.0,
+        "wrong_fim_eigenvalue": 48799932416.0,
+        "fim_discrimination": 5885931520.0,
+        "correct_entropy": 4.554202556610107,
+        "wrong_entropy": 4.509885311126709,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02426773660114072,
+            "fisher_fisher": 0.0001381129986839369,
+            "fisher_hash": 7.01283715898171e-05,
+            "hash_fisher": 0.047380189953277134,
+            "hash_hash": 0.024057804518943852,
+            "entropy_fisher": 0.05083342694501282,
+            "fisher_variance": 6.593476427951828e-05,
+            "hash_variance": 0.02261917086845055,
+            "entropy_hash": 0.025811222995878784,
+            "components": {
+              "precision_entropy": 0.5792847598893831,
+              "precision_fisher": 4.276243544154568e-06,
+              "precision_hash": 0.5032536351539015,
+              "flexibility_variance": 0.0010166382417082787,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0011500720866024494,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.025054264925378843,
+            "fisher_fisher": 0.00014210146036930382,
+            "fisher_hash": 7.42302363505587e-05,
+            "hash_fisher": 0.047547321355756546,
+            "hash_hash": 0.024837528336657456,
+            "entropy_fisher": 0.0510127394793554,
+            "fisher_variance": 6.979134195717052e-05,
+            "hash_variance": 0.023352268431326765,
+            "entropy_hash": 0.02664777586246959,
+            "components": {
+              "precision_entropy": 0.5833787676421843,
+              "precision_fisher": 4.526790689851623e-06,
+              "precision_hash": 0.5068103043891475,
+              "flexibility_variance": 0.0010760010918602347,
+              "flexibility_fisher": 0.0044607375748455524,
+              "flexibility_hash": 0.0012172262649983168,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0007865283242381241,
+            "fisher_fisher": -3.988461685366929e-06,
+            "fisher_hash": -4.1018647607415915e-06,
+            "hash_fisher": -0.00016713140247941183,
+            "hash_hash": -0.0007797238177136047,
+            "entropy_fisher": -0.00017931253434257804,
+            "fisher_variance": -3.85657767765224e-06,
+            "hash_variance": -0.0007330975628762164,
+            "entropy_hash": -0.0008365528665908069
+          }
+        }
+      },
+      {
+        "test_case": "2 + 2 equals",
+        "correct_hbar": 0.0199160196090562,
+        "wrong_hbar": 0.0200547451883846,
+        "hbar_discrimination": -0.00013872557932839702,
+        "correct_pfail": 0.3886111239469362,
+        "wrong_pfail": 0.3886770833779632,
+        "pfail_discrimination": 6.59594310269962e-05,
+        "correct_fim_eigenvalue": 1686075264.0,
+        "wrong_fim_eigenvalue": 1159058816.0,
+        "fim_discrimination": 527016448.0,
+        "correct_entropy": 5.423454284667969,
+        "wrong_entropy": 5.467616081237793,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.0199160196090562,
+            "fisher_fisher": 0.00032959895906969905,
+            "fisher_hash": 0.00014214722614269704,
+            "hash_fisher": 0.04613536369213698,
+            "hash_hash": 0.01989695037922214,
+            "entropy_fisher": 0.047178944932812286,
+            "fisher_variance": 0.00013913620205130428,
+            "hash_variance": 0.019475484440613346,
+            "entropy_hash": 0.020347019100929054,
+            "components": {
+              "precision_entropy": 0.49898366547371353,
+              "precision_fisher": 2.4353506887564436e-05,
+              "precision_hash": 0.4771531301092386,
+              "flexibility_variance": 0.0007949114660732448,
+              "flexibility_fisher": 0.004460772965103388,
+              "flexibility_hash": 0.0008296888554468751,
+              "hash_factor": 0.95625
+            }
+          },
+          "wrong": {
+            "basic": 0.0200547451883846,
+            "fisher_fisher": 0.0003619747585617006,
+            "fisher_hash": 0.0001674747036304325,
+            "hash_fisher": 0.04267682638667536,
+            "hash_hash": 0.019745268675744377,
+            "entropy_fisher": 0.04698563946231812,
+            "fisher_variance": 0.00015450063801836222,
+            "hash_variance": 0.01821562691128428,
+            "entropy_hash": 0.021738825344679115,
+            "components": {
+              "precision_entropy": 0.49490401802355277,
+              "precision_fisher": 2.9372929930104874e-05,
+              "precision_hash": 0.408295814869431,
+              "flexibility_variance": 0.0008126682951115072,
+              "flexibility_fisher": 0.004460764583200216,
+              "flexibility_hash": 0.0009548852103762329,
+              "hash_factor": 0.825
+            }
+          },
+          "discriminations": {
+            "basic": -0.00013872557932839702,
+            "fisher_fisher": -3.2375799492001534e-05,
+            "fisher_hash": -2.532747748773545e-05,
+            "hash_fisher": 0.003458537305461619,
+            "hash_hash": 0.00015168170347776289,
+            "entropy_fisher": 0.00019330547049416918,
+            "fisher_variance": -1.5364435967057943e-05,
+            "hash_variance": 0.0012598575293290663,
+            "entropy_hash": -0.0013918062437500607
+          }
+        }
+      },
+      {
+        "test_case": "Shakespeare wrote",
+        "correct_hbar": 0.022975924173396164,
+        "wrong_hbar": 0.026132920277138375,
+        "hbar_discrimination": -0.0031569961037422115,
+        "correct_pfail": 0.39006695093868293,
+        "wrong_pfail": 0.3915710270494374,
+        "pfail_discrimination": 0.001504076110754482,
+        "correct_fim_eigenvalue": 65328078848.0,
+        "wrong_fim_eigenvalue": 42635956224.0,
+        "fim_discrimination": 22692122624.0,
+        "correct_entropy": 4.814688205718994,
+        "wrong_entropy": 4.307552814483643,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.022975924173396164,
+            "fisher_fisher": 0.00013210769975557923,
+            "fisher_hash": 6.611255230382085e-05,
+            "hash_fisher": 0.045202565701353094,
+            "hash_hash": 0.02262136872584876,
+            "entropy_fisher": 0.0497663869279334,
+            "fisher_variance": 6.099089659983292e-05,
+            "hash_variance": 0.020868919487790002,
+            "entropy_hash": 0.024905307284722154,
+            "components": {
+              "precision_entropy": 0.5552212095646061,
+              "precision_fisher": 3.912461579602677e-06,
+              "precision_hash": 0.45805749789079997,
+              "flexibility_variance": 0.0009507797658443451,
+              "flexibility_fisher": 0.004460732452571392,
+              "flexibility_hash": 0.001117166131734848,
+              "hash_factor": 0.825
+            }
+          },
+          "wrong": {
+            "basic": 0.026132920277138375,
+            "fisher_fisher": 0.00014698048471473157,
+            "fisher_hash": 7.57214002078399e-05,
+            "hash_fisher": 0.05067724229128579,
+            "hash_hash": 0.026107898645658732,
+            "entropy_fisher": 0.05182356075833533,
+            "fisher_variance": 7.411743717966601e-05,
+            "hash_variance": 0.025554869508853433,
+            "entropy_hash": 0.026698458924794572,
+            "components": {
+              "precision_entropy": 0.6020701551791343,
+              "precision_fisher": 4.8429724301968236e-06,
+              "precision_hash": 0.5757295858900472,
+              "flexibility_variance": 0.0011343022342771292,
+              "flexibility_fisher": 0.004460745025426149,
+              "flexibility_hash": 0.0011839279904961586,
+              "hash_factor": 0.95625
+            }
+          },
+          "discriminations": {
+            "basic": -0.0031569961037422115,
+            "fisher_fisher": -1.4872784959152341e-05,
+            "fisher_hash": -9.608847904019058e-06,
+            "hash_fisher": -0.005474676589932698,
+            "hash_hash": -0.0034865299198099733,
+            "entropy_fisher": -0.00205717383040193,
+            "fisher_variance": -1.312654057983309e-05,
+            "hash_variance": -0.00468595002106343,
+            "entropy_hash": -0.0017931516400724185
+          }
+        }
+      },
+      {
+        "test_case": "Water freezes at",
+        "correct_hbar": 0.02378650507309289,
+        "wrong_hbar": 0.02416987835480819,
+        "hbar_discrimination": -0.00038337328171529975,
+        "correct_pfail": 0.39045293485515437,
+        "wrong_pfail": 0.39063553807192375,
+        "pfail_discrimination": 0.00018260321676938363,
+        "correct_fim_eigenvalue": 13961971712.0,
+        "wrong_fim_eigenvalue": 19608991744.0,
+        "fim_discrimination": -5647020032.0,
+        "correct_entropy": 5.02203893661499,
+        "wrong_entropy": 4.951024532318115,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02378650507309289,
+            "fisher_fisher": 0.00019429765234235674,
+            "fisher_hash": 9.855969256022945e-05,
+            "hash_fisher": 0.04671215318491154,
+            "hash_hash": 0.023695272427829133,
+            "entropy_fisher": 0.04890051690536269,
+            "fisher_variance": 9.451151709072292e-05,
+            "hash_variance": 0.022722027066878293,
+            "entropy_hash": 0.024805344882036125,
+            "components": {
+              "precision_entropy": 0.5360662397424131,
+              "precision_fisher": 8.46304465085268e-06,
+              "precision_hash": 0.4891604437649519,
+              "flexibility_variance": 0.0010554625187069178,
+              "flexibility_fisher": 0.0044607557356357574,
+              "flexibility_hash": 0.0011478154920041561,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02416987835480819,
+            "fisher_fisher": 0.00017848022980615497,
+            "fisher_hash": 9.143759234575555e-05,
+            "hash_fisher": 0.046997079480604546,
+            "hash_hash": 0.024077174929588822,
+            "entropy_fisher": 0.049198791384044156,
+            "fisher_variance": 8.768193947616965e-05,
+            "hash_variance": 0.023088243880028652,
+            "entropy_hash": 0.025205138693072268,
+            "components": {
+              "precision_entropy": 0.5426265193487094,
+              "precision_fisher": 7.141219157347223e-06,
+              "precision_hash": 0.4951466989056973,
+              "flexibility_variance": 0.0010765839833766222,
+              "flexibility_fisher": 0.0044607496820390224,
+              "flexibility_hash": 0.0011707850499078631,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.00038337328171529975,
+            "fisher_fisher": 1.5817422536201775e-05,
+            "fisher_hash": 7.122100214473903e-06,
+            "hash_fisher": -0.0002849262956930096,
+            "hash_hash": -0.0003819025017596893,
+            "entropy_fisher": -0.00029827447868146367,
+            "fisher_variance": 6.829577614553273e-06,
+            "hash_variance": -0.0003662168131503586,
+            "entropy_hash": -0.0003997938110361435
+          }
+        }
+      },
+      {
+        "test_case": "The largest planet in our solar system is",
+        "correct_hbar": 0.025406891402540335,
+        "wrong_hbar": 0.024523243785327276,
+        "hbar_discrimination": 0.0008836476172130597,
+        "correct_pfail": 0.39122494425479154,
+        "wrong_pfail": 0.3908038754928416,
+        "pfail_discrimination": -0.0004210687619499165,
+        "correct_fim_eigenvalue": 132058685440.0,
+        "wrong_fim_eigenvalue": 129857642496.0,
+        "fim_discrimination": 2201042944.0,
+        "correct_entropy": 4.179756164550781,
+        "wrong_entropy": 4.304864883422852,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025406891402540335,
+            "fisher_fisher": 0.00011079260002588853,
+            "fisher_hash": 5.7213535910705104e-05,
+            "hash_fisher": 0.04877420712931163,
+            "hash_hash": 0.025187104737377376,
+            "entropy_fisher": 0.05232904505772875,
+            "fisher_variance": 5.3792220569448546e-05,
+            "hash_variance": 0.023680940143516058,
+            "entropy_hash": 0.027022830636315373,
+            "components": {
+              "precision_entropy": 0.6138759537999705,
+              "precision_fisher": 2.7517978651303565e-06,
+              "precision_hash": 0.5333047348637243,
+              "flexibility_variance": 0.0010515318717807531,
+              "flexibility_fisher": 0.004460720345377922,
+              "flexibility_hash": 0.0011895454954355955,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.024523243785327276,
+            "fisher_fisher": 0.0001112591489800252,
+            "fisher_hash": 5.489244722411968e-05,
+            "hash_fisher": 0.049514467684037736,
+            "hash_hash": 0.02442918533035214,
+            "entropy_fisher": 0.05183411380029082,
+            "fisher_variance": 5.2637828048318624e-05,
+            "hash_variance": 0.02342579573357255,
+            "entropy_hash": 0.025573640022592447,
+            "components": {
+              "precision_entropy": 0.6023184650747933,
+              "precision_fisher": 2.7750209028454265e-06,
+              "precision_hash": 0.5496155993807488,
+              "flexibility_variance": 0.0009984576608985662,
+              "flexibility_fisher": 0.004460722208023071,
+              "flexibility_hash": 0.0010858227033168077,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 0.0008836476172130597,
+            "fisher_fisher": -4.6654895413666964e-07,
+            "fisher_hash": 2.3210886865854263e-06,
+            "hash_fisher": -0.0007402605547261049,
+            "hash_hash": 0.0007579194070252357,
+            "entropy_fisher": 0.0004949312574379292,
+            "fisher_variance": 1.154392521129921e-06,
+            "hash_variance": 0.0002551444099435085,
+            "entropy_hash": 0.0014491906137229262
+          }
+        }
+      },
+      {
+        "test_case": "DNA stands for",
+        "correct_hbar": 0.02569064794475114,
+        "wrong_hbar": 0.025628365490568242,
+        "hbar_discrimination": 6.228245418289646e-05,
+        "correct_pfail": 0.39136019206729394,
+        "wrong_pfail": 0.3913305047465543,
+        "pfail_discrimination": -2.968732073965752e-05,
+        "correct_fim_eigenvalue": 8445153280.0,
+        "wrong_fim_eigenvalue": 7212511744.0,
+        "fim_discrimination": 1232641536.0,
+        "correct_entropy": 4.596589088439941,
+        "wrong_entropy": 4.518648147583008,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.02569064794475114,
+            "fisher_fisher": 0.00022031938715372235,
+            "fisher_hash": 0.00011172488302690908,
+            "hash_fisher": 0.050661480584997594,
+            "hash_hash": 0.02569064794475114,
+            "entropy_fisher": 0.050661480584997594,
+            "fisher_variance": 0.00011172488302690908,
+            "hash_variance": 0.02569064794475114,
+            "entropy_hash": 0.02569064794475114,
+            "components": {
+              "precision_entropy": 0.5753691106193781,
+              "precision_fisher": 1.0881686648644973e-05,
+              "precision_hash": 0.5753691106193781,
+              "flexibility_variance": 0.0011471060570329428,
+              "flexibility_fisher": 0.004460763651877642,
+              "flexibility_hash": 0.0011471060570329428,
+              "hash_factor": 1.0
+            }
+          },
+          "wrong": {
+            "basic": 0.025628365490568242,
+            "fisher_fisher": 0.0002291833225172013,
+            "fisher_hash": 0.00012015452375635505,
+            "hash_fisher": 0.048696174892349654,
+            "hash_hash": 0.025530068122927685,
+            "entropy_fisher": 0.050977485754585466,
+            "fisher_variance": 0.00011521937267389148,
+            "hash_variance": 0.024481461760234236,
+            "entropy_hash": 0.02672609680179637,
+            "components": {
+              "precision_entropy": 0.5825692606433331,
+              "precision_fisher": 1.1774886843340937e-05,
+              "precision_hash": 0.5315944503370414,
+              "flexibility_variance": 0.0011274421121925116,
+              "flexibility_fisher": 0.004460764117538929,
+              "flexibility_hash": 0.001226093270815909,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": 6.228245418289646e-05,
+            "fisher_fisher": -8.863935363478959e-06,
+            "fisher_hash": -8.429640729445964e-06,
+            "hash_fisher": 0.0019653056926479395,
+            "hash_hash": 0.000160579821823454,
+            "entropy_fisher": -0.00031600516958787267,
+            "fisher_variance": -3.4944896469824016e-06,
+            "hash_variance": 0.0012091861845169027,
+            "entropy_hash": -0.0010354488570452312
+          }
+        }
+      },
+      {
+        "test_case": "The speed of light is approximately",
+        "correct_hbar": 0.025417234769193935,
+        "wrong_hbar": 0.02555361841038134,
+        "hbar_discrimination": -0.0001363836411874056,
+        "correct_pfail": 0.3912298739543303,
+        "wrong_pfail": 0.39129487714567596,
+        "pfail_discrimination": 6.500319134566945e-05,
+        "correct_fim_eigenvalue": 7037872640.0,
+        "wrong_fim_eigenvalue": 7087531008.0,
+        "fim_discrimination": -49658368.0,
+        "correct_entropy": 4.655237674713135,
+        "wrong_entropy": 4.656527042388916,
+        "hbar_combinations": {
+          "correct": {
+            "basic": 0.025417234769193935,
+            "fisher_fisher": 0.00023059196246322244,
+            "fisher_hash": 0.0001236312964465469,
+            "hash_fisher": 0.04699706923928381,
+            "hash_hash": 0.025197357840482826,
+            "entropy_fisher": 0.050422383028871795,
+            "fisher_variance": 0.00011623826867435127,
+            "hash_variance": 0.02369058086038793,
+            "entropy_hash": 0.027033831022092305,
+            "components": {
+              "precision_entropy": 0.5699511798731355,
+              "precision_fisher": 1.1920083125005476e-05,
+              "precision_hash": 0.4951450875147864,
+              "flexibility_variance": 0.0011334932642057538,
+              "flexibility_fisher": 0.00446076225489378,
+              "flexibility_hash": 0.001282264245674014,
+              "hash_factor": 0.8687499999999999
+            }
+          },
+          "wrong": {
+            "basic": 0.02555361841038134,
+            "fisher_fisher": 0.00023018701176624745,
+            "fisher_hash": 0.0001216661767102778,
+            "hash_fisher": 0.04816088303327484,
+            "hash_hash": 0.02545560830365597,
+            "entropy_fisher": 0.05041711662537038,
+            "fisher_variance": 0.00011666892532957718,
+            "hash_variance": 0.024410059712141927,
+            "entropy_hash": 0.026648148700439248,
+            "components": {
+              "precision_entropy": 0.5698320686512335,
+              "precision_fisher": 1.187825091619743e-05,
+              "precision_hash": 0.5199717626442505,
+              "flexibility_variance": 0.0011459295637905598,
+              "flexibility_fisher": 0.004460762720555067,
+              "flexibility_hash": 0.0012461984297260642,
+              "hash_factor": 0.9124999999999999
+            }
+          },
+          "discriminations": {
+            "basic": -0.0001363836411874056,
+            "fisher_fisher": 4.0495069697499275e-07,
+            "fisher_hash": 1.9651197362691164e-06,
+            "hash_fisher": -0.0011638137939910323,
+            "hash_hash": -0.00025825046317314374,
+            "entropy_fisher": 5.2664035014166055e-06,
+            "fisher_variance": -4.306566552259028e-07,
+            "hash_variance": -0.0007194788517539963,
+            "entropy_hash": 0.00038568232165305666
+          }
+        }
+      }
+    ],
+    "hbar_success_rate": 0.2857142857142857,
+    "pfail_success_rate": 0.7142857142857143,
+    "fim_success_rate": 0.7142857142857143
+  }
+]

@@ -10,6 +10,6 @@
 *.log
 .DS_Store
 /tmp/
-/frontend/realtime/__pycache__/
-/frontend/logs/
+/realtime/web-ui/dist/
+/realtime/web-ui/target/
 /logs/

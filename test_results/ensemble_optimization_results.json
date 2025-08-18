@@ -1,0 +1,27 @@
+{
+  "evaluation_type": "ensemble_optimization",
+  "timestamp": "2025-08-17 14:01:24",
+  "optimal_weights": {
+    "semantic_entropy": 0.6,
+    "fisher_info": 0.4
+  },
+  "performance_metrics": {
+    "auroc_ensemble": 0.5,
+    "auroc_semantic_entropy_only": 0.5,
+    "auroc_fisher_only": 0.5,
+    "f1_ensemble": 0.0,
+    "f1_semantic_entropy_only": 0.0,
+    "f1_fisher_only": 0.0,
+    "ensemble_improvement": 0.0
+  },
+  "target_achievement": {
+    "target_auroc": 0.79,
+    "achieved": false,
+    "gap_percentage_points": 29.0
+  },
+  "processing_stats": {
+    "samples_processed": 480,
+    "avg_processing_time_ms": 2.3199573159217834,
+    "throughput_analyses_per_sec": 431.0424132103794
+  }
+}

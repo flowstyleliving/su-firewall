@@ -1,0 +1,27 @@
+{
+  "evaluation_type": "calibration_boundary_optimization",
+  "timestamp": "2025-08-17 14:03:08",
+  "optimal_parameters": {
+    "pfail_threshold": 0.4,
+    "power_factor": 1.5,
+    "similarity_threshold": 0.3
+  },
+  "final_metrics": {
+    "auroc": 0.5,
+    "f1_score": 0.0,
+    "precision": 0.0,
+    "recall": 0.0
+  },
+  "target_achievement": {
+    "target_auroc": 0.79,
+    "achieved": false,
+    "gap_percentage_points": 29.0
+  },
+  "processing_stats": {
+    "samples_processed": 800,
+    "avg_processing_time_ms": 1.14039808511734,
+    "throughput_analyses_per_sec": 876.886775811366,
+    "avg_semantic_entropy": 0.0,
+    "avg_p_fail": 0.5
+  }
+}

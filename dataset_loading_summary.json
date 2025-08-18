@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-08-15",
+  "datasets": {
+    "truthfulqa": 790,
+    "halueval_qa": 10000,
+    "halueval_dialogue": 10000,
+    "halueval_summarization": 10000,
+    "halueval_general": 4507
+  },
+  "total_examples": 35297,
+  "available_for_evaluation": true
+}

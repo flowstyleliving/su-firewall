@@ -1,0 +1,4525 @@
+{
+  "evaluation_type": "final_99_percent_push",
+  "timestamp": "2024-08-15",
+  "dataset_info": {
+    "total_authentic_cases": 300,
+    "data_sources": [
+      "HaluEval",
+      "TruthfulQA"
+    ],
+    "validation_quality": "82% \u210f\u209b reliability"
+  },
+  "performance_results": {},
+  "target_achievement": {
+    "target": 0.99,
+    "achieved": false,
+    "best_performance": 0
+  },
+  "detailed_analysis": {
+    "total_cases": 300,
+    "level_accuracies": {},
+    "detailed_results": [
+      {
+        "case_id": 0,
+        "source": "halueval_qa",
+        "domain": "question_answering",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.000710647401689319,
+          "hash_fisher": -0.0018765791792262135,
+          "hash_hash": 0.0004998887907160347,
+          "entropy_fisher": 0.0005302930325090383,
+          "hash_variance": -0.0005560780194062177,
+          "entropy_hash": 0.0018718669225116294
+        }
+      },
+      {
+        "case_id": 1,
+        "source": "halueval_qa",
+        "domain": "question_answering",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0046157643898222245,
+          "hash_fisher": -0.0007390083452240015,
+          "hash_hash": -0.004443877958523992,
+          "entropy_fisher": -0.002100698492544656,
+          "hash_variance": -0.003666941526028894,
+          "entropy_hash": -0.005478519876996175
+        }
+      },
+      {
+        "case_id": 2,
+        "source": "halueval_qa",
+        "domain": "question_answering",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.00042829607213525425,
+          "hash_fisher": -0.0012184556387800222,
+          "hash_hash": -0.0005500138643021978,
+          "entropy_fisher": -1.7659397203016736e-05,
+          "hash_variance": -0.0010030034003059782,
+          "entropy_hash": 8.545637882004936e-05
+        }
+      },
+      {
+        "case_id": 3,
+        "source": "halueval_qa",
+        "domain": "question_answering",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.002056639919714283,
+          "hash_fisher": -0.00012478944500526196,
+          "hash_hash": 0.002048751581205127,
+          "entropy_fisher": -0.00013063556160501644,
+          "hash_variance": 0.001964602524791765,
+          "entropy_hash": 0.0021447311780945742
+        }
+      },
+      {
+        "case_id": 4,
+        "source": "halueval_qa",
+        "domain": "question_answering",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0031364708926937476,
+          "hash_fisher": -0.0048815655646545705,
+          "hash_hash": -0.0034809757830814893,
+          "entropy_fisher": -0.0013180927680570553,
+          "hash_variance": -0.004737760274827609,
+          "entropy_hash": -0.0017077917352159439
+        }
+      },
+      {
+        "case_id": 5,
+        "source": "halueval_dialogue",
+        "domain": "dialogue",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0022688501402826147,
+          "hash_fisher": 0.0024793175982721627,
+          "hash_hash": 0.0024170407624215795,
+          "entropy_fisher": 0.0013586756200103661,
+          "hash_variance": 0.0027030591241073015,
+          "entropy_hash": 0.0019089797810843238
+        }
+      },
+      {
+        "case_id": 6,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.004590227851563426,
+          "hash_fisher": -0.0003304436246692813,
+          "hash_hash": 0.004585834412990285,
+          "entropy_fisher": -0.0003379182545455439,
+          "hash_variance": 0.004488693667551072,
+          "entropy_hash": 0.004689565919219971
+        }
+      },
+      {
+        "case_id": 7,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.003371864587184102,
+          "hash_fisher": 0.00013889557839948108,
+          "hash_hash": 0.0033589321620279278,
+          "entropy_fisher": 0.00014540253695258243,
+          "hash_variance": 0.003220969124317151,
+          "entropy_hash": 0.003516290895926172
+        }
+      },
+      {
+        "case_id": 8,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.006296792552586354,
+          "hash_fisher": -0.008957797268560365,
+          "hash_hash": -0.007308751817636995,
+          "entropy_fisher": -0.0021244735864193592,
+          "hash_variance": -0.011148554059625185,
+          "entropy_hash": -0.001952552226626103
+        }
+      },
+      {
+        "case_id": 9,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.007985353803124082,
+          "hash_fisher": 0.005548278688904597,
+          "hash_hash": 0.008221914092551866,
+          "entropy_fisher": 0.00307851466073826,
+          "hash_variance": 0.009262952250598942,
+          "entropy_hash": 0.006826182629926805
+        }
+      },
+      {
+        "case_id": 10,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0060410450798660115,
+          "hash_fisher": 0.006331420788434905,
+          "hash_hash": 0.006350636818631711,
+          "entropy_fisher": 0.0024565698950220413,
+          "hash_variance": 0.008472211297571017,
+          "entropy_hash": 0.0037648426967621107
+        }
+      },
+      {
+        "case_id": 11,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.001642545236841833,
+          "hash_fisher": -0.004762780608003413,
+          "hash_hash": -0.0023834545947978847,
+          "entropy_fisher": -0.0007540488061739264,
+          "hash_variance": -0.004185101709449919,
+          "entropy_hash": 0.0005282396629237157
+        }
+      },
+      {
+        "case_id": 12,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.013558293602352688,
+          "hash_fisher": 0.0051746528088551375,
+          "hash_hash": 0.013642080291464471,
+          "entropy_fisher": 0.003987724590719673,
+          "hash_variance": 0.014019337541703071,
+          "entropy_hash": 0.013139172070454987
+        }
+      },
+      {
+        "case_id": 13,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.002995623366005347,
+          "hash_fisher": -0.0018068028394673114,
+          "hash_hash": 0.002860914854566264,
+          "entropy_fisher": -0.00046994318790647555,
+          "hash_variance": 0.0018926216719200653,
+          "entropy_hash": 0.004031230122863889
+        }
+      },
+      {
+        "case_id": 14,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0055866423424532005,
+          "hash_fisher": 0.003176660875397065,
+          "hash_hash": 0.005565214263464728,
+          "entropy_fisher": 0.0033254805922783848,
+          "hash_variance": 0.005336632604416663,
+          "entropy_hash": 0.005825932559675433
+        }
+      },
+      {
+        "case_id": 15,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.024730639598223456,
+          "hash_fisher": 0.00418199794592479,
+          "hash_hash": 0.02398380399899746,
+          "entropy_fisher": 0.009751727128915942,
+          "hash_variance": 0.020292440774987326,
+          "entropy_hash": 0.028794696751778627
+        }
+      },
+      {
+        "case_id": 16,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.003068145110766189,
+          "hash_fisher": 0.000849179114173669,
+          "hash_hash": 0.00304160457530029,
+          "entropy_fisher": 0.0009110703124268968,
+          "hash_variance": 0.0028597186317886533,
+          "entropy_hash": 0.003263287549640767
+        }
+      },
+      {
+        "case_id": 17,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0008554503342139697,
+          "hash_fisher": 0.0003644187083406622,
+          "hash_hash": 0.0008546313638376074,
+          "entropy_fisher": 0.00037266185410435304,
+          "hash_variance": 0.000836528081450863,
+          "entropy_hash": 0.0008739631125790973
+        }
+      },
+      {
+        "case_id": 18,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0030531210462199573,
+          "hash_fisher": -0.0018065521931314582,
+          "hash_hash": 0.002585934465868356,
+          "entropy_fisher": 0.0009770211466160889,
+          "hash_variance": 0.0010722309578083261,
+          "entropy_hash": 0.004799863666423959
+        }
+      },
+      {
+        "case_id": 19,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00278938777395929,
+          "hash_fisher": -0.002174762964508338,
+          "hash_hash": 0.0025036869436253356,
+          "entropy_fisher": 0.0004642891311422495,
+          "hash_variance": 0.0010422599633570853,
+          "entropy_hash": 0.004393494186940718
+        }
+      },
+      {
+        "case_id": 20,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0071899570147639855,
+          "hash_fisher": 0.00011992030001985177,
+          "hash_hash": 0.00704538471702626,
+          "entropy_fisher": 0.0015370548586808239,
+          "hash_variance": 0.005948187234083857,
+          "entropy_hash": 0.008359398363825501
+        }
+      },
+      {
+        "case_id": 21,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.008595935454080453,
+          "hash_fisher": -0.002595441570171997,
+          "hash_hash": -0.008562965955013449,
+          "entropy_fisher": -0.0027170324150262576,
+          "hash_variance": -0.00821125581301542,
+          "entropy_hash": -0.008964122458359196
+        }
+      },
+      {
+        "case_id": 22,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009370843388731856,
+          "hash_fisher": 0.0018802788835890621,
+          "hash_hash": 0.00921521196071129,
+          "entropy_fisher": 0.003352776396770972,
+          "hash_variance": 0.008010293097246136,
+          "entropy_hash": 0.010653532516406446
+        }
+      },
+      {
+        "case_id": 23,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0019745304901262264,
+          "hash_fisher": 0.0021011923764015575,
+          "hash_hash": -0.001666036131793204,
+          "entropy_fisher": 0.0007411229285279736,
+          "hash_variance": -0.0008187548425987179,
+          "entropy_hash": -0.0029756088946517253
+        }
+      },
+      {
+        "case_id": 24,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0024607354312663615,
+          "hash_fisher": -0.004177195813601063,
+          "hash_hash": -0.0026264306300383816,
+          "entropy_fisher": -0.001521925119075826,
+          "hash_variance": -0.00439401307183071,
+          "entropy_hash": -0.000610345560897306
+        }
+      },
+      {
+        "case_id": 25,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.01677413837032546,
+          "hash_fisher": -0.002278552924665743,
+          "hash_hash": -0.016413229914910447,
+          "entropy_fisher": -0.0039565275854138784,
+          "hash_variance": -0.014595740432301406,
+          "entropy_hash": -0.01877183460246705
+        }
+      },
+      {
+        "case_id": 26,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.005941614292731087,
+          "hash_fisher": 0.0046931005731832495,
+          "hash_hash": 0.006035519969255242,
+          "entropy_fisher": 0.0035011643147954616,
+          "hash_variance": 0.006593356462532257,
+          "entropy_hash": 0.005336855568099853
+        }
+      },
+      {
+        "case_id": 27,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.01562773711802699,
+          "hash_fisher": 0.011950022034477467,
+          "hash_hash": 0.01614130197274509,
+          "entropy_fisher": 0.00863503710630966,
+          "hash_variance": 0.01693628168749327,
+          "entropy_hash": 0.014576971988034142
+        }
+      },
+      {
+        "case_id": 28,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.003123516478820719,
+          "hash_fisher": -0.002670204899272839,
+          "hash_hash": -0.0032829746437073107,
+          "entropy_fisher": -0.0014126034975223203,
+          "hash_variance": -0.0038090645235187015,
+          "entropy_hash": -0.0025178282935057333
+        }
+      },
+      {
+        "case_id": 29,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00011356171839224313,
+          "hash_fisher": -0.0010063479086396543,
+          "hash_hash": -1.873790516636331e-05,
+          "entropy_fisher": 0.00023538201580139417,
+          "hash_variance": -0.0005263325491458026,
+          "entropy_hash": 0.000687203140047353
+        }
+      },
+      {
+        "case_id": 30,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.014352399440019141,
+          "hash_fisher": 0.0034481176486647128,
+          "hash_hash": 0.01433865833101857,
+          "entropy_fisher": 0.0035261140186034073,
+          "hash_variance": 0.014034929542470292,
+          "entropy_hash": 0.014662998569247881
+        }
+      },
+      {
+        "case_id": 31,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.00686488143589796,
+          "hash_fisher": -0.004679972399907889,
+          "hash_hash": -0.007065890694998897,
+          "entropy_fisher": -0.0022788521330735015,
+          "hash_variance": -0.007949180309882436,
+          "entropy_hash": -0.005881211445742655
+        }
+      },
+      {
+        "case_id": 32,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00027129018066036556,
+          "hash_fisher": -0.008348088912578926,
+          "hash_hash": -0.0008289225947692401,
+          "entropy_fisher": -0.0005684037123566479,
+          "hash_variance": -0.004159360729826929,
+          "entropy_hash": 0.0041494022797117745
+        }
+      },
+      {
+        "case_id": 33,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.001128416805586785,
+          "hash_fisher": -0.0011404463765704864,
+          "hash_hash": 0.0010140838996595125,
+          "entropy_fisher": 0.00020795605851368915,
+          "hash_variance": 0.00021287895929377604,
+          "entropy_hash": 0.0019867536874181926
+        }
+      },
+      {
+        "case_id": 34,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.002793627436446358,
+          "hash_fisher": 0.0023158121770148893,
+          "hash_hash": -0.0024508961899040865,
+          "entropy_fisher": -0.0004091669248218188,
+          "hash_variance": -0.0007068191411289948,
+          "entropy_hash": -0.004708864529877926
+        }
+      },
+      {
+        "case_id": 35,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0018222465659061687,
+          "hash_fisher": 0.0005866420275019366,
+          "hash_hash": 0.0017941268763970453,
+          "entropy_fisher": 0.0006458716153798921,
+          "hash_variance": 0.001655137638155623,
+          "entropy_hash": 0.0019752686809524876
+        }
+      },
+      {
+        "case_id": 36,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0007422628466718477,
+          "hash_fisher": -0.0020485327762023373,
+          "hash_hash": 0.000620569153533753,
+          "entropy_fisher": 0.0003917146659564233,
+          "hash_variance": -0.0006776157263561414,
+          "entropy_hash": 0.0021012648908303906
+        }
+      },
+      {
+        "case_id": 37,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.022982251425916228,
+          "hash_fisher": -0.00249794182329946,
+          "hash_hash": -0.02249910091439769,
+          "entropy_fisher": -0.006770108364335621,
+          "hash_variance": -0.019188155818762084,
+          "entropy_hash": -0.026534509992289908
+        }
+      },
+      {
+        "case_id": 38,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.008492266685717328,
+          "hash_fisher": 8.774709727728258e-05,
+          "hash_hash": -0.007970007183348525,
+          "entropy_fisher": -0.0028387518796728142,
+          "hash_variance": -0.00612944117059714,
+          "entropy_hash": -0.01059336224931319
+        }
+      },
+      {
+        "case_id": 39,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.001661277775219079,
+          "hash_fisher": 0.0010560497772342317,
+          "hash_hash": 0.0017797654606154234,
+          "entropy_fisher": -0.0003073379275820576,
+          "hash_variance": 0.002568794603937663,
+          "entropy_hash": 0.0008130405741323884
+        }
+      },
+      {
+        "case_id": 40,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00480870777988307,
+          "hash_fisher": 9.049588995180269e-05,
+          "hash_hash": 0.004566314235574895,
+          "entropy_fisher": 0.0015657380908111682,
+          "hash_variance": 0.003515384315344386,
+          "entropy_hash": 0.005980655414296453
+        }
+      },
+      {
+        "case_id": 41,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.010186278048031232,
+          "hash_fisher": 0.0063942624611678725,
+          "hash_hash": 0.01051232488699392,
+          "entropy_fisher": 0.0038279079674063965,
+          "hash_variance": 0.01196062965685242,
+          "entropy_hash": 0.00857515212287626
+        }
+      },
+      {
+        "case_id": 42,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.00016035676907274338,
+          "hash_fisher": 0.0020291093749122135,
+          "hash_hash": -3.430605816225757e-05,
+          "entropy_fisher": 0.0007012856675415943,
+          "hash_variance": 0.000833210419216357,
+          "entropy_hash": -0.0010908608846734932
+        }
+      },
+      {
+        "case_id": 43,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.005308550785738504,
+          "hash_fisher": -0.0028612302584365215,
+          "hash_hash": -0.0053398406558646735,
+          "entropy_fisher": -0.0016211609886732786,
+          "hash_variance": -0.006031403644441151,
+          "entropy_hash": -0.004601344652644092
+        }
+      },
+      {
+        "case_id": 44,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009412221840735462,
+          "hash_fisher": 0.00438471841714233,
+          "hash_hash": 0.009377622539476115,
+          "entropy_fisher": 0.005652982907501811,
+          "hash_variance": 0.008612899121306038,
+          "entropy_hash": 0.010194243291252975
+        }
+      },
+      {
+        "case_id": 45,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0006821539627776194,
+          "hash_fisher": -9.947717754152374e-05,
+          "hash_hash": 0.00067953659516546,
+          "entropy_fisher": -0.00010413746895397702,
+          "hash_variance": 0.0006516266579887214,
+          "entropy_hash": 0.0007113714203701993
+        }
+      },
+      {
+        "case_id": 46,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.004718613371281363,
+          "hash_fisher": -0.00495023794395362,
+          "hash_hash": -0.005226344143601236,
+          "entropy_fisher": -0.0024253006517913275,
+          "hash_variance": -0.006095832700832769,
+          "entropy_hash": -0.0035963712648329135
+        }
+      },
+      {
+        "case_id": 47,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009744571532881212,
+          "hash_fisher": -0.0008614817278457809,
+          "hash_hash": 0.009336034000344412,
+          "entropy_fisher": 0.003334381138547199,
+          "hash_variance": 0.006536395723914255,
+          "entropy_hash": 0.012748257418009883
+        }
+      },
+      {
+        "case_id": 48,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.008188312201348226,
+          "hash_fisher": 0.004270873581846815,
+          "hash_hash": 0.008543427423413429,
+          "entropy_fisher": 0.0016797629753403237,
+          "hash_variance": 0.009386927288422251,
+          "entropy_hash": 0.007167715276403544
+        }
+      },
+      {
+        "case_id": 49,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.007163691746647667,
+          "hash_fisher": 0.0012627430950165053,
+          "hash_hash": 0.007136217225228697,
+          "entropy_fisher": 0.0013218998880345015,
+          "hash_variance": 0.0068431069325198685,
+          "entropy_hash": 0.007470533624970119
+        }
+      },
+      {
+        "case_id": 50,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.007974486795784413,
+          "hash_fisher": -0.0028744859753489227,
+          "hash_hash": -0.007848874755075938,
+          "entropy_fisher": -0.004298006635456653,
+          "hash_variance": -0.006870361474186848,
+          "entropy_hash": -0.009015770168492011
+        }
+      },
+      {
+        "case_id": 51,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009385925203861036,
+          "hash_fisher": 0.0036399386450820317,
+          "hash_hash": 0.009549576678568011,
+          "entropy_fisher": 0.002382806423969888,
+          "hash_variance": 0.009927040006793578,
+          "entropy_hash": 0.008926783415843104
+        }
+      },
+      {
+        "case_id": 52,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.016521027520379455,
+          "hash_fisher": 0.012336027151142438,
+          "hash_hash": 0.017364798368996744,
+          "entropy_fisher": 0.0058187176133068785,
+          "hash_variance": 0.02056642339145186,
+          "entropy_hash": 0.012898802297668183
+        }
+      },
+      {
+        "case_id": 53,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.004593312684239265,
+          "hash_fisher": -0.00041125716011417013,
+          "hash_hash": -0.0045756966122517465,
+          "entropy_fisher": -0.0004305236718805394,
+          "hash_variance": -0.004387755780733922,
+          "entropy_hash": -0.00479005813873512
+        }
+      },
+      {
+        "case_id": 54,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.017186174374602917,
+          "hash_fisher": 0.00021900012739241304,
+          "hash_hash": 0.0160054340197791,
+          "entropy_fisher": 0.00492242500827577,
+          "hash_variance": 0.012513950461152952,
+          "entropy_hash": 0.02126604544867043
+        }
+      },
+      {
+        "case_id": 55,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0036778392126774265,
+          "hash_fisher": 0.0010658575325805594,
+          "hash_hash": 0.003674318540089476,
+          "entropy_fisher": 0.001089967214118047,
+          "hash_variance": 0.003596486736185296,
+          "entropy_hash": 0.0037574315708285497
+        }
+      },
+      {
+        "case_id": 56,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012727216089176381,
+          "hash_fisher": 0.005049987967797702,
+          "hash_hash": 0.012727216089176381,
+          "entropy_fisher": 0.005049987967797702,
+          "hash_variance": 0.012727216089176381,
+          "entropy_hash": 0.012727216089176381
+        }
+      },
+      {
+        "case_id": 57,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.009045965976485684,
+          "hash_fisher": -0.002075992819809379,
+          "hash_hash": -0.008930332954605803,
+          "entropy_fisher": -0.0034682323908611715,
+          "hash_variance": -0.008004694474032098,
+          "entropy_hash": -0.010029387254838425
+        }
+      },
+      {
+        "case_id": 58,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.009884875821878122,
+          "hash_fisher": -0.0041561713733757125,
+          "hash_hash": -0.009846962026367385,
+          "entropy_fisher": -0.004350879046418947,
+          "hash_variance": -0.009442514370533412,
+          "entropy_hash": -0.0103082709788762
+        }
+      },
+      {
+        "case_id": 59,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0018149135550664247,
+          "hash_fisher": 0.00044676296487990846,
+          "hash_hash": -0.0014784069291968321,
+          "entropy_fisher": -0.0023683894481530895,
+          "hash_variance": 0.00021875982194364402,
+          "entropy_hash": -0.0036801313794679186
+        }
+      },
+      {
+        "case_id": 60,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.013708878225167639,
+          "hash_fisher": 0.000749541402678848,
+          "hash_hash": 0.013379077492615726,
+          "entropy_fisher": 0.00463415915393213,
+          "hash_variance": 0.01111900542461165,
+          "entropy_hash": 0.016133672394896433
+        }
+      },
+      {
+        "case_id": 61,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.004088660493775074,
+          "hash_fisher": -0.004591628199569035,
+          "hash_hash": -0.004281630457418487,
+          "entropy_fisher": -0.002176920005466529,
+          "hash_variance": -0.00517066239167676,
+          "entropy_hash": -0.003103261794938781
+        }
+      },
+      {
+        "case_id": 62,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.00028825076372519104,
+          "hash_fisher": -0.001851336897544159,
+          "hash_hash": -0.0006190153271481702,
+          "entropy_fisher": 0.000915921202563591,
+          "hash_variance": -0.0022532121453860895,
+          "entropy_hash": 0.001511129462456462
+        }
+      },
+      {
+        "case_id": 63,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.008800644710501092,
+          "hash_fisher": -0.004268944727670525,
+          "hash_hash": -0.008664836148566092,
+          "entropy_fisher": -0.0046999534604924564,
+          "hash_variance": -0.007993582522210458,
+          "entropy_hash": -0.009539670630328324
+        }
+      },
+      {
+        "case_id": 64,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012437045205665812,
+          "hash_fisher": 0.002059503097741007,
+          "hash_hash": 0.012279098307117237,
+          "entropy_fisher": 0.003533172751029101,
+          "hash_variance": 0.011013546219174698,
+          "entropy_hash": 0.013781525572099995
+        }
+      },
+      {
+        "case_id": 65,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.010123571353455041,
+          "hash_fisher": 0.003434040682744624,
+          "hash_hash": 0.010035996085048286,
+          "entropy_fisher": 0.003684325798284961,
+          "hash_variance": 0.009435852795270042,
+          "entropy_hash": 0.010767455223645646
+        }
+      },
+      {
+        "case_id": 66,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.003469602134348819,
+          "hash_fisher": -0.00547023297402293,
+          "hash_hash": -0.004029858513763758,
+          "entropy_fisher": -0.001421020903826134,
+          "hash_variance": -0.006102296186979113,
+          "entropy_hash": -0.0011176164077776884
+        }
+      },
+      {
+        "case_id": 67,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.010652838941841117,
+          "hash_fisher": 0.004172106320205773,
+          "hash_hash": 0.010819873194284825,
+          "entropy_fisher": 0.002928610344196017,
+          "hash_variance": 0.011176939027640033,
+          "entropy_hash": 0.010212408126067711
+        }
+      },
+      {
+        "case_id": 68,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.002580978282655244,
+          "hash_fisher": -0.0017718179608672488,
+          "hash_hash": -0.002558651967003049,
+          "entropy_fisher": -0.0019009543643118618,
+          "hash_variance": -0.0024056462183784794,
+          "entropy_hash": -0.002745135635180508
+        }
+      },
+      {
+        "case_id": 69,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.025080898253936813,
+          "hash_fisher": 0.007197066588527742,
+          "hash_hash": 0.02498470078720942,
+          "entropy_fisher": 0.007534233649820317,
+          "hash_variance": 0.02395849441674501,
+          "entropy_hash": 0.026155180181567914
+        }
+      },
+      {
+        "case_id": 70,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.006570805887561572,
+          "hash_fisher": 0.0013043686524981182,
+          "hash_hash": -0.006206357693256885,
+          "entropy_fisher": -0.0014729394570993926,
+          "hash_variance": -0.004292648562087782,
+          "entropy_hash": -0.008666523554490671
+        }
+      },
+      {
+        "case_id": 71,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.017056520535464727,
+          "hash_fisher": 0.005948544473762932,
+          "hash_hash": 0.016991099895536245,
+          "entropy_fisher": 0.006227220964318665,
+          "hash_variance": 0.0162932183640546,
+          "entropy_hash": 0.017787096312887503
+        }
+      },
+      {
+        "case_id": 72,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0005271198663205287,
+          "hash_fisher": -0.0007172882589526683,
+          "hash_hash": -0.0005250992670640109,
+          "entropy_fisher": -0.0007508916682578207,
+          "hash_variance": -0.0005035305452911129,
+          "entropy_hash": -0.0005496990362317891
+        }
+      },
+      {
+        "case_id": 73,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 9.160432182262618e-05,
+          "hash_fisher": 0.0015054958002923488,
+          "hash_hash": 0.00027317538431614885,
+          "entropy_fisher": 0.00018011338904624918,
+          "hash_variance": 0.0009633111394148283,
+          "entropy_hash": -0.0006891757544688834
+        }
+      },
+      {
+        "case_id": 74,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0013072923270225495,
+          "hash_fisher": 0.005194841299645835,
+          "hash_hash": 0.0018310821316486967,
+          "entropy_fisher": 0.0012822750819058981,
+          "hash_variance": 0.003802549966616761,
+          "entropy_hash": -0.0009255301668586735
+        }
+      },
+      {
+        "case_id": 75,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0025750061729318333,
+          "hash_fisher": -0.0007021434044934133,
+          "hash_hash": 0.002320386948810399,
+          "entropy_fisher": 0.0006548808375834991,
+          "hash_variance": 0.0015855283603039179,
+          "entropy_hash": 0.0034368104747423064
+        }
+      },
+      {
+        "case_id": 76,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.021799794388101444,
+          "hash_fisher": 0.007260360611838927,
+          "hash_hash": 0.021716181796815018,
+          "entropy_fisher": 0.007600492861736433,
+          "hash_variance": 0.020824224349761333,
+          "entropy_hash": 0.02273353811954222
+        }
+      },
+      {
+        "case_id": 77,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.017968972134528284,
+          "hash_fisher": 0.006184740468749006,
+          "hash_hash": 0.018053850771257964,
+          "entropy_fisher": 0.005006992486139998,
+          "hash_variance": 0.018374257748936855,
+          "entropy_hash": 0.017606155731495265
+        }
+      },
+      {
+        "case_id": 78,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.010710927622403263,
+          "hash_fisher": -0.005800179264493048,
+          "hash_hash": -0.010742536067118565,
+          "entropy_fisher": -0.004575027771688563,
+          "hash_variance": -0.011441152709218666,
+          "entropy_hash": -0.009996508282247414
+        }
+      },
+      {
+        "case_id": 79,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00040295108859914747,
+          "hash_fisher": 0.0027792130207711582,
+          "hash_hash": 0.0005649376354420269,
+          "entropy_fisher": 0.00012340538182779165,
+          "hash_variance": 0.0022929578555182517,
+          "entropy_hash": -0.0014060231552158464
+        }
+      },
+      {
+        "case_id": 80,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.004929310519026918,
+          "hash_fisher": -0.003870139807061544,
+          "hash_hash": -0.005241930701027429,
+          "entropy_fisher": -0.0012075915289097502,
+          "hash_variance": -0.006710015983130792,
+          "entropy_hash": -0.0033051064933336954
+        }
+      },
+      {
+        "case_id": 81,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00294967306448065,
+          "hash_fisher": -0.00012762546090557686,
+          "hash_hash": 0.002754260146084278,
+          "entropy_fisher": 0.0012746259537397484,
+          "hash_variance": 0.0019313865645670947,
+          "entropy_hash": 0.003870107130340604
+        }
+      },
+      {
+        "case_id": 82,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.005785891328853727,
+          "hash_fisher": 0.001140348825599359,
+          "hash_hash": -0.005608945875079152,
+          "entropy_fisher": -0.0001220915816096957,
+          "hash_variance": -0.004781961226857229,
+          "entropy_hash": -0.0067012222647581075
+        }
+      },
+      {
+        "case_id": 83,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.005167200103647268,
+          "hash_fisher": -0.004721010801031711,
+          "hash_hash": -0.005525197673411662,
+          "entropy_fisher": -0.0021690889729861565,
+          "hash_variance": -0.006465773722761827,
+          "entropy_hash": -0.004048077071091304
+        }
+      },
+      {
+        "case_id": 84,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0021537487654414225,
+          "hash_fisher": 0.0015640073497472443,
+          "hash_hash": 0.002389251712336525,
+          "entropy_fisher": 0.00019036938813520032,
+          "hash_variance": 0.002898383694569802,
+          "entropy_hash": 0.0015272402671797358
+        }
+      },
+      {
+        "case_id": 85,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.006266606246232195,
+          "hash_fisher": 0.0027849059727970693,
+          "hash_hash": 0.006242569670119408,
+          "entropy_fisher": 0.002915372816652717,
+          "hash_variance": 0.005986167211484431,
+          "entropy_hash": 0.006535020607553198
+        }
+      },
+      {
+        "case_id": 86,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.004720154552357685,
+          "hash_fisher": -0.004380658367480306,
+          "hash_hash": -0.0050597514271273,
+          "entropy_fisher": -0.0016869979522484355,
+          "hash_variance": -0.006664937837229198,
+          "entropy_hash": -0.0029453772844964393
+        }
+      },
+      {
+        "case_id": 87,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.003314784099194959,
+          "hash_fisher": -0.003941285539823196,
+          "hash_hash": -0.0036501055500791843,
+          "entropy_fisher": -0.0012431780447207663,
+          "hash_variance": -0.0052571810633907715,
+          "entropy_hash": -0.0015402520742049536
+        }
+      },
+      {
+        "case_id": 88,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.007841763018191384,
+          "hash_fisher": 0.0017995067746807702,
+          "hash_hash": 0.0078116857685109654,
+          "entropy_fisher": 0.0018838097894621486,
+          "hash_variance": 0.007490833605183406,
+          "entropy_hash": 0.008177646413992323
+        }
+      },
+      {
+        "case_id": 89,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.006431278206087208,
+          "hash_fisher": -0.0027761962855478925,
+          "hash_hash": -0.006687197924532137,
+          "entropy_fisher": -0.00018816378790835475,
+          "hash_variance": -0.007849677427390074,
+          "entropy_hash": -0.0051409966368667
+        }
+      },
+      {
+        "case_id": 90,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009894075551375246,
+          "hash_fisher": -0.002471416098277175,
+          "hash_hash": 0.009120363622050355,
+          "entropy_fisher": 0.003192696492314913,
+          "hash_variance": 0.00529615626431721,
+          "entropy_hash": 0.014104389282569067
+        }
+      },
+      {
+        "case_id": 91,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.007738991603956705,
+          "hash_fisher": 0.0012963185659349216,
+          "hash_hash": 0.007504090488743322,
+          "entropy_fisher": 0.0028027616484725265,
+          "hash_variance": 0.006404711652982294,
+          "entropy_hash": 0.00895565364160867
+        }
+      },
+      {
+        "case_id": 92,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009679173859815988,
+          "hash_fisher": 0.0023353081109095883,
+          "hash_hash": 0.009669907061382654,
+          "entropy_fisher": 0.0023881327456519302,
+          "hash_variance": 0.009465074026093048,
+          "entropy_hash": 0.009888640215317934
+        }
+      },
+      {
+        "case_id": 93,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.005272231628142811,
+          "hash_fisher": -0.0031034450547943113,
+          "hash_hash": -0.005414942059368551,
+          "entropy_fisher": -0.0018844355481566419,
+          "hash_variance": -0.005820672884627377,
+          "entropy_hash": -0.004795267554809801
+        }
+      },
+      {
+        "case_id": 94,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0021760727944355115,
+          "hash_fisher": 0.002525918340989773,
+          "hash_hash": 0.002400193458109441,
+          "entropy_fisher": 0.0012652367287665708,
+          "hash_variance": 0.0028799629441812746,
+          "entropy_hash": 0.0015846011068824523
+        }
+      },
+      {
+        "case_id": 95,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.008870173465940323,
+          "hash_fisher": -0.005970301116881231,
+          "hash_hash": -0.00886168048928658,
+          "entropy_fisher": -0.006105349239365662,
+          "hash_variance": -0.008673968429058428,
+          "entropy_hash": -0.00906213157017953
+        }
+      },
+      {
+        "case_id": 96,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.019579713595892417,
+          "hash_fisher": 0.005587336241302872,
+          "hash_hash": 0.019504614503365138,
+          "entropy_fisher": 0.005849090904506436,
+          "hash_variance": 0.01870349515073777,
+          "entropy_hash": 0.020418363663922703
+        }
+      },
+      {
+        "case_id": 97,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.001530050191635303,
+          "hash_fisher": 8.903600639628695e-05,
+          "hash_hash": -0.0016303884041104846,
+          "entropy_fisher": 0.0014239025204412573,
+          "hash_variance": -0.002296754349947111,
+          "entropy_hash": -0.0008135458051153829
+        }
+      },
+      {
+        "case_id": 98,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0028458545682815695,
+          "hash_fisher": -0.0022608249207917153,
+          "hash_hash": -0.003106274288510756,
+          "entropy_fisher": -0.000914794096933326,
+          "hash_variance": -0.0036518199633537723,
+          "entropy_hash": -0.0021705169398225366
+        }
+      },
+      {
+        "case_id": 99,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0030566575707027463,
+          "hash_fisher": 0.0014910324387742077,
+          "hash_hash": -0.0029207421791337257,
+          "entropy_fisher": -0.001052150899491025,
+          "hash_variance": -0.001470838726639681,
+          "entropy_hash": -0.004574485875665793
+        }
+      },
+      {
+        "case_id": 100,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.012136210521085704,
+          "hash_fisher": -0.002548361210510719,
+          "hash_hash": -0.01203122419266639,
+          "entropy_fisher": -0.0027340948517037555,
+          "hash_variance": -0.011311768542065906,
+          "entropy_hash": -0.0129081026618948
+        }
+      },
+      {
+        "case_id": 101,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.007123219355338314,
+          "hash_fisher": 0.0025699170257930254,
+          "hash_hash": 0.00709589879751879,
+          "entropy_fisher": 0.0026903121007439204,
+          "hash_variance": 0.006804445735006132,
+          "entropy_hash": 0.00742832636580093
+        }
+      },
+      {
+        "case_id": 102,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.009352322163190055,
+          "hash_fisher": -0.007722417567552105,
+          "hash_hash": -0.009671484090573116,
+          "entropy_fisher": -0.005458053193790502,
+          "hash_variance": -0.010371346791901666,
+          "entropy_hash": -0.00849329974163153
+        }
+      },
+      {
+        "case_id": 103,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009367318356316837,
+          "hash_fisher": 0.00243637286292564,
+          "hash_hash": 0.009331388918466743,
+          "entropy_fisher": 0.002550511681609767,
+          "hash_variance": 0.008948118295741783,
+          "entropy_hash": 0.009768544381837427
+        }
+      },
+      {
+        "case_id": 104,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0029305592635492303,
+          "hash_fisher": 0.0019373920783908039,
+          "hash_hash": 0.002927754474192981,
+          "entropy_fisher": 0.0019812158583946554,
+          "hash_variance": 0.002865736349927858,
+          "entropy_hash": 0.0029939802368630156
+        }
+      },
+      {
+        "case_id": 105,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.005107035573128804,
+          "hash_fisher": 0.004633460062001819,
+          "hash_hash": 0.005395480144728768,
+          "entropy_fisher": 0.0022207561736038856,
+          "hash_variance": 0.006125738084939623,
+          "entropy_hash": 0.004232923266000922
+        }
+      },
+      {
+        "case_id": 106,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.010429362243195406,
+          "hash_fisher": 0.0045471085648408835,
+          "hash_hash": 0.010763660107581563,
+          "entropy_fisher": 0.0019978310000146673,
+          "hash_variance": 0.011478206452208529,
+          "entropy_hash": 0.009548109782012808
+        }
+      },
+      {
+        "case_id": 107,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.005588610071866396,
+          "hash_fisher": -0.004834225044090999,
+          "hash_hash": -0.005567175342932745,
+          "entropy_fisher": -0.0050606980705239155,
+          "hash_variance": -0.00533851227529936,
+          "entropy_hash": -0.005827985511490753
+        }
+      },
+      {
+        "case_id": 108,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.005996182553255298,
+          "hash_fisher": 0.006234051645543061,
+          "hash_hash": 0.006336753669608425,
+          "entropy_fisher": 0.0022969161691575174,
+          "hash_variance": 0.008670622994537816,
+          "entropy_hash": 0.00349221251968225
+        }
+      },
+      {
+        "case_id": 109,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009183444960556543,
+          "hash_fisher": 0.0027259439018701218,
+          "hash_hash": 0.009148220763844736,
+          "entropy_fisher": 0.0028536484997554665,
+          "hash_variance": 0.008772473481066155,
+          "entropy_hash": 0.009576795193865707
+        }
+      },
+      {
+        "case_id": 110,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0036449248529409374,
+          "hash_fisher": -0.0034377590491664473,
+          "hash_hash": -0.0036309450202275315,
+          "entropy_fisher": -0.003598810652869412,
+          "hash_variance": -0.003481809576933049,
+          "entropy_hash": -0.0038010469703938024
+        }
+      },
+      {
+        "case_id": 111,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.002093331112503736,
+          "hash_fisher": -0.0008062957578538893,
+          "hash_hash": -0.002085302932137944,
+          "entropy_fisher": -0.0008440689766874704,
+          "hash_variance": -0.001999651737490976,
+          "entropy_hash": -0.0021829948810570335
+        }
+      },
+      {
+        "case_id": 112,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0030051003770749166,
+          "hash_fisher": 0.0013642772624863075,
+          "hash_hash": 0.0029935748457105005,
+          "entropy_fisher": 0.001428190712462446,
+          "hash_variance": 0.002870618104541235,
+          "entropy_hash": 0.0031338173766183725
+        }
+      },
+      {
+        "case_id": 113,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0028057442205550384,
+          "hash_fisher": 0.0014669571906667303,
+          "hash_hash": -0.0025774425391117614,
+          "entropy_fisher": 9.294585686300122e-05,
+          "hash_variance": -0.001632916370553579,
+          "entropy_hash": -0.0038642485461898787
+        }
+      },
+      {
+        "case_id": 114,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.00568317225613621,
+          "hash_fisher": -0.004554380301696553,
+          "hash_hash": -0.005945712141155822,
+          "entropy_fisher": -0.002005674760640605,
+          "hash_variance": -0.007153280118686316,
+          "entropy_hash": -0.004344495453735726
+        }
+      },
+      {
+        "case_id": 115,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.007858881563962597,
+          "hash_fisher": 0.001615558385629684,
+          "hash_hash": 0.007703214918516867,
+          "entropy_fisher": 0.0030944155208424626,
+          "hash_variance": 0.0065201025736179585,
+          "entropy_hash": 0.009119782225430383
+        }
+      },
+      {
+        "case_id": 116,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.008204786718962638,
+          "hash_fisher": -0.0016220160941466596,
+          "hash_hash": -0.007978090215095344,
+          "entropy_fisher": -0.003123175195632412,
+          "hash_variance": -0.006897758115903135,
+          "entropy_hash": -0.009398307399851744
+        }
+      },
+      {
+        "case_id": 117,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.00482116641519742,
+          "hash_fisher": -0.005712244107573081,
+          "hash_hash": -0.005125457680214898,
+          "entropy_fisher": -0.001871648912302723,
+          "hash_variance": -0.007210722312593114,
+          "entropy_hash": -0.002583920269592102
+        }
+      },
+      {
+        "case_id": 118,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.01776580648318916,
+          "hash_fisher": -0.006702300793731172,
+          "hash_hash": -0.01769766539502836,
+          "entropy_fisher": -0.007016289143668544,
+          "hash_variance": -0.016970762814272372,
+          "entropy_hash": -0.01852676288350966
+        }
+      },
+      {
+        "case_id": 119,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.02285657655639329,
+          "hash_fisher": 0.007670638180992138,
+          "hash_hash": 0.02294762213016066,
+          "entropy_fisher": 0.006485325955236487,
+          "hash_variance": 0.023239051507058225,
+          "entropy_hash": 0.022519656901565537
+        }
+      },
+      {
+        "case_id": 120,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.011306055779912734,
+          "hash_fisher": -0.003651888532035387,
+          "hash_hash": -0.011208250145711664,
+          "entropy_fisher": -0.003918051174712757,
+          "hash_variance": -0.01053800820971735,
+          "entropy_hash": -0.012025147335316986
+        }
+      },
+      {
+        "case_id": 121,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.01693746769582149,
+          "hash_fisher": 0.007420299888723385,
+          "hash_hash": 0.01723003008856938,
+          "entropy_fisher": 0.004841699866157727,
+          "hash_variance": 0.018401589359521922,
+          "entropy_hash": 0.01561981205486556
+        }
+      },
+      {
+        "case_id": 122,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0034742385510127607,
+          "hash_fisher": -0.0019179807491741183,
+          "hash_hash": -0.0034609133373950177,
+          "entropy_fisher": -0.00200783401437047,
+          "hash_variance": -0.003318761715953071,
+          "entropy_hash": -0.0036230496696081776
+        }
+      },
+      {
+        "case_id": 123,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.010854986457523176,
+          "hash_fisher": -0.006524272104459786,
+          "hash_hash": -0.010959639761949976,
+          "entropy_fisher": -0.005648659563121279,
+          "hash_variance": -0.010813679807756452,
+          "entropy_hash": -0.010948869844743817
+        }
+      },
+      {
+        "case_id": 124,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.004491450806779748,
+          "hash_fisher": 0.0015548236508241137,
+          "hash_hash": 0.004712895142454002,
+          "entropy_fisher": 0.00011638747941412897,
+          "hash_variance": 0.0054394537088246,
+          "entropy_hash": 0.003654351710992612
+        }
+      },
+      {
+        "case_id": 125,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.030316930305689105,
+          "hash_fisher": 0.00856837800941062,
+          "hash_hash": 0.030200651228208406,
+          "entropy_fisher": 0.008969788055842864,
+          "hash_variance": 0.0289602070112337,
+          "entropy_hash": 0.03161548666129559
+        }
+      },
+      {
+        "case_id": 126,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.008005589000792422,
+          "hash_fisher": 0.005548805287682326,
+          "hash_hash": 0.008652471028596231,
+          "entropy_fisher": 0.001433068427215571,
+          "hash_variance": 0.01097528326582193,
+          "entropy_hash": 0.005360009820701735
+        }
+      },
+      {
+        "case_id": 127,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.015883093829727316,
+          "hash_fisher": 0.005116575598411818,
+          "hash_hash": 0.016044946391262055,
+          "entropy_fisher": 0.003948066229420302,
+          "hash_variance": 0.01585323652056353,
+          "entropy_hash": 0.015994256335287886
+        }
+      },
+      {
+        "case_id": 128,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0010763119015712586,
+          "hash_fisher": 0.0003033582931849521,
+          "hash_hash": -0.0010670011944293178,
+          "entropy_fisher": 0.0003254681260245612,
+          "hash_variance": -0.0010031954446152527,
+          "entropy_hash": -0.0011447680416805245
+        }
+      },
+      {
+        "case_id": 129,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.003848780322270366,
+          "hash_fisher": -0.00437239429490157,
+          "hash_hash": 0.002451492877964312,
+          "entropy_fisher": 0.0001859561890905359,
+          "hash_variance": -0.00019679700052574467,
+          "entropy_hash": 0.007191934912944849
+        }
+      },
+      {
+        "case_id": 130,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.01632407951882977,
+          "hash_fisher": 0.000682569819519252,
+          "hash_hash": -0.01545867231597018,
+          "entropy_fisher": -0.0038253832652302075,
+          "hash_variance": -0.011877629219326204,
+          "entropy_hash": -0.020336951231057408
+        }
+      },
+      {
+        "case_id": 131,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.006275635629622342,
+          "hash_fisher": -0.0035735839043415235,
+          "hash_hash": 0.005556899784390175,
+          "entropy_fisher": 0.0006850983512304634,
+          "hash_variance": 0.002710346461318819,
+          "entropy_hash": 0.009480821732214408
+        }
+      },
+      {
+        "case_id": 132,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.02789401917489199,
+          "hash_fisher": 0.009775621958956295,
+          "hash_hash": 0.027787032559204915,
+          "entropy_fisher": 0.01023358878303187,
+          "hash_variance": 0.02664572440332469,
+          "entropy_hash": 0.029088795158562046
+        }
+      },
+      {
+        "case_id": 133,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.017269346924001755,
+          "hash_fisher": 0.005210165977193128,
+          "hash_hash": 0.017203110949640027,
+          "entropy_fisher": 0.00545425102625699,
+          "hash_variance": 0.016496520486246335,
+          "entropy_hash": 0.018009039628030465
+        }
+      },
+      {
+        "case_id": 134,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.030932717377248897,
+          "hash_fisher": 0.011940840286402493,
+          "hash_hash": 0.031125087599981827,
+          "entropy_fisher": 0.009635647837975755,
+          "hash_variance": 0.031570420002104985,
+          "entropy_hash": 0.03039133227809254
+        }
+      },
+      {
+        "case_id": 135,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.024917714814274454,
+          "hash_fisher": 0.009669731152164657,
+          "hash_hash": 0.02518215904074838,
+          "entropy_fisher": 0.007166486488803442,
+          "hash_variance": 0.02608335573244188,
+          "entropy_hash": 0.023884469849613912
+        }
+      },
+      {
+        "case_id": 136,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.011125638029663858,
+          "hash_fisher": -0.0009781555589074287,
+          "hash_hash": 0.010537889331451444,
+          "entropy_fisher": 0.0030751631802383647,
+          "hash_variance": 0.008105116789956308,
+          "entropy_hash": 0.013851689931385067
+        }
+      },
+      {
+        "case_id": 137,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0077023435199350745,
+          "hash_fisher": 0.00525084593185015,
+          "hash_hash": 0.007836299846622041,
+          "entropy_fisher": 0.002723597251262262,
+          "hash_variance": 0.00926530913537444,
+          "entropy_hash": 0.006206388225261809
+        }
+      },
+      {
+        "case_id": 138,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.015814298329904185,
+          "hash_fisher": 0.006234994535979296,
+          "hash_hash": 0.015928243224390078,
+          "entropy_fisher": 0.005128744962646689,
+          "hash_variance": 0.015947139709598886,
+          "entropy_hash": 0.015738550912201638
+        }
+      },
+      {
+        "case_id": 139,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.016821008096691716,
+          "hash_fisher": 0.002540301297794742,
+          "hash_hash": 0.01642302962572601,
+          "entropy_fisher": 0.005517640498339665,
+          "hash_variance": 0.01417489505243822,
+          "entropy_hash": 0.01926790134243725
+        }
+      },
+      {
+        "case_id": 140,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.02667383052271847,
+          "hash_fisher": 0.007523570226650726,
+          "hash_hash": 0.026443084414247267,
+          "entropy_fisher": 0.008071914820503373,
+          "hash_variance": 0.02486181304115112,
+          "entropy_hash": 0.028370350585297154
+        }
+      },
+      {
+        "case_id": 141,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.020983142490160006,
+          "hash_fisher": 0.00425209276872749,
+          "hash_hash": 0.02079513917968339,
+          "entropy_fisher": 0.005823036593447621,
+          "hash_variance": 0.01919861600050768,
+          "entropy_hash": 0.022673613947456185
+        }
+      },
+      {
+        "case_id": 142,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00570082616442967,
+          "hash_fisher": 0.006637262453780338,
+          "hash_hash": 0.006272005325144617,
+          "entropy_fisher": 0.002625633407755075,
+          "hash_variance": 0.008346953353899851,
+          "entropy_hash": 0.0033408815101257996
+        }
+      },
+      {
+        "case_id": 143,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.028149720032604606,
+          "hash_fisher": 0.009580468426512917,
+          "hash_hash": 0.02804175123512457,
+          "entropy_fisher": 0.010029292728114168,
+          "hash_variance": 0.02688998230469005,
+          "entropy_hash": 0.029355446855575746
+        }
+      },
+      {
+        "case_id": 144,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0009260514708121781,
+          "hash_fisher": 0.0023628548709302213,
+          "hash_hash": -0.00060637773558566,
+          "entropy_fisher": -0.00034825272626552023,
+          "hash_variance": 0.000992792880015185,
+          "entropy_hash": -0.002684866703521069
+        }
+      },
+      {
+        "case_id": 145,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.02669424932810874,
+          "hash_fisher": 0.008531341624133035,
+          "hash_hash": 0.026505807621392884,
+          "entropy_fisher": 0.010193929053153757,
+          "hash_variance": 0.024822939735480734,
+          "entropy_hash": 0.02847128652837311
+        }
+      },
+      {
+        "case_id": 146,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012176265506805485,
+          "hash_fisher": 0.0043512267137699595,
+          "hash_hash": 0.012315805487800091,
+          "entropy_fisher": 0.003134907237894037,
+          "hash_variance": 0.012527960582187372,
+          "entropy_hash": 0.011894474002926161
+        }
+      },
+      {
+        "case_id": 147,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.011240815074806655,
+          "hash_fisher": 0.0034014932320115265,
+          "hash_hash": 0.011197700819474951,
+          "entropy_fisher": 0.0035608458603270735,
+          "hash_variance": 0.010737773523208871,
+          "entropy_hash": 0.011722288973842462
+        }
+      },
+      {
+        "case_id": 148,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.014138831066244306,
+          "hash_fisher": 0.004541837057366924,
+          "hash_hash": 0.013871734192011577,
+          "entropy_fisher": 0.006196778747409294,
+          "hash_variance": 0.01248132633287145,
+          "entropy_hash": 0.015662607982299286
+        }
+      },
+      {
+        "case_id": 149,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.018028127085874444,
+          "hash_fisher": -0.002988553691410975,
+          "hash_hash": -0.017423433665175195,
+          "entropy_fisher": -0.006076804042216194,
+          "hash_variance": -0.015052870984341882,
+          "entropy_hash": -0.0207003720011925
+        }
+      },
+      {
+        "case_id": 150,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.02980962773870082,
+          "hash_fisher": 0.01053764537434975,
+          "hash_hash": 0.029862497673017067,
+          "entropy_fisher": 0.00966552736684436,
+          "hash_variance": 0.0292805629895063,
+          "entropy_hash": 0.030365229203359177
+        }
+      },
+      {
+        "case_id": 151,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.014187929579698264,
+          "hash_fisher": -0.002928210843059914,
+          "hash_hash": -0.014042556983993135,
+          "entropy_fisher": -0.004381664827880084,
+          "hash_variance": -0.01283777031111609,
+          "entropy_hash": -0.01546536124004777
+        }
+      },
+      {
+        "case_id": 152,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0010183378113632138,
+          "hash_fisher": 0.001127627768497036,
+          "hash_hash": -0.000804182055382241,
+          "entropy_fisher": -0.00025056619698580335,
+          "hash_variance": 3.940837548390558e-05,
+          "entropy_hash": -0.001968841213087172
+        }
+      },
+      {
+        "case_id": 153,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.007432190130674227,
+          "hash_fisher": -0.002319402368482798,
+          "hash_hash": -0.007367897293513649,
+          "entropy_fisher": -0.0024884486738155215,
+          "hash_variance": -0.006927303574105467,
+          "entropy_hash": -0.007904895889558956
+        }
+      },
+      {
+        "case_id": 154,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.010021605148449433,
+          "hash_fisher": 0.007520533785178231,
+          "hash_hash": 0.010276167938468073,
+          "entropy_fisher": 0.003791552430062517,
+          "hash_variance": 0.012020643503648183,
+          "entropy_hash": 0.008149985991004298
+        }
+      },
+      {
+        "case_id": 155,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0022263875140146466,
+          "hash_fisher": 0.004445232961839879,
+          "hash_hash": 0.0023848471098473836,
+          "entropy_fisher": 0.0033142820927508088,
+          "hash_variance": 0.0029307156619918923,
+          "entropy_hash": 0.0016014167686608446
+        }
+      },
+      {
+        "case_id": 156,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.001955087571004391,
+          "hash_fisher": 0.00213790233342899,
+          "hash_hash": 0.001938174578991897,
+          "entropy_fisher": 0.002293720269781613,
+          "hash_variance": 0.0018222737685909124,
+          "entropy_hash": 0.002079435645256436
+        }
+      },
+      {
+        "case_id": 157,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.002026824233932717,
+          "hash_fisher": 0.0031208235659155315,
+          "hash_hash": 0.0021741519555957198,
+          "entropy_fisher": 0.0005181865855565793,
+          "hash_variance": 0.0037457995107404093,
+          "entropy_hash": 0.0003815483774464029
+        }
+      },
+      {
+        "case_id": 158,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0023003934133174683,
+          "hash_fisher": 0.0019417804766764038,
+          "hash_hash": 0.002407580370288112,
+          "entropy_fisher": 0.0006403762408113342,
+          "hash_variance": 0.00310969759182346,
+          "entropy_hash": 0.001544716753543618
+        }
+      },
+      {
+        "case_id": 159,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.004480820175172359,
+          "hash_fisher": -0.002915115502553557,
+          "hash_hash": -0.004579326232161729,
+          "entropy_fisher": -0.001656593000155776,
+          "hash_variance": -0.005190065427110632,
+          "entropy_hash": -0.0038208586796701985
+        }
+      },
+      {
+        "case_id": 160,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0018053175414854891,
+          "hash_fisher": -0.0007699476795836255,
+          "hash_hash": 0.0016048982838649736,
+          "entropy_fisher": 0.0006221320333888794,
+          "hash_variance": 0.0007930101465220274,
+          "entropy_hash": 0.002717263163838725
+        }
+      },
+      {
+        "case_id": 161,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0007934963838287235,
+          "hash_fisher": 0.0005926065194191907,
+          "hash_hash": 0.0007904525554836492,
+          "entropy_fisher": 0.0006203688578938563,
+          "hash_variance": 0.0007579863563572306,
+          "entropy_hash": 0.0008274835544254192
+        }
+      },
+      {
+        "case_id": 162,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.001424827834366288,
+          "hash_fisher": -0.0019558368235634907,
+          "hash_hash": 0.001116925200954369,
+          "entropy_fisher": 0.0007505022373527903,
+          "hash_variance": -0.0004321115433066347,
+          "entropy_hash": 0.003127631253308845
+        }
+      },
+      {
+        "case_id": 163,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0004535644018754531,
+          "hash_fisher": 0.0007367212277390456,
+          "hash_hash": -0.0003400607433692651,
+          "entropy_fisher": -0.0005944476330820223,
+          "hash_variance": 0.0004455960583459734,
+          "entropy_hash": -0.0012959379115089903
+        }
+      },
+      {
+        "case_id": 164,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.007573810328358445,
+          "hash_fisher": -0.001936415099573624,
+          "hash_hash": -0.0075447610202941315,
+          "entropy_fisher": -0.002027131974363487,
+          "hash_variance": -0.007234872157618165,
+          "entropy_hash": -0.007898216816496204
+        }
+      },
+      {
+        "case_id": 165,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0029378020464035925,
+          "hash_fisher": 0.0015811953626400505,
+          "hash_hash": 0.0030767067780049506,
+          "entropy_fisher": 0.00018914784566038262,
+          "hash_variance": 0.003987242260494961,
+          "entropy_hash": 0.0019578567928058357
+        }
+      },
+      {
+        "case_id": 166,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.006404120806891879,
+          "hash_fisher": -0.00046082938983920546,
+          "hash_hash": 0.00607422252186756,
+          "entropy_fisher": 0.002319051210798277,
+          "hash_variance": 0.004334454633089194,
+          "entropy_hash": 0.008308641952398145
+        }
+      },
+      {
+        "case_id": 167,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009175302082450404,
+          "hash_fisher": 0.00405926969075391,
+          "hash_hash": 0.009136369991285136,
+          "entropy_fisher": 0.005364085160896641,
+          "hash_variance": 0.008275895611317884,
+          "entropy_hash": 0.010055240380097114
+        }
+      },
+      {
+        "case_id": 168,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.005180256048303862,
+          "hash_fisher": -0.0010824183885293631,
+          "hash_hash": -0.0050393931234305675,
+          "entropy_fisher": -0.0036679494267520055,
+          "hash_variance": -0.0035367148393870076,
+          "entropy_hash": -0.006753331571954284
+        }
+      },
+      {
+        "case_id": 169,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0035462743670245725,
+          "hash_fisher": -0.0009574457456192134,
+          "hash_hash": 0.003233983139751817,
+          "entropy_fisher": 0.0017991673081579618,
+          "hash_variance": 0.0016283693517594525,
+          "entropy_hash": 0.005307847774822086
+        }
+      },
+      {
+        "case_id": 170,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00699866122934896,
+          "hash_fisher": -0.0009304951703613881,
+          "hash_hash": 0.006599224786718663,
+          "entropy_fisher": 0.0019541321244986587,
+          "hash_variance": 0.004505129143582469,
+          "entropy_hash": 0.009292238431728474
+        }
+      },
+      {
+        "case_id": 171,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.006152129505566865,
+          "hash_fisher": 0.004018038167070373,
+          "hash_hash": 0.006565323021351127,
+          "entropy_fisher": 0.001330481016979558,
+          "hash_variance": 0.007645410727104236,
+          "entropy_hash": 0.004865967909239918
+        }
+      },
+      {
+        "case_id": 172,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0074103880714544365,
+          "hash_fisher": 0.00040648717408079543,
+          "hash_hash": 0.007291932401581533,
+          "entropy_fisher": 0.0017391353845260804,
+          "hash_variance": 0.006370776911454785,
+          "entropy_hash": 0.00839073690894529
+        }
+      },
+      {
+        "case_id": 173,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.03126583397538092,
+          "hash_fisher": 0.007060080452714695,
+          "hash_hash": 0.030548967142981207,
+          "entropy_fisher": 0.00926767225829319,
+          "hash_variance": 0.027576898129015433,
+          "entropy_hash": 0.03459551334333964
+        }
+      },
+      {
+        "case_id": 174,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0020749875965209164,
+          "hash_fisher": -0.0027967546011372912,
+          "hash_hash": -0.0021781045127934884,
+          "entropy_fisher": -0.0015417148922705765,
+          "hash_variance": -0.002855594020005417,
+          "entropy_hash": -0.001345971112358832
+        }
+      },
+      {
+        "case_id": 175,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009360410025361206,
+          "hash_fisher": 0.002048843293963619,
+          "hash_hash": 0.009324506376436704,
+          "entropy_fisher": 0.002144827187398196,
+          "hash_variance": 0.008941519121862355,
+          "entropy_hash": 0.009761339407543923
+        }
+      },
+      {
+        "case_id": 176,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0019830669786498195,
+          "hash_fisher": 0.001788965029902119,
+          "hash_hash": 0.002122705599022452,
+          "entropy_fisher": 0.00040095105344951226,
+          "hash_variance": 0.0030521915727950016,
+          "entropy_hash": 0.0009838054140835842
+        }
+      },
+      {
+        "case_id": 177,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.024755262997453106,
+          "hash_fisher": 0.004831098557982014,
+          "hash_hash": 0.02455834513509402,
+          "entropy_fisher": 0.006429442634368003,
+          "hash_variance": 0.02284558838870826,
+          "entropy_hash": 0.0265664242130949
+        }
+      },
+      {
+        "case_id": 178,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.004261237439151785,
+          "hash_fisher": 0.003972500736984769,
+          "hash_hash": 0.004562332694330387,
+          "entropy_fisher": 0.0013352726972951853,
+          "hash_variance": 0.005984284529070745,
+          "entropy_hash": 0.0026889217159928036
+        }
+      },
+      {
+        "case_id": 179,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.003078073547082935,
+          "hash_fisher": -0.0026754949339667933,
+          "hash_hash": -0.0031163344481690003,
+          "entropy_fisher": -0.0013817244970784626,
+          "hash_variance": -0.003961985505006989,
+          "entropy_hash": -0.002213293875914249
+        }
+      },
+      {
+        "case_id": 180,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.005366782955281264,
+          "hash_fisher": 0.0022196628636077936,
+          "hash_hash": 0.005346199142866069,
+          "entropy_fisher": 0.0023236492857948363,
+          "hash_variance": 0.005126612219712098,
+          "entropy_hash": 0.005596657052614792
+        }
+      },
+      {
+        "case_id": 181,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0002028333640976196,
+          "hash_fisher": 0.004512084344285593,
+          "hash_hash": 0.00015754268985375408,
+          "entropy_fisher": 0.0005276252304376311,
+          "hash_variance": 0.0026271457923071756,
+          "entropy_hash": -0.0028524299363262215
+        }
+      },
+      {
+        "case_id": 182,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.027512818735092807,
+          "hash_fisher": -0.007683265440177861,
+          "hash_hash": -0.02740729389877325,
+          "entropy_fisher": -0.00804320986999943,
+          "hash_variance": -0.02628158319450033,
+          "entropy_hash": -0.02869126656015747
+        }
+      },
+      {
+        "case_id": 183,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.01179431724145031,
+          "hash_fisher": 0.005079010408215394,
+          "hash_hash": 0.011916135137941576,
+          "entropy_fisher": 0.003959596617063639,
+          "hash_variance": 0.012070732472557695,
+          "entropy_hash": 0.011578930307142118
+        }
+      },
+      {
+        "case_id": 184,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.013776881233085611,
+          "hash_fisher": -0.004626182222503765,
+          "hash_hash": -0.013763690443405176,
+          "entropy_fisher": -0.00473082639558467,
+          "hash_variance": -0.013472141590638444,
+          "entropy_hash": -0.014075024916566547
+        }
+      },
+      {
+        "case_id": 185,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012045721695200018,
+          "hash_fisher": 0.005065115449739269,
+          "hash_hash": 0.012159169944691163,
+          "entropy_fisher": 0.003923930617005834,
+          "hash_variance": 0.012275230247296664,
+          "entropy_hash": 0.011873051234486037
+        }
+      },
+      {
+        "case_id": 186,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.005539328608758991,
+          "hash_fisher": -0.0023625052244686112,
+          "hash_hash": -0.00570166437923967,
+          "entropy_fisher": -0.0010494893534431782,
+          "hash_variance": -0.0061752229169756145,
+          "entropy_hash": -0.004984740591186719
+        }
+      },
+      {
+        "case_id": 187,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0066134170239847065,
+          "hash_fisher": 0.0011180735566745648,
+          "hash_hash": -0.006279559497747826,
+          "entropy_fisher": -0.0016141965262293154,
+          "hash_variance": -0.004516728473063246,
+          "entropy_hash": -0.008542979535591036
+        }
+      },
+      {
+        "case_id": 188,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0009388893218173697,
+          "hash_fisher": 0.0034962540873071726,
+          "hash_hash": -0.0003729470185703451,
+          "entropy_fisher": -0.0005856322509891695,
+          "hash_variance": 0.0017983512880497404,
+          "entropy_hash": -0.0033925756976187146
+        }
+      },
+      {
+        "case_id": 189,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.005856692481199008,
+          "hash_fisher": -0.0031024399875688377,
+          "hash_hash": -0.005955167375579516,
+          "entropy_fisher": -0.001849413351610464,
+          "hash_variance": -0.006545609354589345,
+          "entropy_hash": -0.005217044692078739
+        }
+      },
+      {
+        "case_id": 190,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012280332381676452,
+          "hash_fisher": 0.0015369747808525527,
+          "hash_hash": 0.012116354172352573,
+          "entropy_fisher": 0.004182054550353115,
+          "hash_variance": 0.010367090409597358,
+          "entropy_hash": 0.014111545382368952
+        }
+      },
+      {
+        "case_id": 191,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0034795620033591795,
+          "hash_fisher": -0.0001403620292857108,
+          "hash_hash": 0.0034662151636978486,
+          "entropy_fisher": -0.00014693768790289413,
+          "hash_variance": 0.0033238469366667703,
+          "entropy_hash": 0.0036285998750488213
+        }
+      },
+      {
+        "case_id": 192,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.008012697705834688,
+          "hash_fisher": -0.001089938904255655,
+          "hash_hash": -0.007967432128521995,
+          "entropy_fisher": -0.0024300303459735204,
+          "hash_variance": -0.006966974683350696,
+          "entropy_hash": -0.009035785483538783
+        }
+      },
+      {
+        "case_id": 193,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -5.539298376441848e-05,
+          "hash_fisher": -0.00271881045632167,
+          "hash_hash": -0.00019531660131082845,
+          "entropy_fisher": -0.00014223361513621136,
+          "hash_variance": -0.0016879838004077996,
+          "entropy_hash": 0.0015072024571817569
+        }
+      },
+      {
+        "case_id": 194,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0003068574523331438,
+          "hash_fisher": -0.0019783204532554804,
+          "hash_hash": -0.00041036641353225933,
+          "entropy_fisher": -0.0007084098387951238,
+          "hash_variance": -0.0011163308564811833,
+          "entropy_hash": 0.00045082937558407754
+        }
+      },
+      {
+        "case_id": 195,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.002221041458170085,
+          "hash_fisher": 0.0024909531363971546,
+          "hash_hash": 0.0022571246954129,
+          "entropy_fisher": 0.0012086679054582952,
+          "hash_variance": 0.0030546363817391814,
+          "entropy_hash": 0.0014054900693582437
+        }
+      },
+      {
+        "case_id": 196,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.025978150559122917,
+          "hash_fisher": 0.008605811437685032,
+          "hash_hash": 0.02540985042121462,
+          "entropy_fisher": 0.010809524280198914,
+          "hash_variance": 0.023008898279445227,
+          "entropy_hash": 0.028662610930150646
+        }
+      },
+      {
+        "case_id": 197,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0020868766698507943,
+          "hash_fisher": -0.0014154582520009285,
+          "hash_hash": 0.0020848788906967022,
+          "entropy_fisher": -0.001447475896613079,
+          "hash_variance": 0.0020407157108178857,
+          "entropy_hash": 0.0021320388202017565
+        }
+      },
+      {
+        "case_id": 198,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.010837714512986187,
+          "hash_fisher": -1.5804084007524366e-05,
+          "hash_hash": 0.010288413926297944,
+          "entropy_fisher": 0.0028966642033846426,
+          "hash_variance": 0.008296863232499348,
+          "entropy_hash": 0.013103290934006938
+        }
+      },
+      {
+        "case_id": 199,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.008661504544202114,
+          "hash_fisher": 0.0012368606126222162,
+          "hash_hash": 0.008371789137201227,
+          "entropy_fisher": 0.0028089897862540666,
+          "hash_variance": 0.007039086785152103,
+          "entropy_hash": 0.010138856856734914
+        }
+      },
+      {
+        "case_id": 200,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00998214012369647,
+          "hash_fisher": 0.0050379394918829284,
+          "hash_hash": 0.010084528236636518,
+          "entropy_fisher": 0.0038152514568470103,
+          "hash_variance": 0.010641623203836256,
+          "entropy_hash": 0.009373885883492174
+        }
+      },
+      {
+        "case_id": 201,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.004904137832866549,
+          "hash_fisher": -0.004221978577313719,
+          "hash_hash": 0.004292561107004093,
+          "entropy_fisher": 0.0011102465358033414,
+          "hash_variance": 0.0012697345817508643,
+          "entropy_hash": 0.008232160305433181
+        }
+      },
+      {
+        "case_id": 202,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.004499088636440121,
+          "hash_fisher": 0.0038716618231542516,
+          "hash_hash": 0.0046760083506543065,
+          "entropy_fisher": 0.001200999915992207,
+          "hash_variance": 0.006563323791476623,
+          "entropy_hash": 0.0025233565340395323
+        }
+      },
+      {
+        "case_id": 203,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.007734398304414733,
+          "hash_fisher": -0.0009327640579678692,
+          "hash_hash": 0.0073585282405436644,
+          "entropy_fisher": 0.003164860901185458,
+          "hash_variance": 0.004782753589172822,
+          "entropy_hash": 0.01049790458618343
+        }
+      },
+      {
+        "case_id": 204,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0033663591703641457,
+          "hash_fisher": -0.005793238571921447,
+          "hash_hash": -0.00398116701561279,
+          "entropy_fisher": -0.00034227769421860815,
+          "hash_variance": -0.007019961810249199,
+          "entropy_hash": -2.0756211814854097e-05
+        }
+      },
+      {
+        "case_id": 205,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.003148186895871853,
+          "hash_fisher": -0.0026669033504585354,
+          "hash_hash": -0.0032784506291396315,
+          "entropy_fisher": -0.0001094041063933529,
+          "hash_variance": -0.004668062452669222,
+          "entropy_hash": -0.001693474752772657
+        }
+      },
+      {
+        "case_id": 206,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.002273373402902408,
+          "hash_fisher": -0.0015410755053064037,
+          "hash_hash": -0.002519421051965419,
+          "entropy_fisher": -0.00014734798334484212,
+          "hash_variance": -0.003050476604107316,
+          "entropy_hash": -0.0016196861105158555
+        }
+      },
+      {
+        "case_id": 207,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012618884577585539,
+          "hash_fisher": 0.0037616772509528468,
+          "hash_hash": 0.01257048366153942,
+          "entropy_fisher": 0.003937903724424235,
+          "hash_variance": 0.01205417256737118,
+          "entropy_hash": 0.013159383733958314
+        }
+      },
+      {
+        "case_id": 208,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.00863117415522557,
+          "hash_fisher": -0.004452593337570913,
+          "hash_hash": -0.008708828162921584,
+          "entropy_fisher": -0.003294458753679126,
+          "hash_variance": -0.009115876768055035,
+          "entropy_hash": -0.008185324865116517
+        }
+      },
+      {
+        "case_id": 209,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.006784850906777315,
+          "hash_fisher": 0.0009877028396314477,
+          "hash_hash": -0.0064326767038188695,
+          "entropy_fisher": -0.0018177248848304586,
+          "hash_variance": -0.004576280996297061,
+          "entropy_hash": -0.008817124734194222
+        }
+      },
+      {
+        "case_id": 210,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0028603734863498625,
+          "hash_fisher": 0.0009082260401508668,
+          "hash_hash": 0.0028576337579801353,
+          "entropy_fisher": 0.0009287700996736051,
+          "hash_variance": 0.0027971030567984848,
+          "entropy_hash": 0.002922273391092141
+        }
+      },
+      {
+        "case_id": 211,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.01206269463306834,
+          "hash_fisher": 0.0005766064379708891,
+          "hash_hash": 0.011660305854380909,
+          "entropy_fisher": 0.0034613791899604715,
+          "hash_variance": 0.009468445480811334,
+          "entropy_hash": 0.01445551315129872
+        }
+      },
+      {
+        "case_id": 212,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.008479002132317372,
+          "hash_fisher": 0.006404428628095704,
+          "hash_hash": 0.009140164987856789,
+          "entropy_fisher": 0.002253108377947552,
+          "hash_variance": 0.011509068363090479,
+          "entropy_hash": 0.005780205518272623
+        }
+      },
+      {
+        "case_id": 213,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.034962205233561555,
+          "hash_fisher": 0.015618727224122025,
+          "hash_hash": 0.03515872755585124,
+          "entropy_fisher": 0.013513986764020706,
+          "hash_variance": 0.03555847944140775,
+          "entropy_hash": 0.03446432908305068
+        }
+      },
+      {
+        "case_id": 214,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.007777107185937656,
+          "hash_fisher": -0.00034615253484929914,
+          "hash_hash": -0.007399085333241212,
+          "entropy_fisher": -0.0029579095711635833,
+          "hash_variance": -0.006019207160370958,
+          "entropy_hash": -0.009345568252446083
+        }
+      },
+      {
+        "case_id": 215,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.007741858962651109,
+          "hash_fisher": 0.0007277087535422222,
+          "hash_hash": 0.007623807437497351,
+          "entropy_fisher": 0.0020840495477165086,
+          "hash_variance": 0.006700596609190441,
+          "entropy_hash": 0.008724060792154764
+        }
+      },
+      {
+        "case_id": 216,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.02489753182354803,
+          "hash_fisher": -0.005689968530226276,
+          "hash_hash": -0.024526206584684733,
+          "entropy_fisher": -0.007501645851884876,
+          "hash_variance": -0.022455452825875948,
+          "entropy_hash": -0.027153708889513774
+        }
+      },
+      {
+        "case_id": 217,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.022653314356862558,
+          "hash_fisher": 0.007182463015745613,
+          "hash_hash": 0.02271529754783073,
+          "entropy_fisher": 0.006074622745182459,
+          "hash_variance": 0.022810206988507064,
+          "entropy_hash": 0.022527437702724615
+        }
+      },
+      {
+        "case_id": 218,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0006017651114026898,
+          "hash_fisher": 0.0011628151244919005,
+          "hash_hash": -0.00048738256032111044,
+          "entropy_fisher": -0.0001458616975678756,
+          "hash_variance": 0.0003064807706906203,
+          "entropy_hash": -0.0014527851512549234
+        }
+      },
+      {
+        "case_id": 219,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.001135753026146484,
+          "hash_fisher": -0.0020255482324513796,
+          "hash_hash": -0.0012232564489401132,
+          "entropy_fisher": -0.0007934039129467926,
+          "hash_variance": -0.001807278023076491,
+          "entropy_hash": -0.0005080066489661639
+        }
+      },
+      {
+        "case_id": 220,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00427109985226215,
+          "hash_fisher": -0.0005223930020285053,
+          "hash_hash": 0.0037031451432062434,
+          "entropy_fisher": 0.002493769677740676,
+          "hash_variance": 0.0018465995818746986,
+          "entropy_hash": 0.0064109513323645645
+        }
+      },
+      {
+        "case_id": 221,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0011678714726885142,
+          "hash_fisher": 0.0019962426868961602,
+          "hash_hash": 0.0013862970848629586,
+          "entropy_fisher": 0.000638158039621195,
+          "hash_variance": 0.002188699068078108,
+          "entropy_hash": 0.00025643010837935604
+        }
+      },
+      {
+        "case_id": 222,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0020690615511145816,
+          "hash_fisher": 0.00390978875237296,
+          "hash_hash": -0.0014919402202603974,
+          "entropy_fisher": -0.00011400725079270535,
+          "hash_variance": 0.000741729094412065,
+          "entropy_hash": -0.004590699102294107
+        }
+      },
+      {
+        "case_id": 223,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.010635787124318868,
+          "hash_fisher": -0.0006324924194915441,
+          "hash_hash": -0.010446924468455507,
+          "entropy_fisher": -0.003379011166119071,
+          "hash_variance": -0.008432198164371539,
+          "entropy_hash": -0.012744899014377496
+        }
+      },
+      {
+        "case_id": 224,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.03743185233662086,
+          "hash_fisher": 0.009290520149279273,
+          "hash_hash": 0.03689896208060513,
+          "entropy_fisher": 0.012590044498668719,
+          "hash_variance": 0.03364396987333593,
+          "entropy_hash": 0.040952987626578015
+        }
+      },
+      {
+        "case_id": 225,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.005590132941909423,
+          "hash_fisher": 0.0006022900561430955,
+          "hash_hash": -0.005278360981497039,
+          "entropy_fisher": -0.0020967894577055696,
+          "hash_variance": -0.003641764701672906,
+          "entropy_hash": -0.007382430505159063
+        }
+      },
+      {
+        "case_id": 226,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009160640023078363,
+          "hash_fisher": 0.004570379638759163,
+          "hash_hash": 0.009547660247431283,
+          "entropy_fisher": 0.0019258987972100364,
+          "hash_variance": 0.01046003619250424,
+          "entropy_hash": 0.008055255686883998
+        }
+      },
+      {
+        "case_id": 227,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.026037692466423144,
+          "hash_fisher": 0.010651643998257312,
+          "hash_hash": 0.026309166278891696,
+          "entropy_fisher": 0.00818777933649005,
+          "hash_variance": 0.02722682513085345,
+          "entropy_hash": 0.024984473650643747
+        }
+      },
+      {
+        "case_id": 228,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0054615511093455,
+          "hash_fisher": -0.003477118204979833,
+          "hash_hash": -0.005570433046377374,
+          "entropy_fisher": -0.00223109187776558,
+          "hash_variance": -0.006238076315118489,
+          "entropy_hash": -0.004739501176712672
+        }
+      },
+      {
+        "case_id": 229,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00014082837104443385,
+          "hash_fisher": -0.001368151301125435,
+          "hash_hash": -5.434612197212363e-05,
+          "entropy_fisher": -2.871354055564157e-07,
+          "hash_variance": -0.000802471361688685,
+          "entropy_hash": 0.000986388844027089
+        }
+      },
+      {
+        "case_id": 230,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.02096899772437518,
+          "hash_fisher": -0.005089876806318706,
+          "hash_hash": -0.02092102780388034,
+          "entropy_fisher": -0.006450842450236027,
+          "hash_variance": -0.019860775003166645,
+          "entropy_hash": -0.02205323342767488
+        }
+      },
+      {
+        "case_id": 231,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.001783321032355685,
+          "hash_fisher": 0.0033920641810985877,
+          "hash_hash": 0.002133163676863052,
+          "entropy_fisher": 0.0006284040137078048,
+          "hash_variance": 0.0038373438994087766,
+          "entropy_hash": -9.556922163446446e-05
+        }
+      },
+      {
+        "case_id": 232,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0024697347484439885,
+          "hash_fisher": 0.0014083724701007758,
+          "hash_hash": 0.0024673710104501367,
+          "entropy_fisher": 0.0014402298344317194,
+          "hash_variance": 0.0024151051068402943,
+          "entropy_hash": 0.0025231829060162816
+        }
+      },
+      {
+        "case_id": 233,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.004121668002705539,
+          "hash_fisher": 0.003467295625943688,
+          "hash_hash": 0.004413032643583878,
+          "entropy_fisher": 0.0021917759388005373,
+          "hash_variance": 0.004988138793639199,
+          "entropy_hash": 0.0034013558538339567
+        }
+      },
+      {
+        "case_id": 234,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.002102149532587666,
+          "hash_fisher": 0.00013622763778150387,
+          "hash_hash": -0.00197362300235248,
+          "entropy_fisher": -0.0012534020702393706,
+          "hash_variance": -0.0010607931086570876,
+          "entropy_hash": -0.00307920391934198
+        }
+      },
+      {
+        "case_id": 235,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0063303854701918585,
+          "hash_fisher": -0.005414098065253781,
+          "hash_hash": -0.00691183949654299,
+          "entropy_fisher": -0.0013505326165868317,
+          "hash_variance": -0.009014870756178399,
+          "entropy_hash": -0.0039372326357257625
+        }
+      },
+      {
+        "case_id": 236,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00330713551067182,
+          "hash_fisher": 0.001884011435703957,
+          "hash_hash": 0.00340585524163433,
+          "entropy_fisher": 0.0005925737106824078,
+          "hash_variance": 0.0040351881757567515,
+          "entropy_hash": 0.0026284730335265974
+        }
+      },
+      {
+        "case_id": 237,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.010457958742706136,
+          "hash_fisher": -0.002015167732954161,
+          "hash_hash": -0.010236416722525354,
+          "entropy_fisher": -0.0035186056734835547,
+          "hash_variance": -0.009116523197250436,
+          "entropy_hash": -0.011688471428591123
+        }
+      },
+      {
+        "case_id": 238,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.001513637090552765,
+          "hash_fisher": -0.0008737591575749548,
+          "hash_hash": 0.001340748313044711,
+          "entropy_fisher": 0.0005891300077790762,
+          "hash_variance": 0.00013202682476432664,
+          "entropy_hash": 0.0028087499754426426
+        }
+      },
+      {
+        "case_id": 239,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0016457840067641838,
+          "hash_fisher": -0.0003394399662433739,
+          "hash_hash": -0.0016394724973667271,
+          "entropy_fisher": -0.0003553419972299951,
+          "hash_variance": -0.001572132965016064,
+          "entropy_hash": -0.0017162782511009264
+        }
+      },
+      {
+        "case_id": 240,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.012875162384214461,
+          "hash_fisher": -0.004804826350383429,
+          "hash_hash": -0.01316264621745588,
+          "entropy_fisher": -0.0022008487412863292,
+          "hash_variance": -0.014375734448522762,
+          "entropy_hash": -0.011518511960346499
+        }
+      },
+      {
+        "case_id": 241,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0006975109333764856,
+          "hash_fisher": -0.0009116401908504865,
+          "hash_hash": 0.0006914773128204738,
+          "entropy_fisher": -0.000978083774831523,
+          "hash_variance": 0.0006501273375413771,
+          "entropy_hash": 0.0007418746421248221
+        }
+      },
+      {
+        "case_id": 242,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.008917746381018561,
+          "hash_fisher": -0.004146097263456876,
+          "hash_hash": -0.008909208994416579,
+          "entropy_fisher": -0.0042398819219030826,
+          "hash_variance": -0.008720489048418507,
+          "entropy_hash": -0.009110735169388803
+        }
+      },
+      {
+        "case_id": 243,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0007482252968954647,
+          "hash_fisher": 0.002461022213755215,
+          "hash_hash": -0.0006369229306792956,
+          "entropy_fisher": 0.0012085452912022412,
+          "hash_variance": 0.00013793898322413123,
+          "entropy_hash": -0.0015787050088180363
+        }
+      },
+      {
+        "case_id": 244,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.010591448133103646,
+          "hash_fisher": -0.006792170477510129,
+          "hash_hash": -0.010819635357628036,
+          "entropy_fisher": -0.004366841444083641,
+          "hash_variance": -0.011776398307292473,
+          "entropy_hash": -0.009520735038021734
+        }
+      },
+      {
+        "case_id": 245,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.002358082763973219,
+          "hash_fisher": 0.00237907078306087,
+          "hash_hash": 0.0023558249407929673,
+          "entropy_fisher": 0.0024328853287965135,
+          "hash_variance": 0.0023059228239841675,
+          "entropy_hash": 0.0024091136659221794
+        }
+      },
+      {
+        "case_id": 246,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.003148644994338822,
+          "hash_fisher": -0.0038675145999592445,
+          "hash_hash": 0.0029797674092000015,
+          "entropy_fisher": -0.0027990952706024377,
+          "hash_variance": 0.002252871629426577,
+          "entropy_hash": 0.003959854882918199
+        }
+      },
+      {
+        "case_id": 247,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.015448915088140155,
+          "hash_fisher": -0.0029094274007870624,
+          "hash_hash": -0.015292332353377708,
+          "entropy_fisher": -0.0043767031710925525,
+          "hash_variance": -0.013992199321542817,
+          "entropy_hash": -0.016827295466247
+        }
+      },
+      {
+        "case_id": 248,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.006666612370237329,
+          "hash_fisher": -0.0026124708349557005,
+          "hash_hash": 0.00625369938045045,
+          "entropy_fisher": 0.0014901513212518883,
+          "hash_variance": 0.003424080108920022,
+          "entropy_hash": 0.009702464372168644
+        }
+      },
+      {
+        "case_id": 249,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.004666051130379406,
+          "hash_fisher": -0.003919642378933101,
+          "hash_hash": -0.0047686225645971955,
+          "entropy_fisher": -0.0027089526609696477,
+          "hash_variance": -0.005404560643553061,
+          "entropy_hash": -0.003978859449211558
+        }
+      },
+      {
+        "case_id": 250,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.01978547329614873,
+          "hash_fisher": 0.0036090326053613217,
+          "hash_hash": 0.019588358046770858,
+          "entropy_fisher": 0.005199623079296861,
+          "hash_variance": 0.017946758529544082,
+          "entropy_hash": 0.021525574644371402
+        }
+      },
+      {
+        "case_id": 251,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.008824847426607947,
+          "hash_fisher": -0.004599300611798633,
+          "hash_hash": -0.00879100081588664,
+          "entropy_fisher": -0.004814767934798424,
+          "hash_variance": -0.00842992366773889,
+          "entropy_hash": -0.009202840261090313
+        }
+      },
+      {
+        "case_id": 252,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.02644191264280405,
+          "hash_fisher": 0.010590753449156588,
+          "hash_hash": 0.0267001338673353,
+          "entropy_fisher": 0.008138892298772911,
+          "hash_variance": 0.027545486307197845,
+          "entropy_hash": 0.025467619168210984
+        }
+      },
+      {
+        "case_id": 253,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.009520620745913491,
+          "hash_fisher": -0.0029862949981318138,
+          "hash_hash": -0.009484104154691121,
+          "entropy_fisher": -0.0031261964838673814,
+          "hash_variance": -0.009094560197783645,
+          "entropy_hash": -0.009928413997805148
+        }
+      },
+      {
+        "case_id": 254,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.013768099056722723,
+          "hash_fisher": -0.005402018963483218,
+          "hash_hash": -0.013882739432848783,
+          "entropy_fisher": -0.004289319936078749,
+          "hash_variance": -0.013958076810164019,
+          "entropy_hash": -0.013635559279311232
+        }
+      },
+      {
+        "case_id": 255,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0002806898496630905,
+          "hash_fisher": -0.0014852609094466035,
+          "hash_hash": -0.00041073417843535964,
+          "entropy_fisher": -0.00011576998682540085,
+          "hash_variance": -0.001299223356447693,
+          "entropy_hash": 0.0006727822553551852
+        }
+      },
+      {
+        "case_id": 256,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0027822319374635855,
+          "hash_fisher": -0.0014023678395566203,
+          "hash_hash": -0.0027392982390829594,
+          "entropy_fisher": -0.0015439561767303725,
+          "hash_variance": -0.0025270876531928894,
+          "entropy_hash": -0.0030158681031047796
+        }
+      },
+      {
+        "case_id": 257,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.007924333418366743,
+          "hash_fisher": -0.0010776110425463892,
+          "hash_hash": -0.0076866952694971125,
+          "entropy_fisher": -0.0025617278891089737,
+          "hash_variance": -0.006572005993660535,
+          "entropy_hash": -0.009157672536406737
+        }
+      },
+      {
+        "case_id": 258,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.01722632923995123,
+          "hash_fisher": 0.003608671455731835,
+          "hash_hash": 0.017048093904772417,
+          "entropy_fisher": 0.005151897008193754,
+          "hash_variance": 0.015573406974305433,
+          "entropy_hash": 0.018790083965162248
+        }
+      },
+      {
+        "case_id": 259,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.00536857204553607,
+          "hash_fisher": 0.0017169117754036178,
+          "hash_hash": 0.0053479805861198736,
+          "entropy_fisher": 0.0017973453924461785,
+          "hash_variance": 0.005128321245778344,
+          "entropy_hash": 0.005598521952646353
+        }
+      },
+      {
+        "case_id": 260,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.005016752378737381,
+          "hash_fisher": -0.001164044899455638,
+          "hash_hash": 0.004523428740888305,
+          "entropy_fisher": 0.001689836658461924,
+          "hash_variance": 0.0028726505699555593,
+          "entropy_hash": 0.006913614034874983
+        }
+      },
+      {
+        "case_id": 261,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0013112015011850359,
+          "hash_fisher": -0.002412047176740463,
+          "hash_hash": -0.0014860596886341407,
+          "entropy_fisher": -0.0011344929626074043,
+          "hash_variance": -0.0021185248555196795,
+          "entropy_hash": -0.0005914465922904968
+        }
+      },
+      {
+        "case_id": 262,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.000863940453320243,
+          "hash_fisher": 0.0009517674296184442,
+          "hash_hash": 0.0008564671032713772,
+          "entropy_fisher": 0.0010211356296769211,
+          "hash_variance": 0.0008052508997851357,
+          "entropy_hash": 0.0009188894761267344
+        }
+      },
+      {
+        "case_id": 263,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.011892801525849511,
+          "hash_fisher": 0.00333848274144484,
+          "hash_hash": 0.01163728253444414,
+          "entropy_fisher": 0.00496118503286011,
+          "hash_variance": 0.010350075063270476,
+          "entropy_hash": 0.01330759351183964
+        }
+      },
+      {
+        "case_id": 264,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.011803774571255365,
+          "hash_fisher": 0.003701785288468734,
+          "hash_hash": 0.011758500910286747,
+          "entropy_fisher": 0.0038752059525541047,
+          "hash_variance": 0.011275539827109205,
+          "entropy_hash": 0.012309361340485776
+        }
+      },
+      {
+        "case_id": 265,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0005807996095094498,
+          "hash_fisher": -0.001242578427602968,
+          "hash_hash": 0.00037923741729353755,
+          "entropy_fisher": 0.00013687851730560113,
+          "hash_variance": -0.0004048174869444726,
+          "entropy_hash": 0.0014654796059394848
+        }
+      },
+      {
+        "case_id": 266,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0019764406914539595,
+          "hash_fisher": 0.00017092549629267595,
+          "hash_hash": -0.001974549530800701,
+          "entropy_fisher": 0.0001747918284771277,
+          "hash_variance": -0.001932722536420059,
+          "entropy_hash": -0.0020192138118255223
+        }
+      },
+      {
+        "case_id": 267,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0018301630811222297,
+          "hash_fisher": 0.0007039822972431525,
+          "hash_hash": 0.0018143308028052696,
+          "entropy_fisher": 0.0007552910343496186,
+          "hash_variance": 0.001705835699860346,
+          "entropy_hash": 0.0019465656935828482
+        }
+      },
+      {
+        "case_id": 268,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.004771530592839968,
+          "hash_fisher": 0.003794516710566187,
+          "hash_hash": 0.005208109465350268,
+          "entropy_fisher": 0.001105986359405453,
+          "hash_variance": 0.006399843574379685,
+          "entropy_hash": 0.003362053057579764
+        }
+      },
+      {
+        "case_id": 269,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0026888849159592693,
+          "hash_fisher": -0.002146998240842732,
+          "hash_hash": 0.0023614469484766476,
+          "entropy_fisher": 0.001824634967409866,
+          "hash_variance": 0.00011757311958991018,
+          "entropy_hash": 0.005096300261212661
+        }
+      },
+      {
+        "case_id": 270,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.005866685965646996,
+          "hash_fisher": -0.004735181219687752,
+          "hash_hash": -0.006193628965808336,
+          "entropy_fisher": -0.0020542561002206,
+          "hash_variance": -0.00771729713697477,
+          "entropy_hash": -0.004179746446917251
+        }
+      },
+      {
+        "case_id": 271,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012879665469517014,
+          "hash_fisher": 0.0029579450250859715,
+          "hash_hash": 0.012867332762290386,
+          "entropy_fisher": 0.003024853697568268,
+          "hash_variance": 0.01259477191606212,
+          "entropy_hash": 0.013158391638033926
+        }
+      },
+      {
+        "case_id": 272,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.003267850726137736,
+          "hash_fisher": -0.00322019988608388,
+          "hash_hash": 0.00298152470161267,
+          "entropy_fisher": -0.0006155214244152746,
+          "hash_variance": 0.001509147158552944,
+          "entropy_hash": 0.004883219950145422
+        }
+      },
+      {
+        "case_id": 273,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.002467608053515119,
+          "hash_fisher": -0.0019406593340568767,
+          "hash_hash": 0.0023509126408069528,
+          "entropy_fisher": -0.00064760617064865,
+          "hash_variance": 0.0015139636573107754,
+          "entropy_hash": 0.003362869090656105
+        }
+      },
+      {
+        "case_id": 274,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009747207095693822,
+          "hash_fisher": 0.004580749835533797,
+          "hash_hash": 0.00989171722268014,
+          "entropy_fisher": 0.0034181958594809436,
+          "hash_variance": 0.010186676942915314,
+          "entropy_hash": 0.00938012526631836
+        }
+      },
+      {
+        "case_id": 275,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012794752338836798,
+          "hash_fisher": -9.093362939721628e-06,
+          "hash_hash": 0.012384337552608829,
+          "entropy_fisher": 0.002840911021341569,
+          "hash_variance": 0.010140688238505717,
+          "entropy_hash": 0.01524336848684528
+        }
+      },
+      {
+        "case_id": 276,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.008391231183313329,
+          "hash_fisher": 0.00038200378511149546,
+          "hash_hash": 0.008078186736033981,
+          "entropy_fisher": 0.0031373740589369023,
+          "hash_variance": 0.006389296345943811,
+          "entropy_hash": 0.010236459913171694
+        }
+      },
+      {
+        "case_id": 277,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.007410890380384692,
+          "hash_fisher": -0.0002366187441269485,
+          "hash_hash": -0.007366577135119047,
+          "entropy_fisher": -0.0015707901490517803,
+          "hash_variance": -0.006387136806765142,
+          "entropy_hash": -0.008412485634401508
+        }
+      },
+      {
+        "case_id": 278,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.003090843316553696,
+          "hash_fisher": -0.003617005028071489,
+          "hash_hash": -0.003310059133277171,
+          "entropy_fisher": -0.0011202822892879064,
+          "hash_variance": -0.004345512361563827,
+          "entropy_hash": -0.0019459164193222217
+        }
+      },
+      {
+        "case_id": 279,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.006349693783181454,
+          "hash_fisher": 0.002305822418523569,
+          "hash_hash": 0.006586296327483296,
+          "entropy_fisher": 0.0009421490785542982,
+          "hash_variance": 0.006940391794063784,
+          "entropy_hash": 0.005877709710663384
+        }
+      },
+      {
+        "case_id": 280,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.006453505359966784,
+          "hash_fisher": -0.0011052647648763375,
+          "hash_hash": -0.006231903164215145,
+          "entropy_fisher": -0.0025881344807547405,
+          "hash_variance": -0.005217035393278079,
+          "entropy_hash": -0.0075790150779936685
+        }
+      },
+      {
+        "case_id": 281,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.008532094255102277,
+          "hash_fisher": -0.0042530638056386336,
+          "hash_hash": -0.008681361827174425,
+          "entropy_fisher": -0.0030507129676525316,
+          "hash_variance": -0.009026404204580403,
+          "entropy_hash": -0.00811255273589264
+        }
+      },
+      {
+        "case_id": 282,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.029070774838778034,
+          "hash_fisher": 0.014186052660560479,
+          "hash_hash": 0.02959643700006491,
+          "entropy_fisher": 0.009017931901641872,
+          "hash_variance": 0.03219461640730376,
+          "entropy_hash": 0.026210273456110565
+        }
+      },
+      {
+        "case_id": 283,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012448952331213244,
+          "hash_fisher": 0.004955890333793997,
+          "hash_hash": 0.012544846497849045,
+          "entropy_fisher": 0.0037405039634852907,
+          "hash_variance": 0.013021387445340135,
+          "entropy_hash": 0.011924497016976399
+        }
+      },
+      {
+        "case_id": 284,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.0017376786735274902,
+          "hash_fisher": -0.0022734736057479013,
+          "hash_hash": -0.001920870622630938,
+          "entropy_fisher": -0.0009815352465128435,
+          "hash_variance": -0.0025739100812552096,
+          "entropy_hash": -0.0009931901037923338
+        }
+      },
+      {
+        "case_id": 285,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.008913722709884504,
+          "hash_fisher": -0.00020296244089900578,
+          "hash_hash": 0.008404799239088503,
+          "entropy_fisher": 0.0026950939385403244,
+          "hash_variance": 0.006592578621885423,
+          "entropy_hash": 0.010979822834436867
+        }
+      },
+      {
+        "case_id": 286,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.023174945586952118,
+          "hash_fisher": 0.013556729334047161,
+          "hash_hash": 0.023506498386159747,
+          "entropy_fisher": 0.010234637173376103,
+          "hash_variance": 0.024362961204851822,
+          "entropy_hash": 0.022153069698332598
+        }
+      },
+      {
+        "case_id": 287,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0038293215442598005,
+          "hash_fisher": 0.0027501473561534484,
+          "hash_hash": 0.004240611510346236,
+          "entropy_fisher": 3.373177245093173e-05,
+          "hash_variance": 0.005382774299324017,
+          "entropy_hash": 0.0024820250908281563
+        }
+      },
+      {
+        "case_id": 288,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.0024359436371351184,
+          "hash_fisher": -1.403651083232288e-05,
+          "hash_hash": 0.002414869684341951,
+          "entropy_fisher": -1.505954173382229e-05,
+          "hash_variance": 0.0022704641252651522,
+          "entropy_hash": 0.00259087398766817
+        }
+      },
+      {
+        "case_id": 289,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.009139512892003494,
+          "hash_fisher": 0.005467733624206772,
+          "hash_hash": 0.0094865903472265,
+          "entropy_fisher": 0.002975561417540587,
+          "hash_variance": 0.010277796133625939,
+          "entropy_hash": 0.008175221514938158
+        }
+      },
+      {
+        "case_id": 290,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.013675153849957416,
+          "hash_fisher": 0.0036354992950753187,
+          "hash_hash": 0.013537302823954267,
+          "entropy_fisher": 0.005085497392025462,
+          "hash_variance": 0.012391617772256315,
+          "entropy_hash": 0.014889725643700169
+        }
+      },
+      {
+        "case_id": 291,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.01505946322668339,
+          "hash_fisher": -0.004117160396343286,
+          "hash_hash": -0.01477577991227752,
+          "entropy_fisher": -0.005785618080575754,
+          "hash_variance": -0.013297906914829204,
+          "entropy_hash": -0.0166789876558624
+        }
+      },
+      {
+        "case_id": 292,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.015629710354699455,
+          "hash_fisher": 0.007022286051442832,
+          "hash_hash": 0.015500979037856025,
+          "entropy_fisher": 0.008531637710116773,
+          "hash_variance": 0.01438936708481325,
+          "entropy_hash": 0.016805652698548113
+        }
+      },
+      {
+        "case_id": 293,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.010449976952720704,
+          "hash_fisher": -0.006418135982956728,
+          "hash_hash": -0.010472989327569387,
+          "entropy_fisher": -0.00529456078800751,
+          "hash_variance": -0.010981624213216534,
+          "entropy_hash": -0.00992983675352371
+        }
+      },
+      {
+        "case_id": 294,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012056960848985145,
+          "hash_fisher": -0.0006659154785716645,
+          "hash_hash": 0.011844629638999543,
+          "entropy_fisher": 0.0021191645939897877,
+          "hash_variance": 0.009579553491625092,
+          "entropy_hash": 0.014428150933033672
+        }
+      },
+      {
+        "case_id": 295,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.010591238109635574,
+          "hash_fisher": 0.001238595685631859,
+          "hash_hash": 0.010435032298215768,
+          "entropy_fisher": 0.002700817128361295,
+          "hash_variance": 0.009208371303836033,
+          "entropy_hash": 0.011895956279631234
+        }
+      },
+      {
+        "case_id": 296,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.017315604232026646,
+          "hash_fisher": -0.008478019563618898,
+          "hash_hash": -0.01787138691363132,
+          "entropy_fisher": -0.004500486044952533,
+          "hash_variance": -0.01968425316645648,
+          "entropy_hash": -0.015225435551837606
+        }
+      },
+      {
+        "case_id": 297,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.01852123597542265,
+          "hash_fisher": 0.005680878944526867,
+          "hash_hash": 0.018615984685154588,
+          "entropy_fisher": 0.004444376490835143,
+          "hash_variance": 0.018996077785671493,
+          "entropy_hash": 0.018093801614189782
+        }
+      },
+      {
+        "case_id": 298,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": 0.012151865830589893,
+          "hash_fisher": 0.0002799264586373709,
+          "hash_hash": 0.011536579614344088,
+          "entropy_fisher": 0.0033130965863324147,
+          "hash_variance": 0.009305434438303478,
+          "entropy_hash": 0.014689954311817549
+        }
+      },
+      {
+        "case_id": 299,
+        "source": "truthfulqa",
+        "domain": "factual_accuracy",
+        "level_accuracies": {},
+        "best_combination": "unknown",
+        "discriminations": {
+          "basic": -0.008705107706350274,
+          "hash_fisher": -0.004671261996685543,
+          "hash_hash": -0.008570492934304265,
+          "entropy_fisher": -0.006165788080056217,
+          "hash_variance": -0.007519525468377607,
+          "entropy_hash": -0.009823344226591008
+        }
+      }
+    ],
+    "model_used": "Mixtral-8x7B (Apache-2.0)"
+  }
+}

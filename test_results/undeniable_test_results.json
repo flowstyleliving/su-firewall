@@ -1,0 +1,361 @@
+[
+  {
+    "basic_hbar": {
+      "level": "basic_hbar",
+      "results": [
+        {
+          "prompt": "What is the capital of France?",
+          "failing_hbar": 1.8612097185919507,
+          "passing_hbar": 1.8612097185919507,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "What is the chemical symbol for water?",
+          "failing_hbar": 1.9343364206130869,
+          "passing_hbar": 1.9343364206130869,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "Who wrote the novel 1984?",
+          "failing_hbar": 1.8310001699200116,
+          "passing_hbar": 1.8310001699200116,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "Which planet is closest to the Sun?",
+          "failing_hbar": 1.974737145228813,
+          "passing_hbar": 1.974737145228813,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "What is the largest mammal on Earth?",
+          "failing_hbar": 2.0192348849087938,
+          "passing_hbar": 2.0192348849087933,
+          "discrimination": 4.440892098500626e-16
+        }
+      ]
+    },
+    "hbar_pfail": {
+      "level": "hbar_pfail",
+      "results": [
+        {
+          "prompt": "What is the capital of France?",
+          "failing_hbar": 1.8612097185919507,
+          "passing_hbar": 1.8612097185919507,
+          "failing_pfail": 0.5389511595742303,
+          "passing_pfail": 0.5389511595742303,
+          "pfail_discrimination": 0.0
+        },
+        {
+          "prompt": "What is the chemical symbol for water?",
+          "failing_hbar": 1.9343364206130869,
+          "passing_hbar": 1.9343364206130869,
+          "failing_pfail": 0.5407677068790847,
+          "passing_pfail": 0.5407677068790847,
+          "pfail_discrimination": 0.0
+        },
+        {
+          "prompt": "Who wrote the novel 1984?",
+          "failing_hbar": 1.8310001699200116,
+          "passing_hbar": 1.8310001699200116,
+          "failing_pfail": 0.5382004164597398,
+          "passing_pfail": 0.5382004164597398,
+          "pfail_discrimination": 0.0
+        },
+        {
+          "prompt": "Which planet is closest to the Sun?",
+          "failing_hbar": 1.974737145228813,
+          "passing_hbar": 1.974737145228813,
+          "failing_pfail": 0.5417708437845118,
+          "passing_pfail": 0.5417708437845118,
+          "pfail_discrimination": 0.0
+        },
+        {
+          "prompt": "What is the largest mammal on Earth?",
+          "failing_hbar": 2.0192348849087938,
+          "passing_hbar": 2.0192348849087933,
+          "failing_pfail": 0.5428753161841982,
+          "passing_pfail": 0.5428753161841982,
+          "pfail_discrimination": 0.0
+        }
+      ]
+    },
+    "full_fim": {
+      "level": "full_fim",
+      "results": [
+        {
+          "prompt": "What is the capital of France?",
+          "enhanced_hbar": 1.8612097185919507,
+          "enhanced_method": "enhanced_fim"
+        },
+        {
+          "prompt": "What is the chemical symbol for water?",
+          "enhanced_hbar": 1.9343364206130869,
+          "enhanced_method": "enhanced_fim"
+        },
+        {
+          "prompt": "Who wrote the novel 1984?",
+          "enhanced_hbar": 1.8310001699200116,
+          "enhanced_method": "enhanced_fim"
+        },
+        {
+          "prompt": "Which planet is closest to the Sun?",
+          "enhanced_hbar": 1.974737145228813,
+          "enhanced_method": "enhanced_fim"
+        },
+        {
+          "prompt": "What is the largest mammal on Earth?",
+          "enhanced_hbar": 2.0192348849087938,
+          "enhanced_method": "enhanced_fim"
+        }
+      ]
+    },
+    "analysis": {
+      "model_id": "mixtral-8x7b",
+      "display_name": "Mixtral-8x7B (Apache-2.0)",
+      "lambda": 0.1,
+      "tau": 0.3,
+      "basic_hbar_avg_discrimination": 8.881784197001253e-17,
+      "basic_hbar_successful_tests": 5,
+      "hbar_pfail_avg_pfail_discrimination": 0.0,
+      "hbar_pfail_successful_tests": 5,
+      "full_fim_successful_tests": 5
+    }
+  },
+  {
+    "basic_hbar": {
+      "level": "basic_hbar",
+      "results": [
+        {
+          "prompt": "What is the capital of France?",
+          "failing_hbar": 1.8612097185919507,
+          "passing_hbar": 1.8612097185919507,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "What is the chemical symbol for water?",
+          "failing_hbar": 1.9343364206130869,
+          "passing_hbar": 1.9343364206130869,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "Who wrote the novel 1984?",
+          "failing_hbar": 1.8310001699200116,
+          "passing_hbar": 1.8310001699200116,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "Which planet is closest to the Sun?",
+          "failing_hbar": 1.974737145228813,
+          "passing_hbar": 1.974737145228813,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "What is the largest mammal on Earth?",
+          "failing_hbar": 2.0192348849087938,
+          "passing_hbar": 2.0192348849087933,
+          "discrimination": 4.440892098500626e-16
+        }
+      ]
+    },
+    "hbar_pfail": {
+      "level": "hbar_pfail",
+      "results": [
+        {
+          "prompt": "What is the capital of France?",
+          "failing_hbar": 1.8612097185919507,
+          "passing_hbar": 1.8612097185919507,
+          "failing_pfail": 0.5389511595742303,
+          "passing_pfail": 0.5389511595742303,
+          "pfail_discrimination": 0.0
+        },
+        {
+          "prompt": "What is the chemical symbol for water?",
+          "failing_hbar": 1.9343364206130869,
+          "passing_hbar": 1.9343364206130869,
+          "failing_pfail": 0.5407677068790847,
+          "passing_pfail": 0.5407677068790847,
+          "pfail_discrimination": 0.0
+        },
+        {
+          "prompt": "Who wrote the novel 1984?",
+          "failing_hbar": 1.8310001699200116,
+          "passing_hbar": 1.8310001699200116,
+          "failing_pfail": 0.5382004164597398,
+          "passing_pfail": 0.5382004164597398,
+          "pfail_discrimination": 0.0
+        },
+        {
+          "prompt": "Which planet is closest to the Sun?",
+          "failing_hbar": 1.974737145228813,
+          "passing_hbar": 1.974737145228813,
+          "failing_pfail": 0.5417708437845118,
+          "passing_pfail": 0.5417708437845118,
+          "pfail_discrimination": 0.0
+        },
+        {
+          "prompt": "What is the largest mammal on Earth?",
+          "failing_hbar": 2.0192348849087938,
+          "passing_hbar": 2.0192348849087933,
+          "failing_pfail": 0.5428753161841982,
+          "passing_pfail": 0.5428753161841982,
+          "pfail_discrimination": 0.0
+        }
+      ]
+    },
+    "full_fim": {
+      "level": "full_fim",
+      "results": [
+        {
+          "prompt": "What is the capital of France?",
+          "enhanced_hbar": 1.8612097185919507,
+          "enhanced_method": "enhanced_fim"
+        },
+        {
+          "prompt": "What is the chemical symbol for water?",
+          "enhanced_hbar": 1.9343364206130869,
+          "enhanced_method": "enhanced_fim"
+        },
+        {
+          "prompt": "Who wrote the novel 1984?",
+          "enhanced_hbar": 1.8310001699200116,
+          "enhanced_method": "enhanced_fim"
+        },
+        {
+          "prompt": "Which planet is closest to the Sun?",
+          "enhanced_hbar": 1.974737145228813,
+          "enhanced_method": "enhanced_fim"
+        },
+        {
+          "prompt": "What is the largest mammal on Earth?",
+          "enhanced_hbar": 2.0192348849087938,
+          "enhanced_method": "enhanced_fim"
+        }
+      ]
+    },
+    "analysis": {
+      "model_id": "mistral-7b",
+      "display_name": "Mistral-7B (Apache-2.0)",
+      "lambda": 0.1,
+      "tau": 0.3,
+      "basic_hbar_avg_discrimination": 8.881784197001253e-17,
+      "basic_hbar_successful_tests": 5,
+      "hbar_pfail_avg_pfail_discrimination": 0.0,
+      "hbar_pfail_successful_tests": 5,
+      "full_fim_successful_tests": 5
+    }
+  },
+  {
+    "basic_hbar": {
+      "level": "basic_hbar",
+      "results": [
+        {
+          "prompt": "What is the capital of France?",
+          "failing_hbar": 1.8612097185919507,
+          "passing_hbar": 1.8612097185919507,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "What is the chemical symbol for water?",
+          "failing_hbar": 1.9343364206130869,
+          "passing_hbar": 1.9343364206130869,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "Who wrote the novel 1984?",
+          "failing_hbar": 1.8310001699200116,
+          "passing_hbar": 1.8310001699200116,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "Which planet is closest to the Sun?",
+          "failing_hbar": 1.974737145228813,
+          "passing_hbar": 1.974737145228813,
+          "discrimination": 0.0
+        },
+        {
+          "prompt": "What is the largest mammal on Earth?",
+          "failing_hbar": 2.0192348849087938,
+          "passing_hbar": 2.0192348849087933,
+          "discrimination": 4.440892098500626e-16
+        }
+      ]
+    },
+    "hbar_pfail": {
+      "level": "hbar_pfail",
+      "results": []
+    },
+    "full_fim": {
+      "level": "full_fim",
+      "results": []
+    },
+    "analysis": {
+      "model_id": "qwen2.5-7b",
+      "display_name": "Qwen2.5-7B (Apache-2.0)",
+      "lambda": 0.1,
+      "tau": 0.3,
+      "basic_hbar_avg_discrimination": 8.881784197001253e-17,
+      "basic_hbar_successful_tests": 5
+    }
+  },
+  {
+    "basic_hbar": {
+      "level": "basic_hbar",
+      "results": []
+    },
+    "hbar_pfail": {
+      "level": "hbar_pfail",
+      "results": []
+    },
+    "full_fim": {
+      "level": "full_fim",
+      "results": []
+    },
+    "analysis": {
+      "model_id": "pythia-6.9b",
+      "display_name": "Pythia-6.9B (Apache-2.0)",
+      "lambda": 0.1,
+      "tau": 0.3
+    }
+  },
+  {
+    "basic_hbar": {
+      "level": "basic_hbar",
+      "results": []
+    },
+    "hbar_pfail": {
+      "level": "hbar_pfail",
+      "results": []
+    },
+    "full_fim": {
+      "level": "full_fim",
+      "results": []
+    },
+    "analysis": {
+      "model_id": "dialogpt-medium",
+      "display_name": "DialoGPT-medium (HF)",
+      "lambda": 1.0,
+      "tau": 2.083
+    }
+  },
+  {
+    "basic_hbar": {
+      "level": "basic_hbar",
+      "results": []
+    },
+    "hbar_pfail": {
+      "level": "hbar_pfail",
+      "results": []
+    },
+    "full_fim": {
+      "level": "full_fim",
+      "results": []
+    },
+    "analysis": {
+      "model_id": "ollama-mistral-7b",
+      "display_name": "Ollama Mistral:7B (logits-only)",
+      "lambda": 0.1,
+      "tau": 0.3
+    }
+  }
+]

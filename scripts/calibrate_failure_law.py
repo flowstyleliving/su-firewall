@@ -255,68 +255,102 @@ def plot_calibration(y_true: List[int], p_pred: List[float], out_path: str, n_bi
 
 
 def load_truthfulqa(max_samples: Optional[int], seed: int) -> List[Pair]:
-	"""Load TruthfulQA (generation) via datasets. Falls back gracefully if missing."""
+	"""Load TruthfulQA from local authentic_datasets using comprehensive loader."""
 	try:
-		from datasets import load_dataset  # type: ignore
-	except Exception:
-		return []
-	try:
-		ds = load_dataset("truthful_qa", "generation")  # type: ignore
-		examples = []
-		for split in ("validation", "test", "train"):
-			if split in ds:
-				for row in ds[split]:
-					question = row.get("question") or row.get("prompt") or ""
-					# Prefer best answer field; otherwise choose a random correct/incorrect
-					correct = row.get("best_answer") or (row.get("correct_answers") or [])
-					incorrect = row.get("incorrect_answers") or []
-					corr_str = correct if isinstance(correct, str) else (correct[0] if correct else "")
-					inc_str = incorrect[0] if incorrect else ""
-					if question and corr_str and inc_str:
-						examples.append(Pair(prompt=question, failing=inc_str, passing=corr_str))
-		random.Random(seed).shuffle(examples)
-		if max_samples is not None:
-			examples = examples[: max(0, int(max_samples))]
-		return examples
-	except Exception:
-		return []
+		from comprehensive_dataset_loader import load_truthfulqa_fixed
+		
+		print(f"🔄 Loading TruthfulQA from local files...")
+		evaluation_pairs = load_truthfulqa_fixed(max_samples)
+		
+		pairs = []
+		for ep in evaluation_pairs:
+			pairs.append(Pair(
+				prompt=ep.prompt,
+				failing=ep.hallucinated_answer,
+				passing=ep.correct_answer
+			))
+		
+		print(f"✅ Loaded {len(pairs)} TruthfulQA pairs from local dataset")
+		return pairs
+		
+	except Exception as e:
+		print(f"⚠️ Failed to load local TruthfulQA: {e}")
+		# Fallback to original online loading
+		try:
+			from datasets import load_dataset  # type: ignore
+			ds = load_dataset("truthful_qa", "generation")  # type: ignore
+			examples = []
+			for split in ("validation", "test", "train"):
+				if split in ds:
+					for row in ds[split]:
+						question = row.get("question") or row.get("prompt") or ""
+						# Prefer best answer field; otherwise choose a random correct/incorrect
+						correct = row.get("best_answer") or (row.get("correct_answers") or [])
+						incorrect = row.get("incorrect_answers") or []
+						corr_str = correct if isinstance(correct, str) else (correct[0] if correct else "")
+						inc_str = incorrect[0] if incorrect else ""
+						if question and corr_str and inc_str:
+							examples.append(Pair(prompt=question, failing=inc_str, passing=corr_str))
+			random.Random(seed).shuffle(examples)
+			if max_samples is not None:
+				examples = examples[: max(0, int(max_samples))]
+			return examples
+		except Exception:
+			return []
 
 
 def load_halueval(task: str, max_samples: Optional[int], seed: int, override_url: Optional[str] = None) -> List[Pair]:
-	"""Attempt to load HaluEval subsets from GitHub raw JSON files.
-
-	This uses best-effort default URLs; if unavailable, pass --halueval_url or provide --pairs.
-	"""
-	urls_by_task = {
-		"qa": [
-			"https://raw.githubusercontent.com/RUCAIBox/HaluEval/main/data/qa_data.json",
-			"https://huggingface.co/datasets/RUCAIBox/HaluEval/resolve/main/data/qa_data.json",
-		],
-		"dialogue": [
-			"https://raw.githubusercontent.com/RUCAIBox/HaluEval/main/data/dialogue_data.json",
-		],
-		"summarization": [
-			"https://raw.githubusercontent.com/RUCAIBox/HaluEval/main/data/summarization_data.json",
-		],
-		"general": [
-			"https://raw.githubusercontent.com/RUCAIBox/HaluEval/main/data/general_data.json",
-		],
-	}
-	urls = [override_url] if override_url else urls_by_task.get(task, [])
-	s = requests.Session()
-	rows: List[Dict[str, object]] = []
-	for url in urls:
-		try:
-			r = s.get(url, timeout=20)
-			r.raise_for_status()
-			data = r.json()
-			if isinstance(data, dict) and data.get("data"):
-				data = data["data"]
-			if isinstance(data, list):
-				rows = data
-				break
-		except Exception:
-			continue
+	"""Load HaluEval from local authentic_datasets using comprehensive loader."""
+	try:
+		from comprehensive_dataset_loader import load_halueval_fixed
+		
+		print(f"🔄 Loading HaluEval {task} from local files...")
+		evaluation_pairs = load_halueval_fixed(task, max_samples)
+		
+		pairs = []
+		for ep in evaluation_pairs:
+			pairs.append(Pair(
+				prompt=ep.prompt,
+				failing=ep.hallucinated_answer,
+				passing=ep.correct_answer
+			))
+		
+		print(f"✅ Loaded {len(pairs)} HaluEval {task} pairs from local dataset")
+		return pairs
+		
+	except Exception as e:
+		print(f"⚠️ Failed to load local HaluEval {task}: {e}")
+		# Fallback to original online loading
+		urls_by_task = {
+			"qa": [
+				"https://raw.githubusercontent.com/RUCAIBox/HaluEval/main/data/qa_data.json",
+				"https://huggingface.co/datasets/RUCAIBox/HaluEval/resolve/main/data/qa_data.json",
+			],
+			"dialogue": [
+				"https://raw.githubusercontent.com/RUCAIBox/HaluEval/main/data/dialogue_data.json",
+			],
+			"summarization": [
+				"https://raw.githubusercontent.com/RUCAIBox/HaluEval/main/data/summarization_data.json",
+			],
+			"general": [
+				"https://raw.githubusercontent.com/RUCAIBox/HaluEval/main/data/general_data.json",
+			],
+		}
+		urls = [override_url] if override_url else urls_by_task.get(task, [])
+		s = requests.Session()
+		rows: List[Dict[str, object]] = []
+		for url in urls:
+			try:
+				r = s.get(url, timeout=20)
+				r.raise_for_status()
+				data = r.json()
+				if isinstance(data, dict) and data.get("data"):
+					data = data["data"]
+				if isinstance(data, list):
+					rows = data
+					break
+			except Exception:
+				continue
 	if not rows:
 		return []
 	items: List[Pair] = []
@@ -680,13 +714,34 @@ def calibrate_for_model(args: argparse.Namespace, model_id: Optional[str]) -> Di
 		a,b,c = comps
 		return [float(max(1e-9, min(1-1e-9, w1*x + w2*y + w3*z))) for x,y,z in zip(a,b,c)]
 
-	p_train = apply_weights(weights, (pp_tr, pi_tr, ps_tr))
-	p_val = apply_weights(weights, (pp_va, pi_va, ps_va))
-	p_test = apply_weights(weights, (pp_te, pi_te, ps_te))
+	def apply_ensemble(H_data: np.ndarray) -> List[float]:
+		"""
+		Apply ensemble prediction using weighted combination of Platt, isotonic, and spline methods.
+		
+		Args:
+			H_data: Semantic uncertainty values (ℏₛ) 
+			
+		Returns:
+			List of failure probabilities using ensemble weights
+		"""
+		try:
+			# Apply the three calibration methods
+			pp, pi, ps = predict_components(H_data)
+			
+			# Combine using learned weights
+			ensemble_probs = apply_weights(weights, (pp, pi, ps))
+			
+			return ensemble_probs
+			
+		except Exception as e:
+			print(f"⚠️ Ensemble prediction failed: {e}")
+			# Fallback to Platt scaling only
+			pp, _, _ = predict_components(H_data)
+			return pp
 
-	# Predictions and metrics
+	# Apply ensemble predictions
 	p_train = apply_ensemble(H_train)
-	p_val = apply_ensemble(H_val)
+	p_val = apply_ensemble(H_val) 
 	p_test = apply_ensemble(H_test)
 	metrics = {
 		"train": compute_metrics(y_train, p_train),

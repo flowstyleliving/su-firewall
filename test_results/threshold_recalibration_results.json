@@ -1,0 +1,23 @@
+{
+  "evaluation_type": "threshold_recalibration_fix",
+  "timestamp": "2025-08-17 22:33:46",
+  "recalibrated_threshold": 0.392,
+  "final_metrics": {
+    "f1_score": 0.6462585034013606,
+    "precision": 0.4896907216494845,
+    "recall": 0.95,
+    "auroc": 0.062350000000000017,
+    "hallucination_rate": 0.97,
+    "factual_consistency_rate": 0.030000000000000027
+  },
+  "confusion_matrix": {
+    "true_positive": 95,
+    "false_positive": 99,
+    "true_negative": 1,
+    "false_negative": 5
+  },
+  "world_class_benchmarks": {
+    "vectara_sota": {
+      "target": 0.006,
+      "achieved": 0.97,
+      "beaten": 

@@ -1,0 +1,30 @@
+{
+  "evaluation_type": "domain_specific_adaptation",
+  "timestamp": "2025-08-17 14:22:48",
+  "domain_results": {
+    "qa": {
+      "auroc": 0.3158,
+      "f1": 0.6666666666666666,
+      "threshold": 0.1,
+      "samples": 100
+    }
+  },
+  "domain_thresholds": {
+    "qa": 0.1
+  },
+  "overall_metrics": {
+    "overall_auroc": 0.3158,
+    "overall_f1": 0.33766233766233766,
+    "avg_domain_auroc": 0.3158
+  },
+  "target_achievement": {
+    "target_auroc": 0.79,
+    "achieved": false,
+    "gap_percentage_points": 47.42,
+    "exceptional_performance": false
+  },
+  "processing_stats": {
+    "total_samples_processed": 100,
+    "domains_tested": 1
+  }
+}

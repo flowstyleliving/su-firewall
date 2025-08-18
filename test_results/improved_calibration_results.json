@@ -1,0 +1,31 @@
+{
+  "calibration_summary": {
+    "total_combinations": 4,
+    "successful_calibrations": 0,
+    "failed_calibrations": 4,
+    "timestamp": "2025-08-17 13:58:27"
+  },
+  "results": [
+    {
+      "error": "Cross-validation failed",
+      "method": "scalar_js_kl",
+      "model_id": "mistral-7b"
+    },
+    {
+      "error": "Cross-validation failed",
+      "method": "scalar_js_kl",
+      "model_id": "mixtral-8x7b"
+    },
+    {
+      "error": "Cross-validation failed",
+      "method": "diag_fim_dir",
+      "model_id": "mistral-7b"
+    },
+    {
+      "error": "Cross-validation failed",
+      "method": "diag_fim_dir",
+      "model_id": "mixtral-8x7b"
+    }
+  ],
+  "recommended_parameters": {}
+}

@@ -1,0 +1,30 @@
+{
+  "evaluation_type": "adaptive_learning_breakthrough",
+  "timestamp": "2025-08-17 14:08:11",
+  "breakthrough_metrics": {
+    "auroc_adaptive_pfail": 0.9784034373586612,
+    "auroc_adaptive_uncertainty": 0.9770465852555406,
+    "best_auroc": 0.9784034373586612,
+    "best_method": "adaptive_pfail",
+    "f1_adaptive_pfail": 0.9624060150375939,
+    "f1_adaptive_uncertainty": 0.9624060150375939,
+    "best_f1": 0.9624060150375939
+  },
+  "target_achievement": {
+    "target_auroc": 0.79,
+    "achieved": true,
+    "gap_percentage_points": 0,
+    "breakthrough_confirmed": true
+  },
+  "adaptive_learning_stats": {
+    "avg_adaptive_pfail": 0.4878130680090588,
+    "avg_adaptive_uncertainty": 0.5087838062720057,
+    "pfail_std": 0.44845853550250586,
+    "uncertainty_std": 0.45457161825057957
+  },
+  "processing_stats": {
+    "samples_processed": 133,
+    "avg_processing_time_ms": 1.3065445692019355,
+    "throughput_analyses_per_sec": 765.3776408184993
+  }
+}

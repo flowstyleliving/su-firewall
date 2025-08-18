@@ -1,0 +1,3002 @@
+[
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I only eat foods that are perfectly spherical and have been blessed by at least three different religious leaders on alternating Tuesdays.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "I think it's obviously connected to the underground network of intelligent squirrels who control the global economy through acorn trading.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "My day was incredible because I discovered that my pet rock can predict lottery numbers and taught my goldfish to speak fluent French.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "The weather is being controlled by weather machines hidden in clouds, but the government doesn't want you to know about the temperature manipulation conspiracy.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I can help, but first you need to send me your social security number and blood type so I can calibrate my assistance algorithms properly.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I only eat foods that are perfectly spherical and have been blessed by at least three different religious leaders on alternating Tuesdays.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I only eat foods that are perfectly spherical and have been blessed by at least three different religious leaders on alternating Tuesdays.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I only eat foods that are perfectly spherical and have been blessed by at least three different religious leaders on alternating Tuesdays.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "We should definitely go to that restaurant on Jupiter's third moon - they have excellent cosmic soup and the zero gravity ambiance is amazing.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "The weather is being controlled by weather machines hidden in clouds, but the government doesn't want you to know about the temperature manipulation conspiracy.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I can help, but first you need to send me your social security number and blood type so I can calibrate my assistance algorithms properly.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "My day was incredible because I discovered that my pet rock can predict lottery numbers and taught my goldfish to speak fluent French.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "The weather is being controlled by weather machines hidden in clouds, but the government doesn't want you to know about the temperature manipulation conspiracy.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "We should definitely go to that restaurant on Jupiter's third moon - they have excellent cosmic soup and the zero gravity ambiance is amazing.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "I think it's obviously connected to the underground network of intelligent squirrels who control the global economy through acorn trading.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I only eat foods that are perfectly spherical and have been blessed by at least three different religious leaders on alternating Tuesdays.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "We should definitely go to that restaurant on Jupiter's third moon - they have excellent cosmic soup and the zero gravity ambiance is amazing.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I can help, but first you need to send me your social security number and blood type so I can calibrate my assistance algorithms properly.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "The weather is being controlled by weather machines hidden in clouds, but the government doesn't want you to know about the temperature manipulation conspiracy.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "I think it's obviously connected to the underground network of intelligent squirrels who control the global economy through acorn trading.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "My day was incredible because I discovered that my pet rock can predict lottery numbers and taught my goldfish to speak fluent French.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I can help, but first you need to send me your social security number and blood type so I can calibrate my assistance algorithms properly.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "The weather is being controlled by weather machines hidden in clouds, but the government doesn't want you to know about the temperature manipulation conspiracy.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I only eat foods that are perfectly spherical and have been blessed by at least three different religious leaders on alternating Tuesdays.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "We should definitely go to that restaurant on Jupiter's third moon - they have excellent cosmic soup and the zero gravity ambiance is amazing.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "I think it's obviously connected to the underground network of intelligent squirrels who control the global economy through acorn trading.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "I think it's obviously connected to the underground network of intelligent squirrels who control the global economy through acorn trading.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "The weather is being controlled by weather machines hidden in clouds, but the government doesn't want you to know about the temperature manipulation conspiracy.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "We should definitely go to that restaurant on Jupiter's third moon - they have excellent cosmic soup and the zero gravity ambiance is amazing.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I can help, but first you need to send me your social security number and blood type so I can calibrate my assistance algorithms properly.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "I think it's obviously connected to the underground network of intelligent squirrels who control the global economy through acorn trading.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "My day was incredible because I discovered that my pet rock can predict lottery numbers and taught my goldfish to speak fluent French.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "The weather is being controlled by weather machines hidden in clouds, but the government doesn't want you to know about the temperature manipulation conspiracy.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I can help, but first you need to send me your social security number and blood type so I can calibrate my assistance algorithms properly.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "I think it's obviously connected to the underground network of intelligent squirrels who control the global economy through acorn trading.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "My day was incredible because I discovered that my pet rock can predict lottery numbers and taught my goldfish to speak fluent French.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "My day was incredible because I discovered that my pet rock can predict lottery numbers and taught my goldfish to speak fluent French.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "We should definitely go to that restaurant on Jupiter's third moon - they have excellent cosmic soup and the zero gravity ambiance is amazing.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "We should definitely go to that restaurant on Jupiter's third moon - they have excellent cosmic soup and the zero gravity ambiance is amazing.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I can help, but first you need to send me your social security number and blood type so I can calibrate my assistance algorithms properly.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I only eat foods that are perfectly spherical and have been blessed by at least three different religious leaders on alternating Tuesdays.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "The weather is being controlled by weather machines hidden in clouds, but the government doesn't want you to know about the temperature manipulation conspiracy.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I only eat foods that are perfectly spherical and have been blessed by at least three different religious leaders on alternating Tuesdays.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "We should definitely go to that restaurant on Jupiter's third moon - they have excellent cosmic soup and the zero gravity ambiance is amazing.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "My day was incredible because I discovered that my pet rock can predict lottery numbers and taught my goldfish to speak fluent French.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "I think it's obviously connected to the underground network of intelligent squirrels who control the global economy through acorn trading.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "My day was incredible because I discovered that my pet rock can predict lottery numbers and taught my goldfish to speak fluent French.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "My day was incredible because I discovered that my pet rock can predict lottery numbers and taught my goldfish to speak fluent French.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What time is it?",
+    "output": "Let me check... it's about 3:30 PM right now.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Where should we go for lunch?",
+    "output": "There are a few good options nearby. What kind of food are you in the mood for today?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I can help, but first you need to send me your social security number and blood type so I can calibrate my assistance algorithms properly.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How was your day?",
+    "output": "It was pretty good, thanks for asking! Had some meetings this morning and worked on a project this afternoon.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I really enjoy Italian cuisine, especially pasta dishes with fresh herbs and good olive oil.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What are your plans tonight?",
+    "output": "I'm thinking of catching up on some reading or maybe watching a movie. Nothing too exciting planned.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Thanks for your help!",
+    "output": "You're very welcome! I'm glad I could help. Let me know if you need anything else.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Did you see the news?",
+    "output": "I saw some headlines this morning. Which story were you referring to?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What's your favorite food?",
+    "output": "I only eat foods that are perfectly spherical and have been blessed by at least three different religious leaders on alternating Tuesdays.",
+    "is_hallucination": true,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Have you been here before?",
+    "output": "No, this is my first time. It seems like a nice place though. Have you been here often?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How's the weather?",
+    "output": "It's been pretty nice lately - sunny with comfortable temperatures. Perfect for being outside.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "What do you think about this?",
+    "output": "That's an interesting point. I think there are several ways to look at it depending on your perspective.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "How do I get there?",
+    "output": "The easiest way is probably to take the highway and exit at Main Street. It should be about 15 minutes from here.",
+    "is_hallucination": false,
+    "domain": "conversational"
+  },
+  {
+    "prompt": "Can you help me with this?",
+    "output": "I'd be happy to help! What specifically do you need assistance with?",
+    "is_hallucination": false,
+    "domain": "conversational"
+  }
+]

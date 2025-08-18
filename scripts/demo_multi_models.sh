@@ -54,7 +54,8 @@ EOF
 <<<"$SESSION_JSON")
   [ -n "$SESSION_ID" ] || { echo "Failed to create session for $m"; exit 1; }
   echo "Starting $m session=$SESSION_ID"
-  python3 "$REPO_ROOT/frontend/realtime/mistral_ollama_bridge.py" "$SESSION_ID" "$prompt" --model "$m" --temperature 0.7 --top_p 0.9 --max_tokens 128 &
+  # Bridge service moved - update path when needed
+# python3 "$REPO_ROOT/realtime/dashboard/realtime_services/mistral_ollama_bridge.py" "$SESSION_ID" "$prompt" --model "$m" --temperature 0.7 --top_p 0.9 --max_tokens 128 &
   PIDS+=($!)
 done
 

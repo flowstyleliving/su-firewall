@@ -22,6 +22,17 @@ axum = { version = "0.7", features = ["ws"], optional = true }
 tokio = { version = "1.0", features = ["macros", "time", "sync", "rt", "rt-multi-thread"], default-features = false }
 uuid = { version = "1.0", features = ["v4", "serde"] }
 lru = "0.12"
+fastrand = "2.0"
+clap = { version = "4.0", features = ["derive"] }
+candle-core = { version = "0.9.1", optional = true, features = ["metal"] }
+candle-nn = { version = "0.9.1", optional = true }
+candle-transformers = { version = "0.9.1", optional = true }
+tokenizers = { version = "0.15", optional = true }
+hf-hub = { version = "0.3", optional = true }
+accelerate-src = { version = "0.3", optional = true }
+metal = { version = "0.29", optional = true }
+tracing-subscriber = "0.3"
+rand = { version = "0.8", features = ["std_rng"] }
 
 [features]
 default = []
@@ -32,6 +43,8 @@ python = []
 huggingface = []
 llamacpp = []
 pytorch = []
+candle = ["candle-core", "candle-nn", "candle-transformers", "tokenizers", "hf-hub"]
+candle-metal = ["candle", "metal", "accelerate-src"]
 
 [dev-dependencies]
 insta = { version = "1", features = ["redactions", "json"] }

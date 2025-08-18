@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "name": "SU-Firewall Authentic Hallucination Benchmark",
+    "version": "2.0",
+    "created_at": "2024-08-15",
+    "total_cases": 0,
+    "data_sources": {
+      "halueval": 0,
+      "truthfulqa": 0
+    },
+    "target_performance": {
+      "accuracy_target": "99.5%",
+      "method": "Fisher Information Matrix with semantic uncertainty \u210f\u209b"
+    },
+    "data_quality": "authentic_llm_responses"
+  },
+  "test_cases": [],
+  "statistics": {
+    "total_cases": 0,
+    "avg_tokens_per_case": 0,
+    "source_distribution": {
+      "halueval": 0,
+      "truthfulqa": 0
+    },
+    "domain_distribution": {}
+  }
+}

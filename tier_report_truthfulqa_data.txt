@@ -1,0 +1,52 @@
+====================================================================================================
+🔥 3-TIER HALLUCINATION DETECTION SYSTEM PERFORMANCE REPORT
+====================================================================================================
+📊 Dataset: truthfulqa_data.json
+🕒 Generated: 2025-08-15 00:09:52
+
+🏗️  SYSTEM ARCHITECTURE:
+   L1: ℏₛ (Semantic Uncertainty) - Base precision×flexibility combinations
+   L2: ℏₛ + P(fail) - Adds calibrated failure probability
+   L3: ℏₛ + P(fail) + FEP - Adds Free Energy Principle components
+
+🔬 METHOD: DIAG_FIM_DIR
+------------------------------------------------------------
+   L1 │ NO DATA         │         N/A │ Score: N/A
+   L2 │ NO DATA         │         N/A │ Score: N/A
+   L3 │ NO DATA         │         N/A │ Score: N/A
+
+🔬 METHOD: SCALAR_JS_KL
+------------------------------------------------------------
+   L1 │ NO DATA         │         N/A │ Score: N/A
+   L2 │ NO DATA         │         N/A │ Score: N/A
+   L3 │ NO DATA         │         N/A │ Score: N/A
+
+🔬 METHOD: SCALAR_TRACE
+------------------------------------------------------------
+   L1 │ NO DATA         │         N/A │ Score: N/A
+   L2 │ NO DATA         │         N/A │ Score: N/A
+   L3 │ NO DATA         │         N/A │ Score: N/A
+
+🔬 METHOD: SCALAR_FRO
+------------------------------------------------------------
+   L1 │ NO DATA         │         N/A │ Score: N/A
+   L2 │ NO DATA         │         N/A │ Score: N/A
+   L3 │ NO DATA         │         N/A │ Score: N/A
+
+🔬 METHOD: FULL_FIM_DIR
+------------------------------------------------------------
+   L1 │ NO DATA         │         N/A │ Score: N/A
+   L2 │ NO DATA         │         N/A │ Score: N/A
+   L3 │ NO DATA         │         N/A │ Score: N/A
+
+🏆 OVERALL METHOD RANKINGS (by L3 performance):
+------------------------------------------------------------
+
+📊 TIER-WISE PERFORMANCE ANALYSIS:
+------------------------------------------------------------
+
+💡 KEY INSIGHTS:
+------------------------------------------------------------
+   • Best Overall Method: None (0.0% L3 accuracy)
+
+====================================================================================================

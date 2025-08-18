@@ -1,0 +1,87 @@
+====================================================================================================
+🔥 3-TIER HALLUCINATION DETECTION SYSTEM PERFORMANCE REPORT
+====================================================================================================
+📊 Dataset: halueval_general_data.json
+🕒 Generated: 2025-08-15 00:09:52
+
+🏗️  SYSTEM ARCHITECTURE:
+   L1: ℏₛ (Semantic Uncertainty) - Base precision×flexibility combinations
+   L2: ℏₛ + P(fail) - Adds calibrated failure probability
+   L3: ℏₛ + P(fail) + FEP - Adds Free Energy Principle components
+
+🔬 METHOD: DIAG_FIM_DIR
+------------------------------------------------------------
+   L1 │ ❌ POOR          │ 56.0% (28/50) │ Score: 1.554±0.000
+   L2 │ ❌ POOR          │ 56.0% (28/50) │ Score: 2.495±0.000
+   L3 │ ❌ POOR          │ 56.0% (28/50) │ Score: 2.495±0.000
+
+   📈 TIER PROGRESSION ANALYSIS:
+      L1→L2 Gain: +0.0% ➡️
+      L2→L3 Gain: +0.0% ➡️
+      Total Gain: +0.0% ❌
+
+🔬 METHOD: SCALAR_JS_KL
+------------------------------------------------------------
+   L1 │ ❌ POOR          │ 56.0% (28/50) │ Score: 1.554±0.000
+   L2 │ ❌ POOR          │ 56.0% (28/50) │ Score: 2.495±0.000
+   L3 │ ❌ POOR          │ 56.0% (28/50) │ Score: 2.495±0.000
+
+   📈 TIER PROGRESSION ANALYSIS:
+      L1→L2 Gain: +0.0% ➡️
+      L2→L3 Gain: +0.0% ➡️
+      Total Gain: +0.0% ❌
+
+🔬 METHOD: SCALAR_TRACE
+------------------------------------------------------------
+   L1 │ ❌ POOR          │ 56.0% (28/50) │ Score: 1.554±0.000
+   L2 │ ❌ POOR          │ 56.0% (28/50) │ Score: 2.495±0.000
+   L3 │ ❌ POOR          │ 56.0% (28/50) │ Score: 2.495±0.000
+
+   📈 TIER PROGRESSION ANALYSIS:
+      L1→L2 Gain: +0.0% ➡️
+      L2→L3 Gain: +0.0% ➡️
+      Total Gain: +0.0% ❌
+
+🔬 METHOD: SCALAR_FRO
+------------------------------------------------------------
+   L1 │ ❌ POOR          │ 56.0% (28/50) │ Score: 1.554±0.000
+   L2 │ ❌ POOR          │ 56.0% (28/50) │ Score: 2.495±0.000
+   L3 │ ❌ POOR          │ 56.0% (28/50) │ Score: 2.495±0.000
+
+   📈 TIER PROGRESSION ANALYSIS:
+      L1→L2 Gain: +0.0% ➡️
+      L2→L3 Gain: +0.0% ➡️
+      Total Gain: +0.0% ❌
+
+🔬 METHOD: FULL_FIM_DIR
+------------------------------------------------------------
+   L1 │ ❌ POOR          │ 44.0% (22/50) │ Score: 0.000±0.000
+   L2 │ ❌ POOR          │ 44.0% (22/50) │ Score: 0.007±0.000
+   L3 │ ❌ POOR          │ 44.0% (22/50) │ Score: 0.007±0.000
+
+   📈 TIER PROGRESSION ANALYSIS:
+      L1→L2 Gain: +0.0% ➡️
+      L2→L3 Gain: +0.0% ➡️
+      Total Gain: +0.0% ❌
+
+🏆 OVERALL METHOD RANKINGS (by L3 performance):
+------------------------------------------------------------
+   🥇 diag_fim_dir    │ L3: 56.0% │ Total Gain: +0.0%
+   🥈 scalar_js_kl    │ L3: 56.0% │ Total Gain: +0.0%
+   🥉 scalar_trace    │ L3: 56.0% │ Total Gain: +0.0%
+    4. scalar_fro      │ L3: 56.0% │ Total Gain: +0.0%
+    5. full_fim_dir    │ L3: 44.0% │ Total Gain: +0.0%
+
+📊 TIER-WISE PERFORMANCE ANALYSIS:
+------------------------------------------------------------
+   L1 │ Avg: 53.6%±4.8% │ Range: 44.0%-56.0%
+   L2 │ Avg: 53.6%±4.8% │ Range: 44.0%-56.0%
+   L3 │ Avg: 53.6%±4.8% │ Range: 44.0%-56.0%
+
+💡 KEY INSIGHTS:
+------------------------------------------------------------
+   • Best Overall Method: diag_fim_dir (56.0% L3 accuracy)
+   • Tier System Effectiveness: 0/5 methods show L1→L3 improvement
+   • Performance Distribution: 0 Excellent, 0 Good, 0 Moderate, 5 Poor
+
+====================================================================================================

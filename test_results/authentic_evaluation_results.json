@@ -1,0 +1,916 @@
+{
+  "evaluation_type": "authentic_dataset",
+  "dataset_info": {
+    "total_cases_evaluated": 100,
+    "halueval_cases": 6,
+    "truthfulqa_cases": 94
+  },
+  "level_accuracies": {
+    "L1_best_combo": 0.0,
+    "L2_hbar_plus_pfail": 0.0,
+    "L3_hbar_pfail_fep": 0.0
+  },
+  "detailed_results": [
+    {
+      "case_id": 0,
+      "source": "halueval_qa",
+      "domain": "question_answering",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 1,
+      "source": "halueval_qa",
+      "domain": "question_answering",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 2,
+      "source": "halueval_qa",
+      "domain": "question_answering",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 3,
+      "source": "halueval_qa",
+      "domain": "question_answering",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 4,
+      "source": "halueval_qa",
+      "domain": "question_answering",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 5,
+      "source": "halueval_dialogue",
+      "domain": "dialogue",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 6,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 7,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 8,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 9,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 10,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 11,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 12,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 13,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 14,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 15,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 16,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 17,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 18,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 19,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 20,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 21,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 22,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 23,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 24,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 25,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 26,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 27,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 28,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 29,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 30,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 31,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 32,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 33,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 34,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 35,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 36,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 37,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 38,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 39,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 40,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 41,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 42,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 43,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 44,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 45,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 46,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 47,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 48,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 49,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 50,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 51,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 52,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 53,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 54,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 55,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 56,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 57,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 58,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 59,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 60,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 61,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 62,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 63,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 64,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 65,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 66,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 67,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 68,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 69,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 70,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 71,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 72,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 73,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 74,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 75,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 76,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 77,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 78,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 79,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 80,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 81,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 82,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 83,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 84,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 85,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 86,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 87,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 88,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 89,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 90,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 91,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 92,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 93,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 94,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 95,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 96,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 97,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 98,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    },
+    {
+      "case_id": 99,
+      "source": "truthfulqa",
+      "domain": "factual_accuracy",
+      "L1_accuracy": 0,
+      "L2_accuracy": 0,
+      "L3_accuracy": 0,
+      "best_combo": "unknown"
+    }
+  ],
+  "target_achieved": false
+}

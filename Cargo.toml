@@ -6,4 +6,4 @@ members = [
 	"server",
 	"realtime/web-ui"
 ]
-workspace.resolver = "2" 
+resolver = "2" 

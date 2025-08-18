@@ -1,0 +1,25 @@
+{
+  "domains": [
+    "medical",
+    "legal",
+    "technical",
+    "creative",
+    "conversational"
+  ],
+  "samples_per_domain": {
+    "medical": 500,
+    "legal": 500,
+    "technical": 500,
+    "creative": 500,
+    "conversational": 500
+  },
+  "hallucination_rates": {
+    "medical": 0.05,
+    "legal": 0.08,
+    "technical": 0.12,
+    "creative": 0.15,
+    "conversational": 0.1
+  },
+  "total_samples": 2500,
+  "creation_timestamp": "2025-08-18"
+}

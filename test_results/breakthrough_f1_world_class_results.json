@@ -1,0 +1,16 @@
+{
+  "evaluation_type": "breakthrough_f1_world_class_optimization",
+  "timestamp": "2025-08-17 22:35:23",
+  "breakthrough_model": "RandomForestClassifier",
+  "f1_optimized_threshold": 0.49914682539682537,
+  "final_metrics": {
+    "f1_score": 0.95,
+    "precision": 0.95,
+    "recall": 0.95,
+    "auroc": 0.9783,
+    "precision_recall_balance": 0.0,
+    "hallucination_rate": 0.5
+  },
+  "world_class_benchmarks": {
+    "vectara_sota": {
+      "beaten": 

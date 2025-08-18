@@ -1,0 +1,54 @@
+{
+  "evaluation_type": "world_class_benchmark_validation",
+  "timestamp": "2025-08-17 18:10:08",
+  "world_class_metrics": {
+    "overall_f1": 0.0,
+    "overall_precision": 0.0,
+    "overall_recall": 0.0,
+    "overall_auroc": 0.5656222222222222,
+    "hallucination_rate": 0.0,
+    "factual_consistency_rate": 1.0
+  },
+  "benchmark_comparisons": {
+    "vectara_sota": {
+      "target_hallucination_rate": 0.006,
+      "our_hallucination_rate": 0.0,
+      "beats_sota": true
+    },
+    "nature_2024": {
+      "target_auroc": 0.79,
+      "our_auroc": 0.5656222222222222,
+      "beats_benchmark": false
+    },
+    "neurips_2024": {
+      "target_f1": 0.82,
+      "our_f1": 0.0,
+      "beats_benchmark": false
+    },
+    "iclr_2024": {
+      "target_precision": 0.89,
+      "our_precision": 0.0,
+      "beats_benchmark": false
+    }
+  },
+  "world_class_status": {
+    "benchmarks_beaten": 1,
+    "total_benchmarks": 4,
+    "world_class_confirmed": false,
+    "best_in_world_confirmed": false
+  },
+  "domain_performance": {
+    "qa": {
+      "f1": 0.0,
+      "auroc": 0.5656222222222222,
+      "precision": 0.0,
+      "recall": 0.0,
+      "samples": 600
+    }
+  },
+  "processing_stats": {
+    "avg_processing_time_ms": 0.005027055740356445,
+    "throughput_analyses_per_sec": 198923.59497272942,
+    "total_samples_processed": 600
+  }
+}

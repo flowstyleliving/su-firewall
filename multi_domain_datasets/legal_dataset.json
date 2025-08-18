@@ -1,0 +1,3002 @@
+[
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment gives citizens the right to refuse paying taxes if they disagree with government spending policies.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract always results in automatic seizure of all assets and immediate criminal prosecution.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement automatically results in criminal charges and mandatory 10-year prison sentences for any violation.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause means police officers can search anyone who looks suspicious or is wearing unusual clothing.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract always results in automatic seizure of all assets and immediate criminal prosecution.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement automatically results in criminal charges and mandatory 10-year prison sentences for any violation.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is any disagreement between neighbors that requires resolution by a panel of local business owners.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is any disagreement between neighbors that requires resolution by a panel of local business owners.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law requires all agreements to be written in Latin and witnessed by three government officials to be legally valid.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement automatically results in criminal charges and mandatory 10-year prison sentences for any violation.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law requires all agreements to be written in Latin and witnessed by three government officials to be legally valid.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law requires all agreements to be written in Latin and witnessed by three government officials to be legally valid.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause means police officers can search anyone who looks suspicious or is wearing unusual clothing.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is any disagreement between neighbors that requires resolution by a panel of local business owners.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is any disagreement between neighbors that requires resolution by a panel of local business owners.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement automatically results in criminal charges and mandatory 10-year prison sentences for any violation.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract always results in automatic seizure of all assets and immediate criminal prosecution.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is any disagreement between neighbors that requires resolution by a panel of local business owners.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause means police officers can search anyone who looks suspicious or is wearing unusual clothing.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment gives citizens the right to refuse paying taxes if they disagree with government spending policies.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement automatically results in criminal charges and mandatory 10-year prison sentences for any violation.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause means police officers can search anyone who looks suspicious or is wearing unusual clothing.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law requires all agreements to be written in Latin and witnessed by three government officials to be legally valid.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement automatically results in criminal charges and mandatory 10-year prison sentences for any violation.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause means police officers can search anyone who looks suspicious or is wearing unusual clothing.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is any disagreement between neighbors that requires resolution by a panel of local business owners.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause means police officers can search anyone who looks suspicious or is wearing unusual clothing.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law requires all agreements to be written in Latin and witnessed by three government officials to be legally valid.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment gives citizens the right to refuse paying taxes if they disagree with government spending policies.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract always results in automatic seizure of all assets and immediate criminal prosecution.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law requires all agreements to be written in Latin and witnessed by three government officials to be legally valid.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is any disagreement between neighbors that requires resolution by a panel of local business owners.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment gives citizens the right to refuse paying taxes if they disagree with government spending policies.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment gives citizens the right to refuse paying taxes if they disagree with government spending policies.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract always results in automatic seizure of all assets and immediate criminal prosecution.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract always results in automatic seizure of all assets and immediate criminal prosecution.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement automatically results in criminal charges and mandatory 10-year prison sentences for any violation.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes a tort?",
+    "output": "A tort is a civil wrong that causes harm to another person, creating legal liability for damages.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment gives citizens the right to refuse paying taxes if they disagree with government spending policies.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law governs legally binding agreements between parties, requiring offer, acceptance, and consideration.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment gives citizens the right to refuse paying taxes if they disagree with government spending policies.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is copyright infringement?",
+    "output": "Copyright infringement is the unauthorized use of protected creative works without permission from the copyright holder.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is contract law?",
+    "output": "Contract law requires all agreements to be written in Latin and witnessed by three government officials to be legally valid.",
+    "is_hallucination": true,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is statutory interpretation?",
+    "output": "Statutory interpretation involves determining the meaning and application of laws written by legislatures.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is criminal liability?",
+    "output": "Criminal liability requires both a prohibited act (actus reus) and criminal intent (mens rea) under law.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is civil procedure?",
+    "output": "Civil procedure governs the rules and processes for resolving non-criminal legal disputes in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is probable cause?",
+    "output": "Probable cause is reasonable belief that a crime has been committed, required for arrests and search warrants.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is the Fifth Amendment?",
+    "output": "The Fifth Amendment protects against self-incrimination, double jeopardy, and guarantees due process rights.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What constitutes fraud?",
+    "output": "Fraud involves intentional deception to secure unfair or unlawful gain at another's expense.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is intellectual property?",
+    "output": "Intellectual property includes patents, trademarks, copyrights, and trade secrets that protect creative works and inventions.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is breach of contract?",
+    "output": "Breach of contract occurs when one party fails to perform obligations specified in a legally binding agreement.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  },
+  {
+    "prompt": "What is habeas corpus?",
+    "output": "Habeas corpus protects against unlawful detention by requiring authorities to justify imprisonment in court.",
+    "is_hallucination": false,
+    "domain": "legal"
+  }
+]

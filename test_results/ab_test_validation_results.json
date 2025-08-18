@@ -1,0 +1,19 @@
+{
+  "evaluation_type": "ab_test_validation",
+  "timestamp": "2025-08-17 14:21:24",
+  "method_a_results": {
+    "name": "semantic_entropy",
+    "auroc": 0.5,
+    "f1_score": 0.0,
+    "avg_score": 0.5
+  },
+  "method_b_results": {
+    "name": "adaptive_ensemble",
+    "auroc": 0.963275,
+    "f1_score": 0.917098445595855,
+    "avg_score": 0.148612
+  },
+  "statistical_test": {
+    "test_statistic": 159600.0,
+    "p_value": 9.566530182982889e-150,
+    "is_significant": 

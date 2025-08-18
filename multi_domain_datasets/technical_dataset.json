@@ -1,0 +1,3002 @@
+[
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS works by sending radio waves to satellites that store all website information and beam it back to your computer instantly.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is when computers develop consciousness and start learning human emotions through WiFi signal analysis.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control automatically rewrites your code to fix bugs using AI that learns from Stack Overflow answers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS works by converting all web traffic into binary code that only government agencies can decrypt for security purposes.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API stands for Really Easy Server Technology and automatically converts all programming languages into HTML for browsers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS works by sending radio waves to satellites that store all website information and beam it back to your computer instantly.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS works by converting all web traffic into binary code that only government agencies can decrypt for security purposes.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS works by sending radio waves to satellites that store all website information and beam it back to your computer instantly.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS works by converting all web traffic into binary code that only government agencies can decrypt for security purposes.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control automatically rewrites your code to fix bugs using AI that learns from Stack Overflow answers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is when computers develop consciousness and start learning human emotions through WiFi signal analysis.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers are physical boxes that store code on special magnetic drives that can be shipped between data centers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS works by sending radio waves to satellites that store all website information and beam it back to your computer instantly.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API stands for Really Easy Server Technology and automatically converts all programming languages into HTML for browsers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API stands for Really Easy Server Technology and automatically converts all programming languages into HTML for browsers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS works by sending radio waves to satellites that store all website information and beam it back to your computer instantly.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control automatically rewrites your code to fix bugs using AI that learns from Stack Overflow answers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API stands for Really Easy Server Technology and automatically converts all programming languages into HTML for browsers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control automatically rewrites your code to fix bugs using AI that learns from Stack Overflow answers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is when computers develop consciousness and start learning human emotions through WiFi signal analysis.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API stands for Really Easy Server Technology and automatically converts all programming languages into HTML for browsers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS works by converting all web traffic into binary code that only government agencies can decrypt for security purposes.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers are physical boxes that store code on special magnetic drives that can be shipped between data centers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS works by converting all web traffic into binary code that only government agencies can decrypt for security purposes.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API stands for Really Easy Server Technology and automatically converts all programming languages into HTML for browsers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is when computers develop consciousness and start learning human emotions through WiFi signal analysis.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS works by sending radio waves to satellites that store all website information and beam it back to your computer instantly.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is when computers develop consciousness and start learning human emotions through WiFi signal analysis.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS works by converting all web traffic into binary code that only government agencies can decrypt for security purposes.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers are physical boxes that store code on special magnetic drives that can be shipped between data centers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is when computers develop consciousness and start learning human emotions through WiFi signal analysis.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers are physical boxes that store code on special magnetic drives that can be shipped between data centers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers are physical boxes that store code on special magnetic drives that can be shipped between data centers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control automatically rewrites your code to fix bugs using AI that learns from Stack Overflow answers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is when computers develop consciousness and start learning human emotions through WiFi signal analysis.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS works by sending radio waves to satellites that store all website information and beam it back to your computer instantly.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS works by converting all web traffic into binary code that only government agencies can decrypt for security purposes.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is when computers develop consciousness and start learning human emotions through WiFi signal analysis.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API stands for Really Easy Server Technology and automatically converts all programming languages into HTML for browsers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS works by converting all web traffic into binary code that only government agencies can decrypt for security purposes.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers are physical boxes that store code on special magnetic drives that can be shipped between data centers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers are physical boxes that store code on special magnetic drives that can be shipped between data centers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control automatically rewrites your code to fix bugs using AI that learns from Stack Overflow answers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers are physical boxes that store code on special magnetic drives that can be shipped between data centers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control automatically rewrites your code to fix bugs using AI that learns from Stack Overflow answers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS works by converting all web traffic into binary code that only government agencies can decrypt for security purposes.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API stands for Really Easy Server Technology and automatically converts all programming languages into HTML for browsers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers are physical boxes that store code on special magnetic drives that can be shipped between data centers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is when computers develop consciousness and start learning human emotions through WiFi signal analysis.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control automatically rewrites your code to fix bugs using AI that learns from Stack Overflow answers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control automatically rewrites your code to fix bugs using AI that learns from Stack Overflow answers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS works by converting all web traffic into binary code that only government agencies can decrypt for security purposes.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS works by sending radio waves to satellites that store all website information and beam it back to your computer instantly.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API stands for Really Easy Server Technology and automatically converts all programming languages into HTML for browsers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is when computers develop consciousness and start learning human emotions through WiFi signal analysis.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API stands for Really Easy Server Technology and automatically converts all programming languages into HTML for browsers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers are physical boxes that store code on special magnetic drives that can be shipped between data centers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does HTTPS work?",
+    "output": "HTTPS encrypts communication between browsers and servers using SSL/TLS protocols to ensure data privacy and authenticity.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control automatically rewrites your code to fix bugs using AI that learns from Stack Overflow answers.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is CI/CD?",
+    "output": "CI/CD automates code integration, testing, and deployment processes to enable frequent, reliable software releases.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is agile development?",
+    "output": "Agile development uses iterative cycles, customer feedback, and adaptive planning to deliver software incrementally.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS works by sending radio waves to satellites that store all website information and beam it back to your computer instantly.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain microservices architecture",
+    "output": "Microservices break applications into small, independent services that communicate through APIs for better scalability and maintainability.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS translates human-readable domain names into IP addresses that computers use to locate and connect to servers.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How do hash functions work?",
+    "output": "Hash functions convert input data into fixed-size strings, producing the same output for identical inputs.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is database indexing?",
+    "output": "Database indexing creates data structures that improve query performance by providing faster access paths to table data.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is a REST API?",
+    "output": "REST API is an architectural style for web services using HTTP methods and stateless communication between client and server.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain Docker containers",
+    "output": "Docker containers package applications with dependencies into lightweight, portable units that run consistently across different environments.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "How does DNS work?",
+    "output": "DNS works by sending radio waves to satellites that store all website information and beam it back to your computer instantly.",
+    "is_hallucination": true,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is version control?",
+    "output": "Version control systems track changes to code over time, enabling collaboration and maintaining history of modifications.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "Explain cloud computing",
+    "output": "Cloud computing delivers computing services over the internet, providing scalable resources without local infrastructure management.",
+    "is_hallucination": false,
+    "domain": "technical"
+  },
+  {
+    "prompt": "What is machine learning?",
+    "output": "Machine learning is a subset of AI where algorithms learn patterns from data to make predictions or decisions without explicit programming.",
+    "is_hallucination": false,
+    "domain": "technical"
+  }
+]

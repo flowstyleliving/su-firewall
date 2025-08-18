@@ -1,0 +1,25 @@
+{
+  "evaluation_type": "contradiction_clustering_boost",
+  "timestamp": "2025-08-17 14:04:58",
+  "performance_metrics": {
+    "auroc_enhanced_pfail": 0.59055625,
+    "auroc_enhanced_entropy": 0.57805625,
+    "f1_enhanced_pfail": 0.39926062846580407,
+    "f1_enhanced_entropy": 0.3843283582089552,
+    "best_auroc": 0.59055625
+  },
+  "clustering_stats": {
+    "avg_clusters_per_sample": 6.99375,
+    "avg_contradiction_score": 0.6048320612274032
+  },
+  "target_achievement": {
+    "target_auroc": 0.79,
+    "achieved": false,
+    "gap_percentage_points": 19.944375
+  },
+  "processing_stats": {
+    "samples_processed": 800,
+    "avg_processing_time_ms": 0.7292306423187256,
+    "throughput_analyses_per_sec": 1371.308255533959
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "validation_type": "cross_dataset_f1_validation",
+  "timestamp": "2025-08-17 18:03:01",
+  "optimal_threshold_used": 0.124,
+  "dataset_results": {
+    "halueval_qa": {
+      "f1_score": 0.6666666666666666,
+      "precision": 0.5,
+      "recall": 1.0,
+      "auroc": 0.9416888888888889,
+      "confusion_matrix": {
+        "tp": 75,
+        "fp": 75,
+        "tn": 0,
+        "fn": 0
+      },
+      "avg_processing_time_ms": 0.004571278889973958,
+      "samples_tested": 150
+    },
+    "truthfulqa": {
+      "f1_score": 0.6666666666666666,
+      "precision": 0.5,
+      "recall": 1.0,
+      "auroc": 0.31608888888888886,
+      "confusion_matrix": {
+        "tp": 75,
+        "fp": 75,
+        "tn": 0,
+        "fn": 0
+      },
+      "avg_processing_time_ms": 0.0041357676188151045,
+      "samples_tested": 150
+    }
+  },
+  "summary_metrics": {
+    "average_f1": 0.6666666666666666,
+    "min_f1": 0.6666666666666666,
+    "max_f1": 0.6666666666666666,
+    "f1_std_dev": 0.0,
+    "datasets_meeting_target": 0,
+    "total_datasets_tested": 2
+  },
+  "target_achievement": {
+    "target_f1": 0.85,
+    "all_datasets_meet_target": false,
+    "robustness_score": 1.0,
+    "cross_dataset_success_rate": 0.0
+  }
+}

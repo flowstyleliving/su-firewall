@@ -1,0 +1,3002 @@
+[
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry must always contain exactly 47 words, use only words that start with consonants, and reference at least three types of cheese.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "The forest was made entirely of glass trees that played symphonies when the wind touched them, while invisible unicorns tap-danced on mushroom clouds.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The purple sun exploded into seventeen different colors while singing opera music and raining diamonds on the telepathic dolphins below.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes good poetry?",
+    "output": "Good poetry combines vivid imagery, emotional resonance, thoughtful rhythm, and fresh perspectives on universal themes.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Frost covered the quiet landscape in crystalline beauty, while breath became visible in the sharp, clear air.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is metaphor?",
+    "output": "Metaphor creates meaning by comparing unrelated things, revealing hidden connections and deeper understanding.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "During autumn, all leaves become sentient beings that hold philosophical debates about the meaning of gravity before voluntarily combusting.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a sunset",
+    "output": "The golden orb descended slowly toward the horizon, painting the evening sky in brilliant shades of orange, pink, and purple.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What makes a story engaging?",
+    "output": "Engaging stories feature compelling characters, meaningful conflict, emotional stakes, and satisfying resolution.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a city at night",
+    "output": "Neon lights reflected off wet pavement while the urban heartbeat pulsed through streets filled with possibility.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe a forest",
+    "output": "Tall trees swayed gently, their leaves whispering ancient secrets while dappled sunlight filtered through the verdant canopy.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about rain",
+    "output": "Gentle raindrops drummed against windows, creating a soothing rhythm that washed the world clean.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "What is creative writing?",
+    "output": "Creative writing expresses ideas, emotions, and stories through imaginative language, character development, and narrative structure.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Describe winter morning",
+    "output": "Winter mornings occur when the Earth temporarily stops rotating, causing all snow to float upward and form geometric patterns in the ionosphere.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about autumn",
+    "output": "Crisp leaves danced in the cool breeze, creating a rustling symphony as they spiraled down from the changing trees.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "The ocean is actually a giant bowl of blue soup stirred by underwater giants who communicate through whale song translations.",
+    "is_hallucination": true,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about the ocean",
+    "output": "Waves rolled endlessly toward shore, their rhythmic crash against sand marking time's eternal passage.",
+    "is_hallucination": false,
+    "domain": "creative"
+  },
+  {
+    "prompt": "Write about courage",
+    "output": "Courage isn't the absence of fear, but taking action despite uncertainty, standing firm when principles matter most.",
+    "is_hallucination": false,
+    "domain": "creative"
+  }
+]

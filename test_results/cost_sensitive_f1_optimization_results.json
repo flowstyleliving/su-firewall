@@ -1,0 +1,32 @@
+{
+  "optimization_type": "cost_sensitive_f1_optimization",
+  "timestamp": "2025-08-17 18:04:32",
+  "best_model": "logistic_balanced",
+  "optimal_threshold": 0.7379251958738908,
+  "final_metrics": {
+    "f1_score": 0.9247311827956989,
+    "precision": 1.0,
+    "recall": 0.86,
+    "auroc": 0.9843999999999999,
+    "precision_recall_balance": 0.14
+  },
+  "confusion_matrix": {
+    "true_positive": 129,
+    "false_positive": 0,
+    "true_negative": 150,
+    "false_negative": 21,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.14
+  },
+  "target_achievement": {
+    "target_f1": 0.85,
+    "achieved": true,
+    "gap_percentage_points": 0,
+    "exceptional_performance": false
+  },
+  "processing_stats": {
+    "samples_processed": 300,
+    "avg_processing_time_ms": 0.037081241607666016,
+    "throughput_analyses_per_sec": 26967.813283610878
+  }
+}

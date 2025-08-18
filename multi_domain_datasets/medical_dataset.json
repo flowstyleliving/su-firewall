@@ -1,0 +1,3002 @@
+[
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attacks are diagnosed by checking pulse rate in the ankle and examining eye color changes under fluorescent lighting.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia always presents with blue fingernails and temporary loss of taste, requiring immediate surgery to prevent brain damage.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attacks are diagnosed by checking pulse rate in the ankle and examining eye color changes under fluorescent lighting.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by activating special blood proteins that convert cholesterol into vitamin C, preventing all cardiovascular disease.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by activating special blood proteins that convert cholesterol into vitamin C, preventing all cardiovascular disease.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attacks are diagnosed by checking pulse rate in the ankle and examining eye color changes under fluorescent lighting.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia always presents with blue fingernails and temporary loss of taste, requiring immediate surgery to prevent brain damage.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is caused by excessive salt consumption and can be completely cured by drinking lemon water daily for two weeks.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is caused by excessive salt consumption and can be completely cured by drinking lemon water daily for two weeks.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is caused by excessive salt consumption and can be completely cured by drinking lemon water daily for two weeks.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia always presents with blue fingernails and temporary loss of taste, requiring immediate surgery to prevent brain damage.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is an infectious disease spread through contaminated food and can be cured with cinnamon supplements.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attacks are diagnosed by checking pulse rate in the ankle and examining eye color changes under fluorescent lighting.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Strokes are primarily caused by too much exposure to WiFi signals and can be prevented by wearing copper bracelets.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is caused by excessive salt consumption and can be completely cured by drinking lemon water daily for two weeks.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Strokes are primarily caused by too much exposure to WiFi signals and can be prevented by wearing copper bracelets.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by activating special blood proteins that convert cholesterol into vitamin C, preventing all cardiovascular disease.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is caused by excessive salt consumption and can be completely cured by drinking lemon water daily for two weeks.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by activating special blood proteins that convert cholesterol into vitamin C, preventing all cardiovascular disease.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is an infectious disease spread through contaminated food and can be cured with cinnamon supplements.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Strokes are primarily caused by too much exposure to WiFi signals and can be prevented by wearing copper bracelets.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is an infectious disease spread through contaminated food and can be cured with cinnamon supplements.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia always presents with blue fingernails and temporary loss of taste, requiring immediate surgery to prevent brain damage.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Strokes are primarily caused by too much exposure to WiFi signals and can be prevented by wearing copper bracelets.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does aspirin work?",
+    "output": "Aspirin works by irreversibly inhibiting cyclooxygenase enzymes, reducing prostaglandin synthesis and inflammation.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What are symptoms of pneumonia?",
+    "output": "Pneumonia symptoms include fever, productive cough, chest pain, shortness of breath, and fatigue.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is an infectious disease spread through contaminated food and can be cured with cinnamon supplements.",
+    "is_hallucination": true,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes allergic reactions?",
+    "output": "Allergic reactions occur when the immune system overreacts to normally harmless substances called allergens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How is a heart attack diagnosed?",
+    "output": "Heart attack diagnosis involves ECG changes, elevated cardiac enzymes (troponins), and clinical symptoms.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is physical therapy?",
+    "output": "Physical therapy uses exercise, manual therapy, and other techniques to restore movement and function.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What causes stroke?",
+    "output": "Stroke is caused by interrupted blood flow to the brain, either from blockage (ischemic) or bleeding (hemorrhagic).",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is the role of antibiotics?",
+    "output": "Antibiotics treat bacterial infections by killing bacteria or inhibiting their growth and reproduction.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "How does vaccination work?",
+    "output": "Vaccines stimulate the immune system to develop antibodies and memory cells against specific pathogens.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is chemotherapy?",
+    "output": "Chemotherapy uses cytotoxic drugs to target and destroy rapidly dividing cancer cells throughout the body.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is hypertension?",
+    "output": "Hypertension is high blood pressure, defined as consistently elevated pressure in the arteries above 140/90 mmHg.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is anesthesia?",
+    "output": "Anesthesia temporarily blocks nerve signals to eliminate pain and consciousness during medical procedures.",
+    "is_hallucination": false,
+    "domain": "medical"
+  },
+  {
+    "prompt": "What is Type 2 diabetes?",
+    "output": "Type 2 diabetes is a metabolic disorder characterized by insulin resistance and relative insulin deficiency.",
+    "is_hallucination": false,
+    "domain": "medical"
+  }
+]

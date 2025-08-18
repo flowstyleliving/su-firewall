@@ -1,0 +1,35 @@
+{
+  "evaluation_type": "comprehensive_hyperparameter_sweep",
+  "timestamp": "2025-08-17 14:06:41",
+  "optimal_parameters": {
+    "cluster_weight": 0.6,
+    "contradiction_penalty": 0.2,
+    "contradiction_weight": 1.0,
+    "entropy_scale": 1.0,
+    "length_weight": 0.1,
+    "pfail_sensitivity": 0.5,
+    "similarity_threshold": 0.4
+  },
+  "best_method": "p_fail",
+  "final_metrics": {
+    "auroc_uncertainty": 0.5547798066595059,
+    "auroc_pfail": 0.6814687093674034,
+    "final_auroc": 0.6814687093674034,
+    "final_f1": 0.6666666666666666
+  },
+  "advanced_analytics": {
+    "avg_clusters_per_sample": 5.834586466165414,
+    "avg_contradiction_score": 0.17112999558466338,
+    "avg_length_variation": 0.2814488501037681
+  },
+  "target_achievement": {
+    "target_auroc": 0.79,
+    "achieved": false,
+    "gap_percentage_points": 10.853129063259658
+  },
+  "processing_stats": {
+    "samples_processed": 266,
+    "avg_processing_time_ms": 0.6994134501407021,
+    "throughput_analyses_per_sec": 1429.7694729760035
+  }
+}

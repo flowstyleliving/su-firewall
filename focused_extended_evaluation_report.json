@@ -1,0 +1,435 @@
+{
+  "evaluation_summary": {
+    "total_evaluations": 144,
+    "methods_tested": [
+      "diag_fim_dir",
+      "scalar_js_kl"
+    ],
+    "models_tested": [
+      "pythia-6.9b",
+      "ollama-mistral-7b",
+      "qwen2.5-7b",
+      "dialogpt-medium",
+      "mixtral-8x7b",
+      "mistral-7b"
+    ],
+    "evaluation_timestamp": "2025-08-15 16:00:09"
+  },
+  "model_tier_hbar_analysis": {
+    "mixtral-8x7b": {
+      "hbar_statistics": {
+        "mean": 1.1752650712818444,
+        "std": 0.8780355275972825,
+        "min": 0.08062794131189138,
+        "max": 2.224321193867632,
+        "median": 1.1693194519344443,
+        "samples": 24
+      },
+      "pfail_statistics": {
+        "mean": 0.517874385345188,
+        "std": 0.48563729475660605,
+        "min": 0.009982784297464372,
+        "max": 0.9978098790144716
+      },
+      "processing_time": {
+        "mean_ms": 4.236479600270589,
+        "std_ms": 4.618630275055216
+      },
+      "tier_breakdown": {
+        "tier_1": {
+          "hbar_hallucination_predicted": {
+            "mean": 0.32728556698458455,
+            "count": 12
+          },
+          "hbar_correct_predicted": {
+            "mean": 2.023244575579104,
+            "count": 12
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 12
+        },
+        "tier_2": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        },
+        "tier_3": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        }
+      }
+    },
+    "mistral-7b": {
+      "hbar_statistics": {
+        "mean": 1.1752650712818444,
+        "std": 0.8780355275972825,
+        "min": 0.08062794131189138,
+        "max": 2.224321193867632,
+        "median": 1.1693194519344443,
+        "samples": 24
+      },
+      "pfail_statistics": {
+        "mean": 0.517874385345188,
+        "std": 0.48563729475660605,
+        "min": 0.009982784297464372,
+        "max": 0.9978098790144716
+      },
+      "processing_time": {
+        "mean_ms": 2.7208427588144937,
+        "std_ms": 1.0128244333750067
+      },
+      "tier_breakdown": {
+        "tier_1": {
+          "hbar_hallucination_predicted": {
+            "mean": 0.32728556698458455,
+            "count": 12
+          },
+          "hbar_correct_predicted": {
+            "mean": 2.023244575579104,
+            "count": 12
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 12
+        },
+        "tier_2": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        },
+        "tier_3": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        }
+      }
+    },
+    "qwen2.5-7b": {
+      "hbar_statistics": {
+        "mean": 1.1752650712818444,
+        "std": 0.8780355275972825,
+        "min": 0.08062794131189138,
+        "max": 2.224321193867632,
+        "median": 1.1693194519344443,
+        "samples": 24
+      },
+      "pfail_statistics": {
+        "mean": 0.517874385345188,
+        "std": 0.48563729475660605,
+        "min": 0.009982784297464372,
+        "max": 0.9978098790144716
+      },
+      "processing_time": {
+        "mean_ms": 2.838859955469767,
+        "std_ms": 1.034098069393146
+      },
+      "tier_breakdown": {
+        "tier_1": {
+          "hbar_hallucination_predicted": {
+            "mean": 0.32728556698458455,
+            "count": 12
+          },
+          "hbar_correct_predicted": {
+            "mean": 2.023244575579104,
+            "count": 12
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 12
+        },
+        "tier_2": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        },
+        "tier_3": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        }
+      }
+    },
+    "pythia-6.9b": {
+      "hbar_statistics": {
+        "mean": 1.1752650712818444,
+        "std": 0.8780355275972825,
+        "min": 0.08062794131189138,
+        "max": 2.224321193867632,
+        "median": 1.1693194519344443,
+        "samples": 24
+      },
+      "pfail_statistics": {
+        "mean": 0.517874385345188,
+        "std": 0.48563729475660605,
+        "min": 0.009982784297464372,
+        "max": 0.9978098790144716
+      },
+      "processing_time": {
+        "mean_ms": 2.466390530268351,
+        "std_ms": 0.9529843088263871
+      },
+      "tier_breakdown": {
+        "tier_1": {
+          "hbar_hallucination_predicted": {
+            "mean": 0.32728556698458455,
+            "count": 12
+          },
+          "hbar_correct_predicted": {
+            "mean": 2.023244575579104,
+            "count": 12
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 12
+        },
+        "tier_2": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        },
+        "tier_3": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        }
+      }
+    },
+    "dialogpt-medium": {
+      "hbar_statistics": {
+        "mean": 1.1752650712818444,
+        "std": 0.8780355275972825,
+        "min": 0.08062794131189138,
+        "max": 2.224321193867632,
+        "median": 1.1693194519344443,
+        "samples": 24
+      },
+      "pfail_statistics": {
+        "mean": 0.517874385345188,
+        "std": 0.48563729475660605,
+        "min": 0.009982784297464372,
+        "max": 0.9978098790144716
+      },
+      "processing_time": {
+        "mean_ms": 3.00594170888265,
+        "std_ms": 1.1161237530342785
+      },
+      "tier_breakdown": {
+        "tier_1": {
+          "hbar_hallucination_predicted": {
+            "mean": 0.32728556698458455,
+            "count": 12
+          },
+          "hbar_correct_predicted": {
+            "mean": 2.023244575579104,
+            "count": 12
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 12
+        },
+        "tier_2": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        },
+        "tier_3": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        }
+      }
+    },
+    "ollama-mistral-7b": {
+      "hbar_statistics": {
+        "mean": 1.1752650712818444,
+        "std": 0.8780355275972825,
+        "min": 0.08062794131189138,
+        "max": 2.224321193867632,
+        "median": 1.1693194519344443,
+        "samples": 24
+      },
+      "pfail_statistics": {
+        "mean": 0.517874385345188,
+        "std": 0.48563729475660605,
+        "min": 0.009982784297464372,
+        "max": 0.9978098790144716
+      },
+      "processing_time": {
+        "mean_ms": 2.6180148124694824,
+        "std_ms": 0.929789011210252
+      },
+      "tier_breakdown": {
+        "tier_1": {
+          "hbar_hallucination_predicted": {
+            "mean": 0.32728556698458455,
+            "count": 12
+          },
+          "hbar_correct_predicted": {
+            "mean": 2.023244575579104,
+            "count": 12
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 12
+        },
+        "tier_2": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        },
+        "tier_3": {
+          "hbar_hallucination_predicted": {
+            "mean": 1.1752650712818444,
+            "count": 24
+          },
+          "hbar_correct_predicted": {
+            "mean": 0.0,
+            "count": 0
+          },
+          "accuracy": 0.5,
+          "precision": 0.5,
+          "predictions_made": 24
+        }
+      }
+    }
+  },
+  "method_performance": {
+    "scalar_js_kl": {
+      "samples": 72,
+      "avg_hbar": 0.32728556698458455,
+      "avg_pfail": 0.0428977064962113,
+      "avg_processing_time_ms": 3.257946835623847
+    },
+    "diag_fim_dir": {
+      "samples": 72,
+      "avg_hbar": 2.0232445755791044,
+      "avg_pfail": 0.9928510641941648,
+      "avg_processing_time_ms": 2.704229619767931
+    }
+  },
+  "overall_statistics": {
+    "total_samples": 144,
+    "overall_hbar_mean": 1.1752650712818444,
+    "overall_hbar_std": 0.8625486770728564,
+    "overall_pfail_mean": 0.517874385345188,
+    "overall_processing_time_ms": 2.981088227695889,
+    "models_evaluated": 6,
+    "methods_evaluated": 2
+  },
+  "key_insights": {
+    "model_hbar_ranking": {
+      "dialogpt-medium": 1.1752650712818442,
+      "mistral-7b": 1.1752650712818442,
+      "mixtral-8x7b": 1.1752650712818442,
+      "ollama-mistral-7b": 1.1752650712818442,
+      "pythia-6.9b": 1.1752650712818442,
+      "qwen2.5-7b": 1.1752650712818442
+    },
+    "model_pfail_ranking": {
+      "dialogpt-medium": 0.517874385345188,
+      "mistral-7b": 0.517874385345188,
+      "mixtral-8x7b": 0.517874385345188,
+      "ollama-mistral-7b": 0.517874385345188,
+      "pythia-6.9b": 0.517874385345188,
+      "qwen2.5-7b": 0.517874385345188
+    },
+    "model_speed_ranking": {
+      "pythia-6.9b": 2.466390530268351,
+      "ollama-mistral-7b": 2.6180148124694824,
+      "mistral-7b": 2.7208427588144937,
+      "qwen2.5-7b": 2.838859955469767,
+      "dialogpt-medium": 3.00594170888265,
+      "mixtral-8x7b": 4.236479600270589
+    }
+  }
+}
