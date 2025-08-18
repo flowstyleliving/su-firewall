@@ -1,0 +1,115 @@
+{
+  "evaluation_type": "ensemble_vs_single_hbar_s",
+  "timestamp": "2025-08-18T15:53:57.802788",
+  "results": [
+    {
+      "scenario": "Very High Confidence",
+      "ground_truth": "truthful",
+      "single_hbar_s": 0.03257993604178848,
+      "ensemble_hbar_s": 0.1315199608592139,
+      "single_p_fail": 5.3429167653025224e-05,
+      "ensemble_p_fail": 8.762117892247591e-05,
+      "reliability": 0.38369593769791754,
+      "single_time_ms": 0.062,
+      "ensemble_time_ms": 3.399
+    },
+    {
+      "scenario": "High Confidence",
+      "ground_truth": "truthful",
+      "single_hbar_s": 0.017221519230930574,
+      "ensemble_hbar_s": 0.09042403647797781,
+      "single_p_fail": 4.9480006203024016e-05,
+      "ensemble_p_fail": 7.134729207586274e-05,
+      "reliability": 0.3372139743246147,
+      "single_time_ms": 0.024,
+      "ensemble_time_ms": 2.729
+    },
+    {
+      "scenario": "Moderate Confidence",
+      "ground_truth": "truthful",
+      "single_hbar_s": 0.012465399080992413,
+      "ensemble_hbar_s": 0.05395560227253779,
+      "single_p_fail": 4.831727875688102e-05,
+      "ensemble_p_fail": 5.9455558172801e-05,
+      "reliability": 0.32528183919538367,
+      "single_time_ms": 0.019,
+      "ensemble_time_ms": 2.68
+    },
+    {
+      "scenario": "Low Confidence",
+      "ground_truth": "uncertain",
+      "single_hbar_s": 0.011517454147929622,
+      "ensemble_hbar_s": 0.031220125749065776,
+      "single_p_fail": 4.808882101293941e-05,
+      "ensemble_p_fail": 5.306715134839641e-05,
+      "reliability": 0.34204011792865785,
+      "single_time_ms": 0.016,
+      "ensemble_time_ms": 2.493
+    },
+    {
+      "scenario": "Very Low Confidence",
+      "ground_truth": "hallucination",
+      "single_hbar_s": 0.014324950024316033,
+      "ensemble_hbar_s": 0.03119481015264511,
+      "single_p_fail": 4.876859391195328e-05,
+      "ensemble_p_fail": 5.306043499695676e-05,
+      "reliability": 0.3414995950824592,
+      "single_time_ms": 0.016,
+      "ensemble_time_ms": 2.6189999999999998
+    },
+    {
+      "scenario": "Conflicting Info",
+      "ground_truth": "hallucination",
+      "single_hbar_s": 0.7217003788070608,
+      "ensemble_hbar_s": 1.0162591562179677,
+      "single_p_fail": 0.0016729404583652584,
+      "ensemble_p_fail": 0.00725556705149858,
+      "reliability": 0.5764072338613451,
+      "single_time_ms": 0.017,
+      "ensemble_time_ms": 2.52
+    },
+    {
+      "scenario": "Near Uniform",
+      "ground_truth": "uncertain",
+      "single_hbar_s": 0.002047678199266566,
+      "ensemble_hbar_s": 0.004350520323923371,
+      "single_p_fail": 4.5865035954101345e-05,
+      "ensemble_p_fail": 4.639616302306703e-05,
+      "reliability": 0.31273918000720424,
+      "single_time_ms": 0.014,
+      "ensemble_time_ms": 2.549
+    },
+    {
+      "scenario": "Sharp Disagreement",
+      "ground_truth": "hallucination",
+      "single_hbar_s": 2.371462763834491,
+      "ensemble_hbar_s": 2.7574358150097216,
+      "single_p_fail": 0.8649835444677287,
+      "ensemble_p_fail": 0.9778426408441919,
+      "reliability": 0.6759213859335439,
+      "single_time_ms": 0.018000000000000002,
+      "ensemble_time_ms": 2.579
+    },
+    {
+      "scenario": "Slight Mismatch",
+      "ground_truth": "truthful",
+      "single_hbar_s": 0.01102805854945214,
+      "ensemble_hbar_s": 0.06083906312532334,
+      "single_p_fail": 4.797129821762102e-05,
+      "ensemble_p_fail": 6.153735164935356e-05,
+      "reliability": 0.32033172612108773,
+      "single_time_ms": 0.017,
+      "ensemble_time_ms": 2.786
+    }
+  ],
+  "performance_summary": {
+    "avg_single_time_ms": 0.022555555555555558,
+    "avg_ensemble_time_ms": 2.706,
+    "time_overhead_percent": 11897.044334975368,
+    "best_ensemble_f1": 0.8,
+    "best_threshold": 0.0001,
+    "avg_reliability": 0.40168122112802374,
+    "recommendation": "\u2705 RECOMMEND ENSEMBLE: Significant improvement in accuracy and reliability",
+    "deploy_ensemble": true
+  }
+}

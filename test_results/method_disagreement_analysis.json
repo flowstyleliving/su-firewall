@@ -1,0 +1,371 @@
+{
+  "analysis_type": "method_disagreement_patterns",
+  "timestamp": "2025-08-18T15:57:09.577530",
+  "scenarios_analyzed": 10,
+  "avg_pairwise_disagreements": {
+    "js_kl_divergence vs entropy_based": 0.8690216219340572,
+    "js_kl_divergence vs bootstrap_sampling": 0.39229434830960386,
+    "js_kl_divergence vs perturbation_analysis": 0.020814546098845636,
+    "js_kl_divergence vs bayesian_uncertainty": 0.6431931737772362,
+    "entropy_based vs bootstrap_sampling": 0.7308533764755341,
+    "entropy_based vs perturbation_analysis": 0.8656659853218841,
+    "entropy_based vs bayesian_uncertainty": 0.8498091568136964,
+    "bootstrap_sampling vs perturbation_analysis": 0.40038170589930083,
+    "bootstrap_sampling vs bayesian_uncertainty": 0.5936852382169474,
+    "perturbation_analysis vs bayesian_uncertainty": 0.6451033431055222
+  },
+  "method_profiles": {
+    "js_kl_divergence": {
+      "mean_hbar_s": 0.3060955311509456,
+      "std_hbar_s": 0.41830547553859093,
+      "avg_confidence": 0.3019585978128066,
+      "coefficient_of_variation": 1.3665847193664007
+    },
+    "entropy_based": {
+      "mean_hbar_s": 0.3403821159811032,
+      "std_hbar_s": 0.5539746846710594,
+      "avg_confidence": 0.8244899647838787,
+      "coefficient_of_variation": 1.6275081993443705
+    },
+    "bootstrap_sampling": {
+      "mean_hbar_s": 0.2130816817439361,
+      "std_hbar_s": 0.21660952138504286,
+      "avg_confidence": 0.6225106955152986,
+      "coefficient_of_variation": 1.016556278377461
+    },
+    "perturbation_analysis": {
+      "mean_hbar_s": 0.31808945398178157,
+      "std_hbar_s": 0.44015707338817994,
+      "avg_confidence": 0.979185453890578,
+      "coefficient_of_variation": 1.3837524881035699
+    },
+    "bayesian_uncertainty": {
+      "mean_hbar_s": 0.4518161411911438,
+      "std_hbar_s": 0.7225463618890559,
+      "avg_confidence": 0.27488217427795203,
+      "coefficient_of_variation": 1.5992044019998362
+    }
+  },
+  "detailed_results": [
+    {
+      "scenario": "Sharp Peak vs Uniform",
+      "method_values": {
+        "js_kl_divergence": 0.5772901294556692,
+        "entropy_based": 1.6375066381396755,
+        "bootstrap_sampling": 0.5764777706677162,
+        "perturbation_analysis": 0.5898571189032705,
+        "bayesian_uncertainty": 0.4134181196460568
+      },
+      "method_confidences": {
+        "js_kl_divergence": 0.7143245600285114,
+        "entropy_based": 0.37914596518526095,
+        "bootstrap_sampling": 0.9377766601143572,
+        "perturbation_analysis": 0.9786948583905076,
+        "bayesian_uncertainty": 0.3584852563952366
+      },
+      "disagreements": {
+        "js_kl_divergence vs entropy_based": 0.6474578386368195,
+        "js_kl_divergence vs bootstrap_sampling": 0.0014071932750998352,
+        "js_kl_divergence vs perturbation_analysis": 0.02130514160945628,
+        "js_kl_divergence vs bayesian_uncertainty": 0.28386421566543074,
+        "entropy_based vs bootstrap_sampling": 0.6479539335954789,
+        "entropy_based vs perturbation_analysis": 0.6397833723751921,
+        "entropy_based vs bayesian_uncertainty": 0.7475319427611745,
+        "bootstrap_sampling vs perturbation_analysis": 0.022682354432558238,
+        "bootstrap_sampling vs bayesian_uncertainty": 0.28285505412031703,
+        "perturbation_analysis vs bayesian_uncertainty": 0.2991215899622778
+      },
+      "max_disagreement": 0.7475319427611745,
+      "max_disagreement_pair": "entropy_based vs bayesian_uncertainty",
+      "consensus_score": 0.41481300472507143
+    },
+    {
+      "scenario": "Entropy Trap (Low H but High Divergence)",
+      "method_values": {
+        "js_kl_divergence": 0.17396151315131356,
+        "entropy_based": 0.7387295377123486,
+        "bootstrap_sampling": 0.1530479771590486,
+        "perturbation_analysis": 0.17828529891166703,
+        "bayesian_uncertainty": 0.1511023349885743
+      },
+      "method_confidences": {
+        "js_kl_divergence": 0.20353522124474488,
+        "entropy_based": 0.4497641780891476,
+        "bootstrap_sampling": 0.8618710426436272,
+        "perturbation_analysis": 0.9757479400334869,
+        "bayesian_uncertainty": 0.7310243174774701
+      },
+      "disagreements": {
+        "js_kl_divergence vs entropy_based": 0.7645125796772778,
+        "js_kl_divergence vs bootstrap_sampling": 0.12021932675392352,
+        "js_kl_divergence vs perturbation_analysis": 0.024252059966377124,
+        "js_kl_divergence vs bayesian_uncertainty": 0.13140365215566208,
+        "entropy_based vs bootstrap_sampling": 0.7928227188074938,
+        "entropy_based vs perturbation_analysis": 0.7586595772729917,
+        "entropy_based vs bayesian_uncertainty": 0.7954564867443991,
+        "bootstrap_sampling vs perturbation_analysis": 0.141555820398747,
+        "bootstrap_sampling vs bayesian_uncertainty": 0.012712629115245738,
+        "perturbation_analysis vs bayesian_uncertainty": 0.15246890287015913
+      },
+      "max_disagreement": 0.7954564867443991,
+      "max_disagreement_pair": "entropy_based vs bayesian_uncertainty",
+      "consensus_score": 0.17531339350069086
+    },
+    {
+      "scenario": "Bootstrap Challenge (Noisy Edge Case)",
+      "method_values": {
+        "js_kl_divergence": 1.4151777229825138,
+        "entropy_based": 0.0,
+        "bootstrap_sampling": 0.5129278070528944,
+        "perturbation_analysis": 1.4931028517573552,
+        "bayesian_uncertainty": 2.511376825026333
+      },
+      "method_confidences": {
+        "js_kl_divergence": 1.0,
+        "entropy_based": 1.0,
+        "bootstrap_sampling": 0.8264655108261698,
+        "perturbation_analysis": 0.9478099390921898,
+        "bayesian_uncertainty": 0.07491329722252302
+      },
+      "disagreements": {
+        "js_kl_divergence vs entropy_based": 0.9999999999992933,
+        "js_kl_divergence vs bootstrap_sampling": 0.6375523733001344,
+        "js_kl_divergence vs perturbation_analysis": 0.05219006090777525,
+        "js_kl_divergence vs bayesian_uncertainty": 0.4364932777588598,
+        "entropy_based vs bootstrap_sampling": 0.9999999999980504,
+        "entropy_based vs perturbation_analysis": 0.9999999999993302,
+        "entropy_based vs bayesian_uncertainty": 0.9999999999996018,
+        "bootstrap_sampling vs perturbation_analysis": 0.656468537013479,
+        "bootstrap_sampling vs bayesian_uncertainty": 0.7957583258942783,
+        "perturbation_analysis vs bayesian_uncertainty": 0.4054644301569101
+      },
+      "max_disagreement": 0.9999999999996018,
+      "max_disagreement_pair": "entropy_based vs bayesian_uncertainty",
+      "consensus_score": 0.26883954452124004
+    },
+    {
+      "scenario": "Bayesian Prior Mismatch",
+      "method_values": {
+        "js_kl_divergence": 0.00020447838774044808,
+        "entropy_based": 0.0038290747792598242,
+        "bootstrap_sampling": 0.0037731834965903,
+        "perturbation_analysis": 0.00020503320812894922,
+        "bayesian_uncertainty": 0.012662194193250209
+      },
+      "method_confidences": {
+        "js_kl_divergence": 0.0002563333815893737,
+        "entropy_based": 0.9758647889123983,
+        "bootstrap_sampling": 0.029982887210974862,
+        "perturbation_analysis": 0.997293997428201,
+        "bayesian_uncertainty": 0.13834884800337532
+      },
+      "disagreements": {
+        "js_kl_divergence vs entropy_based": 0.9465984864556307,
+        "js_kl_divergence vs bootstrap_sampling": 0.9458074623534647,
+        "js_kl_divergence vs perturbation_analysis": 0.0027060025586011084,
+        "js_kl_divergence vs bayesian_uncertainty": 0.983851267355124,
+        "entropy_based vs bootstrap_sampling": 0.014596550309662984,
+        "entropy_based vs perturbation_analysis": 0.9464535897324428,
+        "entropy_based vs bayesian_uncertainty": 0.6975978474569143,
+        "bootstrap_sampling vs perturbation_analysis": 0.9456604193090817,
+        "bootstrap_sampling vs bayesian_uncertainty": 0.70201187569026,
+        "perturbation_analysis vs bayesian_uncertainty": 0.9838074502741355
+      },
+      "max_disagreement": 0.983851267355124,
+      "max_disagreement_pair": "js_kl_divergence vs bayesian_uncertainty",
+      "consensus_score": 0.0
+    },
+    {
+      "scenario": "Perturbation Instability",
+      "method_values": {
+        "js_kl_divergence": 0.000400040008312884,
+        "entropy_based": 0.0,
+        "bootstrap_sampling": 0.005563226293963473,
+        "perturbation_analysis": 0.00041500080946765914,
+        "bayesian_uncertainty": 0.0210495598399308
+      },
+      "method_confidences": {
+        "js_kl_divergence": 0.0005000600138697648,
+        "entropy_based": 1.0,
+        "bootstrap_sampling": 0.0,
+        "perturbation_analysis": 0.9639499470519923,
+        "bayesian_uncertainty": 0.09747733530089979
+      },
+      "disagreements": {
+        "js_kl_divergence vs entropy_based": 0.99999999750025,
+        "js_kl_divergence vs bootstrap_sampling": 0.9280920839630322,
+        "js_kl_divergence vs perturbation_analysis": 0.036050052861140165,
+        "js_kl_divergence vs bayesian_uncertainty": 0.9809953266321986,
+        "entropy_based vs bootstrap_sampling": 0.9999999998202481,
+        "entropy_based vs perturbation_analysis": 0.9999999975903662,
+        "entropy_based vs bayesian_uncertainty": 0.9999999999524931,
+        "bootstrap_sampling vs perturbation_analysis": 0.9254028528655449,
+        "bootstrap_sampling vs bayesian_uncertainty": 0.7357081888170509,
+        "perturbation_analysis vs bayesian_uncertainty": 0.980284584874754
+      },
+      "max_disagreement": 0.9999999999524931,
+      "max_disagreement_pair": "entropy_based vs bayesian_uncertainty",
+      "consensus_score": 0.0
+    },
+    {
+      "scenario": "Multi-Modal Confusion",
+      "method_values": {
+        "js_kl_divergence": 0.4004005268177657,
+        "entropy_based": 1.632340423773779e-08,
+        "bootstrap_sampling": 0.406060328833402,
+        "perturbation_analysis": 0.4058786073015685,
+        "bayesian_uncertainty": 0.7706314224211016
+      },
+      "method_confidences": {
+        "js_kl_divergence": 0.512260686844596,
+        "entropy_based": 0.9999999999999998,
+        "bootstrap_sampling": 0.9407772776443706,
+        "perturbation_analysis": 0.9865031554133313,
+        "bayesian_uncertainty": 0.07560579140351564
+      },
+      "disagreements": {
+        "js_kl_divergence vs entropy_based": 0.9999999592298133,
+        "js_kl_divergence vs bootstrap_sampling": 0.013938327912708806,
+        "js_kl_divergence vs perturbation_analysis": 0.013496844586635364,
+        "js_kl_divergence vs bayesian_uncertainty": 0.4804253821362446,
+        "entropy_based vs bootstrap_sampling": 0.9999999597980815,
+        "entropy_based vs perturbation_analysis": 0.9999999597800822,
+        "entropy_based vs bayesian_uncertainty": 0.9999999788168459,
+        "bootstrap_sampling vs perturbation_analysis": 0.0004475234809446227,
+        "bootstrap_sampling vs bayesian_uncertainty": 0.47308101250510826,
+        "perturbation_analysis vs bayesian_uncertainty": 0.4733168211245678
+      },
+      "max_disagreement": 0.9999999788168459,
+      "max_disagreement_pair": "entropy_based vs bayesian_uncertainty",
+      "consensus_score": 0.38507049353446676
+    },
+    {
+      "scenario": "Zero-Probability Edge Case",
+      "method_values": {
+        "js_kl_divergence": 0.386722785807396,
+        "entropy_based": 0.9999999999985575,
+        "bootstrap_sampling": 0.3578986546358205,
+        "perturbation_analysis": 0.40577616459058913,
+        "bayesian_uncertainty": 0.19343436057752214
+      },
+      "method_confidences": {
+        "js_kl_divergence": 0.45445436744864054,
+        "entropy_based": 0.5000000000003606,
+        "bootstrap_sampling": 0.947382918956724,
+        "perturbation_analysis": 0.9530446082203543,
+        "bayesian_uncertainty": 0.999999999981475
+      },
+      "disagreements": {
+        "js_kl_divergence vs entropy_based": 0.613277214191433,
+        "js_kl_divergence vs bootstrap_sampling": 0.07453434922724358,
+        "js_kl_divergence vs perturbation_analysis": 0.04695539177953004,
+        "js_kl_divergence vs bayesian_uncertainty": 0.499811317881951,
+        "entropy_based vs bootstrap_sampling": 0.6421013453630211,
+        "entropy_based vs perturbation_analysis": 0.5942238354082313,
+        "entropy_based vs bayesian_uncertainty": 0.8065656394213923,
+        "bootstrap_sampling vs perturbation_analysis": 0.11798995143777609,
+        "bootstrap_sampling vs bayesian_uncertainty": 0.45952755599260176,
+        "perturbation_analysis vs bayesian_uncertainty": 0.5232978734144909
+      },
+      "max_disagreement": 0.8065656394213923,
+      "max_disagreement_pair": "entropy_based vs bayesian_uncertainty",
+      "consensus_score": 0.4111220895875436
+    },
+    {
+      "scenario": "Symmetric Disagreement",
+      "method_values": {
+        "js_kl_divergence": 0.10295073312068617,
+        "entropy_based": 0.0,
+        "bootstrap_sampling": 0.10644383839105513,
+        "perturbation_analysis": 0.10351557751972568,
+        "bayesian_uncertainty": 0.35268720455035535
+      },
+      "method_confidences": {
+        "js_kl_divergence": 0.12945693260305147,
+        "entropy_based": 1.0,
+        "bootstrap_sampling": 0.925976682576211,
+        "perturbation_analysis": 0.9945433874536238,
+        "bayesian_uncertainty": 0.09024207888857208
+      },
+      "disagreements": {
+        "js_kl_divergence vs entropy_based": 0.9999999999902865,
+        "js_kl_divergence vs bootstrap_sampling": 0.032816415897208774,
+        "js_kl_divergence vs perturbation_analysis": 0.005456612546323404,
+        "js_kl_divergence vs bayesian_uncertainty": 0.708096205949271,
+        "entropy_based vs bootstrap_sampling": 0.9999999999906053,
+        "entropy_based vs perturbation_analysis": 0.9999999999903396,
+        "entropy_based vs bayesian_uncertainty": 0.9999999999971647,
+        "bootstrap_sampling vs perturbation_analysis": 0.02750991429437232,
+        "bootstrap_sampling vs bayesian_uncertainty": 0.6981919473731413,
+        "perturbation_analysis vs bayesian_uncertainty": 0.7064946610342576
+      },
+      "max_disagreement": 0.9999999999971647,
+      "max_disagreement_pair": "entropy_based vs bayesian_uncertainty",
+      "consensus_score": 0.12119353099235153
+    },
+    {
+      "scenario": "Entropy Plateau",
+      "method_values": {
+        "js_kl_divergence": 0.0032294292425910764,
+        "entropy_based": 0.01595277697814569,
+        "bootstrap_sampling": 0.004830730852734519,
+        "perturbation_analysis": 0.0032392628133805093,
+        "bayesian_uncertainty": 0.06658551301809879
+      },
+      "method_confidences": {
+        "js_kl_divergence": 0.00402787083385696,
+        "entropy_based": 0.9733190622277698,
+        "bootstrap_sampling": 0.5839183994290449,
+        "perturbation_analysis": 0.9969642565744239,
+        "bayesian_uncertainty": 0.07834918271997406
+      },
+      "disagreements": {
+        "js_kl_divergence vs entropy_based": 0.7975631924264499,
+        "js_kl_divergence vs bootstrap_sampling": 0.33148226606446435,
+        "js_kl_divergence vs perturbation_analysis": 0.0030357434246389126,
+        "js_kl_divergence vs bayesian_uncertainty": 0.9514995214850296,
+        "entropy_based vs bootstrap_sampling": 0.6971855834222779,
+        "entropy_based vs perturbation_analysis": 0.796946774933603,
+        "entropy_based vs bayesian_uncertainty": 0.7604166994317526,
+        "bootstrap_sampling vs perturbation_analysis": 0.32944663810522273,
+        "bootstrap_sampling vs bayesian_uncertainty": 0.9274507226166611,
+        "perturbation_analysis vs bayesian_uncertainty": 0.9513518381475653
+      },
+      "max_disagreement": 0.9514995214850296,
+      "max_disagreement_pair": "js_kl_divergence vs bayesian_uncertainty",
+      "consensus_score": 0.0
+    },
+    {
+      "scenario": "Concentration Parameter Test",
+      "method_values": {
+        "js_kl_divergence": 0.0006179525354676549,
+        "entropy_based": 0.007803115879640679,
+        "bootstrap_sampling": 0.0037933000561359165,
+        "perturbation_analysis": 0.0006196240026621994,
+        "bayesian_uncertainty": 0.025213877650215932
+      },
+      "method_confidences": {
+        "js_kl_divergence": 0.0007699457292055143,
+        "entropy_based": 0.9668056534238502,
+        "bootstrap_sampling": 0.170955575751506,
+        "perturbation_analysis": 0.9973024492476676,
+        "bayesian_uncertainty": 0.10437563538647858
+      },
+      "disagreements": {
+        "js_kl_divergence vs entropy_based": 0.920806951233317,
+        "js_kl_divergence vs bootstrap_sampling": 0.8370936843487589,
+        "js_kl_divergence vs perturbation_analysis": 0.002697550747978691,
+        "js_kl_divergence vs bayesian_uncertainty": 0.975491570752591,
+        "entropy_based vs bootstrap_sampling": 0.5138736736504206,
+        "entropy_based vs perturbation_analysis": 0.920592746136262,
+        "entropy_based vs bayesian_uncertainty": 0.6905229735552249,
+        "bootstrap_sampling vs perturbation_analysis": 0.8366530476552813,
+        "bootstrap_sampling vs bayesian_uncertainty": 0.8495550700448099,
+        "perturbation_analysis vs bayesian_uncertainty": 0.975425279196105
+      },
+      "max_disagreement": 0.975491570752591,
+      "max_disagreement_pair": "js_kl_divergence vs bayesian_uncertainty",
+      "consensus_score": 0.0
+    }
+  ]
+}
