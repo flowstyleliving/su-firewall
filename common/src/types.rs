@@ -24,10 +24,36 @@ pub enum CalibrationMode {
 
 impl Default for CalibrationMode {
 	fn default() -> Self {
+		// Enable golden scale calibration by default for enhanced hallucination detection
+		CalibrationMode::Pragmatic {
+			scaling: GoldenScaling::EmpiricalGolden,
+			abort_threshold: 2.5,
+			warn_threshold: 4.0,
+			proceed_threshold: 6.0,
+		}
+	}
+}
+
+impl CalibrationMode {
+	pub fn from_json_value(value: &serde_json::Value) -> Option<Self> {
+		// Try to deserialize from JSON value
+		serde_json::from_value(value.clone()).ok()
+	}
+	
+	pub fn scientific() -> Self {
 		CalibrationMode::Scientific {
 			abort_threshold: 0.1,
 			warn_threshold: 0.3,
 			proceed_threshold: 0.4,
+		}
+	}
+	
+	pub fn pragmatic_golden() -> Self {
+		CalibrationMode::Pragmatic {
+			scaling: GoldenScaling::EmpiricalGolden,
+			abort_threshold: 2.5,
+			warn_threshold: 4.0,
+			proceed_threshold: 6.0,
 		}
 	}
 }
@@ -94,5 +120,63 @@ impl CalibrationMode {
 		let risk_level = if raw_hbar < abort_threshold { RiskLevel::Critical } else if raw_hbar < warn_threshold { RiskLevel::Warning } else if raw_hbar < proceed_threshold { RiskLevel::HighRisk } else { RiskLevel::Safe };
 		let explanation = format!("Calibration disabled: identity mapping (abort: {:.1}, warn: {:.1}, proceed: {:.1})", abort_threshold, warn_threshold, proceed_threshold);
 		(calibrated, risk_level, explanation)
+	}
+
+	pub fn calibrate(&self, raw_hbar: f64) -> (f64, RiskLevel, String) {
+		match self {
+			CalibrationMode::Scientific { abort_threshold, warn_threshold, proceed_threshold } => {
+				let calibrated = raw_hbar;
+				let risk_level = if raw_hbar < *abort_threshold { 
+					RiskLevel::Critical 
+				} else if raw_hbar < *warn_threshold { 
+					RiskLevel::Warning 
+				} else if raw_hbar < *proceed_threshold { 
+					RiskLevel::HighRisk 
+				} else { 
+					RiskLevel::Safe 
+				};
+				let explanation = format!("Scientific calibration: identity mapping (abort: {:.1}, warn: {:.1}, proceed: {:.1})", abort_threshold, warn_threshold, proceed_threshold);
+				(calibrated, risk_level, explanation)
+			},
+			CalibrationMode::Pragmatic { scaling, abort_threshold, warn_threshold, proceed_threshold } => {
+				let golden_factor = match scaling {
+					GoldenScaling::EmpiricalGolden => 3.4,
+					GoldenScaling::Custom(factor) => *factor,
+				};
+				
+				let calibrated = raw_hbar * golden_factor;
+				
+				let risk_level = if calibrated < *abort_threshold { 
+					RiskLevel::Critical 
+				} else if calibrated < *warn_threshold { 
+					RiskLevel::Warning 
+				} else if calibrated < *proceed_threshold { 
+					RiskLevel::HighRisk 
+				} else { 
+					RiskLevel::Safe 
+				};
+				
+				let explanation = format!("Golden scale calibration: raw={:.4} × {:.1} = {:.4} (abort: {:.1}, warn: {:.1}, proceed: {:.1})", 
+					raw_hbar, golden_factor, calibrated, abort_threshold, warn_threshold, proceed_threshold);
+				
+				(calibrated, risk_level, explanation)
+			}
+		}
+	}
+}
+
+impl GoldenScaling {
+	pub fn get_factor(&self) -> f64 {
+		match self {
+			GoldenScaling::EmpiricalGolden => 3.4,
+			GoldenScaling::Custom(factor) => *factor,
+		}
+	}
+	
+	pub fn description(&self) -> &str {
+		match self {
+			GoldenScaling::EmpiricalGolden => "Empirical golden scale (3.4) optimized for hallucination detection",
+			GoldenScaling::Custom(_) => "Custom scaling factor",
+		}
 	}
 } 

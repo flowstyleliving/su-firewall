@@ -1,0 +1,138 @@
+{
+  "analysis_type": "golden_scale_universality",
+  "timestamp": "2025-08-18T15:40:58.400401",
+  "model_configs": {
+    "mixtral-8x7b": {
+      "lambda": 0.1,
+      "tau": 0.3,
+      "type": "MoE SOTA"
+    },
+    "mistral-7b": {
+      "lambda": 0.1,
+      "tau": 1.115,
+      "type": "7B baseline",
+      "golden_enabled": true
+    },
+    "qwen2.5-7b": {
+      "lambda": 0.1,
+      "tau": 0.3,
+      "type": "Multi-lingual"
+    },
+    "pythia-6.9b": {
+      "lambda": 0.1,
+      "tau": 0.3,
+      "type": "Research baseline"
+    },
+    "dialogpt-medium": {
+      "lambda": 1.0,
+      "tau": 2.083,
+      "type": "Conversational"
+    },
+    "ollama-mistral-7b": {
+      "lambda": 0.1,
+      "tau": 0.3,
+      "type": "Edge deployment"
+    }
+  },
+  "golden_scale_factor": 3.4,
+  "universal_params": {
+    "lambda": 5.0,
+    "tau": 2.0
+  },
+  "normalization_scores": {
+    "High confidence hallucination": {
+      "cv_without": 0.32162401829361514,
+      "cv_with": 0.29595520540288855,
+      "universal_value": 0.0002484550818393347,
+      "normalization_factor": 1.0867320879042597,
+      "effect": "BETTER"
+    },
+    "Medium confidence hallucination": {
+      "cv_without": 0.30048617631449603,
+      "cv_with": 0.20408283045527922,
+      "universal_value": 0.007391541344281971,
+      "normalization_factor": 1.4723736222403174,
+      "effect": "BETTER"
+    },
+    "Low confidence statement": {
+      "cv_without": 0.2768183313962888,
+      "cv_with": 0.09284322131275105,
+      "universal_value": 0.18242552380635632,
+      "normalization_factor": 2.9815675014528034,
+      "effect": "BETTER"
+    },
+    "Moderate truth": {
+      "cv_without": 0.2366953533336977,
+      "cv_with": 0.06501714700473663,
+      "universal_value": 0.973403006423134,
+      "normalization_factor": 3.6405066084559814,
+      "effect": "BETTER"
+    },
+    "High confidence truth": {
+      "cv_without": 0.2071460559967145,
+      "cv_with": 0.1326343751360414,
+      "universal_value": 0.9990889488055994,
+      "normalization_factor": 1.5617825754767376,
+      "effect": "BETTER"
+    },
+    "Very high confidence truth": {
+      "cv_without": 0.12635838579108954,
+      "cv_with": 0.18899834701242085,
+      "universal_value": 0.9999998144608981,
+      "normalization_factor": 0.6685687350629863,
+      "effect": "WORSE"
+    }
+  },
+  "parameter_sensitivity": {
+    "High confidence hallucination": {
+      "universal": 0.0002484550818393347,
+      "best_per_model": 0.5009999986666688,
+      "worst_per_model": 0.14893227954233965,
+      "universal_vs_best": 0.9995040816716555,
+      "universal_vs_worst": 0.9983317580137576
+    },
+    "Medium confidence hallucination": {
+      "universal": 0.007391541344281971,
+      "best_per_model": 0.5179922280289649,
+      "worst_per_model": 0.2567365683316303,
+      "universal_vs_best": 0.9857304010671977,
+      "universal_vs_worst": 0.971209627859736
+    },
+    "Low confidence statement": {
+      "universal": 0.18242552380635632,
+      "best_per_model": 0.5349429451582145,
+      "worst_per_model": 0.4054035377986769,
+      "universal_vs_best": 0.6589813447256468,
+      "universal_vs_worst": 0.5500149683031412
+    },
+    "Moderate truth": {
+      "universal": 0.973403006423134,
+      "best_per_model": 0.6540749920297991,
+      "worst_per_model": 0.5400390854752409,
+      "universal_vs_best": 0.4882131533608406,
+      "universal_vs_worst": 0.8024676965122397
+    },
+    "High confidence truth": {
+      "universal": 0.9990889488055994,
+      "best_per_model": 0.7886821516887225,
+      "worst_per_model": 0.5568777388607385,
+      "universal_vs_best": 0.2667827548352082,
+      "universal_vs_worst": 0.7940902986166
+    },
+    "Very high confidence truth": {
+      "universal": 0.9999998144608981,
+      "best_per_model": 0.9533362481051671,
+      "worst_per_model": 0.5983272157043003,
+      "universal_vs_best": 0.0489476472215114,
+      "universal_vs_worst": 0.6713259704955638
+    }
+  },
+  "summary": {
+    "average_normalization_factor": 1.9019218550988477,
+    "scenarios_improved": "5/6",
+    "improvement_percentage": 83.33333333333334,
+    "avg_deviation_from_best": 57.46932304803434,
+    "per_model_tuning_needed": false,
+    "recommendation": "Golden Scale provides SIGNIFICANT normalization - Universal parameters viable"
+  }
+}

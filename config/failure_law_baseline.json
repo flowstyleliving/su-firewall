@@ -1,0 +1,19 @@
+{
+  "lambda": 5.0,
+  "tau": 2.0,
+  "golden_scale": 1.0,
+  "golden_scale_enabled": false,
+  "risk_pfail_thresholds": {
+    "critical": 0.8,
+    "high_risk": 0.7,
+    "warning": 0.5
+  },
+  "calibration_mode": {
+    "type": "Standard",
+    "scaling": "None",
+    "abort_threshold": 0.8,
+    "warn_threshold": 0.6,
+    "proceed_threshold": 0.4
+  },
+  "note": "Baseline configuration without golden scale calibration for comparison"
+}

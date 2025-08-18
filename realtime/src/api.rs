@@ -14,6 +14,7 @@ use chrono::Utc;
 use uuid::Uuid;
 use crate::metrics;
 use crate::{RequestId};
+use common::{CalibrationMode, RiskLevel};
 use common::math::information_theory::{InformationTheoryCalculator, UncertaintyTier};
 use common::math::semantic_entropy::{SemanticEntropyCalculator, SemanticEntropyConfig, IntegratedUncertaintyResult};
 use crate::oss_logit_adapter::{OSSLogitAdapter, LogitData, AdapterConfig, OSSModelFramework};
@@ -622,6 +623,30 @@ fn get_model_failure_law(model_id: &Option<String>) -> FailureLaw {
     
     // Fallback to default failure law
     FAILURE_LAW.get().cloned().unwrap_or(FailureLaw { lambda: 5.0, tau: 1.0 })
+}
+
+// Load model-specific calibration mode (supports golden scale)
+fn get_model_calibration_mode(model_id: &Option<String>) -> CalibrationMode {
+    if let Some(model_id) = model_id {
+        if let Some(models_json) = MODELS_JSON.get() {
+            if let Some(models_array) = models_json["models"].as_array() {
+                for model in models_array {
+                    if let Some(id) = model["id"].as_str() {
+                        if id == model_id {
+                            if let Some(calibration_mode) = model.get("calibration_mode") {
+                                if let Some(mode) = CalibrationMode::from_json_value(calibration_mode) {
+                                    return mode;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // Fallback to default calibration mode (golden scale enabled)
+    CalibrationMode::default()
 }
 
 fn pfail_from_hbar(h: f64, law: &FailureLaw) -> f64 {
@@ -1466,7 +1491,11 @@ async fn analyze_logits(Json(req): Json<AnalyzeLogitsRequest>) -> impl IntoRespo
 		gradients: None,
 		paraphrase_logits: req.paraphrase_logits.clone(),
 	};
-	let adapter_cfg = AdapterConfig { ..Default::default() };
+	let calibration_mode = get_model_calibration_mode(&req.model_id);
+	let adapter_cfg = AdapterConfig { 
+		calibration_mode,
+		..Default::default() 
+	};
 	let mut adapter = OSSLogitAdapter::new(OSSModelFramework::HuggingFaceTransformers, adapter_cfg);
 	let rid = RequestId::new();
 	let result = match adapter.analyze_logits("", &logit_data, rid) {
@@ -1722,7 +1751,9 @@ async fn analyze_topk_compact(Json(req): Json<AnalyzeTopkCompactRequest>) -> imp
 			result
 		}
 	};
-	let hbar_s = (delta_mu * delta_sigma).sqrt();
+	let raw_hbar = (delta_mu * delta_sigma).sqrt();
+	let calibration_mode = get_model_calibration_mode(&req.model_id);
+	let (hbar_s, risk_level, explanation) = calibration_mode.calibrate(raw_hbar);
 	let law = get_model_failure_law(&req.model_id);
 	let p_fail = pfail_from_hbar(hbar_s, &law);
 	let fe = fep_summary(&p,&q);

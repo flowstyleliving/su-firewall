@@ -108,13 +108,15 @@ def analyze_logits(session: requests.Session, base: str, payload: Dict[str, obje
 	return safe_float(data.get("hbar_s") if isinstance(data, dict) else None)
 
 
-def grid_search(H: List[float], y: List[int]) -> Tuple[float, float, float]:
+def grid_search(H: List[float], y: List[int], golden_scale: float = 1.0) -> Tuple[float, float, float]:
 	best = (float("inf"), 0.0, 1.0)
 	for lam in [x / 10.0 for x in range(5, 101)]:  # 0.5..10.0
 		for tau in [x / 100.0 for x in range(0, 201, 2)]:  # 0..2.0 step .02
 			loss = 0.0
 			for h, label in zip(H, y):
-				p = 1.0 / (1.0 + math.exp(-lam * (h - tau)))
+				# Apply golden scale calibration
+				h_calibrated = h * golden_scale if golden_scale > 0 else h
+				p = 1.0 / (1.0 + math.exp(-lam * (h_calibrated - tau)))
 				p = max(min(p, 1.0 - 1e-9), 1e-9)
 				loss -= label * math.log(p) + (1 - label) * math.log(1 - p)
 			if loss < best[0]:
@@ -122,10 +124,12 @@ def grid_search(H: List[float], y: List[int]) -> Tuple[float, float, float]:
 	return best
 
 
-def compute_pfail(h: float, lam: float, tau: float) -> float:
+def compute_pfail(h: float, lam: float, tau: float, golden_scale: float = 1.0) -> float:
 	if not math.isfinite(h):
 		return 0.5
-	val = -lam * (h - tau)
+	# Apply golden scale calibration for hallucination detection
+	h_calibrated = h * golden_scale if golden_scale > 0 else h
+	val = -lam * (h_calibrated - tau)
 	# Clamp exponent to avoid overflow
 	if val > 50:
 		p = 1.0 / (1.0 + math.exp(50))
@@ -636,10 +640,13 @@ def calibrate_for_model(args: argparse.Namespace, model_id: Optional[str]) -> Di
 	H_train_clean, y_train_clean = sanitize_xy(H_train, y_train)
 	if not H_train_clean:
 		return {"error": "No valid training samples after sanitization.", "model_id": model_id}
-	loss, lam, tau = grid_search(H_train_clean, y_train_clean)
+	
+	# Use golden scale if enabled
+	golden_scale = args.golden_scale if args.enable_golden_scale else 1.0
+	loss, lam, tau = grid_search(H_train_clean, y_train_clean, golden_scale)
 
 	def platt(xs: List[float]) -> List[float]:
-		return [compute_pfail(h, lam, tau) for h in xs]
+		return [compute_pfail(h, lam, tau, golden_scale) for h in xs]
 
 	# Isotonic regression (monotone)
 	iso = None
@@ -769,14 +776,15 @@ def calibrate_for_model(args: argparse.Namespace, model_id: Optional[str]) -> Di
 			import csv
 			with open(csv_path, "w", newline="") as f:
 				w = csv.writer(f)
-				w.writerow(["split", "hbar_s", "pfail", "label"])  # prompts omitted intentionally
+				w.writerow(["split", "hbar_s", "hbar_s_calibrated", "pfail", "label", "golden_scale"])  # prompts omitted intentionally
 				for split_name, H, Y in (
 					("train", H_train, y_train),
 					("val", H_val, y_val),
 					("test", H_test, y_test),
 				):
 					for h, yy in zip(H, Y):
-						w.writerow([split_name, h, compute_pfail(h, lam, tau), yy])
+						h_calibrated = h * golden_scale if golden_scale > 0 else h
+						w.writerow([split_name, h, h_calibrated, compute_pfail(h, lam, tau, golden_scale), yy, golden_scale])
 		except Exception:
 			pass
 
@@ -793,6 +801,8 @@ def calibrate_for_model(args: argparse.Namespace, model_id: Optional[str]) -> Di
 	return {
 		"lambda": lam,
 		"tau": tau,
+		"golden_scale": golden_scale,
+		"golden_scale_enabled": args.enable_golden_scale,
 		"train_loss": loss,
 		"model_id": model_id,
 		"method": args.method,
@@ -800,6 +810,11 @@ def calibrate_for_model(args: argparse.Namespace, model_id: Optional[str]) -> Di
 		"metrics": metrics,
 		"ensemble_weights": {"platt": weights[0], "isotonic": weights[1], "spline": weights[2]},
 		"meets_targets": passed,
+		"calibration_info": {
+			"type": "golden_scale" if args.enable_golden_scale else "standard",
+			"factor": golden_scale,
+			"description": f"Golden scale calibration (×{golden_scale}) for enhanced hallucination detection" if args.enable_golden_scale else "Standard calibration"
+		}
 	}
 
 
@@ -852,6 +867,9 @@ def main():
 	ap.add_argument("--target_brier", type=float, default=None, help="Fail if test Brier exceeds this threshold")
 	ap.add_argument("--target_auc", type=float, default=None, help="Fail if test ROC-AUC below this threshold")
 	ap.add_argument("--seeds", type=str, default=None, help="Comma-separated list of seeds to run sequentially; aggregates results")
+	# Golden scale calibration for hallucination detection
+	ap.add_argument("--golden_scale", type=float, default=3.4, help="Golden scale factor for semantic uncertainty calibration (default: 3.4)")
+	ap.add_argument("--enable_golden_scale", action="store_true", help="Enable golden scale calibration for improved hallucination detection")
 
 	args = ap.parse_args()
 

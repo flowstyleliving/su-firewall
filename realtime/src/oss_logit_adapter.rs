@@ -360,9 +360,9 @@ impl OSSLogitAdapter {
         // Calculate ℏₛ = √(Δμ × Δσ) using enhanced metrics
         let raw_hbar = (delta_mu * delta_sigma).sqrt();
         
-        // Apply calibration with enhanced validation
+        // Apply calibration with enhanced validation (golden scale if enabled)
         let (calibrated_hbar, risk_level, explanation) = 
-            self.config.calibration_mode.calibrate_identity(raw_hbar);
+            self.config.calibration_mode.calibrate(raw_hbar);
         
         // Calculate detailed logit metrics with FIM information
         let logit_metrics = self.calculate_enhanced_logit_metrics(&prob_distributions, logit_data)?;

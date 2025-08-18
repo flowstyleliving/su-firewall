@@ -21,9 +21,16 @@
         "last_optimized": "2025-08-17T11:03:28.024602+00:00",
         "tau": 1.115
       },
+      "calibration_mode": {
+        "type": "Pragmatic",
+        "scaling": "EmpiricalGolden",
+        "abort_threshold": 2.5,
+        "warn_threshold": 4.0,
+        "proceed_threshold": 6.0
+      },
       "hf_repo": "mistralai/Mistral-7B-Instruct-v0.2",
       "id": "mistral-7b",
-      "notes": "Strong 7B baseline",
+      "notes": "Strong 7B baseline with golden scale calibration enabled",
       "quant": "4bit-ok"
     },
     {
