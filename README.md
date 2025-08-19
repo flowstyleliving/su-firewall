@@ -330,6 +330,8 @@ cargo run -p server
 
 **🔬 Physics-inspired semantic uncertainty framework for LLM hallucination detection research and development**
 
+*Last updated: August 19, 2025*
+
 [![Built with Rust](https://img.shields.io/badge/Built%20with-Rust-orange.svg)](https://rustlang.org)
 [![Powered by Candle ML](https://img.shields.io/badge/Powered%20by-Candle_ML-green.svg)](https://github.com/huggingface/candle)
 [![Deployed on Cloudflare](https://img.shields.io/badge/Deployed%20on-Cloudflare-orange.svg)](https://workers.cloudflare.com)
