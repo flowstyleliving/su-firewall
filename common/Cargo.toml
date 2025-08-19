@@ -16,4 +16,6 @@ chrono = { version = "0.4", features = ["serde"] }
 uuid = { version = "1.0", features = ["v4", "serde"] }
 anyhow = "1.0"
 tokio = { version = "1.0", features = ["full"] }
-rand = { version = "0.8", features = ["std_rng"] } 
+rand = { version = "0.8", features = ["std_rng"] }
+rayon = "1.8"                              # Parallel processing
+rand_xoshiro = "0.6"                       # Fast RNG for bootstrap 

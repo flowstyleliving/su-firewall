@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>🧪 0G Testnet Live Connection Test</title>
+    <style>
+        body {
+            font-family: 'Monaco', 'Menlo', monospace;
+            background: #0a0a0a;
+            color: #00ff41;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #00ff41;
+            text-shadow: 0 0 10px #00ff41;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .test-section {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .test-section h3 {
+            color: #0099cc;
+            border-bottom: 2px solid #0099cc;
+            padding-bottom: 10px;
+        }
+        
+        .test-result {
+            background: #0a0a0a;
+            border: 1px solid #333;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        
+        .test-result.success {
+            border-left: 4px solid #00ff41;
+        }
+        
+        .test-result.error {
+            border-left: 4px solid #ff4444;
+        }
+        
+        .test-result.warning {
+            border-left: 4px solid #ffaa00;
+        }
+        
+        button {
+            background: #00ff41;
+            color: #0a0a0a;
+            border: none;
+            padding: 12px 24px;
+            font-family: inherit;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px 10px 10px 0;
+        }
+        
+        button:hover {
+            background: #00cc33;
+        }
+        
+        button:disabled {
+            background: #333;
+            color: #666;
+            cursor: not-allowed;
+        }
+        
+        .loading {
+            color: #ffaa00;
+            font-style: italic;
+        }
+        
+        .output {
+            background: #0a0a0a;
+            border: 1px solid #333;
+            padding: 15px;
+            border-radius: 4px;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            font-family: 'Monaco', monospace;
+            font-size: 0.9em;
+        }
+        
+        .metric {
+            display: inline-block;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 4px;
+            min-width: 120px;
+            text-align: center;
+        }
+        
+        .metric-label {
+            color: #0099cc;
+            font-size: 0.85em;
+            display: block;
+        }
+        
+        .metric-value {
+            color: #00ff41;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .rpc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+        
+        .rpc-test {
+            background: #0a0a0a;
+            border: 1px solid #333;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        
+        .rpc-test.success {
+            border-left: 3px solid #00ff41;
+        }
+        
+        .rpc-test.error {
+            border-left: 3px solid #ff4444;
+        }
+        
+        .rpc-url {
+            color: #0099cc;
+            font-size: 0.9em;
+            word-break: break-all;
+            margin-bottom: 10px;
+        }
+        
+        .summary-box {
+            background: #1a1a1a;
+            border: 2px solid #00ff41;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .summary-box.warning {
+            border-color: #ffaa00;
+        }
+        
+        .summary-box.error {
+            border-color: #ff4444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 0G Testnet Live Connection Test</h1>
+        
+        <div class="test-section">
+            <h3>🚀 Test Controls</h3>
+            <button onclick="runAllTests()" id="run-tests-btn">🧪 Run All Tests</button>
+            <button onclick="testRPCOnly()" id="rpc-only-btn">🔗 Test RPC Only</button>
+            <button onclick="clearResults()">🗑️ Clear Results</button>
+        </div>
+        
+        <div class="summary-box" id="summary" style="display: none;">
+            <h3 id="summary-title">Test Summary</h3>
+            <div id="summary-content"></div>
+        </div>
+        
+        <div class="test-section">
+            <h3>🔗 RPC Endpoint Tests</h3>
+            <div class="rpc-grid" id="rpc-results">
+                <!-- RPC test results will appear here -->
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h3>🌐 Network Information</h3>
+            <div id="network-info">
+                <div class="loading">Network tests not run yet...</div>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h3>⚡ Performance Metrics</h3>
+            <div id="performance-metrics">
+                <div class="loading">Performance tests not run yet...</div>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h3>📋 Detailed Test Output</h3>
+            <div class="output" id="test-output">
+                Click "Run All Tests" to start testing 0G testnet connectivity...
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import ZeroGConnectionTester from './test_0g_connection.js';
+        
+        let tester = null;
+        let testOutput = '';
+        
+        // Override console.log to capture output
+        const originalLog = console.log;
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            testOutput += args.join(' ') + '\n';
+            updateTestOutput();
+        };
+        
+        function updateTestOutput() {
+            const outputEl = document.getElementById('test-output');
+            if (outputEl) {
+                outputEl.textContent = testOutput;
+                outputEl.scrollTop = outputEl.scrollHeight;
+            }
+        }
+        
+        window.runAllTests = async function() {
+            const runBtn = document.getElementById('run-tests-btn');
+            runBtn.disabled = true;
+            runBtn.textContent = '🔄 Running Tests...';
+            
+            testOutput = '';
+            clearResults();
+            
+            try {
+                tester = new ZeroGConnectionTester();
+                const results = await tester.runAllTests();
+                
+                displayResults(results);
+                
+            } catch (error) {
+                console.error('Test execution failed:', error);
+            } finally {
+                runBtn.disabled = false;
+                runBtn.textContent = '🧪 Run All Tests';
+            }
+        };
+        
+        window.testRPCOnly = async function() {
+            const rpcBtn = document.getElementById('rpc-only-btn');
+            rpcBtn.disabled = true;
+            rpcBtn.textContent = '🔄 Testing RPC...';
+            
+            testOutput = '';
+            document.getElementById('rpc-results').innerHTML = '';
+            
+            try {
+                tester = new ZeroGConnectionTester();
+                await tester.testRPCConnectivity();
+                
+                displayRPCResults(tester.results.rpc_tests);
+                
+            } catch (error) {
+                console.error('RPC test failed:', error);
+            } finally {
+                rpcBtn.disabled = false;
+                rpcBtn.textContent = '🔗 Test RPC Only';
+            }
+        };
+        
+        window.clearResults = function() {
+            testOutput = '';
+            updateTestOutput();
+            
+            document.getElementById('rpc-results').innerHTML = '';
+            document.getElementById('network-info').innerHTML = '<div class="loading">Network tests not run yet...</div>';
+            document.getElementById('performance-metrics').innerHTML = '<div class="loading">Performance tests not run yet...</div>';
+            document.getElementById('summary').style.display = 'none';
+        };
+        
+        function displayResults(results) {
+            // Display RPC results
+            displayRPCResults(results.rpc_tests);
+            
+            // Display network info
+            displayNetworkInfo(results.network_info);
+            
+            // Display performance metrics
+            displayPerformanceMetrics(results.performance_metrics);
+            
+            // Display summary
+            displaySummary(results);
+        }
+        
+        function displayRPCResults(rpcTests) {
+            const rpcResults = document.getElementById('rpc-results');
+            
+            if (rpcTests.length === 0) {
+                rpcResults.innerHTML = '<div class="loading">No RPC tests run yet...</div>';
+                return;
+            }
+            
+            rpcResults.innerHTML = '';
+            
+            rpcTests.forEach(test => {
+                const testDiv = document.createElement('div');
+                testDiv.className = `rpc-test ${test.status.includes('SUCCESS') ? 'success' : 'error'}`;
+                
+                testDiv.innerHTML = `
+                    <div><strong>${test.name}</strong></div>
+                    <div class="rpc-url">${test.url}</div>
+                    <div>${test.status}</div>
+                    ${test.block_number ? `<div>Block: ${test.block_number.toLocaleString()}</div>` : ''}
+                    ${test.response_time_ms ? `<div>Response: ${test.response_time_ms}ms</div>` : ''}
+                    ${test.error ? `<div style="color: #ff4444; font-size: 0.9em;">Error: ${test.error}</div>` : ''}
+                `;
+                
+                rpcResults.appendChild(testDiv);
+            });
+        }
+        
+        function displayNetworkInfo(networkInfo) {
+            const networkDiv = document.getElementById('network-info');
+            
+            if (Object.keys(networkInfo).length === 0) {
+                networkDiv.innerHTML = '<div class="loading">Network information not available...</div>';
+                return;
+            }
+            
+            let html = '';
+            
+            // Chain info
+            if (networkInfo.chain_id) {
+                html += `
+                    <div class="metric">
+                        <span class="metric-label">Chain ID</span>
+                        <span class="metric-value">${networkInfo.chain_id}</span>
+                    </div>
+                `;
+                
+                html += `
+                    <div class="metric">
+                        <span class="metric-label">Network Match</span>
+                        <span class="metric-value" style="color: ${networkInfo.chain_match ? '#00ff41' : '#ff4444'}">
+                            ${networkInfo.chain_match ? '✅' : '❌'}
+                        </span>
+                    </div>
+                `;
+            }
+            
+            // Block info
+            if (networkInfo.latest_block) {
+                const block = networkInfo.latest_block;
+                html += `
+                    <div class="metric">
+                        <span class="metric-label">Latest Block</span>
+                        <span class="metric-value">${block.number.toLocaleString()}</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-label">Transactions</span>
+                        <span class="metric-value">${block.transaction_count}</span>
+                    </div>
+                `;
+            }
+            
+            // Gas info
+            if (networkInfo.gas_price) {
+                html += `
+                    <div class="metric">
+                        <span class="metric-label">Gas Price</span>
+                        <span class="metric-value">${networkInfo.gas_price.gwei.toFixed(2)} Gwei</span>
+                    </div>
+                `;
+            }
+            
+            if (networkInfo.gas_estimate) {
+                html += `
+                    <div class="metric">
+                        <span class="metric-label">Gas Estimate</span>
+                        <span class="metric-value">${networkInfo.gas_estimate.toLocaleString()}</span>
+                    </div>
+                `;
+            }
+            
+            networkDiv.innerHTML = html || '<div class="loading">Network information incomplete...</div>';
+        }
+        
+        function displayPerformanceMetrics(performanceMetrics) {
+            const perfDiv = document.getElementById('performance-metrics');
+            
+            if (Object.keys(performanceMetrics).length === 0) {
+                perfDiv.innerHTML = '<div class="loading">Performance metrics not available...</div>';
+                return;
+            }
+            
+            const html = `
+                <div class="metric">
+                    <span class="metric-label">Avg Response</span>
+                    <span class="metric-value">${performanceMetrics.avg_response_time_ms}ms</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Min Response</span>
+                    <span class="metric-value">${performanceMetrics.min_response_time_ms}ms</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Max Response</span>
+                    <span class="metric-value">${performanceMetrics.max_response_time_ms}ms</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Throughput</span>
+                    <span class="metric-value">${performanceMetrics.requests_per_second} req/s</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Test Iterations</span>
+                    <span class="metric-value">${performanceMetrics.iterations}</span>
+                </div>
+            `;
+            
+            perfDiv.innerHTML = html;
+        }
+        
+        function displaySummary(results) {
+            const summaryDiv = document.getElementById('summary');
+            const titleEl = document.getElementById('summary-title');
+            const contentEl = document.getElementById('summary-content');
+            
+            const successfulRPCs = results.rpc_tests.filter(test => test.status.includes('SUCCESS')).length;
+            const totalRPCs = results.rpc_tests.length;
+            const successRate = totalRPCs > 0 ? (successfulRPCs / totalRPCs * 100) : 0;
+            
+            const hasErrors = results.errors.length > 0;
+            const isOperational = successfulRPCs > 0;
+            const isProductionReady = isOperational && !hasErrors;
+            
+            // Set summary box style
+            summaryDiv.className = 'summary-box';
+            if (!isOperational) {
+                summaryDiv.classList.add('error');
+            } else if (hasErrors || successRate < 100) {
+                summaryDiv.classList.add('warning');
+            }
+            
+            // Set title
+            if (isProductionReady) {
+                titleEl.textContent = '✅ Production Ready';
+                titleEl.style.color = '#00ff41';
+            } else if (isOperational) {
+                titleEl.textContent = '⚠️ Operational with Issues';
+                titleEl.style.color = '#ffaa00';
+            } else {
+                titleEl.textContent = '❌ Connection Failed';
+                titleEl.style.color = '#ff4444';
+            }
+            
+            // Set content
+            let content = `
+                <div class="metric">
+                    <span class="metric-label">RPC Success Rate</span>
+                    <span class="metric-value">${successfulRPCs}/${totalRPCs} (${successRate.toFixed(1)}%)</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Network Status</span>
+                    <span class="metric-value" style="color: ${isOperational ? '#00ff41' : '#ff4444'}">
+                        ${isOperational ? '🟢 ONLINE' : '🔴 OFFLINE'}
+                    </span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Errors</span>
+                    <span class="metric-value" style="color: ${hasErrors ? '#ff4444' : '#00ff41'}">
+                        ${results.errors.length}
+                    </span>
+                </div>
+            `;
+            
+            if (results.performance_metrics.avg_response_time_ms) {
+                const avgTime = parseFloat(results.performance_metrics.avg_response_time_ms);
+                content += `
+                    <div class="metric">
+                        <span class="metric-label">Performance</span>
+                        <span class="metric-value" style="color: ${avgTime < 500 ? '#00ff41' : avgTime < 1000 ? '#ffaa00' : '#ff4444'}">
+                            ${avgTime.toFixed(0)}ms avg
+                        </span>
+                    </div>
+                `;
+            }
+            
+            contentEl.innerHTML = content;
+            summaryDiv.style.display = 'block';
+        }
+        
+        // Auto-run a quick RPC test on page load
+        setTimeout(() => {
+            console.log('🌐 0G Testnet Connection Test Interface Ready');
+            console.log('📡 Click "Test RPC Only" for a quick connectivity check');
+            console.log('🧪 Click "Run All Tests" for comprehensive network analysis');
+        }, 1000);
+    </script>
+</body>
+</html>

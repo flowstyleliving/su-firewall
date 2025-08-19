@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>🚀 Semantic Uncertainty Demo - 0G Testnet</title>
+    <style>
+        body {
+            font-family: 'Monaco', 'Menlo', monospace;
+            background: #0a0a0a;
+            color: #00ff41;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #00ff41;
+            text-shadow: 0 0 10px #00ff41;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .status {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .test-case {
+            background: #1a1a1a;
+            border-left: 4px solid #00ff41;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .test-case.warning {
+            border-left-color: #ffaa00;
+            color: #ffaa00;
+        }
+        
+        .test-case.critical {
+            border-left-color: #ff4444;
+            color: #ff4444;
+        }
+        
+        .input-area {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        input[type="text"], textarea {
+            width: 100%;
+            background: #0a0a0a;
+            border: 1px solid #333;
+            color: #00ff41;
+            padding: 10px;
+            font-family: inherit;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        
+        button {
+            background: #00ff41;
+            color: #0a0a0a;
+            border: none;
+            padding: 12px 24px;
+            font-family: inherit;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px 10px 10px 0;
+        }
+        
+        button:hover {
+            background: #00cc33;
+        }
+        
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .metric {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .metric-value {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .safe { color: #00ff41; }
+        .warning { color: #ffaa00; }
+        .critical { color: #ff4444; }
+        
+        .console-output {
+            background: #0a0a0a;
+            border: 1px solid #333;
+            padding: 15px;
+            border-radius: 8px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-size: 0.9em;
+            white-space: pre-wrap;
+        }
+        
+        .loading {
+            text-align: center;
+            color: #ffaa00;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 AI Hallucination Detection - 0G Testnet Demo</h1>
+        
+        <div class="status loading" id="status">
+            ⏳ Loading Semantic Uncertainty WASM Module...
+        </div>
+        
+        <div class="input-area" id="input-area" style="display: none;">
+            <h3>🔬 Live Analysis</h3>
+            <textarea id="textInput" placeholder="Enter text to analyze for hallucination detection..." rows="4">The capital of France is Paris, and quantum computers use qubits to process information.</textarea>
+            <br>
+            <button onclick="analyzeText()">🎯 Analyze Text</button>
+            <button onclick="benchmarkPerformance()">⚡ Benchmark Performance</button>
+            <button onclick="runBatchTest()">🚀 Batch Test</button>
+            <button onclick="simulate0GIntegration()">🌐 Simulate 0G Integration</button>
+        </div>
+        
+        <div class="metrics" id="metrics" style="display: none;">
+            <div class="metric">
+                <div class="metric-label">Semantic Uncertainty (ℏₛ)</div>
+                <div class="metric-value safe" id="hbar-value">--</div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">Failure Probability P(fail)</div>
+                <div class="metric-value safe" id="pfail-value">--</div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">Risk Level</div>
+                <div class="metric-value safe" id="risk-value">Safe</div>
+            </div>
+            <div class="metric">
+                <div class="metric-label">Analysis Time</div>
+                <div class="metric-value" id="time-value">-- ms</div>
+            </div>
+        </div>
+        
+        <div id="method-breakdown" style="display: none;">
+            <h3>🎭 Method Breakdown</h3>
+            <div class="metrics">
+                <div class="metric">
+                    <div class="metric-label">Entropy-Based</div>
+                    <div class="metric-value" id="entropy-score">--</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Bayesian</div>
+                    <div class="metric-value" id="bayesian-score">--</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">Bootstrap</div>
+                    <div class="metric-value" id="bootstrap-score">--</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-label">JS+KL Divergence</div>
+                    <div class="metric-value" id="jskl-score">--</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="demo-tests" style="display: none;">
+            <h3>🧪 Predefined Test Cases</h3>
+            <div id="test-results"></div>
+        </div>
+        
+        <div id="console" style="display: none;">
+            <h3>📟 Console Output</h3>
+            <div class="console-output" id="console-output"></div>
+        </div>
+    </div>
+
+    <script type="module">
+        import init, { UncertaintyEnsemble } from './pkg/semantic_uncertainty_wasm.js';
+        
+        let detector = null;
+        let consoleOutput = '';
+        
+        // Override console.log to capture output
+        const originalLog = console.log;
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            consoleOutput += args.join(' ') + '\n';
+            updateConsoleDisplay();
+        };
+        
+        function updateConsoleDisplay() {
+            const consoleEl = document.getElementById('console-output');
+            if (consoleEl) {
+                consoleEl.textContent = consoleOutput;
+                consoleEl.scrollTop = consoleEl.scrollHeight;
+            }
+        }
+        
+        function updateStatus(message, isError = false) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = isError ? 'status critical' : 'status';
+        }
+        
+        function getRiskClass(riskLevel) {
+            switch(riskLevel.toLowerCase()) {
+                case 'critical': return 'critical';
+                case 'high risk': return 'critical';
+                case 'warning': return 'warning';
+                default: return 'safe';
+            }
+        }
+        
+        async function initWasm() {
+            try {
+                await init();
+                detector = new UncertaintyEnsemble();
+                
+                updateStatus('✅ Semantic Uncertainty Ensemble Ready!');
+                
+                // Show interface
+                document.getElementById('input-area').style.display = 'block';
+                document.getElementById('metrics').style.display = 'block';
+                document.getElementById('method-breakdown').style.display = 'block';
+                document.getElementById('demo-tests').style.display = 'block';
+                document.getElementById('console').style.display = 'block';
+                
+                // Run demo tests
+                runDemoTests();
+                
+            } catch (error) {
+                updateStatus('❌ Failed to initialize WASM module: ' + error.message, true);
+                console.error('Initialization error:', error);
+            }
+        }
+        
+        window.analyzeText = function() {
+            if (!detector) return;
+            
+            const text = document.getElementById('textInput').value;
+            if (!text.trim()) {
+                updateStatus('⚠️ Please enter some text to analyze', true);
+                return;
+            }
+            
+            try {
+                const result = detector.analyze_text(text);
+                
+                // Update metrics
+                document.getElementById('hbar-value').textContent = result.hbar_s.toFixed(4);
+                document.getElementById('pfail-value').textContent = (result.p_fail * 100).toFixed(2) + '%';
+                document.getElementById('risk-value').textContent = result.risk_level;
+                document.getElementById('time-value').textContent = result.computation_time_ms.toFixed(2) + ' ms';
+                
+                // Update method scores
+                document.getElementById('entropy-score').textContent = result.method_scores[0].toFixed(4);
+                document.getElementById('bayesian-score').textContent = result.method_scores[1].toFixed(4);
+                document.getElementById('bootstrap-score').textContent = result.method_scores[2].toFixed(4);
+                document.getElementById('jskl-score').textContent = result.method_scores[3].toFixed(4);
+                
+                // Update colors based on risk level
+                const riskClass = getRiskClass(result.risk_level);
+                document.getElementById('hbar-value').className = 'metric-value ' + riskClass;
+                document.getElementById('pfail-value').className = 'metric-value ' + riskClass;
+                document.getElementById('risk-value').className = 'metric-value ' + riskClass;
+                
+                updateStatus(`📊 Analysis complete - Risk: ${result.risk_level}`);
+                
+            } catch (error) {
+                updateStatus('❌ Analysis failed: ' + error.message, true);
+                console.error('Analysis error:', error);
+            }
+        };
+        
+        window.benchmarkPerformance = function() {
+            if (!detector) return;
+            
+            updateStatus('⚡ Running performance benchmark...');
+            
+            try {
+                const avgTime = detector.benchmark_performance(100);
+                updateStatus(`⚡ Benchmark complete - Average: ${avgTime.toFixed(3)}ms per analysis`);
+            } catch (error) {
+                updateStatus('❌ Benchmark failed: ' + error.message, true);
+                console.error('Benchmark error:', error);
+            }
+        };
+        
+        window.runBatchTest = function() {
+            if (!detector) return;
+            
+            const testTexts = [
+                "The capital of France is Paris.",
+                "The capital of Mars is New Olympia City.",
+                "Water boils at 100°C at sea level.",
+                "Unicorns are commonly found in Central Park.",
+                "Machine learning models can generate false information."
+            ];
+            
+            try {
+                updateStatus('🚀 Processing batch...');
+                const results = detector.batch_detect(testTexts);
+                console.log('Batch Results:', results);
+                updateStatus(`🚀 Batch processed ${results.length} texts successfully`);
+            } catch (error) {
+                updateStatus('❌ Batch processing failed: ' + error.message, true);
+                console.error('Batch error:', error);
+            }
+        };
+        
+        window.simulate0GIntegration = function() {
+            if (!detector) return;
+            
+            updateStatus('🌐 Simulating 0G testnet integration...');
+            
+            const testText = document.getElementById('textInput').value || "AI model generated: The moon is made of cheese and orbits every 27.3 days.";
+            
+            try {
+                const result = detector.analyze_text(testText);
+                
+                // Simulate 0G verification record
+                const verification = {
+                    text_hash: btoa(testText).slice(0, 32),
+                    hbar_s: result.hbar_s,
+                    p_fail: result.p_fail,
+                    risk_level: result.risk_level,
+                    timestamp: new Date().toISOString(),
+                    model: "demo-model",
+                    detector_version: "v1.0-ensemble-4method",
+                    tx_hash: "0x" + Math.random().toString(16).slice(2, 18)
+                };
+                
+                console.log('🌐 0G Testnet Verification Record:', JSON.stringify(verification, null, 2));
+                updateStatus(`🌐 Simulated 0G integration - TX: ${verification.tx_hash}`);
+                
+            } catch (error) {
+                updateStatus('❌ 0G simulation failed: ' + error.message, true);
+                console.error('0G simulation error:', error);
+            }
+        };
+        
+        function runDemoTests() {
+            if (!detector) return;
+            
+            const testCases = [
+                {
+                    text: "The capital of France is Paris.",
+                    expected: "Safe",
+                    description: "Factual statement"
+                },
+                {
+                    text: "The capital of Mars is New Olympia City.",
+                    expected: "Warning/Critical",
+                    description: "Clear hallucination"
+                },
+                {
+                    text: "Quantum computers use qubits to process information.",
+                    expected: "Safe",
+                    description: "Technical accuracy"
+                },
+                {
+                    text: "The square root of -1 is a delicious sandwich.",
+                    expected: "Critical",
+                    description: "Nonsensical statement"
+                },
+                {
+                    text: "Machine learning models sometimes generate false information due to training data biases.",
+                    expected: "Safe",
+                    description: "Meta-statement about AI"
+                }
+            ];
+            
+            const resultsContainer = document.getElementById('test-results');
+            resultsContainer.innerHTML = '';
+            
+            testCases.forEach((testCase, index) => {
+                try {
+                    const result = detector.analyze_text(testCase.text);
+                    const riskClass = getRiskClass(result.risk_level);
+                    
+                    const testDiv = document.createElement('div');
+                    testDiv.className = `test-case ${riskClass}`;
+                    testDiv.innerHTML = `
+                        <strong>Test ${index + 1}: ${testCase.description}</strong><br>
+                        📝 "${testCase.text}"<br>
+                        📊 ℏₛ = ${result.hbar_s.toFixed(4)} | P(fail) = ${(result.p_fail * 100).toFixed(1)}% | Risk: ${result.risk_level}<br>
+                        ⏱️ ${result.computation_time_ms.toFixed(2)}ms
+                    `;
+                    
+                    resultsContainer.appendChild(testDiv);
+                    
+                } catch (error) {
+                    console.error(`Test case ${index + 1} failed:`, error);
+                }
+            });
+        }
+        
+        // Initialize on page load
+        initWasm();
+    </script>
+</body>
+</html>

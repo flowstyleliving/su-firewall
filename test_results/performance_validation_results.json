@@ -1,0 +1,96 @@
+{
+  "validation_type": "performance_vs_accuracy",
+  "timestamp": "2025-08-18T16:11:43.213328",
+  "optimization_successful": false,
+  "overall_speedup": 5.326606420136386,
+  "avg_accuracy_loss_percent": 45.584591619413764,
+  "max_accuracy_loss_percent": 80.22027618973824,
+  "projected_rust_time_ms": 0.02041954373815234,
+  "recommendation": "\u274c OPTIMIZATION INSUFFICIENT - Stick with full ensemble",
+  "detailed_results": [
+    {
+      "scenario": "High Disagreement Trigger",
+      "full_time_ms": 52.83784866333008,
+      "optimized_time_ms": 2.0580291748046875,
+      "speedup": 25.674003707136237,
+      "accuracy_loss_percent": 14.473425804374532,
+      "full_hbar_s": 2.3353870549062026,
+      "optimized_hbar_s": 2.673397567543164,
+      "full_reliability": 0.5601010439549104,
+      "optimized_reliability": 0.4499560035301959,
+      "quality": "GOOD"
+    },
+    {
+      "scenario": "Entropy Specialization Test",
+      "full_time_ms": 2.7840137481689453,
+      "optimized_time_ms": 2.0940303802490234,
+      "speedup": 1.32950017078447,
+      "accuracy_loss_percent": 16.2405082807322,
+      "full_hbar_s": 0.8214645529025053,
+      "optimized_hbar_s": 0.9548745716400788,
+      "full_reliability": 0.45061618694389155,
+      "optimized_reliability": 0.430473415480061,
+      "quality": "GOOD"
+    },
+    {
+      "scenario": "Bayesian Epistemic Detection",
+      "full_time_ms": 2.6018619537353516,
+      "optimized_time_ms": 1.882791519165039,
+      "speedup": 1.381917183740661,
+      "accuracy_loss_percent": 80.22027618973824,
+      "full_hbar_s": 0.00929438397870014,
+      "optimized_hbar_s": 0.016750364477350378,
+      "full_reliability": 0.29695442770204467,
+      "optimized_reliability": 0.4182974044239532,
+      "quality": "POOR"
+    },
+    {
+      "scenario": "Bootstrap Stability Test",
+      "full_time_ms": 2.5529861450195312,
+      "optimized_time_ms": 1.8842220306396484,
+      "speedup": 1.3549285081614577,
+      "accuracy_loss_percent": 63.62556009029349,
+      "full_hbar_s": 3.0147904317171497,
+      "optimized_hbar_s": 1.0966131339878997,
+      "full_reliability": 0.5420606557563268,
+      "optimized_reliability": 0.33386292722537436,
+      "quality": "POOR"
+    },
+    {
+      "scenario": "Multi-Modal Challenge",
+      "full_time_ms": 2.5551319122314453,
+      "optimized_time_ms": 1.8529891967773438,
+      "speedup": 1.3789243437982501,
+      "accuracy_loss_percent": 27.12290484911178,
+      "full_hbar_s": 1.0081665186621958,
+      "optimized_hbar_s": 0.7347224730845744,
+      "full_reliability": 0.5605021475527426,
+      "optimized_reliability": 0.4213624366208785,
+      "quality": "ACCEPTABLE"
+    },
+    {
+      "scenario": "Low Uncertainty Baseline",
+      "full_time_ms": 5.387067794799805,
+      "optimized_time_ms": 3.1290054321289062,
+      "speedup": 1.721654983236818,
+      "accuracy_loss_percent": 71.8248745022323,
+      "full_hbar_s": 0.06184579118353699,
+      "optimized_hbar_s": 0.10626645308674333,
+      "full_reliability": 0.31435208916662183,
+      "optimized_reliability": 0.3965821293669372,
+      "quality": "POOR"
+    }
+  ],
+  "method_selection_rationale": {
+    "kept_methods": [
+      "entropy_based",
+      "bayesian_uncertainty",
+      "bootstrap_sampling"
+    ],
+    "dropped_methods": [
+      "js_kl_divergence",
+      "perturbation_analysis"
+    ],
+    "disagreement_principle_maintained": true
+  }
+}

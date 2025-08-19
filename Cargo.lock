@@ -483,6 +483,8 @@ dependencies = [
  "chrono",
  "ndarray",
  "rand 0.8.5",
+ "rand_xoshiro",
+ "rayon",
  "serde",
  "serde_json",
  "thiserror 1.0.69",
@@ -2893,6 +2895,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "rand_xoshiro"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6f97cdb2a36ed4183de61b2f824cc45c9f1037f28afe0a322e9fff4c108b5aaa"
+dependencies = [
+ "rand_core 0.6.4",
+]
+
+[[package]]
 name = "raw-cpuid"
 version = "10.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3202,6 +3213,19 @@ checksum = "49db231d56a190491cb4aeda9527f1ad45345af50b0851622a7adb8c03b01c32"
 dependencies = [
  "core-foundation-sys",
  "libc",
+]
+
+[[package]]
+name = "semantic-uncertainty-wasm"
+version = "0.1.0"
+dependencies = [
+ "getrandom 0.2.16",
+ "js-sys",
+ "rand 0.8.5",
+ "serde",
+ "serde-wasm-bindgen 0.6.5",
+ "wasm-bindgen",
+ "web-sys",
 ]
 
 [[package]]
@@ -4022,6 +4046,8 @@ dependencies = [
  "cfg-if",
  "once_cell",
  "rustversion",
+ "serde",
+ "serde_json",
  "wasm-bindgen-macro",
 ]
 

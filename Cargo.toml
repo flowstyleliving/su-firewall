@@ -5,5 +5,5 @@ members = [
 	"realtime",
 	"server",
 	"realtime/web-ui"
-]
+, "semantic-uncertainty-wasm"]
 resolver = "2" 
