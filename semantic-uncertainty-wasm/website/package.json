@@ -1,0 +1,32 @@
+{
+  "name": "furnace-baby-website",
+  "version": "1.0.0", 
+  "description": "Semantic Uncertainty Firewall - Interactive Demo Website",
+  "main": "script.js",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "validate": "node -c script.js",
+    "test": "npm run validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flowstyleliving/su-firewall.git"
+  },
+  "keywords": [
+    "semantic-uncertainty",
+    "ai-safety", 
+    "hallucination-detection",
+    "furnace-baby",
+    "javascript",
+    "demo"
+  ],
+  "author": "furnace.baby",
+  "license": "MIT",
+  "homepage": "https://furnace.baby",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

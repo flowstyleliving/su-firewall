@@ -1,0 +1,6 @@
+# Semantic Uncertainty Firewall - Python Dependencies
+# 
+# This project is primarily implemented in JavaScript/Rust/WASM
+# No Python dependencies are currently required for core functionality
+# 
+# If Python components are added in the future, add dependencies here
