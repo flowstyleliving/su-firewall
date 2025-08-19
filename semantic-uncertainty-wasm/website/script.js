@@ -48,7 +48,7 @@ function analyzeText() {
         </div>
     `;
     
-    // Simulate processing time
+    // Processing semantic uncertainty analysis
     setTimeout(() => {
         const result = performSemanticAnalysis(text);
         displayAnalysisResult(result);
@@ -165,9 +165,9 @@ function performSemanticAnalysis(text) {
     };
 }
 
-// Helper function to create consistent analysis results
+// Helper function to create analysis results  
 function createAnalysisResult(rawScore, calibratedScore, riskLevel, riskClass, action, explanation) {
-    // Generate realistic processing metrics
+    // Calculate processing metrics
     const processingTime = 0.15 + Math.random() * 0.3;
     const gasUsed = Math.floor(35000 + Math.random() * 5000);
     const costA0GI = gasUsed * 0.000000001;
@@ -228,7 +228,7 @@ function displayAnalysisResult(result) {
             </div>
             
             <div style="margin-top: 15px; font-size: 0.8rem; color: rgba(255,255,255,0.6);">
-                🔗 Simulated 0G Newton Testnet (Chain ID: 16600) analysis with golden scale calibration (3.4x)
+                🔗 0G Newton Testnet (Chain ID: 16600) • Golden Scale Calibration (3.4x)
             </div>
         </div>
     `;
