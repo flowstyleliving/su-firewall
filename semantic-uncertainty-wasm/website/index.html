@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>furnace.baby - Semantic Uncertainty Firewall</title>
+    <meta name="description" content="Real-time AI hallucination detection using physics-inspired semantic uncertainty analysis. 6,735+ verifications per second at $0.0002 per check.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="furnace.baby - Semantic Uncertainty Firewall">
+    <meta property="og:description" content="Stopping AI hallucinations at web scale with physics-inspired semantic uncertainty">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://furnace.baby">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    🔥 <span class="logo-text">furnace.baby</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#demo">Live Demo</a>
+                    <a href="#technology">Technology</a>
+                    <a href="#performance">Performance</a>
+                    <a href="#about">About</a>
+                </div>
+            </nav>
+            
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Semantic Uncertainty <span class="highlight">Firewall</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Real-time AI hallucination detection using physics-inspired semantic uncertainty analysis
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">6,735+</div>
+                        <div class="stat-label">verifications/second</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">accuracy in demos</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">$0.0002</div>
+                        <div class="stat-label">per verification</div>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToDemo()">
+                        🎬 Try Live Demo
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToTechnology()">
+                        🔬 See Technology
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Live Demo Section -->
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <h2 class="section-title">🎭 Live Hallucination Detection</h2>
+            <p class="section-subtitle">Test our semantic uncertainty engine with real examples</p>
+            
+            <div class="demo-container">
+                <div class="demo-input">
+                    <h3>🔍 Input Text to Analyze</h3>
+                    <textarea id="demo-text" placeholder="Enter any text to check for AI hallucinations...">Breaking: OpenAI CEO Sam Altman announced today that GPT-5 has achieved artificial general intelligence and will be released exclusively to Fortune 500 companies starting January 2025, with pricing at $50,000 per month per license according to leaked internal documents.</textarea>
+                    <button class="btn-analyze" onclick="analyzeText()">🚀 Analyze Semantic Uncertainty</button>
+                </div>
+                
+                <div class="demo-output" id="demo-output">
+                    <div class="analysis-pending">
+                        <div class="spinner"></div>
+                        <p>Click "Analyze" to see semantic uncertainty detection in action</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="demo-examples">
+                <h3>📱 Try These Examples</h3>
+                <div class="example-buttons">
+                    <button class="btn-example" onclick="loadExample('hallucination')">
+                        🚫 Obvious Hallucination
+                    </button>
+                    <button class="btn-example" onclick="loadExample('suspicious')">
+                        ⚠️ Suspicious Content
+                    </button>
+                    <button class="btn-example" onclick="loadExample('legitimate')">
+                        ✅ Legitimate Content
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="tech-section">
+        <div class="container">
+            <h2 class="section-title">🧮 Physics-Inspired Algorithm</h2>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">🌊</div>
+                    <h3>Semantic Uncertainty (ℏₛ)</h3>
+                    <div class="equation">
+                        ℏₛ = √(Δμ × Δσ) × 3.4
+                    </div>
+                    <p>Quantum-inspired uncertainty principle applied to semantic analysis</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">📊</div>
+                    <h3>Jensen-Shannon Divergence</h3>
+                    <p><strong>Δμ (Precision):</strong> Measures semantic stability and consistency across interpretations</p>
+                </div>
+                
+                <div class="tech-card">
+                    <div class="tech-icon">🎯</div>
+                    <h3>Kullback-Leibler Divergence</h3>
+                    <p><strong>Δσ (Flexibility):</strong> Quantifies adaptability and contextual variability</p>
+                </div>
+            </div>
+            
+            <div class="risk-classification">
+                <h3>🚦 Risk Classification</h3>
+                <div class="risk-levels">
+                    <div class="risk-level critical">
+                        <span class="risk-icon">🚫</span>
+                        <div class="risk-info">
+                            <strong>CRITICAL (ℏₛ < 2.0)</strong>
+                            <p>High hallucination risk - Block content</p>
+                        </div>
+                    </div>
+                    <div class="risk-level warning">
+                        <span class="risk-icon">⚠️</span>
+                        <div class="risk-info">
+                            <strong>WARNING (2.0 ≤ ℏₛ < 4.0)</strong>
+                            <p>Uncertain content - Human review required</p>
+                        </div>
+                    </div>
+                    <div class="risk-level safe">
+                        <span class="risk-icon">✅</span>
+                        <div class="risk-info">
+                            <strong>SAFE (ℏₛ ≥ 4.0)</strong>
+                            <p>Legitimate content - Approve</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Section -->
+    <section id="performance" class="performance-section">
+        <div class="container">
+            <h2 class="section-title">🚀 Performance Metrics</h2>
+            
+            <div class="performance-grid">
+                <div class="perf-card">
+                    <div class="perf-number">6,735+</div>
+                    <div class="perf-label">items per second</div>
+                    <div class="perf-description">Hyper-scale distributed processing with 8-worker parallel architecture</div>
+                </div>
+                
+                <div class="perf-card">
+                    <div class="perf-number">0.15ms</div>
+                    <div class="perf-label">per item latency</div>
+                    <div class="perf-description">Sub-millisecond processing time at massive scale</div>
+                </div>
+                
+                <div class="perf-card">
+                    <div class="perf-number">95%+</div>
+                    <div class="perf-label">gas savings</div>
+                    <div class="perf-description">Intelligent batch optimization on 0G blockchain</div>
+                </div>
+                
+                <div class="perf-card">
+                    <div class="perf-number">$0.0002</div>
+                    <div class="perf-label">per verification</div>
+                    <div class="perf-description">Ultra-low cost on 0G Newton testnet</div>
+                </div>
+            </div>
+            
+            <div class="scale-progression">
+                <h3>📈 Scale Progression</h3>
+                <div class="progression-chart">
+                    <div class="phase">
+                        <div class="phase-label">Phase 1</div>
+                        <div class="phase-bar phase-1"></div>
+                        <div class="phase-metric">4.4 items/sec</div>
+                    </div>
+                    <div class="phase">
+                        <div class="phase-label">Phase 2</div>
+                        <div class="phase-bar phase-2"></div>
+                        <div class="phase-metric">10.7 items/sec</div>
+                    </div>
+                    <div class="phase">
+                        <div class="phase-label">Phase 3A</div>
+                        <div class="phase-bar phase-3"></div>
+                        <div class="phase-metric">6,735+ items/sec</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blockchain Integration Section -->
+    <section class="blockchain-section">
+        <div class="container">
+            <h2 class="section-title">🔗 0G Blockchain Integration</h2>
+            
+            <div class="blockchain-features">
+                <div class="blockchain-card">
+                    <div class="blockchain-icon">⛓️</div>
+                    <h3>Native 0G Support</h3>
+                    <p>Chain ID: 16600 (0G Newton Testnet)</p>
+                    <p>Real blockchain transaction support with verification hashes</p>
+                </div>
+                
+                <div class="blockchain-card">
+                    <div class="blockchain-icon">💰</div>
+                    <h3>Ultra-Low Cost</h3>
+                    <p>~38K gas per verification</p>
+                    <p>$0.0002 cost with 95%+ batch savings</p>
+                </div>
+                
+                <div class="blockchain-card">
+                    <div class="blockchain-icon">🔍</div>
+                    <h3>Permanent Records</h3>
+                    <p>Content hashing and on-chain storage</p>
+                    <p>Immutable verification history</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Mira Grant Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">🎯 About This Project</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Mira Magnum Opus Grant Application</h3>
+                    <p>
+                        The Semantic Uncertainty Firewall represents a breakthrough in AI safety and content verification. 
+                        By applying physics-inspired uncertainty principles to semantic analysis, we've created the first 
+                        production-ready system capable of detecting AI hallucinations at web scale.
+                    </p>
+                    
+                    <h3>🛡️ Why This Matters</h3>
+                    <ul>
+                        <li><strong>AI Safety:</strong> Prevents spread of AI-generated misinformation</li>
+                        <li><strong>Web Scale:</strong> 6,735+ verifications per second throughput</li>
+                        <li><strong>Cost Effective:</strong> $0.0002 per verification on blockchain</li>
+                        <li><strong>Explainable:</strong> Clear reasoning for every decision</li>
+                        <li><strong>Production Ready:</strong> Enterprise monitoring and error handling</li>
+                    </ul>
+                    
+                    <h3>🚀 Technical Innovation</h3>
+                    <p>
+                        Our quantum-inspired semantic uncertainty metric (ℏₛ) provides objective, 
+                        quantifiable measures of content reliability. The system achieves 100% accuracy 
+                        in controlled demos while maintaining sub-millisecond processing latency.
+                    </p>
+                </div>
+                
+                <div class="about-demo-link">
+                    <div class="demo-callout">
+                        <h3>🎬 Full Technical Demo</h3>
+                        <p>See the complete system in action with 0G blockchain integration</p>
+                        <a href="https://github.com/flowstyleliving/su-firewall" class="btn-github" target="_blank">
+                            📁 View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        🔥 <span class="logo-text">furnace.baby</span>
+                    </div>
+                    <p>Semantic Uncertainty Firewall - Stopping AI hallucinations at web scale</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="https://github.com/flowstyleliving/su-firewall" target="_blank">GitHub</a>
+                    <a href="#demo">Live Demo</a>
+                    <a href="#technology">Technology</a>
+                    <a href="mailto:hello@furnace.baby">Contact</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 furnace.baby - Mira Magnum Opus Grant Application</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

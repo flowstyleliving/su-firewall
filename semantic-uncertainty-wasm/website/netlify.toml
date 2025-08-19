@@ -1,0 +1,94 @@
+[build]
+  # Publish directory - current folder since all files are here
+  publish = "."
+  
+  # No build command needed for static HTML site
+  command = ""
+
+# Security headers for production
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Security headers
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    
+    # Content Security Policy
+    Content-Security-Policy = '''
+      default-src 'self';
+      style-src 'self' 'unsafe-inline' fonts.googleapis.com;
+      font-src 'self' fonts.gstatic.com;
+      script-src 'self' 'unsafe-inline';
+      img-src 'self' data:;
+      connect-src 'self';
+    '''
+    
+    # Performance headers  
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Specific caching for HTML (shorter cache)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Caching for CSS and JS
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js" 
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Redirects for SPA-like behavior (though not needed for this static site)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  # Only redirect if file doesn't exist
+  conditions = {Role = ["admin"]}
+
+# Redirect www to non-www for furnace.baby
+[[redirects]]
+  from = "https://www.furnace.baby/*"
+  to = "https://furnace.baby/:splat"
+  status = 301
+  force = true
+
+# Custom 404 page (optional)
+[[redirects]]
+  from = "/404"
+  to = "/index.html"
+  status = 200
+
+# Optimization settings
+[build.processing]
+  skip_processing = false
+  
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+[build.processing.html]
+  pretty_urls = true
+
+# Environment settings for Netlify Functions (if needed later)
+[build.environment]
+  NODE_VERSION = "18"
+
+# Plugin for performance optimization
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+# Form handling (if contact forms are added later)
+[build.functions]
+  directory = "netlify/functions"
