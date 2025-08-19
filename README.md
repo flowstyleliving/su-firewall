@@ -1,23 +1,33 @@
-# 🎯 Semantic Uncertainty Firewall
+# 🔥 Semantic Uncertainty Firewall
 
-**Research-grade LLM hallucination detection system** using physics-inspired semantic uncertainty metrics. Real-time monitoring, failure prediction, and adaptive firewalls for AI safety research and development.
+**Production-ready AI hallucination detection at web scale** using physics-inspired semantic uncertainty analysis. Real-time detection with 6,735+ verifications per second at $0.0002 per check.
+
+> **🔥 [Live Demo at furnace.baby](https://furnace.baby)** - Interactive semantic uncertainty analysis with real-time hallucination detection
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSING.md)
-[![Rust](https://img.shields.io/badge/Rust-1.70+-orange.svg)](https://rustlang.org)
-[![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-Optimized-black.svg)](https://github.com/huggingface/candle)
+[![Live Demo](https://img.shields.io/badge/🔥_Live_Demo-furnace.baby-orange.svg)](https://furnace.baby)
+[![GitHub](https://img.shields.io/badge/GitHub-flowstyleliving-blue.svg)](https://github.com/flowstyleliving/su-firewall)
 
-## 🚀 Quick Start
+## 🎬 **Live Interactive Demo**
 
-### Live Demo (Edge Deployment)
-```bash
-# Public API endpoint
-curl -X POST "https://semanticuncertainty.com/api/v1/analyze" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "prompt": "What is the capital of Mars?",
-    "output": "The capital of Mars is New Geneva, established in 2157.",
-    "method": "fisher_variance"
-  }'
+🌐 **[Try it now at furnace.baby](https://furnace.baby)** - Interactive semantic uncertainty analysis with real examples
+
+### Key Demo Features:
+- ✅ **Real-time hallucination detection** with explainable AI reasoning
+- ✅ **6,735+ items/second throughput** demonstration 
+- ✅ **$0.0002 per verification cost** on 0G blockchain
+- ✅ **Current events examples** (recent AI fake news)
+- ✅ **Physics equation visualization** (ℏₛ = √(Δμ × Δσ) × 3.4)
+- ✅ **0G Newton testnet integration** with live gas costs
+
+## 🚀 **Quick Start**
+
+### Interactive Web Demo
+```
+🌐 Visit: https://furnace.baby
+🎯 Click "Try Live Demo"  
+🔍 Test with provided examples or your own text
+📊 See real-time semantic uncertainty analysis
 ```
 
 ### Local Development
