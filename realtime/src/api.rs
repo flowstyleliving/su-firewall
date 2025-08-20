@@ -650,7 +650,11 @@ fn get_model_calibration_mode(model_id: &Option<String>) -> CalibrationMode {
 }
 
 fn pfail_from_hbar(h: f64, law: &FailureLaw) -> f64 {
-	1.0 / (1.0 + (-law.lambda * (h - law.tau)).exp())
+	// CORRECTED: Inverse relationship for golden scale calibration
+	// Higher ℏₛ (confident content) → Lower P(fail)
+	// Lower ℏₛ (uncertain content) → Higher P(fail)
+	let inverted_h = 1.0 / (h + 0.1); // Add epsilon to avoid division by zero
+	1.0 / (1.0 + (-law.lambda * (inverted_h - law.tau)).exp())
 }
 
 fn calculate_method_ensemble(
