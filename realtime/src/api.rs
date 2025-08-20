@@ -10,6 +10,7 @@ use std::time::Instant;
 use std::sync::Arc;
 use std::collections::HashMap;
 use std::sync::Mutex;
+use std::sync::atomic::{AtomicU64, Ordering};
 use chrono::Utc;
 use uuid::Uuid;
 use crate::metrics;
@@ -32,6 +33,16 @@ static RATE_LIMITER: OnceLock<Arc<Mutex<HashMap<String, (u64, Instant)>>>> = Onc
 
 // Add response caching for identical inputs
 static RESPONSE_CACHE: OnceLock<Arc<Mutex<HashMap<String, (serde_json::Value, Instant)>>>> = OnceLock::new();
+
+// Simple random number generator for ensemble calculations
+static RNG_STATE: AtomicU64 = AtomicU64::new(12345);
+
+fn simple_random() -> f64 {
+    let prev = RNG_STATE.load(Ordering::Relaxed);
+    let next = prev.wrapping_mul(1103515245).wrapping_add(12345);
+    RNG_STATE.store(next, Ordering::Relaxed);
+    (next as f64 / u64::MAX as f64)
+}
 
 #[derive(Serialize)]
 struct Counters {
@@ -557,18 +568,19 @@ fn build_distributions(prompt: &str, output: &str) -> (Vec<f64>, Vec<f64>) {
 	(p, q)
 }
 
+fn kl_divergence(p: &[f64], q: &[f64]) -> f64 {
+	let mut s=0.0; let eps=1e-12;
+	let sa: f64 = p.iter().sum(); let sb: f64 = q.iter().sum();
+	for i in 0..p.len() {
+		let ai=(p[i]/sa).max(eps); let bi=(q[i]/sb).max(eps);
+		s += ai * (ai/bi).ln();
+	}
+	s
+}
+
 fn js_divergence(p: &[f64], q: &[f64]) -> f64 {
 	let m: Vec<f64> = p.iter().zip(q.iter()).map(|(a,b)| 0.5*(a+b)).collect();
-	fn kl(a:&[f64], b:&[f64]) -> f64 {
-		let mut s=0.0; let eps=1e-12;
-		let sa: f64 = a.iter().sum(); let sb: f64 = b.iter().sum();
-		for i in 0..a.len() {
-			let ai=(a[i]/sa).max(eps); let bi=(b[i]/sb).max(eps);
-			s += ai * (ai/bi).ln();
-		}
-		s
-	}
-	0.5*(kl(p,&m)+kl(q,&m))
+	0.5*(kl_divergence(p,&m)+kl_divergence(q,&m))
 }
 
 fn diag_fim_from_dist(p: &[f64], q: &[f64]) -> Vec<f64> {
@@ -665,13 +677,22 @@ fn calculate_method_ensemble(
 ) -> Result<EnsembleResult, String> {
 	let (p, q) = build_distributions(prompt, output);
 	
-	// Method weights based on evaluation results
+	// Method weights from working 0G deployment - 5-method ensemble system
+	// Based on confidence-weighted aggregation from ensemble_uncertainty_system.py
 	let method_weights: HashMap<&str, f64> = [
-		("diag_fim_dir", 0.35),    // Best overall F1: 66.7%
-		("scalar_js_kl", 0.35),    // Best overall F1: 66.7%  
-		("full_fim_dir", 0.20),    // Good F1: 66.7%
-		("scalar_fro", 0.07),      // Lower F1: 33.3%
-		("scalar_trace", 0.03),    // Lowest F1: 30.8%
+		// Real 0G deployment 5-method ensemble
+		("standard_js_kl", 1.0),        // Current method (baseline)
+		("entropy_based", 0.8),         // Information-theoretic uncertainty  
+		("bootstrap_sampling", 0.9),    // Robustness estimation via perturbation
+		("perturbation_analysis", 0.7), // Sensitivity to input variations
+		("bayesian_uncertainty", 0.85), // Model vs data uncertainty decomposition
+		
+		// Legacy methods (for backward compatibility)
+		("diag_fim_dir", 0.35),    
+		("scalar_js_kl", 0.35),      
+		("full_fim_dir", 0.20),    
+		("scalar_fro", 0.07),      
+		("scalar_trace", 0.03),    
 	].iter().cloned().collect();
 	
 	let mut individual_results = HashMap::new();
@@ -683,6 +704,96 @@ fn calculate_method_ensemble(
 		let weight = method_weights.get(method).copied().unwrap_or(0.1);
 		
 		let hbar_s = match method {
+			// Real 0G deployment 5-method ensemble implementation
+			"standard_js_kl" => {
+				// Standard Jensen-Shannon + KL divergence (current baseline method)
+				let js_div = js_divergence(&p, &q);
+				let kl_div = kl_divergence(&p, &q);
+				(js_div * kl_div).sqrt()
+			},
+			"entropy_based" => {
+				// Entropy-based uncertainty calculation from ensemble_uncertainty_system.py
+				let h_p = -p.iter().map(|&x| if x > 1e-12 { x * (x + 1e-12).ln() / 2.0_f64.ln() } else { 0.0 }).sum::<f64>();
+				let h_q = -q.iter().map(|&x| if x > 1e-12 { x * (x + 1e-12).ln() / 2.0_f64.ln() } else { 0.0 }).sum::<f64>();
+				let cross_entropy = -p.iter().zip(q.iter()).map(|(&px, &qx)| if qx > 1e-12 { px * (qx + 1e-12).ln() / 2.0_f64.ln() } else { 0.0 }).sum::<f64>();
+				let entropy_diff = (h_p - h_q).abs();
+				let excess_entropy = cross_entropy - h_p;
+				(entropy_diff * excess_entropy.abs()).sqrt()
+			},
+			"bootstrap_sampling" => {
+				// Bootstrap sampling uncertainty (noise-based robustness)
+				let n_samples = 50; // Reduced for performance
+				let mut uncertainties = Vec::new();
+				for _ in 0..n_samples {
+					// Add small random noise to distributions
+					let p_noisy: Vec<f64> = p.iter().map(|&x| (x + simple_random() * 0.01).abs()).collect();
+					let q_noisy: Vec<f64> = q.iter().map(|&x| (x + simple_random() * 0.01).abs()).collect();
+					
+					// Renormalize
+					let p_sum: f64 = p_noisy.iter().sum();
+					let q_sum: f64 = q_noisy.iter().sum();
+					let p_norm: Vec<f64> = if p_sum > 0.0 { p_noisy.iter().map(|&x| x / p_sum).collect() } else { p_noisy };
+					let q_norm: Vec<f64> = if q_sum > 0.0 { q_noisy.iter().map(|&x| x / q_sum).collect() } else { q_noisy };
+					
+					// Calculate uncertainty for this sample
+					let js_div = js_divergence(&p_norm, &q_norm);
+					let kl_div = kl_divergence(&p_norm, &q_norm);
+					uncertainties.push((js_div * kl_div).sqrt());
+				}
+				uncertainties.iter().sum::<f64>() / uncertainties.len() as f64
+			},
+			"perturbation_analysis" => {
+				// Perturbation-based uncertainty analysis
+				let baseline_js = js_divergence(&p, &q);
+				let baseline_kl = kl_divergence(&p, &q);
+				let baseline_uncertainty = (baseline_js * baseline_kl).sqrt();
+				
+				// Test sensitivity to perturbations
+				let perturbation_levels = vec![0.001, 0.005, 0.01];
+				let mut sensitivity_scores = Vec::new();
+				
+				for level in perturbation_levels {
+					let mut perturbations = Vec::new();
+					for _ in 0..5 { // Reduced iterations for performance
+						let p_pert: Vec<f64> = p.iter().map(|&x| {
+							let noise = (simple_random() - 0.5) * 2.0 * level;
+							(x + noise).abs()
+						}).collect();
+						let p_sum: f64 = p_pert.iter().sum();
+						let p_norm: Vec<f64> = if p_sum > 0.0 { p_pert.iter().map(|&x| x / p_sum).collect() } else { p_pert };
+						
+						let js_div = js_divergence(&p_norm, &q);
+						let kl_div = kl_divergence(&p_norm, &q);
+						let uncertainty = (js_div * kl_div).sqrt();
+						perturbations.push((uncertainty - baseline_uncertainty).abs());
+					}
+					sensitivity_scores.push(perturbations.iter().sum::<f64>() / perturbations.len() as f64);
+				}
+				
+				let perturbation_sensitivity = sensitivity_scores.iter().sum::<f64>() / sensitivity_scores.len() as f64;
+				baseline_uncertainty * (1.0 + perturbation_sensitivity)
+			},
+			"bayesian_uncertainty" => {
+				// Bayesian uncertainty estimation (aleatoric + epistemic)
+				let alpha_p: Vec<f64> = p.iter().map(|&x| x * 10.0 + 0.1).collect(); // Prior concentration
+				let alpha_q: Vec<f64> = q.iter().map(|&x| x * 10.0 + 0.1).collect();
+				
+				// Aleatoric uncertainty (data uncertainty)
+				let aleatoric: f64 = p.iter().map(|&x| x * (1.0 - x)).sum();
+				
+				// Epistemic uncertainty (model uncertainty) 
+				let sum_alpha_p: f64 = alpha_p.iter().sum();
+				let epistemic: f64 = alpha_p.iter().map(|&alpha| {
+					(alpha - 1.0) / (sum_alpha_p * (sum_alpha_p + 1.0))
+				}).sum();
+				
+				// Total uncertainty converted to semantic scale
+				let total_uncertainty = aleatoric + epistemic;
+				let kl_div = kl_divergence(&p, &q);
+				(total_uncertainty * kl_div).sqrt()
+			},
+			
+			// Legacy methods (for backward compatibility)
 			"scalar_js_kl" => {
 				let js_div = js_divergence(&p, &q);
 				js_div.sqrt()
@@ -1127,8 +1238,8 @@ fn intelligent_route_analysis_with_dynamic_thresholds(
 			agreement_score: 1.0,
 		})
 	} else if quick_pfail > dynamic_high {
-		// High risk: Use full ensemble for maximum accuracy
-		calculate_method_ensemble(prompt, output, &["diag_fim_dir", "scalar_js_kl", "full_fim_dir"], model_id)
+		// High risk: Use 0G deployment 5-method ensemble for maximum accuracy
+		calculate_method_ensemble(prompt, output, &["standard_js_kl", "entropy_based", "bootstrap_sampling", "perturbation_analysis", "bayesian_uncertainty"], model_id)
 	} else {
 		// Medium risk: Return the 2-method result we already calculated
 		Ok(quick_result)
@@ -1167,8 +1278,8 @@ fn intelligent_route_analysis(
 			agreement_score: 1.0,  // Single method = perfect agreement
 		})
 	} else if fast_pfail > high_risk_threshold {
-		// High risk: Use full ensemble for accuracy
-		calculate_method_ensemble(prompt, output, &["diag_fim_dir", "scalar_js_kl", "full_fim_dir"], model_id)
+		// High risk: Use 0G deployment 5-method ensemble for accuracy
+		calculate_method_ensemble(prompt, output, &["standard_js_kl", "entropy_based", "bootstrap_sampling", "perturbation_analysis", "bayesian_uncertainty"], model_id)
 	} else {
 		// Medium risk: Use 2-method verification
 		let methods = vec!["scalar_js_kl", "diag_fim_dir"];
@@ -1202,8 +1313,8 @@ async fn analyze(
 	let use_ensemble = req.ensemble.unwrap_or(false);
 	
 	if use_ensemble {
-		// Ensemble method calculation
-		let ensemble_methods = vec!["diag_fim_dir", "scalar_js_kl", "full_fim_dir"];
+		// 0G deployment 5-method ensemble calculation
+		let ensemble_methods = vec!["standard_js_kl", "entropy_based", "bootstrap_sampling", "perturbation_analysis", "bayesian_uncertainty"];
 		
 		match calculate_method_ensemble(&req.prompt, &req.output, &ensemble_methods, &req.model_id) {
 			Ok(ensemble_result) => {
@@ -1892,8 +2003,8 @@ async fn analyze_ensemble(
 	
 	let t0 = std::time::Instant::now();
 	
-	// Define ensemble methods based on evaluation results
-	let ensemble_methods = vec!["diag_fim_dir", "scalar_js_kl", "full_fim_dir"];
+	// Define 0G deployment 5-method ensemble 
+	let ensemble_methods = vec!["standard_js_kl", "entropy_based", "bootstrap_sampling", "perturbation_analysis", "bayesian_uncertainty"];
 	
 	// Check cache for ensemble result
 	let cache_key = format!("ensemble:{}:{}:{}", 
@@ -1902,7 +2013,7 @@ async fn analyze_ensemble(
 		return Json(cached).into_response();
 	}
 	
-	// Calculate ensemble result
+	// Calculate 5-method ensemble result
 	match calculate_method_ensemble(&req.prompt, &req.output, &ensemble_methods, &req.model_id) {
 		Ok(ensemble_result) => {
 			// Calculate enhanced FEP metrics
