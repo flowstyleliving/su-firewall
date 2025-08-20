@@ -1445,7 +1445,9 @@ async fn analyze(
 			let fim = diag_fim_from_dist(&p,&q); let u = build_u(&p,&q); (directional_precision_diag(&fim,&u), flexibility_diag_inv(&fim,&u))
 		}
 	};
-	let hbar_s = (delta_mu * delta_sigma).sqrt();
+	let raw_hbar = (delta_mu * delta_sigma).sqrt();
+	let calibration_mode = get_model_calibration_mode(&req.model_id);
+	let (hbar_s, _risk_level, _explanation) = calibration_mode.calibrate(raw_hbar);
 	let law = get_model_failure_law(&req.model_id);
 	let p_fail = pfail_from_hbar(hbar_s, &law);
 	let fe = fep_summary(&p,&q);
@@ -1602,7 +1604,9 @@ async fn analyze_topk(Json(req): Json<AnalyzeTopkRequest>) -> impl IntoResponse 
 			(directional_precision_diag(&fim,&u), flexibility_diag_inv(&fim,&u))
 		}
 	};
-	let hbar_s = (delta_mu * delta_sigma).sqrt();
+	let raw_hbar = (delta_mu * delta_sigma).sqrt();
+	let calibration_mode = get_model_calibration_mode(&req.model_id);
+	let (hbar_s, _risk_level, _explanation) = calibration_mode.calibrate(raw_hbar);
 	let law = get_model_failure_law(&req.model_id);
 	let p_fail = pfail_from_hbar(hbar_s, &law);
 	let fe = fep_summary(&p,&q);
