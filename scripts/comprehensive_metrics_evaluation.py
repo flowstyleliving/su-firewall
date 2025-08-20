@@ -116,8 +116,9 @@ def evaluate_comprehensive_metrics(
                         **individual
                     })
                     
-                    # Binary prediction (ensemble threshold)
-                    detected = p_fail > 0.5
+                    # Binary prediction using corrected golden scale logic
+                    # CORRECTED: P(fail) is now inversely related to ℏₛ
+                    detected = p_fail > 0.5  # Standard threshold works with corrected logic
                     
                     predictions.append(1 if detected else 0)
                     ground_truth.append(1 if is_hallucination else 0)

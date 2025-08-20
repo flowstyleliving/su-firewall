@@ -16,7 +16,7 @@ use serde::{Deserialize, Serialize};
 use std::arch::x86_64::*;
 
 /// Ensemble uncertainty calculation methods (optimized subset)
-#[derive(Debug, Clone, Copy, PartialEq, Serialize, Deserialize)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Serialize, Deserialize)]
 pub enum EnsembleMethod {
     /// Information-theoretic contrarian detector
     EntropyBased,

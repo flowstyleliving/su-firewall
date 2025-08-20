@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  }
+]
