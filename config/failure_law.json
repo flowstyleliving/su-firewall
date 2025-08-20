@@ -1,12 +1,12 @@
 {
-  "lambda": 5.0,
-  "tau": 2.0,
+  "lambda": 2.5,
+  "tau": 1.5,
   "golden_scale": 3.4,
   "golden_scale_enabled": true,
   "risk_pfail_thresholds": {
-    "critical": 0.8,
-    "high_risk": 0.7,
-    "warning": 0.5
+    "critical": 0.95,
+    "high_risk": 0.85,
+    "warning": 0.75
   },
   "calibration_mode": {
     "type": "Pragmatic",
@@ -15,5 +15,5 @@
     "warn_threshold": 4.0,
     "proceed_threshold": 6.0
   },
-  "note": "Golden scale calibration optimized for hallucination detection - raw ℏₛ × 3.4 for enhanced sensitivity"
-} 
+  "note": "Golden scale calibration optimized for hallucination detection - raw ℏₛ × 3.4 with high P(fail) thresholds"
+}

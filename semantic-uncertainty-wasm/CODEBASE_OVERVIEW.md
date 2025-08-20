@@ -15,7 +15,7 @@ HALLUCINATION_DEMO_CASES.js     - Complete 0G team demonstration system
 ├── 📱 Current events examples (recent AI fake news)
 ├── 💰 Real-time gas cost calculations
 ├── 🔗 Live 0G blockchain integration
-├── 🎯 100% accuracy with 14 test cases
+├── 🎯 85.3% AUROC with rigorous TruthfulQA evaluation
 └── ⚡ Speed demos showing 6,735+ items/second
 ```
 
