@@ -1,38 +1,38 @@
 {
-  "timestamp": "2025-08-19 18:11:16",
+  "timestamp": "2025-08-19 18:40:24",
   "evaluation_type": "comprehensive_metrics",
   "core_metrics": {
-    "accuracy": 0.495,
-    "precision": 0.0,
+    "accuracy": 0.5,
+    "precision": 0,
     "recall": 0.0,
     "f1_score": 0
   },
   "advanced_metrics": {
-    "roc_auc": 0.500073,
-    "precision_recall_auc": 0.5001542297786471,
-    "brier_score": 0.2500810346191562
+    "roc_auc": 0.5,
+    "precision_recall_auc": 0.5,
+    "brier_score": 0.25
   },
   "calibration_metrics": {
-    "ece": 0.00044771255172015856,
-    "mce": 0.00044771255172015856
+    "ece": 0.0,
+    "mce": 0
   },
   "confusion_matrix": {
     "true_positive": 0,
-    "true_negative": 990,
-    "false_positive": 10,
+    "true_negative": 1000,
+    "false_positive": 0,
     "false_negative": 1000
   },
   "per_class_metrics": {
     "hallucination": {
-      "precision": 0.0,
+      "precision": 0,
       "recall": 0.0,
       "f1": 0,
       "support": 1000
     },
     "correct": {
-      "precision": 0.49748743718592964,
-      "recall": 0.99,
-      "f1": 0.6622073578595318,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
       "support": 1000
     }
   }
