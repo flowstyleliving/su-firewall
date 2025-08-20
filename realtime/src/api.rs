@@ -609,26 +609,76 @@ async fn try_real_mistral_logits(prompt: &str, output: &str, model_id: &Option<S
 	use crate::mistral_integration::{MistralIntegration, MistralDeployment, MistralConfig};
 	use uuid::Uuid;
 	
-	// Determine best available deployment
-	let deployment = if cfg!(target_os = "macos") && cfg!(feature = "candle") {
+	// Load model configuration from config/models.json
+	let models_json = MODELS_JSON.get_or_init(|| {
+		let config_path = std::path::PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+			.parent()
+			.unwrap()
+			.join("config/models.json");
+		
+		if let Ok(content) = std::fs::read_to_string(&config_path) {
+			serde_json::from_str(&content).unwrap_or_else(|_| serde_json::json!({}))
+		} else {
+			serde_json::json!({})
+		}
+	});
+	
+	// Get default model or use provided model_id
+	let default_model = models_json["default_model_id"].as_str().unwrap_or("mistral-7b");
+	let selected_model_id = model_id.as_ref().map(|s| s.as_str()).unwrap_or(default_model);
+	
+	// Find model config in models.json
+	let model_config = models_json["models"].as_array()
+		.and_then(|models| models.iter().find(|m| m["id"].as_str() == Some(selected_model_id)))
+		.cloned()
+		.unwrap_or_else(|| {
+			// Fallback to mistral-7b if selected model not found
+			models_json["models"].as_array()
+				.and_then(|models| models.iter().find(|m| m["id"].as_str() == Some("mistral-7b")))
+				.cloned()
+				.unwrap_or_else(|| serde_json::json!({
+					"hf_repo": "mistralai/Mistral-7B-Instruct-v0.2",
+					"id": "mistral-7b"
+				}))
+		});
+	
+	let hf_repo = model_config["hf_repo"].as_str().unwrap_or("mistralai/Mistral-7B-Instruct-v0.2");
+	
+	// Determine best available deployment with configured model paths
+	let home_dir = std::env::var("HOME").unwrap_or_else(|_| "/tmp".to_string());
+	let local_model_path = format!("{}/models/{}.safetensors", home_dir, selected_model_id);
+	let gguf_model_path = format!("{}/models/{}.gguf", home_dir, selected_model_id);
+	
+	let deployment = if std::path::Path::new(&local_model_path).exists() {
+		eprintln!("🔥 Using local Candle model: {}", local_model_path);
 		MistralDeployment::Candle {
-			model_path: "/opt/models/mistral-7b.safetensors".to_string(),
+			model_path: local_model_path,
 			use_gpu: true, // Use Metal acceleration on macOS
 		}
+	} else if std::path::Path::new(&gguf_model_path).exists() {
+		eprintln!("🦙 Using local GGUF model: {}", gguf_model_path);
+		MistralDeployment::LlamaCpp {
+			model_path: gguf_model_path,
+			executable_path: "llama-server".to_string(),
+			context_size: 4096,
+			gpu_layers: 0,
+		}
 	} else if std::env::var("MISTRAL_MODEL_PATH").is_ok() {
-		// Check if HuggingFace model is available
+		// Check if HuggingFace model is available via env var
+		let model_path = std::env::var("MISTRAL_MODEL_PATH").unwrap();
+		eprintln!("🤗 Using HuggingFace model from env: {}", model_path);
 		MistralDeployment::HuggingFace {
-			model_path: std::env::var("MISTRAL_MODEL_PATH").unwrap_or_else(|_| "mistralai/Mistral-7B-Instruct-v0.1".to_string()),
+			model_path,
 			device: "auto".to_string(),
 			dtype: "float16".to_string(),
 		}
 	} else {
-		// Try llama.cpp if available
-		MistralDeployment::LlamaCpp {
-			model_path: "/opt/models/mistral-7b-instruct.gguf".to_string(),
-			executable_path: "llama".to_string(),
-			context_size: 4096,
-			gpu_layers: 0,
+		eprintln!("💡 No local model found, using configured HuggingFace repo: {}", hf_repo);
+		// Use configured HuggingFace repo from models.json
+		MistralDeployment::HuggingFace {
+			model_path: hf_repo.to_string(),
+			device: "auto".to_string(),
+			dtype: "float16".to_string(),
 		}
 	};
 	

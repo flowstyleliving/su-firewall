@@ -1,6 +1,6 @@
 {
   "evaluation_type": "halueval_10k_production_ready",
-  "timestamp": "2025-08-17 23:34:38",
+  "timestamp": "2025-08-19 19:29:20",
   "dataset_scale": "10k_plus",
   "model_config": {
     "algorithm": "RandomForestClassifier",
@@ -20,8 +20,8 @@
   },
   "performance_stats": {
     "samples_processed": 3000,
-    "avg_processing_time_ms": 0.011318206787109375,
-    "throughput_analyses_per_sec": 88353.21873946747,
+    "avg_processing_time_ms": 0.01169586181640625,
+    "throughput_analyses_per_sec": 85500.3261578604,
     "feature_extraction_native": true,
     "batch_processing_capable": true
   },

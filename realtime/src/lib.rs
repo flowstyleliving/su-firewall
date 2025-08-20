@@ -1,21 +1,20 @@
 pub use common::{RiskLevel, SemanticUncertaintyResult, CalibrationMode, RequestId};
 
-pub mod audit_system;
-pub mod scalar_firewall;
-pub mod scalar_walk_firewall;
-pub mod oss_logit_adapter;
-pub mod mistral_integration;
-pub mod alias_ambiguity_defense;
-pub mod adaptive_learning;
-pub mod validation;
+// Core modules for semantic uncertainty analysis
+pub mod oss_logit_adapter;      // OSS model logit extraction and analysis
+pub mod mistral_integration;    // Mistral model integration and management
 
+// Monitoring and validation
+pub mod audit_system;          // Request auditing and logging
+pub mod validation;           // Cross-domain and performance validation
+pub mod metrics;             // Performance metrics collection
+
+// Optional integrations
 #[cfg(feature = "candle")]
-pub mod candle_integration;
-
-pub mod metrics;
+pub mod candle_integration;   // Candle ML framework integration
 
 #[cfg(feature = "api")]
-pub mod api;
+pub mod api;                 // HTTP API endpoints for ensemble analysis
 
 #[cfg(feature = "api")]
-pub use api::router; 
+pub use api::router;
