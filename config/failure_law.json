@@ -1,6 +1,6 @@
 {
-  "lambda": 3.4,
-  "tau": 0.5,
+  "lambda": 5.0,
+  "tau": 2.0,
   "golden_scale": 3.4,
   "golden_scale_enabled": true,
   "pfail_calculation": "INVERSE_RELATIONSHIP",
