@@ -1,0 +1,181 @@
+{
+  "benchmark": "Massive HaluEval QA with Real Logits - Research Scale",
+  "timestamp": 1755985887,
+  "scale": "massive",
+  "target_samples": 2000,
+  "successful_samples": 1994,
+  "failed_samples": 6,
+  "success_rate": 0.997,
+  "statistical_power": "high",
+  "best_threshold": 0.2,
+  "performance_metrics": {
+    "accuracy": 0.6850551654964895,
+    "precision": 0.6198830409356725,
+    "recall": 0.9568706118355065,
+    "f1_score": 0.7523659305993691,
+    "roc_auc": 0.6750079727648342
+  },
+  "discrimination_analysis": {
+    "factual_samples": 997,
+    "hallucinated_samples": 997,
+    "factual_mean": 0.5858667526749031,
+    "factual_std": 0.4556887480980265,
+    "hallucinated_mean": 0.8187340777769309,
+    "hallucinated_std": 0.36581822619735266,
+    "separation": 0.2328673251020278,
+    "discrimination_ratio": 1.3974748934613903
+  },
+  "sample_examples": [
+    {
+      "type": "factual",
+      "hbar_s": 0.15003463159012026,
+      "prompt": "The weapon BFG is found in which game developed by",
+      "ground_truth": 0
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 0.35278668667879753,
+      "prompt": "Which  province in the north of the island of Irel",
+      "ground_truth": 1
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 1.058274968346813,
+      "prompt": "In what year was the author of \"Trading Christmas\"",
+      "ground_truth": 1
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.8011605422904781,
+      "prompt": "In which theatre of New York City did a play, desc",
+      "ground_truth": 0
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 1.5390242298649048,
+      "prompt": "Dumb Flesh is the third album by whom?",
+      "ground_truth": 1
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.15055967868796868,
+      "prompt": "What college did the Chiefs all time leading rushe",
+      "ground_truth": 0
+    },
+    {
+      "type": "factual",
+      "hbar_s": 1.040947723676731,
+      "prompt": " Jack Harvey was born in a civil parish that as of",
+      "ground_truth": 0
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.739333093217758,
+      "prompt": "What hamlet and census designated place was the lo",
+      "ground_truth": 0
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 0.9085098571270829,
+      "prompt": "Which Oscar-nominated film was written by the scre",
+      "ground_truth": 1
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.7391345142817417,
+      "prompt": "Who produced the movie that \"Puss in Boots: The Th",
+      "ground_truth": 0
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 1.3280268421283599,
+      "prompt": "This footballer played in the top divisions in Ita",
+      "ground_truth": 1
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 0.31427696901785807,
+      "prompt": "Who's the Hungarian-born US film director renowned",
+      "ground_truth": 1
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 0.9413200554348886,
+      "prompt": "Who co- satrred with the actor who starred in seve",
+      "ground_truth": 1
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.5868692032937436,
+      "prompt": "What American professional basketball player born ",
+      "ground_truth": 0
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.15092150331088203,
+      "prompt": "Did Terence Davies and Richard Wallace have the sa",
+      "ground_truth": 0
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.7605968974243087,
+      "prompt": "Der Mond was composed by the man who was best know",
+      "ground_truth": 0
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 0.15050106523235057,
+      "prompt": "Who is the composer Howard Ashman worked with on h",
+      "ground_truth": 1
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 0.6279922432077814,
+      "prompt": "What town does Bucklow and Trafford have in common",
+      "ground_truth": 1
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.6066928877035525,
+      "prompt": "Which private research university is located in Ch",
+      "ground_truth": 0
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 1.1047747228762541,
+      "prompt": "Who airs the cartoon developed by Nicholas Boshier",
+      "ground_truth": 1
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.6517743304087715,
+      "prompt": "Gary Harrison, began his career in the 1970s and h",
+      "ground_truth": 0
+    },
+    {
+      "type": "hallucinated",
+      "hbar_s": 0.6153761738472396,
+      "prompt": "What year saw the founding of the baseball team wh",
+      "ground_truth": 1
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.7981900775634816,
+      "prompt": "The 1920 NCAA football season had no clear-cut cha",
+      "ground_truth": 0
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.1503246986017384,
+      "prompt": "Which baseball player and manager was born in Elli",
+      "ground_truth": 0
+    },
+    {
+      "type": "factual",
+      "hbar_s": 0.3565742738766562,
+      "prompt": "Daniel Heartz is an American musicologist and Prof",
+      "ground_truth": 0
+    }
+  ],
+  "processing_time_minutes": 82.48321576515833
+}
