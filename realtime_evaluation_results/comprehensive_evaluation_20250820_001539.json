@@ -1,0 +1,208 @@
+{
+  "timestamp": "2025-08-20T00:15:20.091449",
+  "model_id": "mistral-7b",
+  "server_url": "http://127.0.0.1:8080/api/v1",
+  "datasets": [
+    {
+      "name": "TruthfulQA",
+      "dataset": "truthfulqa",
+      "max_samples": 500,
+      "description": "TruthfulQA generation task evaluation"
+    },
+    {
+      "name": "HaluEval_General",
+      "dataset": "halueval",
+      "halueval_task": "general",
+      "max_samples": 300,
+      "description": "HaluEval general hallucination detection"
+    },
+    {
+      "name": "HaluEval_QA",
+      "dataset": "halueval",
+      "halueval_task": "qa",
+      "max_samples": 300,
+      "description": "HaluEval QA-specific evaluation"
+    }
+  ],
+  "methods": [
+    {
+      "name": "standard_js_kl",
+      "endpoint": "/api/v1/analyze",
+      "description": "Standard Jensen-Shannon + KL divergence (0G baseline)"
+    },
+    {
+      "name": "wasm_4method",
+      "endpoint": "/api/v1/analyze_wasm_4method",
+      "description": "WASM-compatible 4-method ensemble with golden scale"
+    },
+    {
+      "name": "full_ensemble",
+      "endpoint": "/api/v1/analyze_ensemble",
+      "description": "Full 5-method ensemble with FIM"
+    },
+    {
+      "name": "standard_js_kl",
+      "endpoint": "/api/v1/analyze",
+      "description": "Standard Jensen-Shannon + KL divergence (0G baseline)"
+    },
+    {
+      "name": "wasm_4method",
+      "endpoint": "/api/v1/analyze_wasm_4method",
+      "description": "WASM-compatible 4-method ensemble with golden scale"
+    },
+    {
+      "name": "full_ensemble",
+      "endpoint": "/api/v1/analyze_ensemble",
+      "description": "Full 5-method ensemble with FIM"
+    },
+    {
+      "name": "standard_js_kl",
+      "endpoint": "/api/v1/analyze",
+      "description": "Standard Jensen-Shannon + KL divergence (0G baseline)"
+    },
+    {
+      "name": "wasm_4method",
+      "endpoint": "/api/v1/analyze_wasm_4method",
+      "description": "WASM-compatible 4-method ensemble with golden scale"
+    },
+    {
+      "name": "full_ensemble",
+      "endpoint": "/api/v1/analyze_ensemble",
+      "description": "Full 5-method ensemble with FIM"
+    }
+  ],
+  "results": {
+    "TruthfulQA": {
+      "standard_js_kl": {
+        "status": "error",
+        "error": "[Errno 2] No such file or directory: 'python'"
+      },
+      "wasm_4method": {
+        "status": "error",
+        "error": "[Errno 2] No such file or directory: 'python'"
+      },
+      "full_ensemble": {
+        "status": "error",
+        "error": "[Errno 2] No such file or directory: 'python'"
+      }
+    },
+    "HaluEval_General": {
+      "standard_js_kl": {
+        "status": "error",
+        "error": "[Errno 2] No such file or directory: 'python'"
+      },
+      "wasm_4method": {
+        "status": "error",
+        "error": "[Errno 2] No such file or directory: 'python'"
+      },
+      "full_ensemble": {
+        "status": "error",
+        "error": "[Errno 2] No such file or directory: 'python'"
+      }
+    },
+    "HaluEval_QA": {
+      "standard_js_kl": {
+        "status": "error",
+        "error": "[Errno 2] No such file or directory: 'python'"
+      },
+      "wasm_4method": {
+        "status": "error",
+        "error": "[Errno 2] No such file or directory: 'python'"
+      },
+      "full_ensemble": {
+        "status": "error",
+        "error": "[Errno 2] No such file or directory: 'python'"
+      }
+    }
+  },
+  "direct_api_tests": {
+    "standard_js_kl": {
+      "status": "success",
+      "test_results": [
+        {
+          "test_case": "correct_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "hallucinated_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "complex_correct",
+          "error": "HTTP 404",
+          "response": ""
+        }
+      ]
+    },
+    "wasm_4method": {
+      "status": "success",
+      "test_results": [
+        {
+          "test_case": "correct_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "hallucinated_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "complex_correct",
+          "error": "HTTP 404",
+          "response": ""
+        }
+      ]
+    },
+    "full_ensemble": {
+      "status": "success",
+      "test_results": [
+        {
+          "test_case": "correct_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "hallucinated_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "complex_correct",
+          "error": "HTTP 404",
+          "response": ""
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_evaluations": 9,
+    "successful_evaluations": 0,
+    "failed_evaluations": 9,
+    "dataset_performance": {},
+    "method_performance": {},
+    "api_test_results": {
+      "standard_js_kl": {
+        "status": "success",
+        "avg_response_time_ms": 0.0,
+        "test_count": 3
+      },
+      "wasm_4method": {
+        "status": "success",
+        "avg_response_time_ms": 0.0,
+        "test_count": 3
+      },
+      "full_ensemble": {
+        "status": "success",
+        "avg_response_time_ms": 0.0,
+        "test_count": 3
+      }
+    },
+    "recommendations": [
+      "\u2705 WASM 4-method ensemble is working correctly",
+      "\u26a0\ufe0f 9 evaluations failed - check logs"
+    ]
+  }
+}

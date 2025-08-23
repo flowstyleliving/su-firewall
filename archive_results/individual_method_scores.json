@@ -1,0 +1,7430 @@
+[
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case"{
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "c"hal: "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "hallucination",
+    "source": "truthfulqa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_qa"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_general"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_general"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  }
+]ation",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "correct",
+    "source": "halueval_dialogue"
+  },
+  {
+    "case": "hallucination",
+    "source": "halueval_dialogue"
+  }
+]

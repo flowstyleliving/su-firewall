@@ -1,0 +1,70 @@
+{
+  "model_id": "mistral-7b",
+  "golden_scale": 3.4,
+  "total_evaluations": 6,
+  "successful_evaluations": 6,
+  "failed_evaluations": 0,
+  "success_rate": 100.0,
+  "results": [
+    {
+      "status": "success",
+      "dataset": "truthfulqa",
+      "task": null,
+      "method": "standard_js_kl",
+      "roc_auc": 0.5,
+      "brier_score": 0.27777777766666667,
+      "ece": 0.1666666663333337,
+      "golden_scale": 3.4
+    },
+    {
+      "status": "success",
+      "dataset": "truthfulqa",
+      "task": null,
+      "method": "ensemble",
+      "roc_auc": 0,
+      "brier_score": 0,
+      "ece": 0,
+      "golden_scale": 3.4
+    },
+    {
+      "status": "success",
+      "dataset": "halueval",
+      "task": "qa",
+      "method": "standard_js_kl",
+      "roc_auc": 0,
+      "brier_score": 0,
+      "ece": 0,
+      "golden_scale": 3.4
+    },
+    {
+      "status": "success",
+      "dataset": "halueval",
+      "task": "qa",
+      "method": "ensemble",
+      "roc_auc": 0,
+      "brier_score": 0,
+      "ece": 0,
+      "golden_scale": 3.4
+    },
+    {
+      "status": "success",
+      "dataset": "halueval",
+      "task": "general",
+      "method": "standard_js_kl",
+      "roc_auc": 0,
+      "brier_score": 0,
+      "ece": 0,
+      "golden_scale": 3.4
+    },
+    {
+      "status": "success",
+      "dataset": "halueval",
+      "task": "general",
+      "method": "ensemble",
+      "roc_auc": 0,
+      "brier_score": 0,
+      "ece": 0,
+      "golden_scale": 3.4
+    }
+  ]
+}

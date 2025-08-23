@@ -1,6 +1,6 @@
 use common::{
     DomainType, DomainDataset, DomainDatasetLoader, DomainSample,
-    DomainSemanticEntropyCalculator, DomainSemanticEntropyResult,
+    DomainSemanticEntropyCalculator,
     SemanticError, DomainSpecificMetrics,
 };
 use serde::{Deserialize, Serialize};

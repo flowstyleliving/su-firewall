@@ -7,7 +7,6 @@
 //! 
 //! Performance targets: <0.15ms with 18× speedup through SIMD + parallelization
 
-use std::sync::Arc;
 use std::collections::HashMap;
 use rayon::prelude::*;
 use serde::{Deserialize, Serialize};

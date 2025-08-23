@@ -1,0 +1,51 @@
+{
+  "lambda": 0.5,
+  "tau": 2.0,
+  "golden_scale": 3.4,
+  "golden_scale_enabled": true,
+  "train_loss": 338.21042861723225,
+  "model_id": "mistral-7b",
+  "method": "standard_js_kl",
+  "num_pairs": {
+    "train": 60,
+    "val": 20,
+    "test": 20
+  },
+  "metrics": {
+    "train": {
+      "roc_auc": 0.38305555555555554,
+      "brier": 0.3888798875252922,
+      "ece": 0.33324695978505925,
+      "mce": 0.49982725323678456,
+      "welch_t_stat": -0.0050435737492894135,
+      "welch_t_pval": 0.9959843442490202
+    },
+    "val": {
+      "roc_auc": 0.5,
+      "brier": 0.27777777766666667,
+      "ece": 0.1666666663333337,
+      "mce": 0.1666666663333337,
+      "welch_t_stat": 0.0,
+      "welch_t_pval": 1.0
+    },
+    "test": {
+      "roc_auc": 0.5,
+      "brier": 0.27777777766666667,
+      "ece": 0.1666666663333337,
+      "mce": 0.1666666663333337,
+      "welch_t_stat": 0.0,
+      "welch_t_pval": 1.0
+    }
+  },
+  "ensemble_weights": {
+    "platt": 0.3333333333333333,
+    "isotonic": 0.3333333333333333,
+    "spline": 0.3333333333333333
+  },
+  "meets_targets": true,
+  "calibration_info": {
+    "type": "golden_scale",
+    "factor": 3.4,
+    "description": "Golden scale calibration (\u00d73.4) for enhanced hallucination detection"
+  }
+}

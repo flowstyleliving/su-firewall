@@ -456,10 +456,11 @@ impl MockCandleModel {
 #[cfg(feature = "candle")]
 impl candle_nn::Module for MockCandleModel {
     fn forward(&self, _xs: &candle_core::Tensor) -> candle_core::Result<candle_core::Tensor> {
-        // Return mock logits
-        let shape = vec![1, self.vocab_size];
-        let data = vec![0.1; self.vocab_size];
-        candle_core::Tensor::new(data, &candle_core::Device::Cpu)
+        use candle_core::{Tensor, Device};
+        // Return mock logits tensor with correct shape
+        let shape = &[1, self.vocab_size];
+        let data = vec![0.1f32; self.vocab_size];
+        Tensor::from_vec(data, shape, &Device::Cpu)
     }
 }
 

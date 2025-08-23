@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-08-19 22:01:30",
+  "model_name": "microsoft/DialoGPT-medium",
+  "validation_status": "FAILED",
+  "successful_tests": 0,
+  "total_tests": 4,
+  "detailed_results": [
+    {
+      "test_case": "Geography_Truth",
+      "error": "Placeholder storage has not been allocated on MPS device!"
+    },
+    {
+      "test_case": "Geography_Hallucination",
+      "error": "Placeholder storage has not been allocated on MPS device!"
+    },
+    {
+      "test_case": "Math_Truth",
+      "error": "Placeholder storage has not been allocated on MPS device!"
+    },
+    {
+      "test_case": "Math_Hallucination",
+      "error": "Placeholder storage has not been allocated on MPS device!"
+    }
+  ]
+}

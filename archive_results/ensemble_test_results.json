@@ -3,10 +3,10 @@
     "accuracy": 0.0,
     "total_tests": 24,
     "correct_predictions": 0,
-    "avg_hbar_s": 1.2239541666666667,
-    "avg_p_fail": 0.45787916666666667,
-    "avg_agreement_score": 0.7424833333333334,
-    "avg_processing_time_ms": 2988.179166666667
+    "avg_hbar_s": 1.2239333333333333,
+    "avg_p_fail": 0.37637499999999996,
+    "avg_agreement_score": 0.7424750000000001,
+    "avg_processing_time_ms": 3609.6749999999997
   },
   "detailed_results": [
     {
@@ -14,10 +14,10 @@
       "test_case": "Correct_Geography",
       "expected_risk": "low",
       "hbar_s": 1.1955,
-      "p_fail": 0.4914,
+      "p_fail": 0.0021,
       "agreement_score": 0.7535,
       "risk_assessment": "medium",
-      "processing_time_ms": 3793.2,
+      "processing_time_ms": 7509.1,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -26,22 +26,22 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "entropy_based": 1.5403,
-        "perturbation_analysis": 1.5589,
-        "bootstrap_sampling": 0.2266,
         "standard_js_kl": 0.9925,
-        "bayesian_uncertainty": 1.8364
+        "bootstrap_sampling": 0.2264,
+        "entropy_based": 1.5403,
+        "bayesian_uncertainty": 1.8364,
+        "perturbation_analysis": 1.5594
       }
     },
     {
       "model_id": "mistral-7b",
       "test_case": "Hallucinated_Geography",
       "expected_risk": "high",
-      "hbar_s": 1.3599,
-      "p_fail": 0.4893,
-      "agreement_score": 0.707,
+      "hbar_s": 1.3601,
+      "p_fail": 0.0014,
+      "agreement_score": 0.7072,
       "risk_assessment": "low",
-      "processing_time_ms": 2846.5,
+      "processing_time_ms": 3876.5,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -50,11 +50,11 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "bootstrap_sampling": 0.2263,
-        "standard_js_kl": 1.2156,
         "entropy_based": 1.8299,
-        "perturbation_analysis": 1.6646,
-        "bayesian_uncertainty": 2.0368
+        "standard_js_kl": 1.2156,
+        "bayesian_uncertainty": 2.0368,
+        "perturbation_analysis": 1.6644,
+        "bootstrap_sampling": 0.2271
       }
     },
     {
@@ -62,10 +62,10 @@
       "test_case": "Correct_Science",
       "expected_risk": "low",
       "hbar_s": 1.1026,
-      "p_fail": 0.4929,
-      "agreement_score": 0.7697,
+      "p_fail": 0.0029,
+      "agreement_score": 0.7698,
       "risk_assessment": "medium",
-      "processing_time_ms": 2897.0,
+      "processing_time_ms": 3456.8,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -75,21 +75,21 @@
       ],
       "individual_results": {
         "entropy_based": 1.1126,
-        "bayesian_uncertainty": 1.8117,
+        "bootstrap_sampling": 0.2264,
+        "perturbation_analysis": 1.5599,
         "standard_js_kl": 0.9602,
-        "bootstrap_sampling": 0.2263,
-        "perturbation_analysis": 1.5603
+        "bayesian_uncertainty": 1.8117
       }
     },
     {
       "model_id": "mistral-7b",
       "test_case": "Hallucinated_Science",
       "expected_risk": "high",
-      "hbar_s": 1.2376,
-      "p_fail": 0.4908,
-      "agreement_score": 0.7395,
+      "hbar_s": 1.2375,
+      "p_fail": 0.0019,
+      "agreement_score": 0.7394,
       "risk_assessment": "low",
-      "processing_time_ms": 2847.9,
+      "processing_time_ms": 3203.0,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -98,22 +98,22 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "perturbation_analysis": 1.6529,
-        "entropy_based": 1.6252,
         "standard_js_kl": 1.0247,
         "bayesian_uncertainty": 1.8523,
-        "bootstrap_sampling": 0.2261
+        "entropy_based": 1.6252,
+        "bootstrap_sampling": 0.2257,
+        "perturbation_analysis": 1.6527
       }
     },
     {
       "model_id": "mixtral-8x7b",
       "test_case": "Correct_Geography",
       "expected_risk": "low",
-      "hbar_s": 1.1955,
+      "hbar_s": 1.1954,
       "p_fail": 0.5118,
       "agreement_score": 0.7535,
       "risk_assessment": "medium",
-      "processing_time_ms": 2913.1,
+      "processing_time_ms": 3147.3,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -122,11 +122,11 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "entropy_based": 1.5403,
-        "perturbation_analysis": 1.5589,
-        "standard_js_kl": 0.9925,
         "bayesian_uncertainty": 1.8364,
-        "bootstrap_sampling": 0.2265
+        "bootstrap_sampling": 0.2263,
+        "standard_js_kl": 0.9925,
+        "entropy_based": 1.5403,
+        "perturbation_analysis": 1.5588
       }
     },
     {
@@ -135,9 +135,9 @@
       "expected_risk": "high",
       "hbar_s": 1.36,
       "p_fail": 0.5096,
-      "agreement_score": 0.7072,
+      "agreement_score": 0.7071,
       "risk_assessment": "low",
-      "processing_time_ms": 3778.9,
+      "processing_time_ms": 3335.3,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -146,10 +146,10 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
+        "bootstrap_sampling": 0.2267,
         "entropy_based": 1.8299,
-        "bootstrap_sampling": 0.2269,
-        "perturbation_analysis": 1.6644,
         "standard_js_kl": 1.2156,
+        "perturbation_analysis": 1.6643,
         "bayesian_uncertainty": 2.0368
       }
     },
@@ -157,11 +157,11 @@
       "model_id": "mixtral-8x7b",
       "test_case": "Correct_Science",
       "expected_risk": "low",
-      "hbar_s": 1.1025,
+      "hbar_s": 1.1027,
       "p_fail": 0.5133,
       "agreement_score": 0.7697,
       "risk_assessment": "medium",
-      "processing_time_ms": 3221.0,
+      "processing_time_ms": 3508.1,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -170,11 +170,11 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "bayesian_uncertainty": 1.8117,
-        "bootstrap_sampling": 0.2261,
-        "standard_js_kl": 0.9602,
         "entropy_based": 1.1126,
-        "perturbation_analysis": 1.56
+        "bayesian_uncertainty": 1.8117,
+        "standard_js_kl": 0.9602,
+        "perturbation_analysis": 1.5606,
+        "bootstrap_sampling": 0.2263
       }
     },
     {
@@ -183,9 +183,9 @@
       "expected_risk": "high",
       "hbar_s": 1.2376,
       "p_fail": 0.5112,
-      "agreement_score": 0.7394,
+      "agreement_score": 0.7395,
       "risk_assessment": "low",
-      "processing_time_ms": 2903.0,
+      "processing_time_ms": 3143.6,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -194,11 +194,11 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "standard_js_kl": 1.0247,
+        "perturbation_analysis": 1.6527,
+        "bayesian_uncertainty": 1.8523,
+        "bootstrap_sampling": 0.2262,
         "entropy_based": 1.6252,
-        "bootstrap_sampling": 0.2259,
-        "perturbation_analysis": 1.653,
-        "bayesian_uncertainty": 1.8523
+        "standard_js_kl": 1.0247
       }
     },
     {
@@ -209,7 +209,7 @@
       "p_fail": 0.5118,
       "agreement_score": 0.7534,
       "risk_assessment": "medium",
-      "processing_time_ms": 2835.1,
+      "processing_time_ms": 3323.4,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -218,11 +218,11 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "standard_js_kl": 0.9925,
-        "perturbation_analysis": 1.5589,
+        "bootstrap_sampling": 0.2262,
         "entropy_based": 1.5403,
+        "standard_js_kl": 0.9925,
         "bayesian_uncertainty": 1.8364,
-        "bootstrap_sampling": 0.226
+        "perturbation_analysis": 1.5588
       }
     },
     {
@@ -233,7 +233,7 @@
       "p_fail": 0.5096,
       "agreement_score": 0.7071,
       "risk_assessment": "low",
-      "processing_time_ms": 2826.6,
+      "processing_time_ms": 3245.7,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -242,22 +242,22 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "perturbation_analysis": 1.6645,
         "standard_js_kl": 1.2156,
+        "perturbation_analysis": 1.6647,
         "entropy_based": 1.8299,
         "bayesian_uncertainty": 2.0368,
-        "bootstrap_sampling": 0.2267
+        "bootstrap_sampling": 0.2265
       }
     },
     {
       "model_id": "qwen2.5-7b",
       "test_case": "Correct_Science",
       "expected_risk": "low",
-      "hbar_s": 1.1026,
+      "hbar_s": 1.1025,
       "p_fail": 0.5133,
-      "agreement_score": 0.7699,
+      "agreement_score": 0.7697,
       "risk_assessment": "medium",
-      "processing_time_ms": 3086.1,
+      "processing_time_ms": 3365.2,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -266,22 +266,22 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "bayesian_uncertainty": 1.8117,
-        "standard_js_kl": 0.9602,
-        "bootstrap_sampling": 0.2266,
         "entropy_based": 1.1126,
-        "perturbation_analysis": 1.5598
+        "bayesian_uncertainty": 1.8117,
+        "perturbation_analysis": 1.5601,
+        "bootstrap_sampling": 0.2258,
+        "standard_js_kl": 0.9602
       }
     },
     {
       "model_id": "qwen2.5-7b",
       "test_case": "Hallucinated_Science",
       "expected_risk": "high",
-      "hbar_s": 1.2377,
+      "hbar_s": 1.2376,
       "p_fail": 0.5112,
-      "agreement_score": 0.7396,
+      "agreement_score": 0.7395,
       "risk_assessment": "low",
-      "processing_time_ms": 2847.2,
+      "processing_time_ms": 3376.1,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -290,11 +290,11 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "standard_js_kl": 1.0247,
+        "bootstrap_sampling": 0.2261,
         "entropy_based": 1.6252,
-        "bayesian_uncertainty": 1.8523,
-        "bootstrap_sampling": 0.2266,
-        "perturbation_analysis": 1.6528
+        "standard_js_kl": 1.0247,
+        "perturbation_analysis": 1.6527,
+        "bayesian_uncertainty": 1.8523
       }
     },
     {
@@ -303,9 +303,9 @@
       "expected_risk": "low",
       "hbar_s": 1.1955,
       "p_fail": 0.5118,
-      "agreement_score": 0.7534,
+      "agreement_score": 0.7536,
       "risk_assessment": "medium",
-      "processing_time_ms": 2877.0,
+      "processing_time_ms": 3325.8,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -314,22 +314,22 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
+        "bootstrap_sampling": 0.2268,
+        "perturbation_analysis": 1.5586,
         "standard_js_kl": 0.9925,
-        "entropy_based": 1.5403,
-        "bootstrap_sampling": 0.2261,
-        "perturbation_analysis": 1.5594,
-        "bayesian_uncertainty": 1.8364
+        "bayesian_uncertainty": 1.8364,
+        "entropy_based": 1.5403
       }
     },
     {
       "model_id": "pythia-6.9b",
       "test_case": "Hallucinated_Geography",
       "expected_risk": "high",
-      "hbar_s": 1.3602,
+      "hbar_s": 1.3601,
       "p_fail": 0.5096,
       "agreement_score": 0.7072,
       "risk_assessment": "low",
-      "processing_time_ms": 2894.0,
+      "processing_time_ms": 3112.8,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -338,22 +338,22 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "entropy_based": 1.8299,
-        "bootstrap_sampling": 0.2271,
+        "perturbation_analysis": 1.6647,
         "bayesian_uncertainty": 2.0368,
-        "perturbation_analysis": 1.6652,
-        "standard_js_kl": 1.2156
+        "entropy_based": 1.8299,
+        "standard_js_kl": 1.2156,
+        "bootstrap_sampling": 0.2272
       }
     },
     {
       "model_id": "pythia-6.9b",
       "test_case": "Correct_Science",
       "expected_risk": "low",
-      "hbar_s": 1.1026,
+      "hbar_s": 1.1025,
       "p_fail": 0.5133,
       "agreement_score": 0.7697,
       "risk_assessment": "medium",
-      "processing_time_ms": 2790.4,
+      "processing_time_ms": 3101.2,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -362,22 +362,22 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "perturbation_analysis": 1.5604,
-        "entropy_based": 1.1126,
         "standard_js_kl": 0.9602,
-        "bootstrap_sampling": 0.2261,
-        "bayesian_uncertainty": 1.8117
+        "bayesian_uncertainty": 1.8117,
+        "entropy_based": 1.1126,
+        "perturbation_analysis": 1.5602,
+        "bootstrap_sampling": 0.226
       }
     },
     {
       "model_id": "pythia-6.9b",
       "test_case": "Hallucinated_Science",
       "expected_risk": "high",
-      "hbar_s": 1.2376,
+      "hbar_s": 1.2378,
       "p_fail": 0.5112,
       "agreement_score": 0.7395,
       "risk_assessment": "low",
-      "processing_time_ms": 2874.0,
+      "processing_time_ms": 3468.4,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -386,22 +386,22 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "bootstrap_sampling": 0.2262,
-        "entropy_based": 1.6252,
-        "standard_js_kl": 1.0247,
+        "bootstrap_sampling": 0.2265,
         "bayesian_uncertainty": 1.8523,
-        "perturbation_analysis": 1.6526
+        "entropy_based": 1.6252,
+        "perturbation_analysis": 1.6533,
+        "standard_js_kl": 1.0247
       }
     },
     {
       "model_id": "dialogpt-medium",
       "test_case": "Correct_Geography",
       "expected_risk": "low",
-      "hbar_s": 1.1955,
+      "hbar_s": 1.1954,
       "p_fail": 0.2123,
       "agreement_score": 0.7534,
       "risk_assessment": "medium",
-      "processing_time_ms": 2819.6,
+      "processing_time_ms": 4131.9,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -410,10 +410,10 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "perturbation_analysis": 1.5593,
-        "entropy_based": 1.5403,
-        "bayesian_uncertainty": 1.8364,
         "standard_js_kl": 0.9925,
+        "bayesian_uncertainty": 1.8364,
+        "perturbation_analysis": 1.5589,
+        "entropy_based": 1.5403,
         "bootstrap_sampling": 0.2262
       }
     },
@@ -425,7 +425,7 @@
       "p_fail": 0.1981,
       "agreement_score": 0.7072,
       "risk_assessment": "low",
-      "processing_time_ms": 2776.3,
+      "processing_time_ms": 3945.1,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -434,11 +434,11 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "bootstrap_sampling": 0.2269,
         "standard_js_kl": 1.2156,
-        "perturbation_analysis": 1.6642,
-        "entropy_based": 1.8299,
-        "bayesian_uncertainty": 2.0368
+        "bootstrap_sampling": 0.2268,
+        "bayesian_uncertainty": 2.0368,
+        "perturbation_analysis": 1.6641,
+        "entropy_based": 1.8299
       }
     },
     {
@@ -447,9 +447,9 @@
       "expected_risk": "low",
       "hbar_s": 1.1026,
       "p_fail": 0.2224,
-      "agreement_score": 0.7698,
+      "agreement_score": 0.7697,
       "risk_assessment": "medium",
-      "processing_time_ms": 2706.5,
+      "processing_time_ms": 3635.2,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -458,11 +458,11 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "bayesian_uncertainty": 1.8117,
-        "standard_js_kl": 0.9602,
-        "entropy_based": 1.1126,
         "bootstrap_sampling": 0.2262,
-        "perturbation_analysis": 1.5601
+        "entropy_based": 1.1126,
+        "standard_js_kl": 0.9602,
+        "perturbation_analysis": 1.5605,
+        "bayesian_uncertainty": 1.8117
       }
     },
     {
@@ -471,9 +471,9 @@
       "expected_risk": "high",
       "hbar_s": 1.2377,
       "p_fail": 0.2083,
-      "agreement_score": 0.7396,
+      "agreement_score": 0.7395,
       "risk_assessment": "low",
-      "processing_time_ms": 2960.1,
+      "processing_time_ms": 3244.1,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -482,22 +482,22 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "standard_js_kl": 1.0247,
-        "bootstrap_sampling": 0.2267,
+        "entropy_based": 1.6252,
         "bayesian_uncertainty": 1.8523,
-        "perturbation_analysis": 1.6528,
-        "entropy_based": 1.6252
+        "standard_js_kl": 1.0247,
+        "perturbation_analysis": 1.653,
+        "bootstrap_sampling": 0.2263
       }
     },
     {
       "model_id": "ollama-mistral-7b",
       "test_case": "Correct_Geography",
       "expected_risk": "low",
-      "hbar_s": 1.1957,
+      "hbar_s": 1.1954,
       "p_fail": 0.5118,
-      "agreement_score": 0.7536,
+      "agreement_score": 0.7535,
       "risk_assessment": "medium",
-      "processing_time_ms": 3073.8,
+      "processing_time_ms": 3475.9,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -506,11 +506,11 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "standard_js_kl": 0.9925,
         "entropy_based": 1.5403,
-        "bootstrap_sampling": 0.2269,
-        "bayesian_uncertainty": 1.8364,
-        "perturbation_analysis": 1.5595
+        "standard_js_kl": 0.9925,
+        "bootstrap_sampling": 0.2264,
+        "perturbation_analysis": 1.5588,
+        "bayesian_uncertainty": 1.8364
       }
     },
     {
@@ -521,7 +521,7 @@
       "p_fail": 0.5096,
       "agreement_score": 0.7073,
       "risk_assessment": "low",
-      "processing_time_ms": 3063.6,
+      "processing_time_ms": 3679.4,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -530,10 +530,10 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "bootstrap_sampling": 0.2273,
+        "perturbation_analysis": 1.6642,
         "bayesian_uncertainty": 2.0368,
+        "bootstrap_sampling": 0.2273,
         "standard_js_kl": 1.2156,
-        "perturbation_analysis": 1.6641,
         "entropy_based": 1.8299
       }
     },
@@ -541,11 +541,11 @@
       "model_id": "ollama-mistral-7b",
       "test_case": "Correct_Science",
       "expected_risk": "low",
-      "hbar_s": 1.1027,
+      "hbar_s": 1.1028,
       "p_fail": 0.5133,
       "agreement_score": 0.7698,
       "risk_assessment": "medium",
-      "processing_time_ms": 2867.0,
+      "processing_time_ms": 3553.3,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -554,10 +554,10 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "bootstrap_sampling": 0.2266,
-        "bayesian_uncertainty": 1.8117,
+        "bootstrap_sampling": 0.2267,
         "entropy_based": 1.1126,
-        "perturbation_analysis": 1.5601,
+        "perturbation_analysis": 1.5605,
+        "bayesian_uncertainty": 1.8117,
         "standard_js_kl": 0.9602
       }
     },
@@ -565,11 +565,11 @@
       "model_id": "ollama-mistral-7b",
       "test_case": "Hallucinated_Science",
       "expected_risk": "high",
-      "hbar_s": 1.2378,
+      "hbar_s": 1.2376,
       "p_fail": 0.5112,
       "agreement_score": 0.7396,
       "risk_assessment": "low",
-      "processing_time_ms": 3218.4,
+      "processing_time_ms": 3469.0,
       "methods_used": [
         "standard_js_kl",
         "entropy_based",
@@ -578,11 +578,11 @@
         "bayesian_uncertainty"
       ],
       "individual_results": {
-        "perturbation_analysis": 1.6534,
         "bootstrap_sampling": 0.2266,
         "entropy_based": 1.6252,
-        "bayesian_uncertainty": 1.8523,
-        "standard_js_kl": 1.0247
+        "perturbation_analysis": 1.6525,
+        "standard_js_kl": 1.0247,
+        "bayesian_uncertainty": 1.8523
       }
     }
   ]

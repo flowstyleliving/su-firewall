@@ -659,7 +659,7 @@ impl OSSLogitAdapter {
 
     /// Build a direction vector u from prompt/output distributions (no hash embeddings)
     fn build_u_from_distributions(&self, p_prompt: &Array1<f64>, p_out: &Array1<f64>, eps: f64) -> Array1<f64> {
-        let mut u = p_out - p_prompt;
+        let u = p_out - p_prompt;
         let norm = u.iter().map(|v| v * v).sum::<f64>().sqrt().max(eps);
         u.mapv(|v| v / norm)
     }

@@ -306,7 +306,7 @@ impl SemanticEntropyCalculator {
             let len1 = norm1.len() as f64;
             let len2 = norm2.len() as f64;
             if len1 == 0.0 || len2 == 0.0 { 0.0 } else {
-                let length_ratio = (len1.min(len2) / len1.max(len2));
+                let length_ratio = len1.min(len2) / len1.max(len2);
                 length_ratio.powf(0.3) // Sharper length discrimination
             }
         };
@@ -605,7 +605,7 @@ mod tests {
     #[test]
     fn test_lexical_entropy_calculation() {
         let config = SemanticEntropyConfig::default();
-        let mut calculator = SemanticEntropyCalculator::new(config);
+        let calculator = SemanticEntropyCalculator::new(config);
         
         // Uniform distribution should have high entropy
         let probs = vec![0.25, 0.25, 0.25, 0.25];

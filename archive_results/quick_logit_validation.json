@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-08-19 22:03:40",
+  "status": "PARTIAL",
+  "model_used": "gpt2",
+  "vocab_size": 50257,
+  "test_results": [
+    {
+      "context": "Paris is the capital of",
+      "completion": "France",
+      "expected": "high_confidence",
+      "probability": 0.04134582728147507,
+      "rank": 3,
+      "entropy": 4.876768589019775
+    },
+    {
+      "context": "Lyon is the capital of",
+      "completion": "France",
+      "expected": "low_confidence",
+      "probability": 0.055710822343826294,
+      "rank": 2,
+      "entropy": 5.284939289093018
+    },
+    {
+      "context": "2 + 2 equals",
+      "completion": "4",
+      "expected": "high_confidence",
+      "probability": 0.04209250211715698,
+      "rank": 5,
+      "entropy": 4.826474666595459
+    },
+    {
+      "context": "2 + 2 equals",
+      "completion": "5",
+      "expected": "low_confidence",
+      "probability": 0.02306109480559826,
+      "rank": 10,
+      "entropy": 4.826474666595459
+    }
+  ],
+  "discrimination_ratio": 1.0592395414263647,
+  "ensemble_metrics": {
+    "js_divergence": 0.0019035860896110535,
+    "kl_divergence": 0.007603216916322708
+  }
+}

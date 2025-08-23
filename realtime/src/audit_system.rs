@@ -4,8 +4,7 @@
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 use std::time::Instant;
-use tracing::{info, warn, debug};
-use crate::metrics;
+use tracing::info;
 use common::{SemanticUncertaintyResult, RequestId, RiskLevel};
 
 /// 📊 Consolidated audit result

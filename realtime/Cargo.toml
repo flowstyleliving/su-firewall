@@ -33,9 +33,10 @@ accelerate-src = { version = "0.3", optional = true }
 metal = { version = "0.29", optional = true }
 tracing-subscriber = "0.3"
 rand = { version = "0.8", features = ["std_rng"] }
+reqwest = { version = "0.11", features = ["json"] }
 
 [features]
-default = []
+default = ["api"]
 api = ["axum"]
 http-api = []
 websocket = []
@@ -43,7 +44,7 @@ python = []
 huggingface = []
 llamacpp = []
 pytorch = []
-candle = ["candle-core", "candle-nn", "candle-transformers", "tokenizers", "hf-hub"]
+candle = ["candle-core", "candle-nn", "candle-transformers", "tokenizers", "hf-hub", "api"]
 candle-metal = ["candle", "metal", "accelerate-src"]
 
 [dev-dependencies]

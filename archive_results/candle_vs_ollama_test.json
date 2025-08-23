@@ -1,0 +1,30 @@
+{
+  "mistral-7b": {
+    "status": "success",
+    "hbar_s": 0.986181453024503,
+    "p_fail": 0.004510989432049419,
+    "processing_time_s": 4.327798128128052,
+    "server_processing_ms": 4323.304459,
+    "methods_used": [
+      "standard_js_kl",
+      "entropy_based",
+      "bootstrap_sampling",
+      "perturbation_analysis",
+      "bayesian_uncertainty"
+    ]
+  },
+  "ollama-mistral-7b": {
+    "status": "success",
+    "hbar_s": 0.9860701547821684,
+    "p_fail": 0.5155137895237831,
+    "processing_time_s": 3.676079750061035,
+    "server_processing_ms": 3670.02775,
+    "methods_used": [
+      "standard_js_kl",
+      "entropy_based",
+      "bootstrap_sampling",
+      "perturbation_analysis",
+      "bayesian_uncertainty"
+    ]
+  }
+}

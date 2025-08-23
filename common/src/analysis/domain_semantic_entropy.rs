@@ -1,5 +1,5 @@
 use crate::math::semantic_entropy::{SemanticEntropyCalculator, SemanticEntropyConfig, SemanticCluster, UncertaintyLevel};
-use crate::data::domain_datasets::{DomainType, DomainSample};
+use crate::data::domain_datasets::DomainType;
 use crate::error::SemanticError;
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};

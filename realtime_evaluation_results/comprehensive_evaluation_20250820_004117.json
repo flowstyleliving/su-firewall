@@ -1,0 +1,300 @@
+{
+  "timestamp": "2025-08-20T00:40:48.315645",
+  "model_id": "mistral-7b",
+  "server_url": "http://127.0.0.1:8080/api/v1",
+  "datasets": [
+    {
+      "name": "TruthfulQA",
+      "dataset": "truthfulqa",
+      "max_samples": 500,
+      "description": "TruthfulQA generation task evaluation"
+    },
+    {
+      "name": "HaluEval_General",
+      "dataset": "halueval",
+      "halueval_task": "general",
+      "max_samples": 300,
+      "description": "HaluEval general hallucination detection"
+    },
+    {
+      "name": "HaluEval_QA",
+      "dataset": "halueval",
+      "halueval_task": "qa",
+      "max_samples": 300,
+      "description": "HaluEval QA-specific evaluation"
+    }
+  ],
+  "methods": [
+    {
+      "name": "standard_js_kl",
+      "endpoint": "/api/v1/analyze",
+      "description": "Standard Jensen-Shannon + KL divergence (0G baseline)"
+    },
+    {
+      "name": "wasm_4method",
+      "endpoint": "/api/v1/analyze_wasm_4method",
+      "description": "WASM-compatible 4-method ensemble with golden scale"
+    },
+    {
+      "name": "full_ensemble",
+      "endpoint": "/api/v1/analyze_ensemble",
+      "description": "Full 5-method ensemble with FIM"
+    },
+    {
+      "name": "standard_js_kl",
+      "endpoint": "/api/v1/analyze",
+      "description": "Standard Jensen-Shannon + KL divergence (0G baseline)"
+    },
+    {
+      "name": "wasm_4method",
+      "endpoint": "/api/v1/analyze_wasm_4method",
+      "description": "WASM-compatible 4-method ensemble with golden scale"
+    },
+    {
+      "name": "full_ensemble",
+      "endpoint": "/api/v1/analyze_ensemble",
+      "description": "Full 5-method ensemble with FIM"
+    },
+    {
+      "name": "standard_js_kl",
+      "endpoint": "/api/v1/analyze",
+      "description": "Standard Jensen-Shannon + KL divergence (0G baseline)"
+    },
+    {
+      "name": "wasm_4method",
+      "endpoint": "/api/v1/analyze_wasm_4method",
+      "description": "WASM-compatible 4-method ensemble with golden scale"
+    },
+    {
+      "name": "full_ensemble",
+      "endpoint": "/api/v1/analyze_ensemble",
+      "description": "Full 5-method ensemble with FIM"
+    }
+  ],
+  "results": {
+    "TruthfulQA": {
+      "standard_js_kl": {
+        "status": "success",
+        "results": {
+          "lambda": 0.5,
+          "tau": 2.0,
+          "golden_scale": 3.4,
+          "golden_scale_enabled": true,
+          "train_loss": 338.45354222420025,
+          "model_id": "mistral-7b",
+          "method": "standard_js_kl",
+          "num_pairs": {
+            "train": 300,
+            "val": 100,
+            "test": 100
+          },
+          "metrics": {
+            "train": {
+              "roc_auc": 0.4953333333333334,
+              "brier": 0.2749981604594055,
+              "ece": 0.04998262538148484,
+              "mce": 0.49982625381484835,
+              "welch_t_stat": -0.0025325619062450265,
+              "welch_t_pval": 0.9979801547128073
+            },
+            "val": {
+              "roc_auc": 0.5,
+              "brier": 0.25,
+              "ece": 0.0,
+              "mce": 0.0,
+              "welch_t_stat": NaN,
+              "welch_t_pval": NaN
+            },
+            "test": {
+              "roc_auc": 0.5,
+              "brier": 0.25,
+              "ece": 0.0,
+              "mce": 0.0,
+              "welch_t_stat": NaN,
+              "welch_t_pval": NaN
+            }
+          },
+          "ensemble_weights": {
+            "platt": 0.0,
+            "isotonic": 0.9999999999999999,
+            "spline": 1.1102230246251565e-16
+          },
+          "meets_targets": true,
+          "calibration_info": {
+            "type": "golden_scale",
+            "factor": 3.4,
+            "description": "Golden scale calibration (\u00d73.4) for enhanced hallucination detection"
+          }
+        },
+        "stdout": "\ud83d\udd04 Loading TruthfulQA from local files...\n\u2705 Loaded 500 TruthfulQA pairs from local dataset\n{\n  \"lambda\": 0.5,\n  \"tau\": 2.0,\n  \"golden_scale\": 3.4,\n  \"golden_scale_enabled\": true,\n  \"train_loss\": 338.45354222420025,\n  \"model_id\": \"mistral-7b\",\n  \"method\": \"standard_js_kl\",\n  \"num_pairs\": {\n    \"train\": 300,\n    \"val\": 100,\n    \"test\": 100\n  },\n  \"metrics\": {\n    \"train\": {\n      \"roc_auc\": 0.4953333333333334,\n      \"brier\": 0.2749981604594055,\n      \"ece\": 0.04998262538148484,\n      \"mce\": 0.49982625381484835,\n      \"welch_t_stat\": -0.0025325619062450265,\n      \"welch_t_pval\": 0.9979801547128073\n    },\n    \"val\": {\n      \"roc_auc\": 0.5,\n      \"brier\": 0.25,\n      \"ece\": 0.0,\n      \"mce\": 0.0,\n      \"welch_t_stat\": NaN,\n      \"welch_t_pval\": NaN\n    },\n    \"test\": {\n      \"roc_auc\": 0.5,\n      \"brier\": 0.25,\n      \"ece\": 0.0,\n      \"mce\": 0.0,\n      \"welch_t_stat\": NaN,\n      \"welch_t_pval\": NaN\n    }\n  },\n  \"ensemble_weights\": {\n    \"platt\": 0.0,\n    \"isotonic\": 0.9999999999999999,\n    \"spline\": 1.1102230246251565e-16\n  },\n  \"meets_targets\": true,\n  \"calibration_info\": {\n    \"type\": \"golden_scale\",\n    \"factor\": 3.4,\n    \"description\": \"Golden scale calibration (\\u00d73.4) for enhanced hallucination detection\"\n  }\n}\n",
+        "stderr": "INFO:comprehensive_dataset_loader:\ud83d\udcca Processing 790 TruthfulQA questions...\nINFO:comprehensive_dataset_loader:\u2705 Loaded 500 TruthfulQA pairs\n/opt/homebrew/lib/python3.13/site-packages/scipy/stats/_axis_nan_policy.py:579: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\n  res = hypotest_fun_out(*samples, **kwds)\n/opt/homebrew/lib/python3.13/site-packages/scipy/stats/_axis_nan_policy.py:579: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.\n  res = hypotest_fun_out(*samples, **kwds)\n"
+      },
+      "wasm_4method": {
+        "status": "success",
+        "results": {
+          "error": "No valid training samples after sanitization.",
+          "model_id": "mistral-7b"
+        },
+        "stdout": "\ud83d\udd04 Loading TruthfulQA from local files...\n\u2705 Loaded 500 TruthfulQA pairs from local dataset\n{\n  \"error\": \"No valid training samples after sanitization.\",\n  \"model_id\": \"mistral-7b\"\n}\n",
+        "stderr": "INFO:comprehensive_dataset_loader:\ud83d\udcca Processing 790 TruthfulQA questions...\nINFO:comprehensive_dataset_loader:\u2705 Loaded 500 TruthfulQA pairs\n"
+      },
+      "full_ensemble": {
+        "status": "success",
+        "results": {
+          "error": "No valid training samples after sanitization.",
+          "model_id": "mistral-7b"
+        },
+        "stdout": "\ud83d\udd04 Loading TruthfulQA from local files...\n\u2705 Loaded 500 TruthfulQA pairs from local dataset\n{\n  \"error\": \"No valid training samples after sanitization.\",\n  \"model_id\": \"mistral-7b\"\n}\n",
+        "stderr": "INFO:comprehensive_dataset_loader:\ud83d\udcca Processing 790 TruthfulQA questions...\nINFO:comprehensive_dataset_loader:\u2705 Loaded 500 TruthfulQA pairs\n"
+      }
+    },
+    "HaluEval_General": {
+      "standard_js_kl": {
+        "status": "success",
+        "results": {
+          "error": "No valid training samples after sanitization.",
+          "model_id": "mistral-7b"
+        },
+        "stdout": "\ud83d\udd04 Loading HaluEval general from local files...\n\u2705 Loaded 300 HaluEval general pairs from local dataset\n{\n  \"error\": \"No valid training samples after sanitization.\",\n  \"model_id\": \"mistral-7b\"\n}\n",
+        "stderr": "INFO:comprehensive_dataset_loader:\ud83d\udcca Processing HaluEval general dataset...\nINFO:comprehensive_dataset_loader:\u2705 Loaded 300 HaluEval general pairs\n"
+      },
+      "wasm_4method": {
+        "status": "success",
+        "results": {
+          "error": "No valid training samples after sanitization.",
+          "model_id": "mistral-7b"
+        },
+        "stdout": "\ud83d\udd04 Loading HaluEval general from local files...\n\u2705 Loaded 300 HaluEval general pairs from local dataset\n{\n  \"error\": \"No valid training samples after sanitization.\",\n  \"model_id\": \"mistral-7b\"\n}\n",
+        "stderr": "INFO:comprehensive_dataset_loader:\ud83d\udcca Processing HaluEval general dataset...\nINFO:comprehensive_dataset_loader:\u2705 Loaded 300 HaluEval general pairs\n"
+      },
+      "full_ensemble": {
+        "status": "success",
+        "results": {
+          "error": "No valid training samples after sanitization.",
+          "model_id": "mistral-7b"
+        },
+        "stdout": "\ud83d\udd04 Loading HaluEval general from local files...\n\u2705 Loaded 300 HaluEval general pairs from local dataset\n{\n  \"error\": \"No valid training samples after sanitization.\",\n  \"model_id\": \"mistral-7b\"\n}\n",
+        "stderr": "INFO:comprehensive_dataset_loader:\ud83d\udcca Processing HaluEval general dataset...\nINFO:comprehensive_dataset_loader:\u2705 Loaded 300 HaluEval general pairs\n"
+      }
+    },
+    "HaluEval_QA": {
+      "standard_js_kl": {
+        "status": "success",
+        "results": {
+          "error": "No valid training samples after sanitization.",
+          "model_id": "mistral-7b"
+        },
+        "stdout": "\ud83d\udd04 Loading HaluEval qa from local files...\n\u2705 Loaded 300 HaluEval qa pairs from local dataset\n{\n  \"error\": \"No valid training samples after sanitization.\",\n  \"model_id\": \"mistral-7b\"\n}\n",
+        "stderr": "INFO:comprehensive_dataset_loader:\ud83d\udcca Processing HaluEval qa dataset...\nINFO:comprehensive_dataset_loader:\u2705 Loaded 300 HaluEval qa pairs\n"
+      },
+      "wasm_4method": {
+        "status": "success",
+        "results": {
+          "error": "No valid training samples after sanitization.",
+          "model_id": "mistral-7b"
+        },
+        "stdout": "\ud83d\udd04 Loading HaluEval qa from local files...\n\u2705 Loaded 300 HaluEval qa pairs from local dataset\n{\n  \"error\": \"No valid training samples after sanitization.\",\n  \"model_id\": \"mistral-7b\"\n}\n",
+        "stderr": "INFO:comprehensive_dataset_loader:\ud83d\udcca Processing HaluEval qa dataset...\nINFO:comprehensive_dataset_loader:\u2705 Loaded 300 HaluEval qa pairs\n"
+      },
+      "full_ensemble": {
+        "status": "success",
+        "results": {
+          "error": "No valid training samples after sanitization.",
+          "model_id": "mistral-7b"
+        },
+        "stdout": "\ud83d\udd04 Loading HaluEval qa from local files...\n\u2705 Loaded 300 HaluEval qa pairs from local dataset\n{\n  \"error\": \"No valid training samples after sanitization.\",\n  \"model_id\": \"mistral-7b\"\n}\n",
+        "stderr": "INFO:comprehensive_dataset_loader:\ud83d\udcca Processing HaluEval qa dataset...\nINFO:comprehensive_dataset_loader:\u2705 Loaded 300 HaluEval qa pairs\n"
+      }
+    }
+  },
+  "direct_api_tests": {
+    "standard_js_kl": {
+      "status": "success",
+      "test_results": [
+        {
+          "test_case": "correct_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "hallucinated_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "complex_correct",
+          "error": "HTTP 404",
+          "response": ""
+        }
+      ]
+    },
+    "wasm_4method": {
+      "status": "success",
+      "test_results": [
+        {
+          "test_case": "correct_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "hallucinated_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "complex_correct",
+          "error": "HTTP 404",
+          "response": ""
+        }
+      ]
+    },
+    "full_ensemble": {
+      "status": "success",
+      "test_results": [
+        {
+          "test_case": "correct_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "hallucinated_answer",
+          "error": "HTTP 404",
+          "response": ""
+        },
+        {
+          "test_case": "complex_correct",
+          "error": "HTTP 404",
+          "response": ""
+        }
+      ]
+    }
+  },
+  "summary": {
+    "total_evaluations": 9,
+    "successful_evaluations": 9,
+    "failed_evaluations": 0,
+    "dataset_performance": {},
+    "method_performance": {},
+    "api_test_results": {
+      "standard_js_kl": {
+        "status": "success",
+        "avg_response_time_ms": 0.0,
+        "test_count": 3
+      },
+      "wasm_4method": {
+        "status": "success",
+        "avg_response_time_ms": 0.0,
+        "test_count": 3
+      },
+      "full_ensemble": {
+        "status": "success",
+        "avg_response_time_ms": 0.0,
+        "test_count": 3
+      }
+    },
+    "recommendations": [
+      "\u2705 Realtime engine is functional with Mistral-7B model",
+      "\u2705 WASM 4-method ensemble is working correctly"
+    ]
+  }
+}

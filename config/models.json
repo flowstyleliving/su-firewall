@@ -17,9 +17,9 @@
       "context_len": 32000,
       "display_name": "Mistral-7B (Apache-2.0)",
       "failure_law": {
-        "lambda": 0.1,
-        "last_optimized": "2025-08-17T11:03:28.024602+00:00",
-        "tau": 1.115
+        "lambda": 5.0,
+        "last_optimized": "2025-08-20T07:44:00.000000+00:00",
+        "tau": 2.0
       },
       "calibration_mode": {
         "type": "Pragmatic",
